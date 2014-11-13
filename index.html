@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Jordan Lafland</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="">
+<!-- Preloader -->
+	<div id="preloader">
+	  <div id="status">&nbsp;</div>
+	</div>
+<!-- left-nav -->
+	<a href="#" class="nav-left-toggle">
+		<img id="prlx_lyr_2" class="palm"src="images/main/palmlines2.png">
+	</a> 
+	<nav class="nav-left-side">
+		<a href="#" class="nav-left-toggle pull-right">close</a> 
+		<h2 class="text-center">
+			Projects
+		</h2>
+		<div class="container-left text-center">
+			<ul>
+				<li>
+				<a href="#" class="roll-link" data-toggle="modal" data-target=".modal1"><span data-title="animated dragon">animated dragon </span> </a>
+				</li>
+				<li>
+				<a href="projects/navigation/textnavbar.html" class="roll-link"><span data-title="slide-out Navigation">slide-out Navigation </span></a>
+				</li>
+				<li>
+				<a href="projects/modal/purecssmodal.html" class="roll-link"><span data-title="css modal">css modal </span></a>
+				</li>
+				<li>
+				<a href="projects/modal/CSSModal.html" class="roll-link"><span data-title=" moe css modals"> more css modals </span></a>
+				</li>
+				<li>
+				<a href="projects/parallax/paralax-dragon/dragonparalaz.html" class="roll-link"><span data-title="parallax dragon">parallax dragon </span></a>
+				</li>
+				<li>
+				<a href="projects/parallax/scrolling/para/index.html" class="roll-link"><span data-title="parallax scrolling">parallax scrolling</span></a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+<!-- right-nav -->
+	<a href="#" class="nav-right-toggle ">
+		<img id="prlx_lyr_3" class="palm" src="images/main/palmlines.png">
+	</a> 
+	<nav class="nav-right-side">
+		<a href="#" class="nav-right-toggle pull-left">close</a> 
+		<h2 class="text-center">
+			Portfolio
+		</h2>
+		<div class="container-right text-center">
+			<ul>
+				<li>
+				<a href="#" class="roll-link"><span data-title="D.F.Walter Goldsmith">D.F.Walter Goldsmith </span></a>
+				</li>
+				<li>
+				<a href="http://www.vermontmarina.com" target="blank" class="roll-link"><span data-title="Vermont Marina (launch version)">Vermont Marina (launch version) </span></a>
+				</li>
+				<li>
+				<a href="anotherawesomemarina/index.html" target="blank" class="roll-link"><span data-title="Vermont Marina (prototype)">Vermont Marina (prototype) </span></a>
+				</li>
+				<li>
+				<a href="#" class="roll-link"><span data-title="some cool stuff"> </span></a>
+				</li>
+				</div>
+			</ul>
+		</div>
+	</nav>
+<!--Modal pure css -->
+	<a class="modal-toggle"href="#css-modal">
+		<img id="prlx_lyr_1" class="modal-toggle" src="images/main/leaf.gif">
+	</a>
+	<div class="css-modal" id="css-modal">
+		<div class="modal-container">
+			<h2>
+				Contact
+			</h2>
+			<div class="modal-text">
+			<a href= "mailto:j.t.lafland@gmail.com" target="blank"> <h3>lafland.design@gmail.com</h3></a>
+			<p>@JordanLafland</p>
+			<a href="#modal-close">Close</a>
+			</div>
+		</div>
+	</div>
+	<a href="#css-modal">
+		<img id="prlx_lyr_4" class="white-leaf "src="images/main/leaf-white.png">
+	</a>		
+	<div class="lower-area">
+		<img id="prlx_lyr_5" src="images/main/large-hand.png">
+		<img id="prlx_lyr_6"src="images/main/clean-words.png">
+		<img id="prlx_lyr_7"src="images/main/large-words.png">
+	</div>	
+	<!-- Modal -->
+	<div class="modal fade modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content dragon-modal" >
+	      <div class="modal-body">
+	       <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	       <div class="animation-dragon">
+		    <img src="projects/animation/animation-dragon/circlebwdragon.png" class="gwd-img-1l93 gwd-img-hszd gwd-gen-f391gwdanimation">
+		    <img src="projects/animation/animation-dragon/circlebwdragon.png" class="gwd-img-1l93 gwd-img-ekz0 gwd-gen-c7drgwdanimation">
+		    <img src="projects/animation/animation-dragon/headdragonbw.png" class="gwd-img-pq94 gwd-gen-neuvgwdanimation">
+		    <img src="projects/animation/animation-dragon/taildragon.png" class="gwd-img-nbji gwd-gen-qrpxgwdanimation">
+		    <div class="gwd-div-chse"></div>
+		    </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+		
+<!-- jquery-   stay on top -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- navbar slide right and left -->
+	<script>
+		(function() {
+			var body = $('body');
+			$('.nav-right-toggle').bind('click', function() {
+				body.toggleClass('nav-right-open');
+				return false;
+		});
+		})();
+	</script>
+	<script>
+		(function() {
+			var body = $('body');
+			$('.nav-left-toggle').bind('click', function() {
+				body.toggleClass('nav-left-open');
+				return false;
+		});
+		})();
+	</script>
+<!-- paralax-->
+	<script>
+
+        function parallax(){
+
+        var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+        var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
+        var prlx_lyr_3 = document.getElementById('prlx_lyr_3');
+        var prlx_lyr_4 = document.getElementById('prlx_lyr_4');
+        var prlx_lyr_5 = document.getElementById('prlx_lyr_5');
+        var prlx_lyr_6 = document.getElementById('prlx_lyr_6');
+        var prlx_lyr_7 = document.getElementById('prlx_lyr_7');
+
+        
+      
+        prlx_lyr_1.style.top = (window.pageYOffset/1.5)+'px';
+        prlx_lyr_2.style.top= -(window.pageYOffset/.6)+'px';
+        prlx_lyr_3.style.top = -(window.pageYOffset/.6)+'px';
+        prlx_lyr_4.style.top = (window.pageYOffset/1.5)+'px';
+        prlx_lyr_5.style.top = -(window.pageYOffset/.9)+'px';
+        prlx_lyr_6.style.top = -(window.pageYOffset/.5)+'px';
+        prlx_lyr_7.style.top = -(window.pageYOffset/.7)+'px';
+
+
+           
+
+        }
+
+        window.addEventListener("scroll", parallax, false);
+
+    </script>
+    <script src="js/main.js"></script>
+<!-- Preloader -->
+    <script type="text/javascript">
+      //<![CDATA[
+          $(window).load(function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(350).css({'overflow':'visible'});
+        })
+      //]]>
+    </script>
+</body>
+</html>
