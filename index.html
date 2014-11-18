@@ -40,7 +40,7 @@
 				<a href="projects/modal/CSSModal.html" class="roll-link"><span data-title=" moe css modals"> more css modals </span></a>
 				</li>
 				<li>
-				<a href="projects/parallax/paralax-dragon/dragonparalaz.html" class="roll-link"><span data-title="parallax dragon">parallax dragon </span></a>
+				<a href="#" data-toggle="modal" data-target="#modal4" class="roll-link"><span data-title="parallax dragon">parallax dragon </span></a>
 				</li>
 				<li>
 				<a href="projects/parallax/scrolling/para/index.html" class="roll-link"><span data-title="parallax scrolling">parallax scrolling</span></a>
@@ -51,6 +51,7 @@
 				<li>
 				<a href="#" data-toggle="modal" data-target=".modal3" class="roll-link"><span data-title="CSS3 Shadows"> CSS3 Shadows</span></a>
 				</li>
+				
 
 
 			</ul>
@@ -170,6 +171,30 @@
 			</div>
 	  	</div>
 	</div>
+	</div>
+
+
+	<!-- Modal parralax dragon-->
+	<div class="modal fade modal4"  id="modal4" tabindex="-1" role="dialog" aria-labelledby="parralax-dragon" aria-hidden="true">
+	  	<div class="modal-dialog">
+	   		 <div class="modal-content para-dragon" >
+	      		<div class="modal-body">
+			        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<div id="container" class="container-fluid">
+						<ul id="scene" class="scene">
+							<li class="layer" data-depth="1.00"><img src="projects/parallax/paralax-dragon/dragon-layer.png" style="width: 90%;"></li>
+							<li class="layer" data-depth="0.80"><img src="projects/parallax/paralax-dragon/blue-layer.png" style="width: 90%;"></li>
+							<li class="layer" data-depth="0.60"><img src="projects/parallax/paralax-dragon/green-layer.png" style="width: 90%;"></li>
+							<li class="layer" data-depth="0.40"><img src="projects/parallax/paralax-dragon/rel-layer.png" style="width: 90%;"></li>
+						</ul>
+					</div>
+				</div>
+	  		</div>
+		</div>
+	</div>
+
+
+
 		
 		
 <!-- jquery-   stay on top -->
@@ -224,6 +249,18 @@
         window.addEventListener("scroll", parallax, false);
 
     </script>
+
+    <!-- Scripts -->
+	<script src="projects/parallax/paralax-dragon/deploy/parallax.min.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+				;
+
+	</script>
+
     <script src="js/main.js"></script>
 <!-- Preloader -->
     <script type="text/javascript">
