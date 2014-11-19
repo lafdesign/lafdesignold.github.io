@@ -810,8 +810,222 @@ h1.text{
 
 
 
+/*   css shapes   */
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: teal;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.egg{
+  width: 120px;
+  height: 170px;
+  background-color: tomato;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid lavender;
+}
 
 
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid darksalmon;
+}
+
+
+.star-sixpoint {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid blueviolet;
+  position: relative;
+}
+.star-sixpoint:after {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid blueviolet;
+  position: absolute;
+  content: "";
+  top: 30px;
+  left: -50px;
+}
+
+
+.star-fivepoint {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: aqua;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid aqua;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+.star-fivepoint:before {
+   border-bottom: 80px solid aqua;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+.star-fivepoint:after {
+   position: absolute;
+   display: block;
+   color: aqua;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid aqua;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+
+.talkbubble {
+   width: 120px;
+   height: 80px;
+   background: powderblue;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+.talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid powderblue;
+   border-bottom: 13px solid transparent;
+}
+
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: deeppink;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+
+/* modal  marquee*/
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  100%{
+    -webkit-transform: translate(-100%, 0);
+  }
+
+}
+
+@-moz-keyframes scroll {
+  0% {
+    -moz-transform: translate(0, 0);
+  }
+  100%{
+    -moz-transform: translate(-100%, 0);
+  }
+
+}@keyframes scroll {
+  0% {
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(-100%, 0);
+  }
+
+}
+.marquee{
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left:100%;
+  -webkit-animation:scroll 5s infinite linear;
+  -moz-animation:scroll 5s infinite linear;
+  animation:scroll 5s infinite linear;
+
+}
 
 
 
