@@ -4,6 +4,7 @@
 	<title>Jordan Lafland</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
 <body class="">
 <!-- Preloader -->
@@ -27,6 +28,9 @@
 		</h2>
 		<div class="container-left text-center">
 			<ul>
+				<li>
+				<a href="#" data-toggle="modal" data-target=".modal10" class="roll-link"><span data-title="Custom Loaders">Custom Loaders</span></a>
+				</li>
 				<li>
 				<a href="#" data-toggle="modal" data-target="#modal4" class="roll-link"><span data-title="parallax dragon">parallax dragon </span></a>
 				</li>
@@ -69,6 +73,11 @@
 				<li>
 				<a href="#" data-toggle="modal" data-target=".modal9" class="roll-link"><span data-title="Marquee"> Marquee</span></a>
 				</li>
+				<li>
+				<a href="#" data-toggle="modal" data-target=".modal11" class="roll-link"><span data-title="Animationa"> Animations</span></a>
+				</li>
+				
+				
 
 			</ul>
 		</div>
@@ -228,7 +237,7 @@
 	  	<div class="modal-dialog">
 	   		 <div class="modal-content tabs-css" >
 	      		<div class="modal-body" style="background-color: white;">
-			        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&larr;</span><span class="sr-only">Close</span></button>
 					<ul class="tabs">
 						<li> 
 							<input type="radio" name="tabs" id="tab-1" checked>
@@ -332,13 +341,61 @@
 			</div>
 		</div>
 	</div>
+<!-- loader-->
+	<div class="modal fade modal10"  id="modal10" tabindex="-1" role="dialog" aria-labelledby="parralax-dragon" aria-hidden="true">
+	  	<div class="modal-dialog">
+	   		 <div class="modal-content" >
+	      		<div class="modal-body" style="background-color:white;">
+			        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			        <div class="spinner"></div>
+			        <img class="wheel"src="images/assets/dragonwheel.gif">
+			         <div class="loader-tea">
+				        <img src="loader/loader/loader1.png" class="gwd-img-2g75">
+					    <img src="loader/loader/loader4.png" class="gwd-img-unf6 gwd-gen-zg4lgwdanimation">
+					    <img src="loader/loader/loader2a.png" class="gwd-img-qybj gwd-gen-jkgfgwdanimation">
+					    <img src="loader/loader/loader2.png" class="gwd-img-5adz gwd-gen-5w8dgwdanimation">
+					    <img src="loader/loader/loader5.png" class="gwd-img-yfsa gwd-gen-ijaggwdanimation">
+					</div>
+					   
 
 
-		
+					
+	  			</div>
+			</div>
+		</div>
+	</div>
+
+<!-- animate -->
+	<div class="modal fade modal11"  id="modal11" tabindex="-1" role="dialog" aria-labelledby="parralax-dragon" aria-hidden="true">
+	  	<div class="modal-dialog">
+	   		 <div class="modal-content" >
+	      		<div class="modal-body" style="padding:15px;">
+			        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			        
+
+			        <div class="box-a"></div>
+
+			        
+
+			        <a href="#" class="animate-me">Animate</a>
+			         
+	  			</div>
+			</div>
+		</div>
+	</div>
+
 		
 <!-- jquery-   stay on top -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- navbar slide right and left -->
+	
+	<script>
+		$('.animate-me').on('click', function() {
+			$('.box-a').addClass('animated hinge');
+
+		});
+	</script>
+
 	<script>
 		(function() {
 			var body = $('body');

@@ -200,6 +200,10 @@ a{
     text-decoration: none;
 }
 
+/*close button*/
+.close{
+
+}
 
 .center-block {
   display: block;
@@ -1026,6 +1030,106 @@ h1.text{
   animation:scroll 5s infinite linear;
 
 }
+
+
+
+
+/* modal loader- spinner*/
+
+@-webkit-keyframes spin {
+  100%{
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+
+  }
+}
+
+@-moz-keyframes spin {
+  100%{
+    -moz-transform:rotate(360deg);
+    transform:rotate(360deg);
+  }
+}
+
+@-o-keyframes spin {
+  100%{
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
+  }
+}
+
+
+@keyframes spin {
+  100%{
+    transform:rotate(360deg);
+  }
+}
+
+
+
+.spinner{
+  width: 30px;
+  height: 30px;
+  border: 6px solid #000;
+  border-left-color: #333;
+  border-bottom-color:#555;
+  border-right-color: transparent; 
+  border-radius: 100%;
+  -webkit-animation: spin 600ms infinite linear;
+  -o-animation: spin 600ms infinite linear;
+  -moz-animation: spin 600ms infinite linear;
+  animation: spin 600ms infinite linear;
+  position: relative;
+  left: 55px;
+  top: 29px;
+
+
+}
+
+
+
+
+.wheel{
+  position: relative;
+  top: 48px;
+  left: 39px;
+  z-index: 2;
+}
+
+.loader-tea{
+  position: relative;
+  width: 1200px;
+  top: -201px;
+  left: -233px;
+  z-index: 0;
+}
+
+.loader-tea img{
+  position: absolute;
+
+}
+
+
+
+
+/* anaimations*/
+
+.box-a{
+  position: relative;
+  background-color: cornflowerblue;
+  height: 100px;
+  width: 100px;
+  margin-top: 60px;
+  
+
+}
+
+
+
+
+
+
+
 
 
 
