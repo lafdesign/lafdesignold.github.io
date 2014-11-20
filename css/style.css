@@ -271,13 +271,15 @@ img.palm:hover{
 
 
 .container-left{
+   
     position: relative;
     left: 15%;
     width: 80%;
     height: 552px;
     background-color: white;
-    overflow: scroll;
+    overflow-y: scroll;
     border-radius: 23em 2em 50em 100px;
+    z-index: 3;
 
 }
 .container-left p {
