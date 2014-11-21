@@ -1129,8 +1129,15 @@ h1.text{
 
 
 
+/*   maps modal */
 
+img.map-img {
+  width: 9.2%;
+}
 
+img.map-img:hover {
+  border: 1px solid transparent;
+}
 
 
 
