@@ -1,4 +1,26 @@
+/*  fonts */
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+
+
+
+*/
+
+
+
+
 /*  Preloader */
+
+
+
+
+
 
 #preloader {
     position:fixed;
@@ -1141,6 +1163,36 @@ img.map-img:hover {
 
 
 
+/*boat modal*/
+
+img.boat{
+
+  width: 100%;
+margin-top: 20px;
+
+}
+
+
+
+.drag-animation{
+  width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1489,6 +1541,8 @@ tbody.collapse.in {
 .affix {
   position: fixed;
 }
+
+
 
 
 
