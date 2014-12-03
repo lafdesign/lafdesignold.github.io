@@ -465,12 +465,12 @@ input[type="submit"] {
   text-decoration: none; }
   button:hover,
   input[type="submit"]:hover {
-    transition: background-color 0.5s ease;
-    -o-transition: background-color 0.5s ease;
-    -moz-transition: background-color 0.5s ease;
-    -webkit-transition: background-color 0.5s ease;
-    background-color: #15BCC2;
-    color: white; }
+    transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    background-color: transparent;
+    color: #15BCC2; }
   button:disabled,
   input[type="submit"]:disabled {
     cursor: not-allowed;
@@ -766,6 +766,15 @@ body, html{
 
 
 
+button{
+  color: #606060;
+  background-color: transparent;
+}
+
+/*a:hover{
+  box-shadow: 0px 0px 0px #888888;
+}
+*/
 .list-name{
   position: absolute;
 left: 80px;
@@ -805,7 +814,7 @@ nav.top{
 }
 
 nav.btn-right{
-  padding-left:  50%;
+  padding-left:  40%;
 
 }
 
@@ -902,7 +911,7 @@ button.right-btn:active{
 
 .tabs li > label {
   position: relative;
-  top: 50px;
+  top: 51px;
   left: -351px;
 width: 214%;
   display: block;
