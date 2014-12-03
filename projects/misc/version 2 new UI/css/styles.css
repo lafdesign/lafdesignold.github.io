@@ -761,10 +761,15 @@ body, html{
 
 body, html{
   background-color: #F9F9F9;
+  color: #606060
 }
 
 
 
+button.email:hover{
+    color: #DAA624;
+
+}
 
 button{
   color: #606060;
@@ -777,13 +782,16 @@ button{
 */
 .list-name{
   position: absolute;
-left: 80px;
-top: 30px;
-color: #606060;
+  left: 41px;
+  top: 74px;
+  color: #606060;
+  font-size: 1.4em;
+  font-family: 'Raleway', sans-serif;
 }
 
 ul.line-paper{
-  height: 1000px;
+  height: 800px;
+  width: 70%;
 position: relative;
 left: 350px;
 top: 60px;
@@ -809,7 +817,7 @@ top: 60px;
 nav.top{
   position: absolute;
   left: 370px;
-  top: 55px;
+  top: 28px;
   z-index: 3;
 }
 
@@ -928,7 +936,7 @@ width: 214%;
 .tabs li > label.snippits{
   top: 91px;
   left: -497px;
-  width: 224%;
+  width: 182%;
   position: relative;
   display: block;
   /*border: 1px solid #000;
@@ -955,7 +963,7 @@ width: 214%;
   left: 0;
   padding: 20px;
   /*border: 1px solid black;*/
-  height: 200px;
+  height: 800px;
   overflow-y: scroll; 
 
 
