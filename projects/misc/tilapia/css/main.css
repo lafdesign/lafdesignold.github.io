@@ -1,0 +1,132 @@
+body, html{
+	background-color: #101A1A;
+}
+
+
+
+img.fish2{
+position: absolute;
+top: 195px;
+left: 683px;
+}
+
+img.fish3{
+	position: relative;
+top: -208px;
+left: -208px;
+}
+
+
+img.fish-btn{
+	position: absolute;
+	top:0;
+	width: 5%;
+}
+
+img.fish-btna{
+	position: absolute;
+	top: 0;
+	width: 6.3%;
+}
+
+.fish-btn1{
+
+padding-top: 26px;
+left: 803px;
+
+}
+.fish-btn2{
+margin-top: 25px;
+margin-left: -23px;
+}
+.fish-btn3{
+	padding-top: 86px;
+margin-left: -43px;
+
+}
+.fish-btn4{
+padding-top: 64px;
+margin-left: -84px;
+}
+
+a img{
+	border: '';
+}
+a img:hover{
+	border: 1px solid transparent;
+}
+
+
+.main-fish1{
+
+position: absolute;
+top: 1000px;
+left: 0;
+
+}
+
+.main-fish2{
+position: absolute;
+left: 688px;
+top: 1197px;
+}
+
+
+.main-fish3{
+	
+position: absolute;
+top: 1687px;
+left: -209px;
+}
+
+.fish-b{
+	position: absolute;
+
+}
+
+.fish-b1{
+width: 6.3%;
+top: 43px;
+left: 34px;
+}
+.fish-b2{
+	width: 5%;
+	top: 43px;
+left: 93px;
+}
+
+.fish-b3{
+	width: 6.3%;
+	top: 104px;
+left: 73px;
+}
+
+.fish-b4{
+	width: 5%;
+	top: 82px;
+left: 32px;
+}
+
+
+
+.middle-content{
+background-color: rgba(95, 134, 161, 0.22);
+position: relative;
+top: 200px;
+height: 900px;
+width: 150%;
+}
+
+img.recycle{
+	margin-left: 31%;
+/* margin-right: 31%; */
+width: 30%;
+position: absolute;
+top: 420px;
+animation-delay:0.5s;
+-webkit-animation-delay:0.5s;
+}
+
+
+
+
