@@ -281,6 +281,11 @@ img.palm:hover{
     left: 6%;
     width: 10%;
     z-index: 2;
+    animation-delay: 1.2s;
+    -o-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
+
 
 }
 
