@@ -290,6 +290,13 @@ img.palm:hover{
 }
 
 
+.delay{
+   animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
 .lower-area{
     position: absolute;
     top:100vh;
