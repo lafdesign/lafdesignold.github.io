@@ -16,20 +16,66 @@
         <!-- user override styles-->
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+
+          <script type="text/javascript">
+
+    function parallax(){
+
+        var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+     
+      
+        prlx_lyr_1.style.left = (window.pageXOffset/.8)+'px'
+   
+
+        
+        
+        }
+
+        window.addEventListener("scroll", parallax, false);
+
+    </script>
+
     </head>
-    <body>
+    <body id="doScroll">
         <!--[if lt IE 7]>
             <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add content here -->
-        
+       
+            <div class="air">
+                <i class="fa cloud cloud-1 fa-cloud"></i>
+                <i class="fa cloud cloud-2 fa-cloud"></i>
+                <i class="fa cloud cloud-3 fa-cloud"></i>
+                <i class="fa cloud cloud-4 fa-cloud"></i>
+                <i class="fa cloud cloud-5 fa-cloud"></i>
+                <i class="tree tree-1 fa fa-tree"></i>
+            </div>
+
+            <div class="surface">
+                <i id="prlx_lyr_1" class="bike fa fa-bicycle"></i>
+                <i  class="tree tree-2 fa fa-tree"></i>
+                <i  class="tree tree-3 fa fa-tree"></i>
+               
+            </div>
+
+            <div class="earth">
+                <i class="fa fa-github"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-pinterest"></i>
+            </div>
+     
+                
 
         <!-- No content below here -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+      
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
