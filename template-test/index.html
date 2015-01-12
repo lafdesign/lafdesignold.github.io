@@ -45,6 +45,13 @@
         <!-- Add content here -->
        
             <div class="air">
+                <!-- Scroll button-->
+                <div id="arrow-button"> 
+                    <a class= "arrow-button">
+                      <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+                            
                 <i class="fa cloud cloud-1 fa-cloud"></i>
                 <i class="fa cloud cloud-2 fa-cloud"></i>
                 <i class="fa cloud cloud-3 fa-cloud"></i>
@@ -61,10 +68,18 @@
             </div>
 
             <div class="earth">
-                <i class="fa fa-github"></i>
-                <i class="fa fa-twitter"></i>
-                <i class="fa fa-linkedin"></i>
-                <i class="fa fa-pinterest"></i>
+                <a>
+                <i class="social fa fa-github"></i>
+                </a>
+                <a>
+                <i class="social fa fa-twitter"></i>
+                </a>
+                <a>
+                <i class="social fa fa-linkedin"></i>
+                </a>
+                <a>
+                <i class="social fa fa-pinterest"></i>
+                </a>
             </div>
      
                 
@@ -75,7 +90,26 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-      
+        <!-- Scroll button -->
+        <script>
+            $( document ).ready(function() {
+          var bodyWidth = $( "body" ).width(), // whole width of the body
+              wWidth = $( window ).width(),// width of the viewport
+              arrowButton = $( "#arrow-button" ),
+              pos = 0;// start position
+
+          arrowButton.click(function() {
+            if ( pos <= bodyWidth-wWidth ) {
+              pos += wWidth+500;// after click add to start position width of the viewport
+            } else {
+              pos = 0; 
+            }
+
+            $('body').animate( { scrollLeft: pos }, 1500);
+          });
+
+           });//end ready
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
