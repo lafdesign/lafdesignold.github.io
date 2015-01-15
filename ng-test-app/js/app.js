@@ -11,7 +11,7 @@ angular
 			templateUrl: 'template/home.html'	
 		})
 			.state('about',{
-			url: '/',
+			url: '/about',
 			templateUrl: 'template/about.html'	
 		})
 	}])
