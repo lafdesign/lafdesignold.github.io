@@ -5,9 +5,9 @@ angular
 	.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider){
 		$urlRouterProvider.otherwise('/');
 		$stateProvider
-			.state('home',{
+			.state('home', {
 			url: '/',
-			templateUrl: 'template/home.html'
+			templateUrl: 'template/home.html',
 			controller: 'homeCtrl'	
 			resolve: {
 				friends: ['$http', function($http) {
@@ -19,7 +19,7 @@ angular
 		})
 			.state('about',{
 			url: '/about',
-			templateUrl: 'template/about.html'	
+			templateUrl: 'template/about.html',	
 			controller:'aboutCtrl'
 		})
 			.state('contact',{
