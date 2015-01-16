@@ -5,9 +5,4 @@ angular
 		$scope.friends = friends;
 		$scope.items = ['home', 'about', 'contact'];
 		$scope.selectedValue = 'home';
-
-
-		$scope.save = function() {
-			alert(JSON.stringify($scope.friends));
-		};
 	}]);
