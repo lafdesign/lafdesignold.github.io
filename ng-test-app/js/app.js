@@ -20,7 +20,7 @@ angular
 			.state('about',{
 			url: '/about',
 			templateUrl: 'template/about.html'	
-			contoller:'aboutCtrl'
+			controller:'aboutCtrl'
 		})
 			.state('contact',{
 			url: '/contact',
