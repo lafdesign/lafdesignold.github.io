@@ -9,7 +9,7 @@ angular
 			url: '/',
 			templateUrl: 'template/home.html',
 			controller: 'homeCtrl'	
-			s
+			
 		})
 			.state('about',{
 			url: '/about',
