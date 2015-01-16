@@ -1,6 +1,6 @@
 <h1>{{title}}</h1>
 <ul>
-	<li ng-repeat="item in items">{{item}}</li>
+	<li ng-mouseover=".animated .tada" ng-repeat="item in items">{{item}}</li>
 </ul>
 
 <input type="text" ng-model="title">
@@ -24,17 +24,3 @@
 						</div>
 					</div>	
 
-<script>
-		(function() {
-			var quotes = $(".quotes");
-			var quoteIndex = -1;
-			function showNextQuote() {
-				++quoteIndex;
-				quotes.eq(quoteIndex % quotes.length)
-					.fadeIn(2000)
-					.delay(1000)
-					.fadeOut(2000, showNextQuote);
-			}
-			showNextQuote();
-		})();
-</script>
