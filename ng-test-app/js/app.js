@@ -9,13 +9,7 @@ angular
 			url: '/',
 			templateUrl: 'template/home.html',
 			controller: 'homeCtrl'	
-			resolve: {
-				friends: ['$http', function($http) {
-					return $http.get('/api/friends.json').then(function(response) {
-					return responce.data;
-					})
-				}]
-			}
+			
 		})
 			.state('about',{
 			url: '/about',
