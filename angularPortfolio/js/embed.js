@@ -1,7 +1,10 @@
-var embed = angular.module('embed'[]);
-embed.controller('embedCtrl', function($scope) {
+angular
+	.module('embed'[]);
+	.controller('embedCtrl', ['$scope', function($scope) {
+	
+	}]);
 
-});
+
 
 
 
