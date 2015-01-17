@@ -10,7 +10,7 @@
 
 <select ng-model="selectedValue" ng-options="value for value in items"></select>
 
-<div style="max-width:960px;margin:0 auto;text-align:center;">
+					<div style="max-width:960px;margin:0 auto;text-align:center;">
 						<div>
 							<h2 style="color:#fff;">Quantify your intuition.</h2>
 							<h3 class="quotes" style="display: none;">Discover which RSI values precede a price increase.</h3>
@@ -24,7 +24,11 @@
 						</div>
 					</div>	
 
-<script>
+
+					<div class="embed" ng-app="embed">
+        			</div>
+
+	<script>
         (function() {
             var quotes = $(".quotes");
             var quoteIndex = -1;

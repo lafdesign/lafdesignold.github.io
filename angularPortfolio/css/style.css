@@ -3,3 +3,9 @@ body, html {
 	margin: auto;
 	width: 1000px;
 }
+
+.embed{
+	width: 500px;
+	margin:auto;
+	height:500px;
+}
