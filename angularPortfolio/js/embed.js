@@ -1,3 +1,9 @@
-angular
-	.module('embed'[
-		])
+var embed = angular.module('embed'[]);
+embed.controller('embedCtrl', function($scope) {
+
+});
+
+
+
+
+
