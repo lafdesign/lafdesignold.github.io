@@ -14,3 +14,8 @@ body, html {
 .card-1{
   background-color: #fff;
 }
+
+.footer{
+  position: absolute;
+  top:95%;
+}
