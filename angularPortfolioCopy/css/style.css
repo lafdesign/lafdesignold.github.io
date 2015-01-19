@@ -3,8 +3,6 @@ body, html {
 	margin: auto;
 	width: 400vw;
   height: 100vh;
-  overflow-y:hidden;
-  overflow-x:hidden;
 }
 
 
