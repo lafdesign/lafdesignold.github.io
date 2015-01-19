@@ -17,6 +17,11 @@ body, html {
   top:95vh;
 }
 
+.footer-text{
+  position: relative;
+  left: 53vw;
+}
+
 
 .flex-1, .flex-2, .flex-3{
   height: 200px;
