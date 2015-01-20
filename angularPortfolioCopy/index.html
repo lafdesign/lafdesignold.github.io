@@ -11,6 +11,15 @@
     </head>
     
     <body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"></div>
+        <img src="loader/loader/loader1.png" class="gwd-img-2g75 animated bounce">
+        <img src="loader/loader/loader4.png" class="gwd-img-unf6 gwd-gen-zg4lgwdanimation">
+        <img src="loader/loader/loader2a.png" class="gwd-img-qybj gwd-gen-jkgfgwdanimation">
+        <img src="loader/loader/loader2.png" class="gwd-img-5adz gwd-gen-5w8dgwdanimation">
+        <img src="loader/loader/loader5.png" class="gwd-img-yfsa gwd-gen-ijaggwdanimation">
+    </div>
 
 
     	<div class="container" ng-app="app">
@@ -30,6 +39,17 @@
     <script src="js/controller/homeCtrl.js"></script>
     <script src="js/controller/aboutCtrl.js"></script>
     <script src="js/controller/contactCtrl.js"></script>
+
+    <!-- Preloader -->
+    <script type="text/javascript">
+      //<![CDATA[
+          $(window).load(function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(2300).css({'overflow':'visible'});
+        })
+      //]]>
+    </script>
 
     </body>
 </html>
