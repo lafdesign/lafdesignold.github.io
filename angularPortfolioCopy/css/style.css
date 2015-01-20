@@ -1,8 +1,9 @@
 body, html {
 	background-image: url(../img/background.png);
 	margin: auto;
-	min-width: 300vw;
+	min-width: 100vw;
   max-height: 100vh;
+
 }
 
 
