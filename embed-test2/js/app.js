@@ -1,7 +1,6 @@
 (function(){
  
 
-
 	var app = angular.module('wevueFeed', []);
 
 	app.controller('FeedController', function(){
