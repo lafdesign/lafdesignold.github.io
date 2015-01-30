@@ -14,9 +14,9 @@
     color: '#CCC',
     faces: 14,
     images: [
-      "images/gem-02.gif",
-      "images/gem-05.gif",
-      "images/gem-09.gif"
+      "images/img5.png",
+      "images/img6.png",
+      "images/img7.png"
     ]
   }, {
     name: 'Bloodstone',
