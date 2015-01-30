@@ -2,7 +2,7 @@
   var app = angular.module('gemStore', []);
 
   app.controller('EmbedController', function() {
-    this.products = gems;
+    this.items = gems;
   });
 
   var gems = [{
