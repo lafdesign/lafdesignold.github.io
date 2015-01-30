@@ -9,8 +9,12 @@
 
     </style>
   </head>
- <img src="images/logo.png">
+ 
   <body class="list-group" ng-controller="EmbedController as embed">
+  <img src="images/logo.png" style="
+    width: 14em;
+    position: relative;
+    left: 3em;">
     <!--  Product Container  -->
     <div class="list-group-item" ng-repeat="item in embed.items">
       <h3>{{item.name}}</h3>
