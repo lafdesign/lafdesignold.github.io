@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="weVueFeedApp">
+<head>
+	<title>feed</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular.min.js"></script>
+	<script>
+		var weVueFeedApp = angular.module ( 'weVueFeedApp' , []);
+		weVueFeedApp.controller('feedCtrl' , function ($scope){
+			$scope.items = [
+			 {
+	             "firstName": "Anna",
+	             "lastName": "Meyers",
+	             "image": ""
+	         },
+	         {
+	             "firstName": "Betty",
+	             "lastName": "Layers"
+	             "image": ""
+	         },
+	         {
+	             "firstName": "Carl",
+	             "lastName": "Louis"
+	             "image": ""
+	         }
+
+			];
+		});
+	</script>
+</head>
+<body ng-controler="feedCtrl as feed">
+	<ul>
+		<li ng-repeat="item in items"> {{item.firstName}} - {{item.lastName}}</li>
+	</ul>
+
+</body>
+</html>
