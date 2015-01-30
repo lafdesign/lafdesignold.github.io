@@ -6,7 +6,7 @@
 	<script>
 		var weVueFeedApp = angular.module ( 'weVueFeedApp' , []);
 		weVueFeedApp.controller('feedCtrl' , function ($scope){
-			$scope.items = [
+			$scope.countires = [
 			 {
 	             "firstName": "Anna",
 	             "lastName": "Meyers",
@@ -27,9 +27,9 @@
 		});
 	</script>
 </head>
-<body ng-controler="feedCtrl as feed">
+<body ng-controler="feedCtrl">
 	<ul>
-		<li ng-repeat="item in items"> {{item.firstName}} - {{item.lastName}}</li>
+		<li ng-repeat="country in countries"> {{country.firstName}} - {{country.lastName}}</li>
 	</ul>
 
 </body>
