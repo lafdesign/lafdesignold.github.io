@@ -2,10 +2,10 @@
   var app = angular.module('gemStore', []);
 
   app.controller('EmbedController', function() {
-    this.items = gems;
+    this.items = posts;
   });
 
-  var gems = [{
+  var posts = [{
     name: 'Anna',
    
     images: [
