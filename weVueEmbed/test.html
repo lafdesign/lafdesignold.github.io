@@ -7,16 +7,16 @@
   <body class="list-group" ng-controller="EmbedController as embed">
     <!--  Product Container  -->
     <div class="list-group-item" ng-repeat="item in embed.items">
-      <h3>{{item.name}} </h3>
+      <h3>{{item.name}}</h3>
 
       <!-- Image Gallery  -->
       <div class="gallery">
         <div class="img-wrap">
-          <img ng-src="{{product.images[0]}}" />
+          <img ng-src="{{item.images[0]}}" />
         </div>
         <ul class="img-thumbnails clearfix">
           <li class="small-image pull-left thumbnail" >
-            <img ng-src="{{product.images[0]}}" />
+            <img ng-src="{{item.images[0]}}" />
           </li>
         </ul>
       </div>
