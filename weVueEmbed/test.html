@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html ng-app="gemStore">
+<html ng-app="weVueFeed">
   <head>
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
   </head>
-  <body class="list-group" ng-controller="StoreController as store">
+  <body class="list-group" ng-controller="embedFeedController as embed">
     <!--  Product Container  -->
-    <div class="list-group-item" ng-repeat="product in store.products">
-      <h3>{{product.name}} <em class="pull-right">{{product.price | currency}}</em></h3>
+    <div class="list-group-item" ng-repeat="feed in embed.feeds">
+      <h3>{{product.name}} <em class="pull-right">{{}}</em></h3>
 
       <!-- Image Gallery  -->
       <div class="gallery">
