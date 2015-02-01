@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<title>embed</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular.min.js"></script>
+<link rel="stylesheet" href="src/css/swipebox.css">
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/south-street/jquery-ui.css" id="theme">
+<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+
+<!-- The dialog widget -->
+<div id="blueimp-gallery-dialog" data-show="fade" data-hide="fade">
+    <!-- The gallery widget  -->
+ <div class="blueimp-gallery blueimp-gallery-carousel blueimp-gallery-controls">
+        <div class="slides"></div>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="play-pause"></a>
+    </div>
+</div>
+
+
+
+<div id="links" ng-controler="GalleryController">
+    <a ng-repeat="signiture in signitures" ng-href="{{signiture.thumbnail_url}}" title="{{signiture.title}}" data-dialog>
+        <img src="{{signiture.url}}" alt="{{signiture.title}}">
+    </a>
+ 
+</div>
+
+
+
+
+
+	<div class="container" ng-app="app">
+		<div ng-controller="FeedcontrollerController">
+			search <input type="text" ng-model="search">
+			<br>
+			<select ng-model="selected_feed" ng-options="feed.id for feed in feeds | filter:search">
+				<option value="">Choose a Gallery</option>
+			</select>
+			<ul class="main-feed">
+				<li ng-repeat="feed in feeds" ng-style="{'background-image':'url({{feed.thumbnail_url}})'}" class="vertical-container">
+				   <div class="vertically-centered">
+				    	<a ng-href="http://wevue.com/api/v1/events/ + {{feed.id}} + /media.json"> {{feed.title}}</a>
+				    </div>
+				</li>		
+			</ul>
+		</div>
+	</div>
+
+
+
+
+
+
+	<script>
+		angular.module('app', [])
+		.controller('FeedcontrollerController',function($scope, $http){
+
+			$http.get('http://wevue.com/api/v1/events.json').success(function(data){
+				$scope.feeds = data;
+			});
+
+
+	
+
+		});
+
+
+
+
+
+	</script>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="js/jquery.image-gallery.min.js"></script>>
+
+</body>
+</html>
