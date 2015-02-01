@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="container" ng-app="app">
-		<div ng-controller="Feedcontroller">
+		<div ng-controller="FeedcontrollerController">
 			<ul>
 				<li ng-repeat="feed in feeds">
 					{{feed.name}}					
@@ -18,7 +18,7 @@
 
 	<script>
 		angular.module('app', [])
-		.controller('FeedController',function($scope, $http){
+		.controller('FeedcontrollerController',function($scope, $http){
 
 			$http.get('http://wevue.com/api/v1/events/335641975/media.json').success(function(data){
 				$scope.feeds = data;
