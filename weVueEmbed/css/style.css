@@ -31,10 +31,17 @@ html{
 
 a{
 	text-decoration: none;
-	color: #fff;
+	color: white;
+-webkit-filter: drop-shadow(0 0 3px #151515);
+
 }
 
 
+ul.main-feed{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
 
 .box{								/*dimension and position control of thumbnails in gallery */
 		display: inline-block;
@@ -52,7 +59,7 @@ a{
   height: 300px;
   border: 1px solid green;
   background-color:;				/*background image*/
-	background-image: url('../images/img6.png');
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 }
