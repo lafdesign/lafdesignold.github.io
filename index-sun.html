@@ -6,7 +6,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular.min.js"></script>
 </head>
 <body>
-	<div class="container" ng-app="App">
+	<div class="container" ng-app="app">
 		<div ng-controller="Controller">
 			<ul>
 				<li ng-repeat="feed in feeds">
@@ -17,7 +17,7 @@
 	</div>
 
 	<script>
-		angular.module('App', [])
+		angular.module('app', [])
 		.controller('Controller',function($scope, $http){
 
 			$http.get('http://wevue.com/api/v1/events/335641975/media.json').success(function(data){
