@@ -19,52 +19,56 @@
     </div>
 
 
-<div class="vertical-container">
-<div class="vertically-centered">
-<a href="#modal">{{gallery.name}}  (GALLETY NAME)</a>
-</div>
-</div>
-<div class="vertical-container">
-<div class="vertically-centered">
-<a href="#modal">{{gallery.name}}  (GALLETY NAME)</a>
-</div>
-</div>
-
-<div class="vertical-container">
-<div class="vertically-centered">
-<a href="#modal">{{gallery.name}}  (GALLETY NAME)</a>
-</div>
-</div>
-
-<div class="vertical-container">
-<div class="vertically-centered">
-<a href="#modal">{{gallery.name}}  (GALLETY NAME)</a>
-</div>
-</div>
-
-<div class="vertical-container">
-<div class="vertically-centered">
-<a href="#modal">{{gallery.name}}  (GALLETY NAME)</a>
-</div>
-</div>
 
 
 
 
-
-  <div class="modal" id="modal">
-    <div class="modal-container">
-
-      <div class="box">..</div>
-      <div class="box">..</div>
-      <div class="box">..</div>
-      <div class="box">..</div>
-      <div class="box">..</div>
-
-
-      <a href="#modal-close">Close</a>
+<div class="vertical-container"  ng-app="app">
+    <div ng-controller="FeedcontrollerController">
+          search <input type="text" ng-model="search">
+        <br>
+        <select ng-model="selected_feed" ng-options="feed.id for feed in feeds | filter:search">
+          <option value="">Choose a Gallery</option>
+        </select>
+        <ul>
+          <li ng-repeat="feed in feeds">
+              <img ng-src="{{feed.thumbnail_url}}"/>
+          </li>   
+        </ul>
     </div>
-  </div>
+
+
+    <div class="vertically-centered">
+    <a href="#modal"> (GALLETY NAME)</a>
+    </div>
+</div>
+
+
+
+  <script>
+    angular.module('app', [])
+    .controller('FeedcontrollerController',function($scope, $http){
+
+      $http.get('http://wevue.com/api/v1/events.json').success(function(data){
+        $scope.feeds = data;
+      });
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <div class="nav-container">
       <nav class="nav-justify">
