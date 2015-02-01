@@ -23,23 +23,20 @@
 
 
 
-<div class="vertical-container"  ng-app="app">
+ <div ng-app="app">
     <div ng-controller="FeedcontrollerController">
-          search <input type="text" ng-model="search">
-        <br>
-        <select ng-model="selected_feed" ng-options="feed.id for feed in feeds | filter:search">
-          <option value="">Choose a Gallery</option>
-        </select>
-        <ul>
-          <li ng-repeat="feed in feeds">
-              <img ng-src="{{feed.thumbnail_url}}"/>
-          </li>   
-        </ul>
-    </div>
+         
 
+   
+          <div class="vertical-container" ng-repeat="feed in feeds">
+              <img ng-src="{{feed.thumbnail_url}}"/>
+          </div>   
+      
+ 
 
     <div class="vertically-centered">
     <a href="#modal"> (GALLETY NAME)</a>
+    </div>
     </div>
 </div>
 
