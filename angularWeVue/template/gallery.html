@@ -1,7 +1,21 @@
-<div  class="cycle-slideshow"  ng-repeat="signature in signatures">
-	<img ng-src="{{signature.thumbnail_url}}"/>
-</div>
+
 
 <a ui-sref="home"><button>Back</button></a>
 
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="http://malsup.github.io/jquery.cycle2.js"></script>
+<div class="cycle-slideshow" 
+    data-cycle-fx="scrollHorz" 
+    data-cycle-slides="> div"
+    data-cycle-timeout="2000"
+    >
+
+    <div  ng-repeat="signature in signatures">
+	<img ng-src="{{signature.thumbnail_url}}"/>
+</div>
+
+   
+
+
+</div>
