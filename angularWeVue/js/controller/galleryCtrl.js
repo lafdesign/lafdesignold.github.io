@@ -12,10 +12,6 @@ angular
       link: function (scope, element, attrs) {
 		var config = angular.extend({
           slides: '.slide'
-        }, scope.$eval(attrs.mySlideshow)); 
-        setTimeout(function () {
-         element.cycle(config);
-        }, 0);
-	  }
+        }
 	};
 });
