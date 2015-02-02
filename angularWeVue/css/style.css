@@ -38,7 +38,8 @@ a{
 	top: 0;
 	width: 10%;
 	max-width: 40px;
-	left: 50%;
+	float: right;
+	padding-left: 20%;
 }
 
 
