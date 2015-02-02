@@ -1,12 +1,12 @@
 <div>
-	search <input type="text" ng-model="search">
+	search <input type="text" ng-model="searchText">
 	<br>
-	<select ng-model="selected_feed" ng-options="feed.title for feed in feeds | filter:search">
+	<select ng-model="selected_feed" ng-options="feed.title for feed in feeds | filter:searchText">
 		<option value="">Choose a Gallery</option>
 	</select>
 	<img class="logo" src="img/WeVue-Icon.png">
 	<ul class="main-feed">
-		<li ng-repeat="feed in feeds" ng-style="{'background-image':'url({{feed.thumbnail_url}})'}" class="vertical-container">
+		<li ng-repeat="feed in feeds | filter:searchText" ng-style="{'background-image':'url({{feed.thumbnail_url}})'}" class="vertical-container">
 		   <div class="vertically-centered">
 		    	<a class="event"ui-sref="gallery"> {{feed.title}}</a>
 		    </div>
