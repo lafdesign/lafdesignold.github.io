@@ -7,7 +7,7 @@
 	<ul class="main-feed">
 		<li ng-repeat="feed in feeds" ng-style="{'background-image':'url({{feed.thumbnail_url}})'}" class="vertical-container">
 		   <div class="vertically-centered">
-		    	<a ng-href="http://wevue.com/api/v1/events/ + {{feed.id}} + /media.json"> {{feed.title}}</a>
+		    	<a ui-sref="gallery"> {{feed.title}}</a>
 		    </div>
 		</li>		
 	</ul>
