@@ -1,8 +1,20 @@
 
-
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cycle2 Non-Image Slides</title>
+<link rel=stylesheet href="http://fonts.googleapis.com/css?family=Acme">
+<link rel=stylesheet href="../site.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <script src="http://malsup.github.io/jquery.cycle2.js"></script>
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>if (screen.width < 640)  document.write('<style>.adsbygoogle { display: none }</style>');</script>
+</head>
+<body>
+<div class=page-header>
+    <h1><a href="../"><img id=logo src="../logo.png" width=48 height=48></a> Non-Image Slides</h1>
+</div>
 
 <div id="main">
 <style>
@@ -38,6 +50,141 @@
 .cycle-slide p { margin: 0; padding: 10px }
 </style>
 
+<p>
+Cycle2 allows you to use any type of element for the slides, it's not solely for cycling images.
+However, images are the default slide type so to use other elements you need to 
+override the <code>slides</code> option as show on this page.  The <code>slides</code> option
+can be set to any valid jQuery selector.  The default value is <code>> img</code> 
+which is a selector to find all image elements that are immediate children of the slideshow
+container.
+
+
+<h2 id="divs">Divs</h2>
+<p>
+These two examples demonstrates using plain old divs as slide elements.
+<pre>
+&lt;div class="cycle-slideshow" 
+    data-cycle-fx="scrollHorz" 
+    data-cycle-timeout="2000"
+    <span class=special>data-cycle-slides="> div"</span>
+    >
+    &lt;div style="background:#fcc">
+        &lt;p>Lorem ipsum dolor ...
+    &lt;/div>
+    &lt;div style="background:#cfc">
+        &lt;p>Lorem ipsum dolor ...
+    &lt;/div>
+    &lt;div style="background:#ccf">
+        &lt;p>Lorem ipsum dolor ...
+    &lt;/div>
+&lt;/div>
+
+&lt;div class="cycle-slideshow" 
+    data-cycle-fx="fade" 
+    data-cycle-timeout="2000"
+    data-cycle-slides="> div"
+    >
+    &lt;div>
+        &lt;p>Lorem ipsum dolor ...
+    &lt;/div>
+    &lt;div>
+        &lt;p>Mel eu pertinax ...
+    &lt;/div>
+    &lt;div>
+        &lt;p>Utinam electram pertinacia ...
+    &lt;/div>
+&lt;/div>
+</pre>
+
+<div class="cycle-slideshow" 
+    data-cycle-fx="scrollHorz" 
+    data-cycle-timeout="2000"
+    data-cycle-slides="> div"
+    >
+    <div style=background:#fcc>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div style=background:#cfc>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div style=background:#ccf>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+</div>
+
+<div class="cycle-slideshow" 
+    data-cycle-fx="fade" 
+    data-cycle-timeout="2000"
+    data-cycle-slides="> div"
+    >
+    <div>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div>
+        <p>
+        Mel eu pertinax atomorum explicari, at sit ponderum interesset, viderer invidunt ne vis. Mea elitr quodsi necessitatibus ut, te eum audiam oporteat gubergren. Nostro tibique eu his, mel tamquam fabulas te. Nec saperet vocibus eu, ad his veniam graeco voluptua. Dicta homero propriae sit eu, oratio disputationi at mea.    
+        </div>
+    <div>
+        <p>
+        Utinam electram pertinacia cum et, mel an everti epicuri deseruisse. Vocibus docendi convenire mei at, et suas simul ius, id dicta constituam disputando pro. Te altera voluptatum sit, prima fabulas epicuri in sit, soleat inimicus qui id. Diam quodsi epicuri his eu, mea sumo agam mutat id. At has nisl nemore conceptam.
+    </div>
+</div>
+
+
+
+<h2 id="composite">Composites</h2>
+<p>
+Slides can be composed of many elements so don't feel constrained to just
+a single element for each slide.  This example shows how to embed an overlay
+caption for each slide.
+<pre>
+&lt;div class="cycle-slideshow composite-example" 
+    data-cycle-fx="scrollHorz" 
+    <span class=special>data-cycle-slides="> div"</span>
+    data-cycle-timeout="2000"
+    >
+    &lt;div>
+        &lt;img src="http://malsup.github.io/images/p1.jpg" width=100%>
+        &lt;div class="cycle-overlay">Sonnenberg Gardens&lt;/div>
+    &lt;/div>
+    &lt;div>
+        &lt;img src="http://malsup.github.io/images/p2.jpg" width=100%>
+        &lt;div class="cycle-overlay">The Redwoods&lt;/div>
+    &lt;/div>
+    &lt;div>
+        &lt;img src="http://malsup.github.io/images/p3.jpg" width=100%>
+        &lt;div class="cycle-overlay">Andgel Island&lt;/div>
+    &lt;/div>
+    &lt;div>
+        &lt;img src="http://malsup.github.io/images/p4.jpg" width=100%>
+        &lt;div class="cycle-overlay">Raquette Lake&lt;/div>
+    &lt;/div>
+&lt;/div>
+</pre>
 
 <div class="cycle-slideshow composite-example" 
     data-cycle-fx="scrollHorz" 
@@ -64,6 +211,32 @@
 
 
 
+<h2 id="anchors">Anchors</h2>
+<p>
+This example shows how you can use anchors as slides to wrap images.  View the source of
+this page to see the CSS styles applied.
+
+<pre>
+&lt;div class="cycle-slideshow" 
+    data-cycle-fx="scrollHorz" 
+    data-cycle-timeout="2000"
+    <span class=special>data-cycle-slides="> a"</span>
+    >
+    &lt;a href="http://malsup.github.io/images/p1.jpg">
+        &lt;img src="http://malsup.github.io/images/p1.jpg" >
+    &lt;/a>
+    &lt;a href="http://malsup.github.io/images/p2.jpg">
+        &lt;img src="http://malsup.github.io/images/p2.jpg" >
+    &lt;/a>
+    &lt;a href="http://malsup.github.io/images/p3.jpg">
+        &lt;img src="http://malsup.github.io/images/p3.jpg" >
+    &lt;/a>
+    &lt;a href="http://malsup.github.io/images/p4.jpg">
+        &lt;img src="http://malsup.github.io/images/p4.jpg" >
+    &lt;/a>
+&lt;/div>
+</pre>
+
 <div class="cycle-slideshow" 
     data-cycle-fx="scrollHorz" 
     data-cycle-slides="> a"
@@ -82,7 +255,15 @@
         <img src="http://malsup.github.io/images/p4.jpg" >
     </a>
 </div>
+<div class=center>Each slide links to the image file.</div>
+
+
 </div> <!-- #main -->
 
 
+<!-- google analytics -->
+<script src="http://www.google-analytics.com/urchin.js"></script>
+<script>_uacct = "UA-850242-2"; urchinTracker();</script>
+</body>
+</html>
 
