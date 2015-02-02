@@ -1,6 +1,7 @@
 angular
 	.module('app',[
-		'ui.router'
+		'ui.router',
+		'angular-carousel'
 	])
 	.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider){
 		$urlRouterProvider.otherwise('/');
