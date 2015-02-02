@@ -4,9 +4,68 @@
 
 <a ui-sref="home"><button>Back</button></a>
 
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <script src="http://malsup.github.io/jquery.cycle2.js"></script>
+
+
+<div id="main">
+<style>
+.cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.cycle-slideshow { width: 35%; min-width: 200px; margin: auto; padding: 0; }
+
+/* anchors */
+.cycle-slideshow > a { 
+    position: absolute; top: 0; left: 0;
+    width: 100%; padding: 0; background-color: #222; display: block;
+}
+
+/* images */
+.cycle-slideshow > a > img { 
+    width: 100%;
+    position: static;
+    display: block;
+}
+
+/* divs */
+.cycle-slideshow > div { 
+    position: absolute; top: 0; left: 0;
+    width: 100%; padding: 0;
+}
+
+.composite-example > div { background: white }
+.composite-example > div > img { display: block; }
+.composite-example > div .cycle-overlay { 
+    color: white; background: black; opacity: .6; filter:alpha(opacity=60);
+    position: absolute; bottom: 0; width: 100%; padding: 15px;
+}
+
+.cycle-slide p { margin: 0; padding: 10px }
+</style>
+
+
+<div class="cycle-slideshow composite-example" 
+    data-cycle-fx="scrollHorz" 
+    data-cycle-slides="> div"
+    data-cycle-timeout="2000"
+    >
+    <div>
+        <img src="http://malsup.github.io/images/p1.jpg" width=100%>
+        <div class="cycle-overlay">Sonnenberg Gardens</div>
+    </div>
+    <div>
+        <img src="http://malsup.github.io/images/p2.jpg" width=100%>
+        <div class="cycle-overlay">The Redwoods</div>
+    </div>
+    <div>
+        <img src="http://malsup.github.io/images/p3.jpg" width=100%>
+        <div class="cycle-overlay">Andgel Island</div>
+    </div>
+    <div>
+        <img src="http://malsup.github.io/images/p4.jpg" width=100%>
+        <div class="cycle-overlay">Raquette Lake</div>
+    </div>
+</div>
+
 
 
 <div class="cycle-slideshow" 
@@ -27,3 +86,10 @@
         <img src="http://malsup.github.io/images/p4.jpg" >
     </a>
 </div>
+<div class=center>Each slide links to the image file.</div>
+
+
+</div> <!-- #main -->
+
+
+
