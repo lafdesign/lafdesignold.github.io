@@ -14,19 +14,6 @@ body{ 	                                 /*Grey background as in app*/
     margin:0;
 }	
 
-html{
-	
-	background: radial-gradient(at 50% 0, rgba(0,0,0,.2), transparent 70%);
-	background-size: 100% 15px;
-	background-repeat: no-repeat;
-	background-attachment: local;
-
-	background: radial-gradient(at 50% 100%, rgba(0,0,0,.2), transparent 70%) bottom;
-	background-size: 100% 15px;
-	background-repeat: no-repeat;
-	background-attachment: local;
-}
-
 a{
 	text-decoration: none;
 	color: white;
