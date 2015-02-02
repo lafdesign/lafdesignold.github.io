@@ -8,7 +8,7 @@ angular
 			.state('home', {
 				url: '/',
 				templateUrl: 'templates/home',
-				controller: 'homeCtrl',
+				controller: 'HomeCtrl',
 				resolve: {
 					events: ['$http', function($http) {
 						return $http.get('http://wevue.com/api/v1/events.json').then(function(response) {
@@ -20,6 +20,6 @@ angular
 			.state('gallery', {
 				url: '/gallery',
 				templateUrl: 'templates/gallery',
-				controller: 'galleryCtrl'
+				controller: 'GalleryCtrl'
 		})
 	}])
