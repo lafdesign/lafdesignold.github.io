@@ -11,10 +11,6 @@ body{ 	                                 /*Grey background as in app*/
 	background-color: rgb(63, 71, 79);
     color:#fff;
     margin:0;
-
-
-
-
 }	
 
 html{
@@ -35,6 +31,13 @@ a{
 	color: white;
 -webkit-filter: drop-shadow(0 0 3px #151515);
 
+}
+
+.logo{
+	position: absolute;
+	top: 0;
+	float: right;
+	width: 10%;
 }
 
 
