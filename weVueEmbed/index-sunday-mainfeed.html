@@ -4,8 +4,10 @@
 <meta charset="UTF-8">
 	<title>embed</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular.min.js"></script>
-<script src="js/ui-bootstrap-custom-0.12.0.js"></script>
+<script src="js/ui-bootstrap.js"></script>
+<script src="js/modal.js"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
 	<div class="container" ng-app="app">
@@ -20,10 +22,18 @@
 				   <div class="vertically-centered">
 				    	<a href="#"> {{feed.title}}</a>
 				    </div>
+				    <li ng-repeat="signature in signatures">
+					   <img ng-src="{{signature.thumbnail_url}}"/>
+					</li>
 				</li>		
 			</ul>
 		</div>
 	</div>
+
+
+
+
+
 
 	<script>
 		angular.module('app', [])
@@ -35,14 +45,9 @@
 		});
 	</script>
 
-	  <script>
-  $(function() {
-    $( "#dialog" ).dialog();
-  });
-  </script>
 
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+
 
 </body>
 </html>
