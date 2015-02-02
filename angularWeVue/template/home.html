@@ -7,12 +7,9 @@
 	<img class="logo" src="img/WeVue-Icon.png">
 	<ul class="main-feed">
 		<li ng-repeat="feed in feeds" ng-style="{'background-image':'url({{feed.thumbnail_url}})'}" class="vertical-container">
-			<a class="event" ui-sref="gallery"> 
-			    <div class="vertically-centered">
-			    	<h1>{{feed.title}}</h1>
-			    </div>
-			</a>
+		   <div class="vertically-centered">
+		    	<a class="event"ui-sref="gallery"> {{feed.title}}</a>
+		    </div>
 		</li>		
 	</ul>
 </div>
-
