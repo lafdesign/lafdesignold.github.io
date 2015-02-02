@@ -43,6 +43,30 @@ ul.main-feed{
 	padding: 0;
 }
 
+
+
+#thumbWrapper{
+	width: 100%;
+	overflow: auto;
+}
+
+#thumbList{
+	white-space: nowrap;
+	margin: 0px;
+}
+
+#thumbList li{
+	display: inline;
+	list-style-type: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	cursor: pointer;
+}
+#thumbList li:hover{
+	opacity: 0.5;
+}
+
+
 .box{								/*dimension and position control of thumbnails in gallery */
 		display: inline-block;
 		width: 100px;

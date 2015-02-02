@@ -3,17 +3,16 @@
 <head>
 <meta charset="UTF-8">
 	<title>embed</title>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.0/ui-bootstrap-tpls.min.js"></script>
+<script src="js/angular-touch.js"></script>
+<script src="js/angular-carousel.js"></script>
 </head>
 <body>
 	<div class="container" ng-app="Gallery">
 		<div ng-controller="GalleryController">
-			search <input type="text" ng-model="search">
-			<br>
-			<select ng-model="selected_feed" ng-options="signature.id for signature in signatures | filter:search">
-				<option value="">Choose a Gallery</option>
-			</select>
-			<ul>
+			<ul ng-carousel>
 				<li ng-repeat="signature in signatures">
 					   <img ng-src="{{signature.thumbnail_url}}"/>
 				</li>		
@@ -22,7 +21,9 @@
 	</div>
 
 	<script>
-		angular.module('Gallery', [])
+		angular.module('Gallery', ['angular-carousel'])
+
+
 		.controller('GalleryController',function($scope, $http){
 
 			$http.get('http://wevue.com/api/v1/events/335641975/media.json').success(function(data){
