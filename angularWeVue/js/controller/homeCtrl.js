@@ -1,7 +1,7 @@
 angular
 	.module('app')
-	.controller('homeCtrl', ['$scope', function($scope) {
-		$scope.title = "Home";
-		$scope.items = ['home', 'about', 'contact'];
-		$scope.selectedValue = 'home';
-	}]);
+	.controller('homeCtrl',function($scope, $http){
+			$http.get('http://wevue.com/api/v1/events.json').success(function(data){
+			$scope.feeds = data;
+			});
+		});
