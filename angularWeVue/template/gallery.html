@@ -1,9 +1,22 @@
-<div id="thumbWrapper">
-	<ul id="thumbList">
-		<li ng-repeat="signature in signatures">
-			   <img ng-src="{{signature.thumbnail_url}}"/>
-		</li>		
-	</ul>
-</div>
+
 
 <a ui-sref="home"><button>Back</button></a>
+
+
+<div class="cycle-slideshow" 
+    data-cycle-fx="scrollHorz" 
+    data-cycle-timeout="2000"
+    data-cycle-slides="> a"
+   	>
+
+
+
+
+
+
+
+    <a ng-repeat="signature in signatures" href="#">
+    	<img ng-src="{{signature.thumbnail_url}}"/>    
+    </a>
+
+</div>
