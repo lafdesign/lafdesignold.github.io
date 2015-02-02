@@ -34,6 +34,10 @@ a{
 
 }
 
+a.event{
+	padding: 1em;
+}
+
 .logo{
 	position: absolute;
 	top: 0;
