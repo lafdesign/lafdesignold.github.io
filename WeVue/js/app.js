@@ -19,7 +19,7 @@ angular
 			})
 			.state('gallery', {
 				url: '/gallery',
-				templateUrl: 'templates/gallery'
+				templateUrl: 'templates/gallery',
 				controller: 'galleryCtrl'
 		})
 	}])
