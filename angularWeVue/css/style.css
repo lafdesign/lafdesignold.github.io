@@ -42,10 +42,37 @@ ul.main-feed{
 }
 
 
+.cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.cycle-slideshow { width: 35%; min-width: 200px; margin: auto; padding: 0; }
+
+/* anchors */
+.cycle-slideshow > a { 
+    position: absolute; top: 0; left: 0;
+    width: 100%; padding: 0; background-color: #222; display: block;
+}
+
+/* images */
 .cycle-slideshow > a > img { 
     width: 100%;
     position: static;
     display: block;
+}
+
+/* divs */
+.cycle-slideshow > div { 
+    position: absolute; top: 0; left: 0;
+    width: 100%; padding: 0;
+}
+
+.composite-example > div { background: white }
+.composite-example > div > img { display: block; }
+.composite-example > div .cycle-overlay { 
+    color: white; background: black; opacity: .6; filter:alpha(opacity=60);
+    position: absolute; bottom: 0; width: 100%; padding: 15px;
+}
+
+.cycle-slide p { margin: 0; padding: 10px 
+
 }
 
 #thumbWrapper{
