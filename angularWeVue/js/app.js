@@ -21,3 +21,4 @@ angular
 			templateUrl: 'template/contact.html'	
 		})
 	}])
+
