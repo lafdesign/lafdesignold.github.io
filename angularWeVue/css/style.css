@@ -38,6 +38,7 @@ a{
 	top: 0;
 	float: right;
 	width: 10%;
+	max-width: 40px;
 }
 
 
