@@ -1,7 +1,7 @@
 angular
 	.module('app')
-	.controller('galleryCtrl', ['$scope', function($scope) {
-		$scope.title ="Gallery";
-		$scope.items = ['thing1', 'thing2', 'thing3'];
-		$scope.projects = ['#1','#2','#3'];
-	}]);
+	.controller('galleryCtrl',function($scope, $http){
+			$http.get('http://wevue.com/api/v1/events/335641975/media.json').success(function(data){
+				$scope.signatures= data;
+			});
+		});
