@@ -1,7 +1,8 @@
-<div>
-	<ul rn-carousel class="image">
+<div id="thumbWrapper">
+	<ul id="thumbList">
 		<li ng-repeat="signature in signatures">
-			  
-    <div class="layer"> <img ng-src="{{signature.thumbnail_url}}"/> </div>
-  </li>
-</ul>
+			   <img ng-src="{{signature.thumbnail_url}}"/>
+		</li>		
+	</ul>
+</div>
+
