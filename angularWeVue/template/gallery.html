@@ -1,6 +1,8 @@
-
-  
-  <div id="slideshow2" my-slideshow>
-    <img class="slide" ng-src="{{signature.thumbnail_url}}" ng-repeat="signature in signatures" />
-  </div>
+<div id="thumbWrapper">
+	<ul id="thumbList">
+		<li ng-repeat="signature in signatures">
+			   <img ng-src="{{signature.thumbnail_url}}"/>
+		</li>		
+	</ul>
+</div>
 
