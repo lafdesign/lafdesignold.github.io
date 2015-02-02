@@ -1,6 +1,7 @@
 angular
 	.module('app',[
 		'ui.router'
+		'cycle2'
 	])
 	.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider){
 		$urlRouterProvider.otherwise('/');
