@@ -1,7 +1,14 @@
-<ul class="main-feed">
-	<li ng-repeat="feed in feeds" ng-style="{'background-image':'url({{feed.thumbnail_url}})'}" class="vertical-container">
-		<div class="vertically-centered">
-			<a href="#"> {{feed.title}}</a>
-		</div>
-	</li>		
-</ul>
+<div>
+	search <input type="text" ng-model="search">
+	<br>
+	<select ng-model="selected_feed" ng-options="feed.id for feed in feeds | filter:search">
+		<option value="">Choose a Gallery</option>
+	</select>
+	<ul class="main-feed">
+		<li ng-repeat="feed in feeds" ng-style="{'background-image':'url({{feed.thumbnail_url}})'}" class="vertical-container">
+		   <div class="vertically-centered">
+		    	<a ng-href="http://wevue.com/api/v1/events/ + {{feed.id}} + /media.json"> {{feed.title}}</a>
+		    </div>
+		</li>		
+	</ul>
+</div>
