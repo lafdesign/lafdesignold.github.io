@@ -1,0 +1,1 @@
+jQuery(document).ready(function(a){if(Modernizr.touch);else{var b=new a.BigVideo;b.init(),b.show([{type:"video/mp4",src:"videos/girl_bike.mp4"},{type:"video/webm",src:"videos/girl_bike.webm"},{type:"video/ogg",src:"videos/girl_bike.ogv"}],{doLoop:!0})}a(window).trigger("resize")});
