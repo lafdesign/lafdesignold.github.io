@@ -12,20 +12,19 @@
 
 
 .image-slider {
-	position: relative;
+
+position: relative;
 display: inline-block;
 line-height: 0;
-left: -12em;
-top: -9em;
-
+left: 31.42em;
+top: 5em;
 }
-
 /* Could use a pseudo-element, but they’re currently
    super buggy. See: http://dabblet.com/gist/ab432c3f6a8f672cd077 */
 .image-slider > div {
 	position: absolute;
 	top: 0; bottom: 0; left: 0;
-	width: 25px;
+	width: 15px;
 	max-width: 100%;
 	overflow: hidden;
 	resize: horizontal;
@@ -60,10 +59,8 @@ top: -9em;
 
 
 .phone{
-width: 11.25em;
-position: relative;
-top: -2em;
-left: -6px;
+width: 16em;
+
 
 }
 
@@ -101,9 +98,15 @@ z-index: -2;
 }
 
 .phone-position{
-	position: relative;
+	position: absolute;
 left: 31em;
 
+}
+
+.inner-img{
+
+width: 14em;
+border: 1px solid white
 }
 </style>
 <body>
@@ -112,12 +115,45 @@ left: 31em;
 
 
 <div class="phone-position ">
-<img class="phone" src="img/iPhone_White.svg">
+<img class="phone" src="assets/iPhone_White.svg">
+</div>
 <div class="image-slider">
-<div><img src="shots/CultureApp/screen1.jpeg" /></div>
-<img src="img/screen568x568(3).jpeg" />
+<div><img  class="inner-img" src="screen1.jpg" /></div>
+<img class="inner-img"  src="screen2.jpg" />
 </div>
+
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<div class="phone-position ">
+<img class="phone" src="assets/iPhone_White.svg">
 </div>
+<div class="image-slider">
+<div><img  class="inner-img" src="screen4.jpg" /></div>
+<img class="inner-img"  src="screen3.jpg" />
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+
 
 
 </body>
