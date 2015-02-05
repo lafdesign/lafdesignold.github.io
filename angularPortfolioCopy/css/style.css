@@ -184,12 +184,21 @@ body .gwd-gen-zg4lgwdanimation {
 
 
 body, html {
-	background-image: url(../img/background.png);
+	background-image: url(http://fuct.com/images/dot.png);
 	margin: auto;
 	min-width: 100vw;
   max-height: 100vh;
 
 }
+
+
+.container {
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+background: url(http://fuct.com/images/dot.png);
 
 
 .card-1{
