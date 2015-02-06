@@ -91,7 +91,7 @@ top: 21em;
 position: relative;
 display: inline-block;
 line-height: 0;
-left: 4.42em;
+left: 21%;
 top: 5em;
 }
 /* Could use a pseudo-element, but they’re currently
@@ -160,7 +160,7 @@ transform: rotateY( -30deg );
 
 .phone-position{
     position: absolute;
-left: 31em;
+left: 55.5%;
 
 }
 
@@ -461,6 +461,20 @@ ul.banner-social-buttons {
 }
 
 @media(max-width:767px) {
+
+
+    .phone-position {
+
+left: 45.5%;
+}
+
+.image-slider {
+
+left: 26%;
+
+}
+
+
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
