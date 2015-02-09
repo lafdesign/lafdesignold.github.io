@@ -105,15 +105,6 @@ textarea {
 
 
 
-/*
- scrollr styles
-        V
- */
-
-
-
-
-
 
 
 
@@ -140,21 +131,7 @@ h1 {
 p{
     line-height: 1.333em;
 }
-#slide-3 .caption{
-    left: 5%;
-    right: auto;
-    color: #47373f;
-    text-align: left;
-}
 
-#slide-4 .caption{
-    left: 5%;
-    right: auto;
-    top:5%;
-    bottom: auto;
-    color: #47373f;
-    text-align: left;
-}
 #slides-container {
     width: 100%;
     height: 100%;
@@ -186,16 +163,16 @@ p{
 }
 #slide-2{
     background: url('') no-repeat center center;
-    background-color: #333;
     background-size: cover;
+    background-color: #333;
     -ms-transform: translate(0,100%); /* IE 9 */
     -webkit-transform: translate(0,100%); /* Chrome, Safari, Opera */
     transform: translate(0,100%);
 }
 #slide-3{
     background: url('') no-repeat center center;
-    background-color: #333;
     background-size: cover;
+    background-color: #333;
     -ms-transform: translate(100%,100%); /* IE 9 */
     -webkit-transform: translate(100%,100%); /* Chrome, Safari, Opera */
     transform: translate(100%,100%);
@@ -213,8 +190,7 @@ p{
     left: 0;
     top:0;
     height: 650%;
-    width: 0;
-    ;
+    width:0;
 }
 .marker{
     height:25%;
@@ -237,9 +213,6 @@ p{
 
 
 
-/*
- scrollr styles^
- */
 
 
 
@@ -248,12 +221,6 @@ p{
 
 
 
-/*
- slide1 
-    V
- */
-
- 
 .slide1-icons-container{
     display: inline;
     text-align: center;
@@ -265,7 +232,6 @@ p{
 }
 
 h2.slide1-text{
-    font-family: 'Roboto Condensed', sans-serif;
     display: inline;
     color: #fff;  
     font-size: 4.5vw;
@@ -275,7 +241,6 @@ h2.slide1-text{
 }
 
 p.brackets{
-
     display: inline;
     color: #fff;   
     font-size: 23vw;
@@ -291,7 +256,6 @@ p.brackets{
 }
 
 .scroll-text-1{
-    font-family: 'Roboto Condensed', sans-serif;
     width: 30%;
     left: 35%;
     position: absolute;
@@ -304,107 +268,43 @@ p.brackets{
 
 
 
-.svg2{
-    width: 27%;
-padding-top: 1%;
-position: absolute;
-top: 0;
-left: 50%;
-}
-
-
-.svg3{
-   
-    position: absolute;
-width: 30%;
-left: 16%;
-top: 3%;
-}
-
-.svg4{
-    position: absolute;
-left: 85%;
-top: 78vh;
-
-}
-
-
-.svg5{
-    position: absolute;
-
-width: 49%;
-height: 100vh;
-left: 47.5%;
-top: 12%;
-}
-
-
-
-.phone-img{
-    position: absolute;
-left: 71.5%;
-top: 12%;
-
-}
-
-
-.screenshot{
-
-position: absolute;
-left: 72.9%;
-width: 14.5em;
-top: 22%;
-
-}
-
-.computer{
-    
-}
 
 
 
 
-.slide-2-icon{
-position: absolute;
-width: 20%;
-left: 39%;
-top: 40em;
-
-}
 
 
-.slide-2-icon1{
-position: absolute;
-width: 5%;
-left: 9%;
-top: 18em;
-
-}
-.slide-2-icon2{
-position: absolute;
-width: 11%;
-left: 7%;
-top: 28em;
-}
 
 
-.slide-2-icon3{
-position: absolute;
-width: 6%;
-left: 6%;
-top: 25em;
-}
-
-.slide2-icons-container{
 
 
-display: inline;
-text-align: center;
-width: 100%;
-position: absolute;
-top: 15em;
-left: -74px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
