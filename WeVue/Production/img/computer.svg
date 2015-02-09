@@ -1,14 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="329.333px" height="261px" viewBox="0 0 329.333 261" style="enable-background:new 0 0 329.333 261;" xml:space="preserve"
+ viewBox="0 0 329.333 261" style="enable-background:new 0 0 329.333 261;" xml:space="preserve"
 	>
+
+
+	 <defs>
 <style type="text/css">
-<![CDATA[
+
 	.st0{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
-]]>
+
+
+.st0 {
+	 			stroke-dasharray: 2000;
+	 			stroke-dashoffset:0;
+	 			-webkit-animation: dash 6s linear forwards;
+	 			-o-animation: dash 6s linear forwards;
+	 			-moz-animation: dash 6s linear forwards;
+	 			animation: dash 6s linear forwards;
+
+}
+
+	 		@-webkit-keyframes dash {
+	 			from {
+	 				stroke-dashoffset: 2000;
+	 			}
+	 			to {
+	 				stroke-dashoffset: 0;
+	 			}
+	 		}
+
+
 </style>
+	 </defs>
 <g>
 	<path class="st0" d="M317.525-0.099c-100.305-0.296-201.983-0.296-302.287,0C11.386-0.084,6.417,3.431,2.333,5.308v193.401
 		c4.084,5.619,11.313,8.752,16.88,8.738C54.812,207.305,93.135,210,128.734,210h7.297c4.819,14,0.449,28.361-10.769,37.016
