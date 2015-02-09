@@ -588,6 +588,40 @@ h3.pushText{
     text-align: center;
     }
 
+h2.create-content-text{
+    color: darkgray;
+position: absolute;
+left: 15vw;
+font-size: 3vw;
+top: 21vh;
+
+}
+
+h3.marketing{
+position: absolute;
+top: 32vh;
+color: aliceblue;
+font-size: 2vw;
+left: 9vw;
+}
+
+
+h3.crowdsource{
+    position: absolute;
+top: 38vh;
+color: aliceblue;
+font-size: 2vw;
+left: 9vw;
+}
+
+
+img.vue-icon-slide3{
+    width: 20vw;
+position: absolute;
+left: 55vw;
+top: 35vh;
+}
+
 
 
 
