@@ -505,7 +505,101 @@ position: absolute;
 left: 36%;
 width: 10.35%;
 top: 29.3%;
+border: 1px solid whitesmoke;
 }
+
+
+
+h3.showcase-title{
+color: #fff;
+position: absolute;
+font-family: 'Roboto Condensed', sans-serif;
+left: 19%;
+top: 26%;
+font-size: 5vh;
+}
+
+h4.embed-text{
+
+    position: absolute;
+left: 18%;
+color: #fff;
+top: 47%;
+font-size: 1.5vw;
+
+}
+
+
+.video-freestanding-slide3{
+    position: absolute;
+left: 24%;
+width: 27vw;
+top: 30vh;
+z-index: -2;
+
+}
+
+.push-notification{
+height: 24vh;
+width: 24vw;
+position: absolute;
+left: 26vw;
+top: 21vh;
+color: black;
+background-color: #EDE6E6;
+border-radius: 20px;
+text-align: center;
+}
+
+.triangle-right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid #EDE6E6;
+    border-bottom: 50px solid transparent;
+    left: 22vw;
+}
+
+h3.push{
+position: absolute;
+left: -29.5vw;
+font-size: 2.3vw;
+top: -3vh;
+}
+
+.push-text{
+    height: 17vh;
+width: 20vw;
+background-color: #B8C5D5;
+position: absolute;
+left: 54.55vw;
+top: 19vh;
+z-index: -1;
+
+}
+
+h3.pushText{
+    margin: 2vw;
+    font-size: 2vw;
+    color: lavenderblush;
+    text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ==========================================================================
