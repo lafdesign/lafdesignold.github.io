@@ -504,27 +504,28 @@ z-index: 2;
 position: absolute;
 left: 36%;
 width: 10.35%;
-top: 29.3%;
+top: 30.3%;
 border: 1px solid whitesmoke;
 }
 
 
 
 h3.showcase-title{
-color: #fff;
-position: absolute;
+
 font-family: 'Roboto Condensed', sans-serif;
-left: 19%;
-top: 26%;
-font-size: 5vh;
+color: darkgray;
+position: absolute;
+left: 15vw;
+font-size: 3vw;
+top: 13vh;
 }
 
 h4.embed-text{
 
     position: absolute;
-left: 18%;
+left: 15vw;
 color: #fff;
-top: 47%;
+
 font-size: 1.5vw;
 
 }
@@ -563,9 +564,10 @@ text-align: center;
 
 h3.push{
 position: absolute;
-left: -29.5vw;
+left: 2.5vw;
 font-size: 2.3vw;
-top: -3vh;
+top: 2vh;
+
 }
 
 .push-text{
@@ -582,7 +584,7 @@ border-radius: 5px;
 }
 
 h3.pushText{
-    margin: 2vw;
+    margin: 1vw;
     font-size: 2vw;
     color: lavenderblush;
     text-align: center;
@@ -620,6 +622,19 @@ img.vue-icon-slide3{
 position: absolute;
 left: 55vw;
 top: 35vh;
+}
+
+
+.transition-text-box{
+    text-align: center;
+    position: absolute;
+    left: 5vw;
+    top: 37vh;
+   
+}
+.transition-text{
+
+
 }
 
 
