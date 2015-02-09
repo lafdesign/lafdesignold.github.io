@@ -415,6 +415,7 @@ left: -74px;
 
 
 .video{
+    border-radius: 25px;
 
 }
 
@@ -443,6 +444,7 @@ z-index: 1;
     width:10%;
     opacity: .3;
     z-index: 1;
+    border-radius: 25px;
 
 
 }
