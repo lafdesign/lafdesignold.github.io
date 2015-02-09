@@ -180,8 +180,7 @@ p{
 }
 
 #slide-1{
-    background: url('') no-repeat center center;
-    background-size: cover;
+    background: url('../img/dot.png');
     background-color: #B8C5D5;
 }
 #slide-2{
