@@ -576,6 +576,8 @@ position: absolute;
 left: 54.55vw;
 top: 19vh;
 z-index: -1;
+border-radius: 5px;
+
 
 }
 
