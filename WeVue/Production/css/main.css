@@ -315,7 +315,7 @@ left: 51%;
 .svg3{
    
     position: absolute;
-width: 30%;
+width: 100%;
 left: 16%;
 top: 3%;
 }
@@ -491,19 +491,21 @@ top: 9%;
 
 
 .video-embed-slide3{
+width: 9%;
 position: absolute;
-left: 36.1%;
-top: 49.5%;
+left: 37.5%;
+top: 47.5%;
 opacity: 1;
 z-index: 2;
 background-color: #fff;
+
 }
 
 .embed-photos-slide3{
 position: absolute;
-left: 36%;
+left: 37.43%;
 width: 10.35%;
-top: 32.3%;
+top: 33.5%;
 }
 
 
@@ -660,6 +662,9 @@ top: 65vh;
 }
 
 
+
+
+
 .maim-view{
     height:95vh;
     background-color: ;
@@ -760,6 +765,29 @@ label {
     top: -21px;
     width: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
