@@ -7,9 +7,17 @@
 
 # THANKS
 
-    <name>
+Mark Dalgleish: stellar.js
+
+Cătălin Mariș, Nicolas Gallagher, Paul Irish, and Divya Manian:  html5boilerplate
+
 
 # TECHNOLOGY COLOPHON
 
+
     CSS3, HTML5
     Apache Server Configs, jQuery, Modernizr, Normalize.css
+    stellar.js
+    html5boilerplate
+    waypoints
+    jQuery
