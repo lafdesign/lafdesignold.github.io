@@ -133,8 +133,10 @@ a:focus {
 width: 100%;
 }
 
-
-#download, #download-2, #download-3, #showcase{
+#download{
+    padding-top: 400px;
+}
+#download, #download-2, #download-3, #showcase {
   height: 100vh;
 
 }
@@ -147,7 +149,9 @@ top: -110px;
 
 }
 
-
+.container-phone{
+    width:30%;
+}
 
 
 
@@ -451,7 +455,7 @@ top: 660px;
         z-index: -1;
         opacity: 0.5;
         top:5vh;
-        margin-top: -7em;
+        margin-top: -9em;
     }
     .video{
     border-radius: 25px;
