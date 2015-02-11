@@ -129,27 +129,7 @@ a:focus {
 
 }
 
-  .intro-container{
-        position: relative;
-        z-index: 10;
-        display: inline;
-        font-size: 4vw;
-    }
-    .intro-container span{
-        font-size: 10vw;
-        position: relative;
-        top:2vh;
-        z-index: 10;
-    }
 
-    .intro-sub-layer{
-        background: url('../img/dot.png');
-        position: ;
-        z-index: -1;
-        opacity: 0.5;
-        top:5vh;
-        margin-top: -9em;
-    }
     .video{
     border-radius: 25px;
 
@@ -451,6 +431,7 @@ top: -110px;
         z-index: 10;
         display: inline;
         font-size: 4vw;
+        padding: 0;
     }
     .intro-container span{
         font-size: 10vw;
