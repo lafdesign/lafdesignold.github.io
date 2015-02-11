@@ -126,6 +126,37 @@ a:focus {
 
 }
 
+
+
+#showcase{
+    background-color: rgb(65, 61, 61);
+width: 100%;
+}
+
+
+#download, #download-2, #download-3, #showcase{
+  height: 100vh;
+
+}
+
+.elevator{
+    display: block;
+    display: block;
+position: absolute;
+top: -110px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 .delay{
      -webkit-animation-delay: 4.2s;
 
@@ -151,7 +182,7 @@ a:focus {
     width: 26%;
 position: absolute;
 left: 37%;
-top: 134px;
+top: 130px;
 border: 1px solid white;
 }
 
@@ -332,11 +363,13 @@ left: 81%;
 }
 
 .app-title{
-    position: absolute;
-top: 85px;
+position: absolute;
+top: 101px;
 text-align: center;
 width: 100%;
 font-size: 2vw;
+z-index: 100;
+
 
 
 
@@ -552,7 +585,7 @@ top: 660px;
 
 @media(min-width:767px) {
     .intro {
-        height: 100%;
+        height: 100vh;
         padding: 0;
     }
 
@@ -668,7 +701,7 @@ top: 660px;
     }
 
     .download-section {
-        padding: 100px 0;
+        padding:  0;
     }
 
     #map {
