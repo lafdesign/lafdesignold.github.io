@@ -446,6 +446,31 @@ top: -110px;
 
 
 
+    .intro-container{
+        position: relative;
+        z-index: 10;
+        display: inline;
+        font-size: 4vw;
+    }
+    .intro-container span{
+        font-size: 10vw;
+        position: relative;
+        top:2vh;
+        z-index: 10;
+    }
+
+    .intro-sub-layer{
+        background: url('../img/dot.png');
+        position: ;
+        z-index: -1;
+        opacity: 0.5;
+        top:5vh;
+        margin-top: -9em;
+    }
+
+
+
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
