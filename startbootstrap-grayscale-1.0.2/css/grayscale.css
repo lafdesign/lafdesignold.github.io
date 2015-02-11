@@ -110,6 +110,130 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+
+
+
+
+.intro-icons{
+    position: relative;
+    z-index: 10;
+    width: 20%;
+    max-width: 175px;
+}
+.main-logo{
+    position: absolute;
+    width: 3%;
+    top: 0px;
+    min-width: 53px;
+    left: 2%;
+
+}
+
+  .intro-container{
+        position: relative;
+        z-index: 10;
+        display: inline;
+        font-size: 4vw;
+    }
+    .intro-container span{
+        font-size: 10vw;
+        position: relative;
+        top:2vh;
+        z-index: 10;
+    }
+
+    .intro-sub-layer{
+        background: url('../img/dot.png');
+        position: ;
+        z-index: -1;
+        opacity: 0.5;
+        top:5vh;
+        margin-top: -9em;
+    }
+    .video{
+    border-radius: 25px;
+
+    }
+
+    .small-video{
+
+        position: absolute;
+        left: 5%;
+        top: 22%;
+        opacity: .3;
+        border: 2px solid #fff;
+        z-index: 1;
+
+    }
+
+
+    .large-video{
+        position: absolute;
+        left: 32%;
+        top: 35%;
+        opacity: .2;
+        z-index: 1;
+    }
+
+
+    .img-slide-1{
+        width:10%;
+        opacity: .3;
+        z-index: 1;
+        border-radius: 25px;
+
+
+    }
+
+
+
+
+    .img5{
+    position: absolute;
+    left: 17%;
+    top: 54%;
+    width: 14%;
+    }
+
+    .img6{
+    position: absolute;
+    left: 72.5%;
+    width: 18%;
+    top: 35%;
+    border: 1px solid;
+    }
+
+    .img7{
+    position: absolute;
+    top: 18%;
+    left: 58.5%;
+    border: 1px solid white;
+    }
+    .img8{
+        position: absolute;
+    left: 5%;
+    top: 54%;
+    width: 11%;
+    }
+
+    .img9{
+        position: absolute;
+    left: 69%;
+    width: 16%;
+    top: 9%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
