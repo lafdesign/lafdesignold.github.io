@@ -12,6 +12,7 @@
     <title>WeVue Culture</title>
 
     <!-- Bootstrap Core CSS -->
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
@@ -111,15 +112,77 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
+    <section  class="container content-section text-center">
+        <div id="about" class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About WeVue</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="http://gratisography.com/">Gratisography</a>.</p>
-            </div>
-            <a href="#download" class="btn btn-circle page-scroll">
-                <i class="fa fa-angle-double-down animated"></i>
+                <h2>How it works</h2>
+                <span class="os-animation" data-os-animation="fadeOut" data-os-animation-delay="5s">
+                <object class="slide2-phone">
+                    <embed src="img/iphone.svg"  class="os-animation" data-os-animation="" data-os-animation-delay="0s" width="30%">
+                </object>
+                
+                <img src="img/screen1.jpg" class="slide2-icons screenshot1 os-animation" data-os-animation="fadeIn" data-os-animation-delay="2.5s" width="30%">
+                </span>
+
+                <span class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="5s">
+                    <img src="img/user.svg" class="admin os-animation" data-os-animation="bounce" data-os-animation-delay="5.5s">
+                    <img src="img/music-note.svg" class=" item4 folder-items os-animation" data-os-animation="bounceInUp" data-os-animation-delay="6.9s">
+                    <img src="img/photo.svg" class=" item3 folder-items os-animation" data-os-animation="bounceInUp" data-os-animation-delay="7.2s">
+                    <img src="img/film.svg" class="item2 folder-items os-animation" data-os-animation="bounceInUp" data-os-animation-delay="7.3s">
+                    <img src="img/photo.svg" class=" item1 folder-items os-animation" data-os-animation="bounceInUp" data-os-animation-delay="7.5s">
+                    <img src="img/folder-light-back.svg" class="folder-front">
+                    <img src="img/folder-light-front.svg" class="folder-back os-animation" data-os-animation="fadeIn" data-os-animation-delay="5.7s">
+                    <img src="img/vue-eye.svg" class="vue-eye os-animation" data-os-animation="rollIn" data-os-animation-delay="7.6s">
+                    <img src="img/user.svg" class="user user1 os-animation" data-os-animation="bounce" data-os-animation-delay="6.1s">
+                    <img src="img/user.svg" class="user user2 os-animation" data-os-animation="bounce" data-os-animation-delay="6.3s">
+                    <img src="img/user.svg" class="user user3 os-animation" data-os-animation="bounce" data-os-animation-delay="6.6s">
+                    <img src="img/film.svg" class="items1 items os-animation" data-os-animation="flipInY" data-os-animation-delay="6.2s">
+                    <img src="img/photo.svg" class="items2 items os-animation" data-os-animation="flipInX" data-os-animation-delay="6.3s">
+
+                <h2 class="slide2-titles app-title">
+            Culture App
+                    
+                </h2>
+                
+                <h2 class="admin-title os-animation" data-os-animation="" data-os-animation-delay="5.2s" >
+                Your Admin
+                    
+                </h2>
+
+                <h3 class="admin-text os-animation" data-os-animation="pulse" data-os-animation-delay="5.6s">
+                Submits a request to community via the app for photos and videos for a topic or location
+                    
+                </h3>
+
+
+                <h2 class="website-title os-animation" data-os-animation="pulse" data-os-animation-delay="7.6s">
+                Your Website
+                    
+                </h2>
+                 <h3 class="website-text os-animation" data-os-animation="zoomInLeft" data-os-animation-delay="7s">  
+                Displays concent generated on the app
+                    
+                </h3>
+
+
+               
+                 <h3 class="user-text">
+                    Members of your comminty <br> submit and caption their photos, videos, and stories
+                </h3>
+                </span>
+                    
+
+               
+               
+              
+
+
+            <a href="#download" class="slide2-btn btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated" ></i>
             </a>
+
+            </div>
+            
         </div>
     </section>
 
@@ -131,10 +194,11 @@
                     <h2>Features</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. </p>
-                    <a href="#contact" class="btn btn-circle page-scroll">
+                     <a href="#contact" class="btn btn-circle page-scroll">
                     <i class="fa fa-angle-double-down animated"></i>
-                    </a>                  
+                </a>
                 </div>
+               
             </div>
         </div>
     </section>
@@ -179,6 +243,7 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/waypoints.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -191,7 +256,8 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-    <script src="js/vendor/skrollr.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/skrollr.min.js"></script>
         <script type="text/javascript">
         var s = skrollr.init();
         </script>

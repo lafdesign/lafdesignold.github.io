@@ -126,6 +126,277 @@ a:focus {
 
 }
 
+.delay{
+     -webkit-animation-delay: 4.2s;
+
+}
+.toBeAnimated {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+}
+
+.os-animation{
+  opacity: 0;
+}
+ 
+.os-animation.animated{
+    opacity: 1;
+}
+
+.slide2-icons{
+    position:absolute;
+}
+
+.screenshot1{
+    width: 26%;
+position: absolute;
+left: 37%;
+top: 134px;
+border: 1px solid white;
+}
+
+
+.screen-2-folder-front{
+position: absolute;
+left: -9.23%;
+width: 22%;
+top: 227px;
+
+}
+.screen-2-folder-back{
+position: absolute;
+left: -8%;
+width: 20%;
+top: 200px;
+
+}
+.screen-2-film{
+position: absolute;
+left: 4%;
+width: 13%;
+top: 420px;
+
+}
+.screen-2-photo{
+position: absolute;
+left: -11%;
+width: 14%;
+top: 421px;
+}
+.screen-2-user{
+    position: absolute;
+left: -5%;
+width: 15%;
+top: 549px;
+    
+}
+.screen-2-vue{
+position: absolute;
+left: -5%;
+width: 14%;
+top: 226px;
+}
+
+.screen-2-wevue{
+    position: absolute;
+left: -3%;
+top: -40px;
+z-index: 7500;
+width: 17%;
+}
+
+.cloud{
+color: #fff;
+position: absolute;
+top: -133px;
+left: -14%;
+
+z-index: 7000;
+}
+
+.cloud-inner{
+    color:black;
+
+position: absolute;
+top: -100px;
+left: -10.5%;
+font-size: 30em;
+z-index: 7002;
+
+}
+
+img.admin{
+    position: absolute;
+width: 10%;
+text-align: center;
+left: 0%;
+top: 200px;
+}
+
+
+.user1{
+position: absolute;
+width: 8%;
+text-align: center;
+left: 38%;
+top: 590px;
+}
+
+.user2{
+    position: absolute;
+width: 8%;
+text-align: center;
+left: 46.5%;
+top: 590px;
+}
+
+.user3{
+    position: absolute;
+width: 8%;
+text-align: center;
+left: 55%;
+top: 590px;
+}
+
+
+
+.items{
+    position: absolute;
+width: 13%;
+top: 403px;
+
+}
+.items1{
+left: 53%;
+}
+
+.items2{
+    left: 35%;
+
+
+}
+.item1{
+    left: 51%;
+    transform: rotate(15deg);
+    top: 138px;
+    z-index: 10;
+}
+
+.item2{
+    left: 47%;
+top: 130px;
+z-index: 10;
+
+}
+
+.item3{
+    left: 44%;
+top: 155px;
+z-index: 10;
+}
+
+.item4{
+    left: 56%;
+transform: rotate(20deg);
+top: 122px;
+
+}
+img.folder-items{
+    width: 5%;
+    position:absolute;
+}
+img.folder-front{
+width: 15%;
+position: absolute;
+left: 43%;
+z-index: 9;
+top: 150px;
+
+
+}
+
+img.folder-back{
+   width: 17%;
+position: absolute;
+left: 41.9%;
+top: 172px;
+z-index: 10;
+}
+
+img.vue-eye{
+    position: absolute;
+width: 28%;
+top: 145px;
+left: 81%;
+
+}
+
+.app-title{
+    position: absolute;
+top: 85px;
+text-align: center;
+width: 100%;
+font-size: 2vw;
+
+
+
+}
+.website-title{
+position: absolute;
+top: 145px;
+/* text-align: center; */
+/* width: 100%; */
+font-size: 2vw;
+left: 87%;
+
+}
+
+
+.website-text{
+    position: absolute;
+width: 30%;
+left: 80%;
+top: 300px;
+font-size: 1vw;
+}
+
+.admin-title{
+    position: absolute;
+top: 145px;
+/* text-align: center; */
+/* width: 100%; */
+font-size: 2vw;
+left: -5.5%;
+
+}
+
+.admin-text{
+    position: absolute;
+width: 30%;
+left: -9%;
+top: 300px;
+font-size: 1vw;
+
+}
+.user-text{
+    position: absolute;
+
+text-align: center;
+width: 100%;
+font-size: 1vw;
+top: 552px;
+
+
+
+}
+
+.slide2-btn{
+position: absolute;
+/* text-align: center; */
+/* width: 9%; */
+left: 46.5%;
+top: 660px;
+}
 @media(min-width:767px) {
 
     .intro-container{
