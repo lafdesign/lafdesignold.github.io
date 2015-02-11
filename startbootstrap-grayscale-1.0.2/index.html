@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>Grayscale - Start Bootstrap Theme</title>
-
+    <link href="css/animate.css" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -18,6 +18,8 @@
     <link href="css/grayscale.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -132,17 +134,85 @@ We create apps that help you
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+   <!-- About Section -->
+    <section  class="container content-section text-center">
+        <div id="about" class="row">
+            <div class="col-lg-12 ">
+                <h3 class="elevator">“The Culture App”: Capture, enhance, and showcase your company culture with the help of your employees </h3>
+                <h2 class="os-animation" data-os-animation="fadeOut" data-os-animation-delay="5.2s" >How it works</h2>
+                <span class="os-animation" data-os-animation="fadeOut" data-os-animation-delay="5s">
+                <object class="slide2-phone">
+                    <embed src="img/iphone.svg"  class="os-animation" data-os-animation="" data-os-animation-delay="0s" width="30%">
+                </object>
+                
+                <img src="img/screen1.jpg" class="slide2-icons screenshot1 os-animation" data-os-animation="fadeIn" data-os-animation-delay="2.5s" width="30%">
+                </span>
+
+                <span class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="5s">
+                    <img src="img/user.svg" class="admin os-animation" data-os-animation="bounce" data-os-animation-delay="5.5s">
+                    <img src="img/music-note.svg" class=" item4 folder-items os-animation" data-os-animation="bounceInUp" data-os-animation-delay="6.9s">
+                    <img src="img/photo.svg" class=" item3 folder-items os-animation" data-os-animation="bounceInUp" data-os-animation-delay="7.2s">
+                    <img src="img/film.svg" class="item2 folder-items os-animation" data-os-animation="bounceInUp" data-os-animation-delay="7.3s">
+                    <img src="img/photo.svg" class=" item1 folder-items os-animation" data-os-animation="bounceInUp" data-os-animation-delay="7.5s">
+                    <img src="img/folder-light-back.svg" class="folder-front">
+                    <img src="img/folder-light-front.svg" class="folder-back os-animation" data-os-animation="fadeIn" data-os-animation-delay="5.7s">
+                    <img src="img/vue-eye.svg" class="vue-eye os-animation" data-os-animation="rollIn" data-os-animation-delay="7.6s">
+                    <img src="img/user.svg" class="user user1 os-animation" data-os-animation="bounce" data-os-animation-delay="6.1s">
+                    <img src="img/user.svg" class="user user2 os-animation" data-os-animation="bounce" data-os-animation-delay="6.3s">
+                    <img src="img/user.svg" class="user user3 os-animation" data-os-animation="bounce" data-os-animation-delay="6.6s">
+                    <img src="img/film.svg" class="items1 items os-animation" data-os-animation="flipInY" data-os-animation-delay="6.2s">
+                    <img src="img/photo.svg" class="items2 items os-animation" data-os-animation="flipInX" data-os-animation-delay="6.3s">
+
+                <h2 class="slide2-titles app-title os-animation" data-os-animation="fadeIn" data-os-animation-delay="5.8s">
+            Culture App
+                    
+                </h2>
+                
+                <h2 class="admin-title os-animation" data-os-animation="" data-os-animation-delay="5.2s" >
+                Your Admin
+                    
+                </h2>
+
+                <h3 class="admin-text os-animation" data-os-animation="pulse" data-os-animation-delay="5.6s">
+                Submits a request to community via the app for photos and videos for a topic or location
+                    
+                </h3>
+
+
+                <h2 class="website-title os-animation" data-os-animation="pulse" data-os-animation-delay="7.6s">
+                Your Website
+                    
+                </h2>
+                 <h3 class="website-text os-animation" data-os-animation="zoomInLeft" data-os-animation-delay="7s">  
+                Displays concent generated on the app
+                    
+                </h3>
+
+
+               
+                 <h3 class="user-text">
+                    Members of your comminty <br> submit and caption their photos, videos, and stories
+                </h3>
+                </span>
+                    
+
+               
+               
+              
+
+
+            <a href="#download" class="slide2-btn btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated" ></i>
+            </a>
+
             </div>
+            
         </div>
     </section>
+  
+
+
+
      <section id="features-1" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -209,6 +279,8 @@ We create apps that help you
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -221,6 +293,8 @@ We create apps that help you
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+    <script src="js/app.js"></script>
+
 
 </body>
 
