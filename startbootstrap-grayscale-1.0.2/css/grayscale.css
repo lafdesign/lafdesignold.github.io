@@ -432,6 +432,17 @@ top: 552px;
 width: 100%;
 }
 
+.elevator{
+    display: block;
+    display: block;
+position: absolute;
+top: -110px;
+
+}
+
+.container-phone{
+    width:30%;
+}
 
 
 
