@@ -71,7 +71,6 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
-
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -111,6 +110,10 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+
+
+
+
 .intro-icons{
     position: relative;
     z-index: 10;
@@ -127,35 +130,79 @@ a:focus {
 }
 
 
+    .video{
+    border-radius: 25px;
 
-#showcase{
-    background-color: rgb(65, 61, 61);
-width: 100%;
-}
+    }
 
-#download{
-    padding-top: 400px;
-}
-#download, #download-2, #download-3, #showcase {
-  height: 100vh;
+    .small-video{
 
-}
+        position: absolute;
+        left: 5%;
+        top: 22%;
+        opacity: .3;
+        border: 2px solid #fff;
+        z-index: 1;
 
-.elevator{
-    display: block;
-    display: block;
-position: absolute;
-top: -110px;
-
-}
-
-.container-phone{
-    width:30%;
-}
+    }
 
 
+    .large-video{
+        position: absolute;
+        left: 32%;
+        top: 35%;
+        opacity: .2;
+        z-index: 1;
+    }
 
 
+    .img-slide-1{
+        width:10%;
+        opacity: .3;
+        z-index: 1;
+        border-radius: 25px;
+
+
+    }
+
+
+
+
+    .img5{
+    position: absolute;
+    left: 17%;
+    top: 54%;
+    width: 14%;
+    }
+
+    .img6{
+    position: absolute;
+    left: 72.5%;
+    width: 18%;
+    top: 35%;
+    border: 1px solid;
+    }
+
+    .img7{
+    position: absolute;
+    top: 18%;
+    left: 58.5%;
+    border: 1px solid white;
+    }
+    .img8{
+        position: absolute;
+    left: 5%;
+    top: 54%;
+    width: 11%;
+    }
+
+    .img9{
+        position: absolute;
+    left: 69%;
+    width: 16%;
+    top: 9%;
+
+    }
 
 
 
@@ -191,74 +238,7 @@ border: 1px solid white;
 }
 
 
-.screen-2-folder-front{
-position: absolute;
-left: -9.23%;
-width: 22%;
-top: 227px;
 
-}
-.screen-2-folder-back{
-position: absolute;
-left: -8%;
-width: 20%;
-top: 200px;
-
-}
-.screen-2-film{
-position: absolute;
-left: 4%;
-width: 13%;
-top: 420px;
-
-}
-.screen-2-photo{
-position: absolute;
-left: -11%;
-width: 14%;
-top: 421px;
-}
-.screen-2-user{
-    position: absolute;
-left: -5%;
-width: 15%;
-top: 549px;
-    
-}
-.screen-2-vue{
-position: absolute;
-left: -5%;
-width: 14%;
-top: 226px;
-}
-
-.screen-2-wevue{
-    position: absolute;
-left: -3%;
-top: -40px;
-z-index: 7500;
-width: 17%;
-}
-
-.cloud{
-color: #fff;
-position: absolute;
-top: -133px;
-left: -14%;
-
-z-index: 7000;
-}
-
-.cloud-inner{
-    color:black;
-
-position: absolute;
-top: -100px;
-left: -10.5%;
-font-size: 30em;
-z-index: 7002;
-
-}
 
 img.admin{
     position: absolute;
@@ -427,20 +407,31 @@ top: 552px;
 
 }
 
-.slide2-btn{
-position: absolute;
-/* text-align: center; */
-/* width: 9%; */
-left: 46.5%;
-top: 660px;
+#showcase{
+    background-color: rgb(65, 61, 61);
+width: 100%;
 }
-@media(min-width:767px) {
+
+.elevator{
+    display: block;
+    display: block;
+position: absolute;
+top: -110px;
+
+}
+
+.container-phone{
+    width:30%;
+}
+
+
 
     .intro-container{
         position: relative;
         z-index: 10;
         display: inline;
         font-size: 4vw;
+        padding: 0;
     }
     .intro-container span{
         font-size: 10vw;
@@ -457,81 +448,11 @@ top: 660px;
         top:5vh;
         margin-top: -9em;
     }
-    .video{
-    border-radius: 25px;
-
-    }
-
-    .small-video{
-
-        position: absolute;
-        left: 5%;
-        top: 22%;
-        opacity: .3;
-        border: 2px solid #fff;
-        z-index: 1;
-
-    }
-
-
-    .large-video{
-        position: absolute;
-        left: 32%;
-        top: 35%;
-        opacity: .2;
-        z-index: 1;
-    }
-
-
-    .img-slide-1{
-        width:10%;
-        opacity: .3;
-        z-index: 1;
-        border-radius: 25px;
-
-
-    }
 
 
 
 
-    .img5{
-    position: absolute;
-    left: 17%;
-    top: 54%;
-    width: 14%;
-    }
-
-    .img6{
-    position: absolute;
-    left: 72.5%;
-    width: 18%;
-    top: 35%;
-    border: 1px solid;
-    }
-
-    .img7{
-    position: absolute;
-    top: 18%;
-    left: 58.5%;
-    border: 1px solid white;
-    }
-    .img8{
-        position: absolute;
-    left: 5%;
-    top: 54%;
-    width: 11%;
-    }
-
-    .img9{
-        position: absolute;
-    left: 69%;
-    width: 16%;
-    top: 9%;
-
-    }
-
-
+@media(min-width:767px) {
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -574,22 +495,15 @@ top: 660px;
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
-    position: relative;
-    z-index: 9;
-    font-family: 'Roboto Condensed', sans-serif;
-
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-    position: relative;
-    z-index: 9;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media(min-width:767px) {
     .intro {
-        height: 100vh;
+        height: 100%;
         padding: 0;
     }
 
@@ -684,8 +598,7 @@ top: 660px;
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    height:90vh;
-   
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -705,7 +618,7 @@ top: 660px;
     }
 
     .download-section {
-        padding:  0;
+        padding: 100px 0;
     }
 
     #map {
@@ -748,9 +661,16 @@ ul.banner-social-buttons {
 }
 
 @media(max-width:767px) {
+
+
     .intro-sub-layer{
         display: none;
     }
+
+
+
+
+
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
