@@ -119,3 +119,13 @@ img.intro-icons{
 	top: 9%;
 
     }
+
+
+    @media(max-width:767px){
+
+		div.sub-layer{
+			display: none;
+		}
+
+
+}
