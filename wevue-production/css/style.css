@@ -1,3 +1,17 @@
+.toBeAnimated {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+}
+
+.os-animation{
+  opacity: 0;
+}
+ 
+.os-animation.animated{
+    opacity: 1;
+}
+
+
 .main-logo{
     position: absolute;
     width: 3%;
@@ -41,7 +55,6 @@ p.intro-text-3{
 	font-size: 1.6vw;
 
 }
-
 
 
 
@@ -158,10 +171,66 @@ img.intro-icons{
     }
 
 
+
+
+
+
+
+h3.elevator{
+
+}
+
+
+img.screenshot1{
+	position: relative;
+	width: 27.8%;
+	border-radius: 9px;
+	margin-top: 9%;
+
+}
+
+object.slide2-phone{
+	position: absolute;
+	width: 100%;
+	left: 0%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     @media(max-width:767px) {
 
 		div.sub-layer{
 			display: none;
+		}
+
+		p.intro-text, p.intro-text-1, p.intro-text-2, p.intro-text-3{
+			display: none;
+		}
+
+		img.screenshot1{
+			width: 29%;
+			border-radius: 3px;
 		}
 
 
