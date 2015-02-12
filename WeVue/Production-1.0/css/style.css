@@ -177,7 +177,7 @@ img.intro-icons{
 
 
 h3.elevator{
-	font-size: 3vw;
+	font-size: 2vw;
 
 }
 
@@ -294,17 +294,21 @@ span.list-title{
 
 @media(min-width:800px) {
 	ul.features-1-list{
+	font-size: .4em;
+	line-height: 2.5em;
 
-	font-size: 3vw;
 	}
 	ul.features-2-list{
-	
-	font-size: 3vw;
+font-size: .37em;
+line-height: 1.9em;
+
 	}
 
 	span.list-title{
 	
-	font-size: 2vw;
+	font-size: .75em;
+	line-height: 1.7em;
+
 	}
 
 	.features-section{
@@ -376,6 +380,9 @@ span.list-title{
 			border: 1px solid white;
 			top:3px;
 		}
+		h3.elevator {
+font-size: 1em;
+}
 
 
 }
