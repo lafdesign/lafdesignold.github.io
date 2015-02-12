@@ -177,6 +177,7 @@ img.intro-icons{
 
 
 h3.elevator{
+	font-size: 4vw;
 
 }
 
@@ -218,6 +219,10 @@ object.slide2-phone{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -233,7 +238,43 @@ object.slide2-phone{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+
 }
+
+
+
+
+ul.features-1-list{
+	font-family: 'Roboto', sans-serif;
+	width: 58%;
+	list-style: none;
+	font-size: 4vw;
+
+
+}
+
+
+
+
+ul.features-2-list{
+	font-family: 'Roboto', sans-serif;
+	width: 58%;
+	list-style: none;
+	font-size: 4vw;
+
+
+}
+
+span.list-title{
+	color: gray;
+	font-size: 5vw;
+}
+
+
+
 
 
 
