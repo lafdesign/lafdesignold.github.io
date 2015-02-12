@@ -1,0 +1,24 @@
+.main-logo{
+    position: absolute;
+    width: 3%;
+    top: 0px;
+    min-width: 53px;
+    left: 2%;
+
+}
+
+
+.brand-heading{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+div.sub-layer{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/dot.png');
+
+	opacity: 0.6;
+}
