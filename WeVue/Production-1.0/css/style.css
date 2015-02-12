@@ -177,7 +177,7 @@ img.intro-icons{
 
 
 h3.elevator{
-	font-size: 4vw;
+	font-size: 3vw;
 
 }
 
@@ -244,6 +244,9 @@ object.slide2-phone{
 
 }
 
+h2.feature-1-title{
+	text-align: left;
+}
 
 
 
@@ -301,7 +304,7 @@ span.list-title{
 
 	span.list-title{
 	
-	font-size: 4vw;
+	font-size: 2vw;
 	}
 
 	.features-section{
