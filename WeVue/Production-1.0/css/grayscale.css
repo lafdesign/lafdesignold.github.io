@@ -451,6 +451,26 @@ top: -110px;
 
 
 
+.features-1-list{
+    position: absolute;
+width: 60%;
+top: 100px;
+left: 28%;
+text-align: left;
+font-size: 1.7vw;
+list-style: none;
+}
+
+
+.features-2-list{
+    position: absolute;
+width: 60%;
+top: 100px;
+left: 28%;
+text-align: left;
+font-size: 1.7vw;
+list-style: none;
+}
 
 @media(min-width:767px) {
     .navbar {
