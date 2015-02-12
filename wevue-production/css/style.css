@@ -286,8 +286,8 @@ object.slide2-phone{
 		img.screenshot1{
 			width: 29%;
 			border-radius: 3px;
-			border: 2px solid white;
-			top:-1px;
+			border: 1px solid white;
+			top:3px;
 		}
 
 
