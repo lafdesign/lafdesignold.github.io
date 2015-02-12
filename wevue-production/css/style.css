@@ -88,7 +88,7 @@ div.intro-container span{
 
 img.intro-icons{
 	width: 27%;
-	max-width: 150px;
+	max-width: 110px;
 	margin: 1%;
 
 }
@@ -206,7 +206,16 @@ object.slide2-phone{
 
 
 
+ @media(min-width:1500px) {
 
+img.intro-icons{
+	width: 27%;
+	max-width: 170px;
+	margin: 1%;
+
+}
+
+ }
 
 
 
