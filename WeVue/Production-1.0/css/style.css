@@ -560,6 +560,28 @@ top: 236px;
 
 
 @media(max-width:767px) {
+
+		img.app-store-screen {
+		
+		position: absolute;
+		left: 4.2%;
+		width: 34%;
+		top: 180px;
+		}
+
+		img.woody-in-place {
+		position: absolute;
+		width: 34.6%;
+		left: 61.2%;
+		top: 144px;
+		}
+		img.slide-4{
+		position: absolute;
+		width: 34.6%;
+		left: 61.2%;
+		top: 174px;
+		}
+
 		span.list-title{
 	
 		color:gray;
@@ -591,6 +613,30 @@ top: 236px;
 			
 		}
 
+
+
+}
+
+@media(max-width:560px) {
+
+	img.app-store-screen {
+		
+	
+		left: 21.5px;
+		width: 33%;
+		top: 170px;
+
+		}
+	img.woody-in-place {
+	
+		width: 32.6%;
+		
+		}
+	img.slide-4{
+	
+		width: 32.6%;
+		
+		}
 
 
 }
