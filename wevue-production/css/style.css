@@ -22,3 +22,23 @@ div.sub-layer{
 
 	opacity: 0.6;
 }
+
+div.intro-container{
+	font-size: 3vw;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+div.intro-container span{
+	font-size: 16vw;
+	position: relative;
+	top: 3vw;
+
+}
+
+img.intro-icons{
+	width: 27%;
+	max-width: 150px;
+	margin: 1%;
+
+}
