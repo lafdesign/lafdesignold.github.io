@@ -209,10 +209,9 @@ object.slide2-phone{
 
 
 .features-section{
-	    width: 100%;
+	width: 100%;
     padding: 50px 0;
     color: #fff;
-    height:90vh;
    
     background-color: #000;
     -webkit-background-size: cover;
@@ -228,7 +227,6 @@ object.slide2-phone{
 	    width: 100%;
     padding: 50px 0;
     color: #fff;
-    height:90vh;
    
     background-color: gray;
     -webkit-background-size: cover;
