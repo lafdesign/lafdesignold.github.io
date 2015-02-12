@@ -515,10 +515,14 @@ list-style: none;
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    z-index: 10;
+    position: relative;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+     z-index: 10;
+    position: relative;
 }
 
 @media(min-width:767px) {
