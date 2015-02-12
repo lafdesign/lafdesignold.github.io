@@ -252,17 +252,17 @@ object.slide2-phone{
 
 
 
+@media(min-width:1500px) {
 
- @media(min-width:1500px) {
+	img.intro-icons{
+		width: 27%;
+		max-width: 170px;
+		margin: 1%;
 
-img.intro-icons{
-	width: 27%;
-	max-width: 170px;
-	margin: 1%;
+	}
 
 }
 
- }
 
 
 
@@ -273,8 +273,7 @@ img.intro-icons{
 
 
 
-
-    @media(max-width:767px) {
+@media(max-width:767px) {
 
 		div.sub-layer{
 			display: none;
@@ -287,7 +286,8 @@ img.intro-icons{
 		img.screenshot1{
 			width: 29%;
 			border-radius: 3px;
-			border: 1px solid white;
+			border: 2px solid white;
+			top:1px;
 		}
 
 
