@@ -198,6 +198,10 @@ object.slide2-phone{
 }
 
 
+.phone-feature{
+
+}
+
 
 
 
@@ -381,8 +385,17 @@ line-height: 1.9em;
 			top:3px;
 		}
 		h3.elevator {
-font-size: 1em;
-}
+		font-size: 1em;
+		}
+
+
+
+		.phone-feature{
+			width: 40%;
+
+			
+		}
+
 
 
 }
