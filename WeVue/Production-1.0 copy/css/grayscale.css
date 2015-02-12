@@ -110,6 +110,368 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+
+
+
+
+.intro-icons{
+    position: relative;
+    z-index: 10;
+    width: 20%;
+    max-width: 175px;
+}
+.main-logo{
+    position: absolute;
+    width: 3%;
+    top: 0px;
+    min-width: 53px;
+    left: 2%;
+
+}
+
+
+    .video{
+    border-radius: 25px;
+
+    }
+
+    .small-video{
+
+        position: absolute;
+        left: 5%;
+        top: 22%;
+        opacity: .3;
+        border: 2px solid #fff;
+        z-index: 1;
+
+    }
+
+
+    .large-video{
+        position: absolute;
+        left: 32%;
+        top: 35%;
+        opacity: .2;
+        z-index: 1;
+    }
+
+
+    .img-slide-1{
+        width:10%;
+        opacity: .3;
+        z-index: 1;
+        border-radius: 25px;
+
+
+    }
+
+
+
+
+    .img5{
+    position: absolute;
+    left: 17%;
+    top: 54%;
+    width: 14%;
+    }
+
+    .img6{
+    position: absolute;
+    left: 72.5%;
+    width: 18%;
+    top: 35%;
+    border: 1px solid;
+    }
+
+    .img7{
+    position: absolute;
+    top: 18%;
+    left: 58.5%;
+    border: 1px solid white;
+    }
+    .img8{
+        position: absolute;
+    left: 5%;
+    top: 54%;
+    width: 11%;
+    }
+
+    .img9{
+        position: absolute;
+    left: 69%;
+    width: 16%;
+    top: 9%;
+
+    }
+
+
+
+
+
+.delay{
+     -webkit-animation-delay: 4.2s;
+
+}
+.toBeAnimated {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+}
+
+.os-animation{
+  opacity: 0;
+}
+ 
+.os-animation.animated{
+    opacity: 1;
+}
+
+.slide2-icons{
+    position:absolute;
+}
+
+.screenshot1{
+    width: 26%;
+position: absolute;
+left: 37%;
+top: 130px;
+border: 1px solid white;
+}
+
+
+
+
+img.admin{
+    position: absolute;
+width: 10%;
+text-align: center;
+left: 0%;
+top: 200px;
+}
+
+
+.user1{
+position: absolute;
+width: 8%;
+text-align: center;
+left: 38%;
+top: 590px;
+}
+
+.user2{
+    position: absolute;
+width: 8%;
+text-align: center;
+left: 46.5%;
+top: 590px;
+}
+
+.user3{
+    position: absolute;
+width: 8%;
+text-align: center;
+left: 55%;
+top: 590px;
+}
+
+
+
+.items{
+    position: absolute;
+width: 13%;
+top: 403px;
+
+}
+.items1{
+left: 53%;
+}
+
+.items2{
+    left: 35%;
+
+
+}
+.item1{
+    left: 51%;
+    transform: rotate(15deg);
+    top: 138px;
+    z-index: 10;
+}
+
+.item2{
+    left: 47%;
+top: 130px;
+z-index: 10;
+
+}
+
+.item3{
+    left: 44%;
+top: 155px;
+z-index: 10;
+}
+
+.item4{
+    left: 56%;
+transform: rotate(20deg);
+top: 122px;
+
+}
+img.folder-items{
+    width: 5%;
+    position:absolute;
+}
+img.folder-front{
+width: 15%;
+position: absolute;
+left: 43%;
+z-index: 9;
+top: 150px;
+
+
+}
+
+img.folder-back{
+   width: 17%;
+position: absolute;
+left: 41.9%;
+top: 172px;
+z-index: 10;
+}
+
+img.vue-eye{
+    position: absolute;
+width: 28%;
+top: 145px;
+left: 81%;
+
+}
+
+.app-title{
+position: absolute;
+top: 101px;
+text-align: center;
+width: 100%;
+font-size: 2vw;
+z-index: 100;
+
+
+
+
+}
+.website-title{
+position: absolute;
+top: 145px;
+/* text-align: center; */
+/* width: 100%; */
+font-size: 2vw;
+left: 87%;
+
+}
+
+
+.website-text{
+    position: absolute;
+width: 30%;
+left: 80%;
+top: 300px;
+font-size: 1vw;
+}
+
+.admin-title{
+    position: absolute;
+top: 145px;
+/* text-align: center; */
+/* width: 100%; */
+font-size: 2vw;
+left: -5.5%;
+
+}
+
+.admin-text{
+    position: absolute;
+width: 30%;
+left: -9%;
+top: 300px;
+font-size: 1vw;
+
+}
+.user-text{
+    position: absolute;
+
+text-align: center;
+width: 100%;
+font-size: 1vw;
+top: 552px;
+
+
+
+}
+
+#showcase{
+    background-color: rgb(65, 61, 61);
+width: 100%;
+}
+
+.elevator{
+    display: block;
+    display: block;
+position: absolute;
+top: -110px;
+
+}
+
+.container-phone{
+    width:30%;
+}
+
+
+
+    .intro-container{
+        position: relative;
+        z-index: 10;
+        display: inline;
+        font-size: 4vw;
+        padding: 0;
+    }
+    .intro-container span{
+        font-size: 10vw;
+        position: relative;
+        top:2vh;
+        z-index: 10;
+    }
+
+    .intro-sub-layer{
+        background: url('../img/dot.png');
+        position: ;
+        z-index: -1;
+        opacity: 0.5;
+        top:5vh;
+        margin-top: -9em;
+    }
+
+
+
+.features-1-list{
+    position: absolute;
+width: 60%;
+top: 100px;
+left: 28%;
+text-align: left;
+font-size: 1.7vw;
+list-style: none;
+}
+
+
+.features-2-list{
+    position: absolute;
+width: 60%;
+top: 100px;
+left: 28%;
+text-align: left;
+font-size: 1.7vw;
+list-style: none;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -153,10 +515,14 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    z-index: 10;
+    position: relative;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+     z-index: 10;
+    position: relative;
 }
 
 @media(min-width:767px) {
@@ -319,6 +685,16 @@ ul.banner-social-buttons {
 }
 
 @media(max-width:767px) {
+
+
+    .intro-sub-layer{
+        display: none;
+    }
+
+
+
+
+
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
