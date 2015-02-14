@@ -218,6 +218,7 @@ object.slide3-phone{
 	position: absolute;
 	width: 100%;
 	left: 34.5%;
+	overflow: hidden;
 
 }
 
