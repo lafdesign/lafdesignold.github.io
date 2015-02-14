@@ -198,16 +198,6 @@ img.screenshot1{
 
 }
 
-img.screenshot2{
-	position: relative;
-	width: 27.8%;
-	border-radius: 9px;
-	margin-top: 9%;
-	left: 35.7%;
-
-
-}
-
 object.slide2-phone{
 	position: absolute;
 	width: 100%;
@@ -216,14 +206,6 @@ object.slide2-phone{
 }
 
 
-object.slide3-phone{
-	position: absolute;
-	width: 100%;
-	left: 34.5%;
-	overflow: hidden;
-
-}
-
 
 .phone-feature{
 	position: relative;
@@ -231,10 +213,7 @@ object.slide3-phone{
 }
 
 
-div.branding-wrapper{
 
-
-}
 
 .branding{
 width: 24.6%;
@@ -537,69 +516,11 @@ line-height: 1.9em;
 
 	
 
-.woody{
-	position: absolute;
-left: 5%;
-width: 33%;
-top: 181px;
-}
-
-.dog{
-	position: absolute;
-left: 5%;
-width: 33%;
-top: 381px;
-max-height: 213px;
-}
 
 
-img.how-it-works{
-	position: absolute;
-width: 100%;
-top: 83px;
-}
 
 
-.helper{
-	width: 20%;
-}
 
-
-img.app-store-screen{
-	position: absolute;
-left: 26px;
-width: 26%;
-top: 164px;
-}
-
-img.woody-in-place{
-	position: absolute;
-width: 26%;
-left: 70.6%;
-top: 129px;
-
-}
-img.slide-4{
-	position: absolute;
-width: 26%;
-left: 70.6%;
-top: 163px;
-
-}
-
-img.landing{
-	position: absolute;
-left: 28%;
-width: 44%;
-top: 263px;
-}
-
-img.widget{
-	position: absolute;
-width: 26%;
-left: 31%;
-top: 236px;
-}
 
 
 
@@ -615,36 +536,32 @@ top: 236px;
 		margin: 1%;
 
 	}
+	.branding {
+width: 24.6%;
+left: 71.6%;
+top: 169px;
+border: 1px solid white;
+position: absolute;
+border-radius: 4px;
+z-index: 2;
+}
 
 
 }
 
 
 
+@media (min-width:1000px) and (max-width: 1499px){
+
+}
+
 
 @media(max-width:767px) {
 
-		img.app-store-screen {
 		
-		position: absolute;
-		left: 4.2%;
-		width: 34%;
-		top: 180px;
-		}
 
-		img.woody-in-place {
-		position: absolute;
-		width: 34.6%;
-		left: 61.2%;
-		top: 144px;
-		}
-		img.slide-4{
-		position: absolute;
-		width: 34.6%;
-		left: 61.2%;
-		top: 174px;
-		}
-
+		
+		
 		span.list-title{
 	
 		color:gray;
@@ -665,13 +582,7 @@ top: 236px;
 			top:3px;
 		}
 
-		img.screenshot2{
-			width: 29%;
-			border-radius: 3px;
-			border: 1px solid white;
-			top:3px;
-			left: 37.4%
-		}
+	
 		h3.elevator {
 		font-size: 1em;
 		}
@@ -683,50 +594,43 @@ top: 236px;
 
 			
 		}
-
+		.branding {
+width: 32.6%;
+left: 62.4%;
+top: 146px;
+}
 		  
-	  .branding{
-	width: 32.8%;
-left: 62.25%;
-top: 166px;
-	}
-
-
-
+	 
 
 }
 
-@media(max-width:560px) {
+@media(max-width:600px) {
 
-	img.app-store-screen {
-		
-	
-		left: 21.5px;
-		width: 33%;
-		top: 170px;
+.branding {
+width: 32.6%;
+left: 62.4%;
+top: 176px;
 
-		}
-	img.woody-in-place {
-	
-		width: 32.6%;
-		
-		}
-	img.slide-4{
-	
-		width: 32.6%;
-		
-		}
-
-
-
+}
 }
 
 
+@media(max-width:550px) {
 
-@media(min-width:450px) and (max-width:769px) {
-		img.screenshot2{
-				left: 1%
-		}
+.branding {
+width: 32.6%;
+left: 61.8%;
+top: 159px;
+}
+
+}
+@media(max-width:550px) {
+
+.branding {
+width: 32.6%;
+left: 61.3%;
+top: 144px;
+}
 
 
 }
