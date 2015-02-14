@@ -617,15 +617,15 @@ top: 176px;
 @media(max-width:550px) {
 
 .branding {
-left: 61.8%;
+left: 62%;
 top: 159px;
 }
 
 }
-@media(max-width:550px) {
+@media(max-width:500px) {
 
 .branding {
-left: 60.7%;
+left: 61.7%;
 top: 163px;
 }
 
