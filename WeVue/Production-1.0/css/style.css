@@ -254,84 +254,84 @@ z-index: 2;
 
 }
 div.content-3-container{
-width: 26%;
- max-height: 328px; 
- min-height: 293px; 
-border: 1px solid;
-position: absolute;
-left: 71%;
-margin-top: -25%;
-overflow: scroll;
-background-color: #3f474f;
-color: whitesmoke;
-}
+	width: 26%;
+	 max-height: 328px; 
+	 min-height: 293px; 
+	border: 1px solid;
+	position: absolute;
+	left: 71%;
+	margin-top: -25%;
+	overflow: scroll;
+	background-color: #3f474f;
+	color: whitesmoke;
+	}
 span.details-title{
-font-size: .5em;
-position: absolute;
-left: -1%;
-background-color: red;
+	font-size: .5em;
+	position: absolute;
+	left: -1%;
+	background-color: red;
 
-width: 100%;
-height: 1.8em;
-z-index: 1;
+	width: 100%;
+	height: 1.8em;
+	z-index: 1;
 
-}
+	}
 img.gallery-img-1{
 	width: 100%;
-margin-top: -40%;
-}
+	margin-top: -40%;
+	}
 
 img.contributor-1{
 	width: 22%;
-border: 1px solid;
-position: absolute;
-margin-top: -12%;
-display: inline;
-left: 3px;
-}
+	border: 1px solid;
+	position: absolute;
+	margin-top: -12%;
+	display: inline;
+	left: 3px;
+	}
 
 img.contributor-2{
-width: 22%;
-border: 1px solid;
-position: absolute;
-margin-top: -12%;
-display: inline;
-left: 26%;
-}
+	width: 22%;
+	border: 1px solid;
+	position: absolute;
+	margin-top: -12%;
+	display: inline;
+	left: 26%;
+	}
 
 img.contributor-3{
 	width: 22%;
-border: 1px solid;
-position: absolute;
-margin-top: -12%;
-display: inline;
-}
+	border: 1px solid;
+	position: absolute;
+	margin-top: -12%;
+	display: inline;
+	}
 
 i.plus{
 	position: absolute;
-left: 85%;
-top: 3px;
-font-size: .8em;
-z-index: 3;
-}
+	left: 85%;
+	top: 3px;
+	font-size: .8em;
+	z-index: 3;
+	}
 
 
 i.chevron{
 	position: relative;
-left: -42%;
+	left: -42%;
 
-top: -13px;
-font-size: .8em;
+	top: -13px;
+	font-size: .8em;
 
-z-index: 3;
-}
+	z-index: 3;
+	}
 
 
 p.vue{
 	position: relative;
-z-index: 10;
-top: 6px;
-}
+	z-index: 10;
+	top: 6px;
+	}
 
 p.feed{
 	position: relative;
@@ -346,51 +346,50 @@ p.contributors{
 
 }
 img.feed-1{
-position: absolute;
-top: 243px;
-width: 25%;
-border-top: 4px solid red;
-border-bottom: 4px solid red;
-left: 1px;
-}
+	position: absolute;
+	top: 243px;
+	width: 25%;
+	border-top: 4px solid red;
+	border-bottom: 4px solid red;
+	left: 1px;
+	}
 img.feed-2{
-position: absolute;
-top: 243px;
-width: 25%;
-border-top: 4px solid red;
-border-bottom: 5px solid red;
-left: 25%;
+	position: absolute;
+	top: 243px;
+	width: 25%;
+	border-top: 4px solid red;
+	border-bottom: 5px solid red;
+	left: 25%;
 
-}
+	}
 img.feed-3{
-position: absolute;
-top: 243px;
-width: 25%;
-border-top: 4px solid red;
-border-bottom: 4px solid red;
-left: 50%;
+	position: absolute;
+	top: 243px;
+	width: 25%;
+	border-top: 4px solid red;
+	border-bottom: 4px solid red;
+	left: 50%;
 
-
-}
+	}
 
 img.feed-4{
-position: absolute;
-top: 243px;
-width: 25%;
-border-top: 4px solid red;
-border-bottom: 5px solid red;
-left: 75%;
+	position: absolute;
+	top: 243px;
+	width: 25%;
+	border-top: 4px solid red;
+	border-bottom: 5px solid red;
+	left: 75%;
 
 
-}
+	}
 
 
 .vue-container{
 	border-top: 4px solid red;
-position: relative;
-top: 30px;
-background-color: #3f474f;
-}
+	position: relative;
+	top: 30px;
+	background-color: #3f474f;
+	}
 
 img.feed-5{
 	position: absolute;
@@ -398,7 +397,7 @@ img.feed-5{
 	left: 0;
 	z-index: 1;
 
-}
+	}
 
 
 
@@ -485,6 +484,44 @@ span.list-title{
 
 
 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1500px) {
+
+	img.intro-icons{
+		width: 27%;
+		max-width: 170px;
+		margin: 1%;
+
+	}
+	.branding {
+		width: 24.6%;
+		left: 71.6%;
+		top: 169px;
+		border: 1px solid white;
+		position: absolute;
+		border-radius: 4px;
+		z-index: 2;
+	}
+
+
+}
+
+
+
+
 @media(min-width:800px) {
 
 
@@ -514,46 +551,6 @@ line-height: 1.9em;
 
 }
 
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(min-width:1500px) {
-
-	img.intro-icons{
-		width: 27%;
-		max-width: 170px;
-		margin: 1%;
-
-	}
-	.branding {
-width: 24.6%;
-left: 71.6%;
-top: 169px;
-border: 1px solid white;
-position: absolute;
-border-radius: 4px;
-z-index: 2;
-}
-
-
-}
-
-
-
-@media (min-width:1000px) and (max-width: 1499px){
-
-}
 
 
 @media(max-width:767px) {
@@ -595,10 +592,10 @@ z-index: 2;
 			
 		}
 		.branding {
-width: 32.6%;
-left: 62.4%;
-top: 146px;
-}
+		width: 32.6%;
+		left: 62.4%;
+		top: 146px;
+		}
 		  
 	 
 
@@ -606,28 +603,41 @@ top: 146px;
 
 @media(max-width:600px) {
 
-.branding {
-left: 62.4%;
-top: 176px;
+	.branding {
+	left: 62.4%;
+	top: 176px;
 
-}
+	}
 }
 
 
 @media(max-width:550px) {
 
-.branding {
-left: 62%;
-top: 159px;
-}
+	.branding {
+	left: 62%;
+	top: 159px;
+	}
 
 }
+
+
+
+
 @media(max-width:500px) {
 
-.branding {
-left: 60.9%;
-top: 163px;
+	.branding {
+	left: 62%;
+	top: 163px;
+	}
+
+
 }
+@media(max-width:450px) {
+
+	.branding {
+	left: 60.9%;
+	top: 163px;
+	}
 
 
 }
