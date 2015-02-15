@@ -181,7 +181,7 @@ img.intro-icons{
 
 img.how-it-works{
 	position: absolute;
-	top: 75px;
+	top: 100px;
 	width: 95%;
 }
 
@@ -264,6 +264,9 @@ z-index: 2;
     }
 
 }
+
+
+
 div.content-3-container{
 	width: 26%;
 	 max-height: 328px; 
@@ -287,131 +290,6 @@ span.details-title{
 	z-index: 1;
 
 	}
-img.gallery-img-1{
-	width: 100%;
-	margin-top: -40%;
-	}
-
-img.contributor-1{
-	width: 22%;
-	border: 1px solid;
-	position: absolute;
-	margin-top: -12%;
-	display: inline;
-	left: 3px;
-	}
-
-img.contributor-2{
-	width: 22%;
-	border: 1px solid;
-	position: absolute;
-	margin-top: -12%;
-	display: inline;
-	left: 26%;
-	}
-
-img.contributor-3{
-	width: 22%;
-	border: 1px solid;
-	position: absolute;
-	margin-top: -12%;
-	display: inline;
-	}
-
-i.plus{
-	position: absolute;
-	left: 85%;
-	top: 3px;
-	font-size: .8em;
-	z-index: 3;
-	}
-
-
-i.chevron{
-	position: relative;
-	left: -42%;
-
-	top: -13px;
-	font-size: .8em;
-
-	z-index: 3;
-	}
-
-
-p.vue{
-	position: relative;
-	z-index: 10;
-	top: 6px;
-	}
-
-p.feed{
-	position: relative;
-	top: 194px;
-	z-index: 10;
-}
-
-p.contributors{
-	position: relative;
-	z-index: 10;
-	top: 43px;
-
-}
-img.feed-1{
-	position: absolute;
-	top: 243px;
-	width: 25%;
-	border-top: 4px solid red;
-	border-bottom: 4px solid red;
-	left: 1px;
-	}
-img.feed-2{
-	position: absolute;
-	top: 243px;
-	width: 25%;
-	border-top: 4px solid red;
-	border-bottom: 5px solid red;
-	left: 25%;
-
-	}
-img.feed-3{
-	position: absolute;
-	top: 243px;
-	width: 25%;
-	border-top: 4px solid red;
-	border-bottom: 4px solid red;
-	left: 50%;
-
-	}
-
-img.feed-4{
-	position: absolute;
-	top: 243px;
-	width: 25%;
-	border-top: 4px solid red;
-	border-bottom: 5px solid red;
-	left: 75%;
-
-
-	}
-
-
-.vue-container{
-	border-top: 4px solid red;
-	position: relative;
-	top: 30px;
-	background-color: #3f474f;
-	}
-
-img.feed-5{
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 1;
-
-	}
-
-
-
 
 
 
@@ -494,9 +372,9 @@ span.list-title{
 }
 
 
-
-	
-
+img.desktop-gif{
+	-webkit-filter: drop-shadow(0 0 20px white)
+}
 
 
 
