@@ -217,6 +217,15 @@ object.slide2-phone{
 }
 
 
+.mask{
+	position: absolute;
+	top: 100px
+	left:0;
+	width: 100%;
+	height: 100%;
+	color: blue;s
+}
+
 
 .phone-feature{
 	position: relative;
@@ -660,6 +669,10 @@ div.push{
 
 	top:185px;
 }
+.push-btn{
+
+			font-size: 1.5vw;
+		}
 
 
 
