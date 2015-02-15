@@ -185,7 +185,12 @@ img.how-it-works{
 	width: 95%;
 }
 
+.icons{
+	font-size: 6vw;
+	position: relative;
+	top: 8px;
 
+}
 
 
 h3.elevator{
@@ -543,8 +548,7 @@ line-height: 1.9em;
 	}
 
 	span.list-title{
-	
-	font-size: .75em;
+	font-size: .9em;
 	line-height: 1.7em;
 
 	}
@@ -573,10 +577,9 @@ border-color: black;
 }
 
 @media(min-width:1001px){
-	.iframe-replace{
-		display: none;
-
-	}
+	.icons{
+	font-size: 4vw;
+}
 
 }
 @media(max-width:1000px){
@@ -588,6 +591,7 @@ border-color: black;
 	.iframe-replace{
 	display:"";
 }
+
 
 }
 
