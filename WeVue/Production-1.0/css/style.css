@@ -179,9 +179,10 @@ img.intro-icons{
     }
 
 
-.animation-how-it-works{
-
-	
+img.how-it-works{
+	position: absolute;
+	top: 55px;
+	width: 100%;
 }
 
 
