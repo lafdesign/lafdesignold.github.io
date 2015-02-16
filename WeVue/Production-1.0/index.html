@@ -42,7 +42,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
@@ -93,6 +93,7 @@
     <header class="intro">
         <div class="intro-body">
             <div class="container-fluid">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading os-animation toBeAnimated" data-os-animation="fadeIn" data-os-animation-delay=".1s">WeVue</h1>
@@ -115,6 +116,7 @@
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -360,17 +362,7 @@
     <script src="js/app.js"></script>
     <script type="text/javascript" src="js/skrollr.min.js"></script>
     <script type="text/javascript">
-    if (navigator.userAgent.toLowerCase().indexOf("chrome") >= 0) {
-    $(window).load(function(){
-        $('input:-webkit-autofill').each(function(){
-            var text = $(this).val();
-            var name = $(this).attr('name');
-            $(this).after(this.outerHTML).remove();
-            $('input[name=' + name + ']').val(text);
-        });
-    });
-}
-
+ 
 
 
 
