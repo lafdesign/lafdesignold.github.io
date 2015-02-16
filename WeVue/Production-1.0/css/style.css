@@ -238,7 +238,7 @@ object.slide2-phone{
 
 .branding{
 width: 24.6%;
-left: 71.4%;
+left: 71.6%;
 top: 146px;
 border: 1px solid white;
 position: absolute;
@@ -485,8 +485,9 @@ border: 2px solid white;
 	}
 	.collect-content{
 
-	top:185px;
+	top:167px;
 }
+
 
 
 
@@ -500,6 +501,10 @@ border: 2px solid white;
 	.branding{
 		top:139px;
 	}
+
+	.collect-content{
+		top: 166px;
+	}
 	
 }
 
@@ -509,17 +514,17 @@ border: 2px solid white;
 
 	ul.features-1-list{
 	font-size: .4em;
-	line-height: 2.5em;
+	line-height: 1.8em;
 
 	}
 	ul.features-2-list{
-font-size: .37em;
-line-height: 1.9em;
+font-size: .5em;
+line-height: 1.3em;
 
 	}
 
 	span.list-title{
-	font-size: .9em;
+	font-size: .8em;
 	line-height: 1.7em;
 
 	}
@@ -673,6 +678,11 @@ img.screen-2 {
 position: absolute;
 left: 5.1%;
 width: 32.3%;
+}
+
+span.list-title {
+
+font-size: 4vw;
 }
 
 }
