@@ -466,6 +466,20 @@ border: 2px solid white;
 .desktop-about{
 	display: inline;
 }
+
+
+	ul.features-2-list-2{
+font-size: .5em;
+line-height: 1.3em;
+list-style: none;
+text-align: left;
+
+	}
+
+
+span.showcase-intext{
+	color: rgb(45, 45, 45);
+}
 @media(min-width:1500px) {
 
 	img.intro-icons{
