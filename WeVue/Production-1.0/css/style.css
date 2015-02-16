@@ -725,7 +725,9 @@ left: 6.1%;
 			top: 200px;
 
 }
-
+	div.intro-container{
+	font-size: 3vw;
+}
 
 }
 @media(max-width:450px) {
