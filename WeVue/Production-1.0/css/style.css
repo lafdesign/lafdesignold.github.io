@@ -1,3 +1,8 @@
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
 
 .slow{
 	 -webkit-animation-duration: 3s;
