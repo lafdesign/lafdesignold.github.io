@@ -1,6 +1,5 @@
-body{
-	overflow: auto;
-}
+
+
 
 .slow{
 	 -webkit-animation-duration: 3s;
@@ -679,20 +678,10 @@ line-height: 1.3em;
 }
 
 }
-@media(max-width:1200px){
+@media(max-width:1000px){
 
-.container {
-     padding-right: 0; /*15px in bootstrap.css*/
-     padding-left: 0;  /*idem*/
-     margin-right: auto;
-     margin-left: auto;
-}
-.container-fluid {
-     padding-right: 0; /*15px in bootstrap.css*/
-     padding-left: 0;  /*idem*/
-     margin-right: auto;
-     margin-left: auto;
-}
+
+
 }
 
 @media(max-width:767px) {
