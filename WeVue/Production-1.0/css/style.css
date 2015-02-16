@@ -1,4 +1,6 @@
-
+body{
+	margin-right:-20px; 
+}
 
 .slow{
 	 -webkit-animation-duration: 3s;
