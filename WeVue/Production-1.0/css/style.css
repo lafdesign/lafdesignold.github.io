@@ -1,5 +1,5 @@
 body{
-	margin-right:-20px; 
+	overflow: auto;
 }
 
 .slow{
