@@ -458,6 +458,14 @@ border: 2px solid white;
 	font-size: 2em;
 }
 
+
+.mobile-about{
+	display:none;
+}
+
+.desktop-about{
+	display: inline;
+}
 @media(min-width:1500px) {
 
 	img.intro-icons{
@@ -541,9 +549,23 @@ line-height: 1.9em;
 
 @media(max-width:767px) {
 
-		
+		img.how-it-works{
+	position: relative;
+	top: '';
+	width: 95%;
+	opacity:0;
+}
+.mobile-about{
+	display: inline;
 
+
+	}
+	.desktop-about{
+		display: none;
+	}
+	
 		img.desktop-gif{
+
 	display: none;
 
 }
