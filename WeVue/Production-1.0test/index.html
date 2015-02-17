@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="app">
 
 <head>
 
@@ -32,44 +32,15 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="js/angular.min.js"></script>
-
+    <script src="js/angular-ui-router.js"></script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <img src="img/wevue-icon.svg" class="main-logo">
-                </a>
-            </div>
-<!-- content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll os-animation" data-os-animation="fadeIn" data-os-animation-delay=".1s" href="#about"> About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll os-animation" data-os-animation="fadeIn" data-os-animation-delay=".2s" href="#features">Features</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll os-animation" data-os-animation="fadeIn" data-os-animation-delay=".3s" href="#contact">Discover</a>
-                    </li>
-                </ul>
-            </div>
-<!-- /.navbar-collapse -->
-        </div>
-<!-- /.container -->
-    </nav>
+<div class="wrapper" ng-app="app">
+<nav ng-include="'templates/navigation.html'"></nav>
 <!--main background layer -->
+
     <div class="sub-layer">
         <video class="video small-video" width="320" height="240" controls autoplay muted loop>
             <source src="http://s3.amazonaws.com/wevue-production/vues/published/001/705/279/382/640x480/vue.mp4?1408649337" type="video/mp4">Your browser does not support the video tag.
@@ -227,26 +198,8 @@
         </div>
     </section>
 <!-- Showcasue Section -->
-    <section id="showcase" class="content-section text-center">
-        <div class="showcase-section">
-            <div class="container">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>
-                    Showcase your company stories, told by the people who live them: <i class="fa fa-adjust"></i></h2>
-                    <img src="img/widget.png" class="widget" width="50%"> <br><i class="fa fa-upload fa-icons os-animation" data-os-animation="flash" data-os-animation-delay=".5s"></i><br>
-                    <p class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".5s"><i class="fa fa-check-circle-o"></i><span class="showcase-intext">On your website:</span> drop a few lines of code into any site, and easily moderate the content that goes from the app to your company culture page, or anywhere else on your website.</p>
-                   <!--  (Photo of widget - eventually actually plug in the widget)--> 
-                    <img src="img/showcase.gif" class="desktop-gif" width="50%" >
-                    <img src="img/desktop.png" class="desktop-png" width="50%" >
-                    <p class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".5s"> <i class="fa fa-check-circle-o"></i><span class="showcase-intext">On social media:</span> photos and videos shared from the app on social media drive traffic to a branded page that links to any relevant site about you company <br><i class="fa fa-retweet fa-icons os-animation " data-os-animation="rotateIn" data-os-animation-delay=".5s"></i><br>
-                    <img src="img/landing-page.png" class="landing-page" width="90%"></p>
-                    <a href="#contact" class="btn btn-circle page-scroll">
-                        <i class="fa fa-angle-double-down animated"></i>
-                    </a>
-                </div>
-                
-            </div>
-        </div>
+    <section id="showcase" class="content-section text-center" ng-include="'templates/showcase.html'">
+       
     </section>
 <!-- Contact Section -->
     <section id="contact" class="container content-section text-center" ng-app="contact-app">
@@ -292,11 +245,8 @@
 <!-- Map Section -->
     <div id="map"></div>
 <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".1s">Copyright &copy; WeVue 2015</p>
-        </div>
-    </footer>
+    <footer ng-include="'templates/footer.html'"></footer>
+    </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>  
     <script src="js/waypoints.min.js"></script>
@@ -308,7 +258,11 @@
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB1iSEw5Mm1jw-h5WR2xBZP7yLJDDEveCY&sensor=false&extension=.js'></script> 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+    <script src="js/main-app.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/conrollers/securityControl.js"></script>
+    <script src="js/conrollers/showcaseControl.js"></script>
+    <script src="js/conrollers/formControl.js"></script>
     <script type="text/javascript">
 
     
