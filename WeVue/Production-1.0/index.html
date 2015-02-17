@@ -148,8 +148,7 @@
                         Reminder:</p>
                         <p class="push-text text-center os-animation" data-os-animation="pulse" data-os-animation-delay="1.7s">
                         Staff Meeting at 3:00 today.  
-                        </p>
-                        <a class="btn btn-default push-btn" width="30%"> close</a><a class="push-btn btn btn-default" width="30%">view</a>
+                         <span class="slide blue-text">slide to view</span></p>
                     </div>
                     <img src="img/screen2.jpeg" class="screen-2">              
                     <ul class="features-1-list"><span class="list-title os-animation" data-os-animation="fadeIn " data-os-animation-delay=".3s" text-align="center">Communicating with photos, videos, and text around topics or events is Great for:</span>
@@ -241,10 +240,11 @@
                     <img src="img/desktop.png" class="desktop-png" width="50%" >
                     <p class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".5s"> <i class="fa fa-check-circle-o"></i><span class="showcase-intext">On social media:</span> photos and videos shared from the app on social media drive traffic to a branded page that links to any relevant site about you company <br><i class="fa fa-retweet fa-icons os-animation " data-os-animation="rotateIn" data-os-animation-delay=".5s"></i><br>
                     <img src="img/landing-page.png" class="landing-page" width="90%"></p>
+                    <a href="#contact" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
                 </div>
-                <a href="#contact" class="btn btn-circle page-scroll">
-                    <i class="fa fa-angle-double-down animated"></i>
-                </a>
+                
             </div>
         </div>
     </section>
@@ -256,52 +256,60 @@
                 <p class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.8s"> <i class="fa fa-circle-thin os-animation blue-text" data-os-animation="pulse" data-os-animation-delay="2s"></i>Feel free to email us to provide some feedback, give us suggestions, or to just say hello!</p>
                 <p><a class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s" href="mailto:#">info@wevu.com</a>
                 </p>
-                <fieldset >
-                <form 
-                
-                    name="emailForm" 
-                    ng-submit="ctrl.submit(emailForm.$valid, data)"
-                    ng-submit="addNew()"
-                    novilidate
 
-                     >
-
-
-                    <div class="btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"
-
-                    type="submit" 
-           
-                    ng-click="addNewEvent()"
+<div class="btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"
 
                     > Request Info
+    <form 
+    name="formInfo"
+    class="form-horizontal" 
+    ng-submit="addNew()"
 
-                    <br>
-                    <div>
-                        <span ng-show="emailForm.name.$dirty && emailForm.name.$error.required">Required!</span><br>
-                        <input type="text" placeholder="Enter your Name" name="name" ng-model="user.name" required>
-                    </div>
-                    <div>
-                        <span ng-show="emailForm.company.$dirty &&  emailForm.company.$error.required">Required!</span><br>
-                        <input type="text" placeholder="Company or Project" name="company" ng-model="user.company" required>
-                    </div>
-                    <div>
-                        <span ng-show=" emailForm.email.$error.email">Not an Email!</span><br>
-                        <input type="email" placeholder="Enter your Email" name="email" ng-model="user.email" required>
-                    </div>
-                    </div>
+    >
+                 
+  <div class="form-group">
+  
+ 
+      <input type="text" class="form-control" id="inputName" placeholder="Your Name" ng-model="formInfo.Name" required>
+
+  </div>
 
 
-                    <br>
-                    <br>
-                    <button type="submit" ng-disabled="emailForm.$invalid" class="btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"
+  <div class="form-group">
+
+  
+      <input type="text" class="form-control" id="inputCompany" placeholder="Company or Project" ng-model="formInfo.Company" required>
+ 
+  </div>
+
+  <div class="form-group">
+  
+
+      <input  type="email" class="form-control" id="inputEmail" placeholder="Email" ng-model="formInfo.Email" required>
+
+  </div>
+  
+ 
+
+</form>
+
+
+
+</div>
+
+<br>
+<br>
+
+  <button type="submit" ng-disabled="formInfo.$invalid" class="btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"
 
 
 
                     > Send</button>
+ 
 
 
-                </form>
-                </fieldset>
+
+                      
                 
             </div>
         </div>
