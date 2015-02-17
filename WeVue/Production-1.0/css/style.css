@@ -478,13 +478,12 @@ div.push{
 
 span.push-title{
 	font-family: 'Roboto', sans-serif;
-	font-size: 2.7vw;
-
+	font-size: 2vw;
 }
 
 span.push-text{
 	font-family: 'Roboto', sans-serif;
-	font-size: 2vw;
+	font-size: 1.5vw;
 
 }
 
@@ -516,6 +515,7 @@ ul{
 
 h2.h2-features{
 	text-align: left;
+	 
 }
 
 .fa-icons{
@@ -639,6 +639,10 @@ line-height: 1.3em;
 
 @media(max-width:767px) {
 
+	h2.h2-features{
+	text-align: left;
+	font-size:4vw; 
+}
 		img.how-it-works{
 	position: relative;
 	top: '';
