@@ -1,6 +1,6 @@
 angular
 	.module('app')
-	.controller('showcaseControl', ['$scope', function ($scope) {
+	.controller('showcaseController', ['$scope', function ($scope) {
 				$scope.title = "Showcase";
 				
 			}]);
