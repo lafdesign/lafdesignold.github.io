@@ -495,10 +495,16 @@ border: 2px solid white;
 
 }
 
+ul{
+	text-align: left;
+}
 
+h2.h2-features{
+	text-align: left;
+}
 
 .fa-icons{
-	font-size: 2em;
+	font-size: 1.5em;
 	color: #219ab3;
 
 }
