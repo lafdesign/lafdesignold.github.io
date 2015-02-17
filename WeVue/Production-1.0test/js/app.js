@@ -17,4 +17,9 @@ angular
 			templateUrl: 'templates/showcase.html',
 			controller: 'showcaseControl'
 		})
+		  .state('form', {
+			url:'/form',
+			templateUrl: 'templates/form.html',
+			controller: 'FormControl'
+		})
 	}])
