@@ -59,7 +59,11 @@ form{
 
 
 
-
+h1.brand-heading{
+	font-family: 'Roboto', sans-serif;
+	top: 75px;
+	position: relative;
+}
 
 
 
@@ -75,7 +79,7 @@ form{
 p.intro-text{
 	font-family: 'Roboto', sans-serif;
 	position: absolute;
-	top: 110px;
+	top: 564px;
 	left: -5%;
 	font-size: 1.7vw;
 
@@ -83,8 +87,8 @@ p.intro-text{
 p.intro-text-1{
 	font-family: 'Roboto', sans-serif;
 	position: absolute;
-	top: 200px;
-	left: 65%;
+	top: 669px;
+	left: 66%;
 	font-size: 1.6vw;
 
 }
@@ -92,7 +96,7 @@ p.intro-text-1{
 p.intro-text-2{
 	font-family: 'Roboto', sans-serif;
 	position: absolute;
-	top: 160px;
+	top: 637px;
 	left: 30%;
 	font-size: 1.6vw;
 
@@ -101,17 +105,13 @@ p.intro-text-2{
 p.intro-text-3{
 	font-family: 'Roboto', sans-serif;
 	position: absolute;
-	top: 182px;
-	left: 5%;
+	top: 603px;
+	left: 22%;
 	font-size: 1.6vw;
 
 }
 
 
-
-.brand-heading{
-	font-family: 'Roboto', sans-serif;
-}
 
 
 div.sub-layer{
