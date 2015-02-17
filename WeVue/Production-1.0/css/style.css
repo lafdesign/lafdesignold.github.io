@@ -74,7 +74,9 @@ h1.brand-heading{
 	top: 45px;
 	position: relative;
 }
-
+ h3{
+ 	font-size: 1em;
+ }
 
 
 .main-logo{
@@ -862,7 +864,7 @@ margin-top: 10%;
 
 .collect-content{
 
-	top:194px;
+	top:125px;
 }
 
 
