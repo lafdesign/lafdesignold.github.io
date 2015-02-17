@@ -256,15 +256,25 @@
                 <p class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.8s"> <i class="fa fa-circle-thin os-animation blue-text" data-os-animation="pulse" data-os-animation-delay="2s"></i>Feel free to email us to provide some feedback, give us suggestions, or to just say hello!</p>
                 <p><a class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s" href="mailto:#">info@wevu.com</a>
                 </p>
-                <fieldset>
+                <fieldset >
                 <form 
                 
                     name="emailForm" 
                     ng-submit="ctrl.submit(emailForm.$valid, data)"
+                    ng-submit="addNew()"
                     novilidate
 
                      >
-                    <button type="submit" ng-disabled="emailForm.$invalid" class="btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"> Request Info</button>
+
+
+                    <div class="btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"
+
+                    type="submit" 
+           
+                    ng-click="addNewEvent()"
+
+                    > Request Info
+
                     <br>
                     <div>
                         <span ng-show="emailForm.name.$dirty && emailForm.name.$error.required">Required!</span><br>
@@ -278,12 +288,21 @@
                         <span ng-show=" emailForm.email.$error.email">Not an Email!</span><br>
                         <input type="email" placeholder="Enter your Email" name="email" ng-model="user.email" required>
                     </div>
+                    </div>
+
 
                     <br>
-                    <button type="submit" ng-disabled="emailForm.$invalid" class="btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"> Send</button>
+                    <br>
+                    <button type="submit" ng-disabled="emailForm.$invalid" class="btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"
+
+
+
+                    > Send</button>
+
 
                 </form>
                 </fieldset>
+                
             </div>
         </div>
     </section>
