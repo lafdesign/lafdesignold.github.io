@@ -1,6 +1,6 @@
 angular
 	.module('app')
-	.controller('securityController', ['$scope', function ($scope) {
+	.controller('SecurityController', ['$scope', function ($scope) {
 				$scope.title = "Security";
 				
 			}]);

@@ -1,6 +1,6 @@
 angular
 	.module('app')
-	.controller('homeController', ['$scope', function ($scope) {
+	.controller('HomeController', ['$scope', function ($scope) {
 				$scope.title = "home";
 				
 			}]);

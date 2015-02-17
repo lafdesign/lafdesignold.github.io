@@ -9,21 +9,21 @@ angular
 		.state('home', {
 			url:'/',
 			templateUrl: 'templates/home.html',
-			controller: 'homeController'
+			controller: 'HomeController'
 		})
 		  .state('security', {
 			url:'/security',
 			templateUrl: 'templates/security.html',
-			controller: 'securityController'
+			controller: 'SecurityController'
 		})
 		  .state('showcase', {
 			url:'/showcase',
 			templateUrl: 'templates/showcase.html',
-			controller: 'showcaseController'
+			controller: 'ShowcaseController'
 		})
 		  .state('form', {
 			url:'/form',
 			templateUrl: 'templates/form.html',
-			controller: 'formController'
+			controller: 'FormController'
 		})
 	}])
