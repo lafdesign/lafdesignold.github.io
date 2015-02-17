@@ -88,40 +88,7 @@ h1.brand-heading{
 
 }
 
-p.intro-text{
-	font-family: 'Roboto', sans-serif;
-	position: absolute;
-	top: 564px;
-	left: -5%;
-	font-size: 1.7vw;
 
-}
-p.intro-text-1{
-	font-family: 'Roboto', sans-serif;
-	position: absolute;
-top: 555px;
-left: 69%;
-	font-size: 1.6vw;
-
-}
-
-p.intro-text-2{
-	font-family: 'Roboto', sans-serif;
-	position: absolute;
-top: 581px;
-left: 40%;
-	font-size: 1.6vw;
-
-
-}
-p.intro-text-3{
-	font-family: 'Roboto', sans-serif;
-	position: absolute;
-top: 605px;
-left: 25%;
-	font-size: 1.6vw;
-
-}
 
 
 
@@ -864,7 +831,7 @@ margin-top: 10%;
 
 .collect-content{
 
-	top:125px;
+	top:100px;
 }
 
 
