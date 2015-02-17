@@ -2,11 +2,15 @@ angular
 	.module('app', [
 		'ui.router'
 	])
-
-	.config(['$urlRouterProvier', '$stateProvider', function ($stateProvider, $urlRouterProvier){
+	.config(['$urlRouterProvier', '$stateProvider', function($stateProvider, $urlRouterProvier) {
 		$urlRouterProvier.otherwise('/');
 
 		$stateProvider
+		.state('home', {
+			url:'/',
+			templateUrl: 'templates/home.html',
+			controller: 'SecurityControl'
+		})
 		  .state('security', {
 			url:'/security',
 			templateUrl: 'templates/security.html',
