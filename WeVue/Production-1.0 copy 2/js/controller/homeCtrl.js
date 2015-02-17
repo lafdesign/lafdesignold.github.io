@@ -1,5 +1,5 @@
 angular
-	.module('app')
+	.module('wvapp')
 	.controller('homeCtrl', ['$scope', 'signitures', function($scope, signitures) {
 		$scope.title = "gallery";
 		$scope.signitures = signitures;
