@@ -567,7 +567,7 @@ text-align: center;
 h3.push{
 position: absolute;
 left: 2.5vw;
-font-size: 2.3vw;
+font-size: 2vw;
 top: 2vh;
 
 }
@@ -587,7 +587,7 @@ border-radius: 5px;
 
 h3.pushText{
     margin: 1vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: lavenderblush;
     text-align: center;
     }
