@@ -1,0 +1,6 @@
+body, html {
+	background-image: url(../img/background.png);
+	margin: auto;
+	width: 1000px;
+	color: black;
+}
