@@ -6,7 +6,7 @@ angular
 		$urlRouterProvider.otherwise('/');
 		$stateProvider
 			.state('home', {
-			url: '/',
+			url: '/home',
 			templateUrl: 'template/home.html',
 			controller: 'homeCtrl'	
 			
