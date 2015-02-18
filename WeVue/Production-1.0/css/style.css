@@ -65,6 +65,10 @@ h1.brand-heading{
 	font-family: 'Roboto', sans-serif;
 	top: 45px;
 	position: relative;
+	-webkit-filter: drop-shadow(0 0 4px white);
+	-moz-filter: drop-shadow(0 0 4px white);
+	-o-filter: drop-shadow(0 0 4px white);
+	filter: drop-shadow(0 0 4px white);
 	}
  
 .main-logo{
@@ -205,7 +209,7 @@ object.slide2-phone{
 .branding{
 	width: 24.6%;
 	left: 71.6%;
-	top: 157px;
+	top: 165px;
 	border: 1px solid white;
 	position: absolute;
 	border-radius: 4px;
@@ -335,6 +339,7 @@ img.widget{
 	display: inline;
 	border: 1px solid white; 
 	border-radius: 5px;
+	background-color: black;
 	}
 img.landing-page{
 	display: none;
@@ -437,6 +442,56 @@ h3.quotes{
 	}
 p.footer{
 	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+	}
+img.push-img{
+	opacity: .8;
+	}
+i.fa-upload{
+	-webkit-filter: drop-shadow(0 0 5px white);
+	-moz-filter: drop-shadow(0 0 5px white);
+	-o-filter: drop-shadow(0 0 5px white);
+	filter: drop-shadow(0 0 5px white);
+	}
+
+img.intro-icons{
+	-webkit-filter: drop-shadow(0 0 5px white);
+	-moz-filter: drop-shadow(0 0 5px white);
+	-o-filter: drop-shadow(0 0 5px white);
+	filter: drop-shadow(0 0 5px white);
+	}
+
+img.showcase-phone{
+	position: relative;
+	width: 20%;
+	padding: 1%;
+	
+	}
+i.showcase-icons{
+	position: absolute;
+	}
+i.lock{
+	left: 54%;
+font-size: 2.5em;
+top: 380px;
+transform: rotate(-15deg);
+}
+i.fa-bullhorn{
+	left: 33%;
+top: 216px;
+font-size: 2em;
+transform: rotatey(180deg);
+}
+
+p.lock-text{
+	position: absolute;
+left: 68%;
+top: 320px;
+}
+
+p.horn-text{
+	position: absolute;
+top: 225px;
 }
 @media(min-width:1500px) {
 
@@ -506,6 +561,9 @@ p.footer{
 }
 
 @media(max-width:1000px){
+	i.lock{
+		top: 315px;
+	}
 
 }
 
@@ -614,6 +672,9 @@ p.footer{
 	span.list-title {
 		font-size: 4vw;
 		}
+	img.widget{
+		width: 100%;
+		}
 }
 
 @media(max-width:550px) {
@@ -667,6 +728,22 @@ p.footer{
 		}
 	div.intro-container{
 		font-size: 3vw;
+		}
+	i.lock{
+		top: 307px;
+		}
+	i.fa-bullhorn{
+		top: 237px;
+		font-size: 3em;
+		}
+	p.lock-text{
+		top: 270px;
+		left: 60%;
+		}
+	p.horn-text {
+		position: absolute;
+		top: 216px;
+		left: 0;
 		}
 }
 
