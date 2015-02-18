@@ -139,11 +139,7 @@
                     <h2 class="feature-1-title">A <span class="blue-text">Private</span> Social Network for your company: </h2>
                     <img src="img/iphone-no-center.svg" width="30%" class=" phone-feature pull-left">
                     <div class=" os-animation push" data-os-animation="bounceInDown" data-os-animation-delay="3.5s">
-                        <p class="text-center push-title os-animation" data-os-animation="pulse" data-os-animation-delay="1.5s">
-                        Reminder:</p>
-                        <p class="push-text text-center os-animation" data-os-animation="pulse" data-os-animation-delay="1.7s">
-                        Staff Meeting at 3:00 today.  
-                         <span class="slide blue-text">slide to view</span></p>
+                        <img src="img/push-1.png" width="100%">
                     </div>
                     <img src="img/screen2.jpeg" class="screen-2">              
                     <ul class="features-1-list"><span class="list-title os-animation" data-os-animation="fadeIn " data-os-animation-delay=".3s" text-align="center">Communicating with photos, videos, and text around topics or events is Great for:</span>
@@ -257,6 +253,8 @@
                     <form 
                     name="formInfo"
                     class="form-horizontal" 
+                    ng-submit="submit()"
+
                     novalidate>                 
                         <div class="form-group">
                             <input type="text" class="form-control" id="inputName" placeholder="Your Name" ng-model="formInfo.Name" required>
@@ -271,9 +269,10 @@
                 </div>
                 <br>
                 <br>
-                <button type="submit" ng-disabled="formInfo.$invalid" class="btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"
-                > Send</button>
+                <input type="submit" ng-disabled="formInfo.$invalid" class="btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"
+                ></input>
             </div>
+            {{formInfo}}
         </div>
     </section>
 <!-- Map Section -->
