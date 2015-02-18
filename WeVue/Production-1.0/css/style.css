@@ -340,6 +340,8 @@ img.widget{
 	border: 1px solid white; 
 	border-radius: 5px;
 	background-color: black;
+	margin-top: 2%;
+
 	}
 img.landing-page{
 	display: none;
@@ -472,27 +474,46 @@ i.showcase-icons{
 	}
 i.lock{
 	left: 54%;
-font-size: 2.5em;
-top: 380px;
-transform: rotate(-15deg);
-}
+	font-size: 2.5em;
+	top: 380px;
+	-webkit-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+	}
 i.fa-bullhorn{
 	left: 33%;
-top: 216px;
-font-size: 2em;
-transform: rotatey(180deg);
-}
+	top: 216px;
+	font-size: 2em;
+	-webkit-transform: rotatey(180deg);
+	-o-transform: rotatey(180deg);
+	-moz-transform: rotatey(180deg);
+	transform: rotatey(180deg);
+	}
 
 p.lock-text{
 	position: absolute;
-left: 68%;
-top: 320px;
-}
+	left: 68%;
+	top: 320px;
+	color: rgb(45, 45, 45);
+	font-size: 0.6em;
+	}
 
 p.horn-text{
 	position: absolute;
-top: 225px;
-}
+	top: 225px;
+	color:rgb(45, 45, 45);
+	font-size: 0.6em;
+	}
+
+img.showcase-wevue{
+	position: absolute;
+	width: 14%;
+	left: 42.5%;
+	top: 10%;
+	}
+
+
 @media(min-width:1500px) {
 
 	img.intro-icons{
@@ -733,17 +754,24 @@ top: 225px;
 		top: 307px;
 		}
 	i.fa-bullhorn{
-		top: 237px;
+		top: 250px;
 		font-size: 3em;
 		}
 	p.lock-text{
 		top: 270px;
 		left: 60%;
+		color: #fff;
+		font-size: 1.2em;
 		}
 	p.horn-text {
 		position: absolute;
 		top: 216px;
 		left: 0;
+		color: #fff;
+		font-size:1.2em;
+		}
+		img.showcase-wevue {
+		top: 15%;
 		}
 }
 
