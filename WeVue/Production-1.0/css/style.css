@@ -808,7 +808,8 @@ margin-top: 10%;
 
 }
 div.quote-container{
-	min-height: 100px;
+	min-height: 80px;
+	max-height: 150px;
 }
 
 }
