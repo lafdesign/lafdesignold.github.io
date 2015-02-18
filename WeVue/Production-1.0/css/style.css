@@ -65,10 +65,6 @@ h1.brand-heading{
 	font-family: 'Roboto', sans-serif;
 	top: 45px;
 	position: relative;
-	-webkit-filter: drop-shadow(0 0 4px white);
-	-moz-filter: drop-shadow(0 0 4px white);
-	-o-filter: drop-shadow(0 0 4px white);
-	filter: drop-shadow(0 0 4px white);
 	}
  
 .main-logo{
@@ -456,12 +452,6 @@ i.fa-upload{
 	filter: drop-shadow(0 0 5px white);
 	}
 
-img.intro-icons{
-	-webkit-filter: drop-shadow(0 0 5px white);
-	-moz-filter: drop-shadow(0 0 5px white);
-	-o-filter: drop-shadow(0 0 5px white);
-	filter: drop-shadow(0 0 5px white);
-	}
 
 img.showcase-phone{
 	position: relative;
@@ -482,7 +472,7 @@ i.lock{
 	transform: rotate(-15deg);
 	}
 i.fa-bullhorn{
-	left: 33%;
+	left: 31.5%;
 	top: 216px;
 	font-size: 2em;
 	-webkit-transform: rotatey(180deg);
@@ -584,6 +574,9 @@ img.showcase-wevue{
 @media(max-width:1000px){
 	i.lock{
 		top: 315px;
+	}
+	i.fa-bullhorn{
+	left: 33%;
 	}
 
 }
