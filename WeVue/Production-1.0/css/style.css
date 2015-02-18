@@ -523,7 +523,13 @@ div.switch-out{
 	min-height: 100px;
 }
 h3{
- 	font-size: .8em;
+ 	font-size: 1.8em;
+ }
+
+ .quotes2{
+ 
+font-size: .65em;
+text-align: left;
  }
 
  div.quote-container{
@@ -582,7 +588,7 @@ h3{
  }
 
 	ul.features-1-list{
-	font-size: .4em;
+	font-size: .5em;
 	line-height: 1.8em;
 
 	}
@@ -593,7 +599,7 @@ line-height: 1.3em;
 	}
 
 	span.list-title{
-	font-size: .8em;
+	font-size: .9hem;
 	line-height: 1.7em;
 
 	}
