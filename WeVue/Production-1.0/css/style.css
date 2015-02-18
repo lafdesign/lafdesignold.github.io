@@ -259,7 +259,7 @@ object.slide2-phone{
 .branding{
 width: 24.6%;
 left: 71.6%;
-top: 146px;
+top: 157px;
 border: 1px solid white;
 position: absolute;
 border-radius: 4px;
@@ -527,7 +527,7 @@ h3{
  }
 
  .quotes2{
- 
+
 font-size: .65em;
 text-align: left;
  }
@@ -628,6 +628,11 @@ line-height: 1.3em;
 }
 
 @media(max-width:767px) {
+	 .quotes2{
+ 
+font-size: 1em;
+text-align: left;
+ }
 	 h3{
  	font-size: 1em;
  }
