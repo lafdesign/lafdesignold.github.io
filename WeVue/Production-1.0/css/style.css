@@ -520,6 +520,14 @@ text-align: left;
 span.showcase-intext{
 	color: rgb(45, 45, 45);
 }
+
+div.switch-out{
+	min-height: 100px;
+}
+
+
+
+
 @media(min-width:1500px) {
 
 	img.intro-icons{
