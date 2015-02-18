@@ -74,9 +74,7 @@ h1.brand-heading{
 	top: 45px;
 	position: relative;
 }
- h3{
- 	font-size: 1em;
- }
+ 
 
 
 .main-logo{
@@ -524,7 +522,9 @@ span.showcase-intext{
 div.switch-out{
 	min-height: 100px;
 }
-
+h3{
+ 	font-size: .8em;
+ }
 
 
 
@@ -560,6 +560,7 @@ div.switch-out{
 
 @media(min-width:800px) and (max-width: 999px) {
 
+
 	.branding{
 		top:139px;
 	}
@@ -572,7 +573,9 @@ div.switch-out{
 
 
 @media(min-width:800px) {
-
+h3{
+ 	font-size: .8em;
+ }
 
 	ul.features-1-list{
 	font-size: .4em;
@@ -615,6 +618,9 @@ line-height: 1.3em;
 }
 
 @media(max-width:767px) {
+	 h3{
+ 	font-size: 1em;
+ }
 
 	h2.h2-features{
 	text-align: left;
