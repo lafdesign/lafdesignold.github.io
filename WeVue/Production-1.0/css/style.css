@@ -321,7 +321,10 @@ span.list-title{
 	}
 
 img.desktop-gif{
-	-webkit-filter: drop-shadow(0 0 20px white)
+	-webkit-filter: drop-shadow(0 0 1px white);
+	-moz-filter: drop-shadow(0 0 1px white);
+	-o-filter: drop-shadow(0 0 1px white);
+	filter: drop-shadow(0 0 1px white);
 	}
 
 img.desktop-png{
@@ -329,7 +332,7 @@ img.desktop-png{
 	}
 
 img.widget{
-	display: none;
+	display: inline;
 	border: 1px solid white; 
 	border-radius: 5px;
 	}
@@ -379,7 +382,7 @@ img.screen-2{
 	z-index: 1;
 	top: 166px;
 	border: 2px solid white;
-
+	border-radius: 4px;
 	}
 
 h2.h2-features{
@@ -421,16 +424,20 @@ h3{
  	font-size: 1.8em;
  	}
 
- .quotes2{
+.quotes2{
 	font-size: .65em;
 	text-align: left;
  	}
 
- div.quote-container{
+div.quote-container{
  	min-height: 200px;
  	}
-
-
+h3.quotes{
+	font-size: 1.8em;
+	}
+p.footer{
+	font-size: 1em;
+}
 @media(min-width:1500px) {
 
 	img.intro-icons{
