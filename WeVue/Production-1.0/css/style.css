@@ -748,27 +748,28 @@ img.showcase-wevue{
 		font-size: 3vw;
 		}
 	i.lock{
-		top: 307px;
+		top: 317px;
 		}
 	i.fa-bullhorn{
-		top: 250px;
+		top: 270px;
 		font-size: 3em;
 		}
 	p.lock-text{
-		top: 270px;
+		top: 280px;
 		left: 60%;
 		color: #fff;
 		font-size: 1.2em;
 		}
 	p.horn-text {
 		position: absolute;
-		top: 246px;
+		top: 266px;
 		left: 0;
 		color: #fff;
 		font-size:1.2em;
 		}
 		img.showcase-wevue {
-		top: 15%;
+
+		display: none;
 		}
 }
 
