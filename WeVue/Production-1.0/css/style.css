@@ -526,6 +526,10 @@ h3{
  	font-size: .8em;
  }
 
+ div.quote-container{
+ 	min-height: 200px;
+ }
+
 
 
 @media(min-width:1500px) {
@@ -803,7 +807,9 @@ top: 105px;
 margin-top: 10%;
 
 }
-
+div.quote-container{
+	min-height: 100px;
+}
 
 }
 
