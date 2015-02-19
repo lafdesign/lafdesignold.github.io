@@ -730,7 +730,29 @@ img.showcase-wevue{
 		}
 
 }
+@media(max-width:840px) {
+		img.widget {
+		width: 31%;
+		position: relative;
+		top: -18px;
+		left: 43%;
+		}
+	.widget-text {
+		position: absolute;
+		left: 7%;
+		top: 210px;
+		width: 65%;
+		}
+	img.landing-page{
+		top: 46%;
+		}
+	.landing-sample-text {
 
+		left: 36%;
+		top: 62%;
+		}
+
+}
 @media(max-width:767px) {
 	.quotes2{
 		font-size: 1em;
