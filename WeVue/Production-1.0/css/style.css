@@ -886,11 +886,10 @@ top: 307px;
 background-color: rgb(102, 102, 102);
 }
 .widget-text {
- position: absolute; 
-left: 15%; 
-top: 64%;
-
-text-align: ''; 
+width: 90%;
+position: absolute;
+left: 5%;
+top: 67%;
 }
 img.desktop {
  position: relative; 
@@ -899,24 +898,20 @@ top: 170px;
  
 }
 .landing-sample-text {
- position: absolute;
-width: 70%;
+width: 90%;
 text-align: left;
-left: 15%;
-top: 110%;
+left: 5%;
+top: 111%;
 
 }
 img.landing-page {
-border-radius: 5px; 
-position: absolute; 
-
- top: 88%;
+top: 92%;
 
 }
 a.to-contact {
 position: relative;
 left: 0%;
-top: 307px;
+top: 310px;
 }
 }
 @media(max-width:550px) {
