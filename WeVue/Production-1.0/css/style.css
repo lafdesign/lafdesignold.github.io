@@ -248,7 +248,7 @@ object.slide2-phone{
 
 .branding{
 	width: 24.6%;
-	left: 71.3%;
+	left: 71.6%;
 	top: 138px;
 	border: 1px solid white;
 	position: absolute;
@@ -281,10 +281,16 @@ object.slide2-phone{
     body .gwd-gen-on9ggwdanimation {
       -webkit-animation: gwd-gen-on9ggwdanimation_gwd-keyframes 7s linear 0s infinite normal forwards;
     }
-
+.branding-1{
+	top: 160px;;
+	}
 .collect-content{
 	top:165px;
 	}
+.push-li{
+	position: relative;
+	left: -2%;
+}
 
 div.content-3-container{
 	width: 26%;
@@ -451,6 +457,9 @@ h2.h2-features{
 .blue-text{
 	color: #219ab3;
 	}
+.blue-text-light{
+	color:#E4FFFA;
+}
 
 .mobile-about{
 	display:none;

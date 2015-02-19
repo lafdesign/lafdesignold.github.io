@@ -31,7 +31,7 @@
                 ++quoteIndex;
                 quotes.eq(quoteIndex % quotes.length)
                     .fadeIn(2000)
-                    .delay(1000)
+                    .delay(4300)
                     .fadeOut(2000, showNextQuote);
             }
             showNextQuote();
