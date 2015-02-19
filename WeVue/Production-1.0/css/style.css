@@ -731,26 +731,45 @@ img.showcase-wevue{
 
 }
 @media(max-width:840px) {
+	#showcase{
+		height: 1300px;
+	}
 		img.widget {
-		width: 31%;
-		position: relative;
-		top: -18px;
-		left: 43%;
-		}
+		width: 60%;
+position: relative;
+top: -18px;
+left: 1%;
+}
 	.widget-text {
-		position: absolute;
-		left: 7%;
-		top: 210px;
-		width: 65%;
-		}
+	
+position: absolute;
+left: 20%;
+top: 73%;
+width: 65%;
+}
+	img.desktop{
+		position: relative;
+left: 10%;
+width: 80%;
+top: 74px
+
+	}
 	img.landing-page{
-		top: 46%;
+		
+top: 94%;
+width: 70%;
+left: 15%;
+
 		}
 	.landing-sample-text {
-
-		left: 36%;
-		top: 62%;
+left: 20%;
+top: 140%;
 		}
+	a.to-contact{
+		position: relative;
+left: -40%;
+top: 307px;
+	}
 
 }
 @media(max-width:767px) {
@@ -861,8 +880,45 @@ img.showcase-wevue{
 	img.widget{
 		width: 100%;
 		}
-}
 
+		img.widget {
+
+background-color: rgb(102, 102, 102);
+}
+.widget-text {
+ position: absolute; 
+left: 15%; 
+top: 64%;
+
+text-align: ''; 
+}
+img.desktop {
+ position: relative; 
+ 
+top: 170px;
+ 
+}
+.landing-sample-text {
+ position: absolute;
+width: 70%;
+text-align: left;
+left: 15%;
+top: 110%;
+
+}
+img.landing-page {
+border-radius: 5px; 
+position: absolute; 
+
+ top: 88%;
+
+}
+a.to-contact {
+position: relative;
+left: 0%;
+top: 307px;
+}
+}
 @media(max-width:550px) {
 	.branding {
 		left: 62%;
