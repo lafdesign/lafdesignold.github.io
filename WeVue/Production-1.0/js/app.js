@@ -25,7 +25,7 @@
             showNextQuote();
         })();
 (function() {
-            var quotes = $(".showcase-img");
+            var quotes = $(".branding-img");
             var quoteIndex = -1;
             function showNextQuote() {
                 ++quoteIndex;
@@ -36,7 +36,18 @@
             }
             showNextQuote();
         })();
-
+(function() {
+            var quotes = $(".features-img");
+            var quoteIndex = -1;
+            function showNextQuote() {
+                ++quoteIndex;
+                quotes.eq(quoteIndex % quotes.length)
+                    .fadeIn(1500)
+                    .delay(1500)
+                    .fadeOut(1500, showNextQuote);
+            }
+            showNextQuote();
+        })();
 
 onScrollInit( $('.os-animation') );
 
