@@ -211,7 +211,7 @@ img.intro-icons{
 	    }
 
 img.how-it-works{
-	position: absolute;
+	position: relative;
 	top: 100px;
 	width: 95%;
 	opacity:0;
@@ -284,9 +284,7 @@ object.slide2-phone{
     body .gwd-gen-on9ggwdanimation {
       -webkit-animation: gwd-gen-on9ggwdanimation_gwd-keyframes 7s linear 0s infinite normal forwards;
     }
-.branding-1{
-	top: 160px;;
-	}
+
 .collect-content{
 	top:165px;
 	}
@@ -663,13 +661,18 @@ img.showcase-wevue{
 	img.landing-page{
 	top: 56%;
 	}
+	.branding-1st {
+top: 157px;
+left: 71.6%;
+}
 }
 
 
 @media(min-width:801px) and (max-width: 999px) {
 
 	.branding-1st{
-		top:139px;
+		top:135px;
+		left: 71.3%;
 		}
 
 	.collect-content{
@@ -679,6 +682,10 @@ img.showcase-wevue{
 
 
 @media(min-width:800px) {
+	.branding-1st{
+		top:135px;
+		left: 71.3%;
+		}
 	h3{
  		font-size: .8em;
  		}
@@ -713,6 +720,11 @@ img.showcase-wevue{
 	img.landing-page{
 	top: 54%;
 	}
+	.branding-1st {
+top: 159px;
+left: 71.6%;
+
+}
 }
 
 @media(max-width:1000px){
