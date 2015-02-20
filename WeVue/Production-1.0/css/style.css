@@ -108,7 +108,7 @@ background: #eb7260;
 
 h1.brand-heading{
 	font-family: 'Roboto', sans-serif;
-	top: 45px;
+	top: 115px;
 	position: relative;
 	}
  
@@ -525,9 +525,19 @@ h2.h2-features{
 	font-size: 1.5em;
 	color: #219ab3;
 	}
-
+.fa-icons-dark{
+	font-size: 1.5em;
+	color:  #1F5F6C;
+	}
+.fa-icons-med{
+	color:#1C8296;
+		font-size: 1.5em;
+}
 .blue-text{
 	color: #219ab3;
+	}
+.blue-text-med{
+	color: #1C8296;
 	}
 .blue-text-light{
 	color:#E4FFFA;
@@ -794,6 +804,10 @@ top: 307px;
 
 }
 @media(max-width:767px) {
+	h1.brand-heading {
+
+top: 102px
+}
 	.quotes2{
 		font-size: 1em;
 		text-align: left;
@@ -835,9 +849,7 @@ top: 307px;
 	span.list-title{
 		color:gray;
 		}
-	div.sub-layer{
-		display: none;
-		}
+	
 	p.intro-text, p.intro-text-1, p.intro-text-2, p.intro-text-3{
 		display: none;
 		}
@@ -887,11 +899,19 @@ top: 307px;
 		border: 2px solid white;
 		} 
 }
-
+@media(max-width:700px){
+	h1.brand-heading {
+top: 83px;
+}
+}
 @media(max-width:600px) {
 		.branding-1st{
 			top: 146px;
 		}
+		h1.brand-heading {
+
+top: 74px;
+}
 	.branding {
 		left: 62%;
 		
@@ -905,7 +925,10 @@ top: 307px;
 		width: 32.3%;
 		}
 	span.list-title {
-		font-size: 4vw;
+		font-size: 5vw;
+		top: -32px;
+		position: relative;
+
 		}
 	img.widget{
 		width: 100%;
@@ -945,6 +968,10 @@ top: 310px;
 }
 }
 @media(max-width:550px) {
+	h1.brand-heading {
+
+top: 48px;
+}
 	.branding-1st{
 		top: 146px;
 	}
