@@ -963,6 +963,10 @@ top: 310px;
 		min-height: 80px;
 		max-height: 150px;
 		}
+		h2.salmon{
+		position: relative;
+		top: -31px;
+		}
 }
 
 @media(max-width:500px) {
@@ -1023,14 +1027,14 @@ top: 310px;
 
 @media(max-width:450px) {
 	.branding-1st{
-		top: 163px;
+		top: 164px;
 	}
 	.branding {
-		left: 60.9%;
+		left: 60.8%;
 		
 		}
 	.collect-content{	
-		top:190px;
+		top:203px;
 		}
 }
 
