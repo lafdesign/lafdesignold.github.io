@@ -230,12 +230,12 @@ object.slide2-phone{
 
 
 span.details-title{
-	font-size: .5em;
+
 	position: absolute;
 	left: -1%;
 	background-color: red;
 	width: 100%;
-	height: 1.8em;
+
 	z-index: 1;
 	}
 
@@ -247,7 +247,7 @@ span.details-title{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    font-size: 4vw;
+
     font-family: 'Roboto', sans-serif;
 	}
 
@@ -259,7 +259,7 @@ span.details-title{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    font-size: 4vw;
+
     font-family: 'Roboto', sans-serif;
 	}
 
@@ -272,7 +272,7 @@ ul.features-1-list{
 	font-family: 'Roboto', sans-serif;
 	width: 100%;
 	list-style: none;
-	font-size: 4vw;
+
 	text-align: left;
 	position: relative;
 	color: #fff;
@@ -283,19 +283,18 @@ ul.features-2-list{
 	font-family: 'Roboto', sans-serif;
 	width: 58%;
 	list-style: none;
-	font-size: 4vw;
+
 	}
 ul.features-2-list-2{
 	font-family: 'Roboto', sans-serif;
-	font-size: .5em;
-	line-height: 1.3em;
+
 	list-style: none;
 	text-align: left;	
 	}
 
 span.list-title{
 	color: white;
-	font-size: 2.3vw;
+	
 	position: relative;
 	top: -20px;
 	width: 78%;
@@ -426,7 +425,7 @@ p.footer{
 	}
 
 span.subtitle{
-		font-size: .38em;
+		
 	}
 
 .widget-text{
@@ -448,6 +447,11 @@ span.subtitle{
 	}
 .fa-lock{
 	transform: rotate(20deg);
+}
+
+
+li.li{
+	font-size: 1.5em;
 }
 @media(min-width:1500px) {
 
@@ -475,7 +479,7 @@ span.subtitle{
 			left: 71.6%;
 			}
 		.subtitle{
-			font-size: .38em;
+	
 			}
 	}
 
@@ -500,16 +504,13 @@ span.subtitle{
 	 		font-size: .8em;
 	 		}
 		ul.features-1-list{
-			font-size: .5em;
-			line-height: .8em;
+		
 			}
 		ul.features-2-list{
-			font-size: .5em;
-			line-height: 1.3em;
+		
 			}
 		span.list-title{
-			font-size: .9hem;
-			line-height: 1.7em;
+		font-size: 2em;
 			}
 		.features-section{
 		    color: #3f474f;
@@ -546,6 +547,19 @@ span.subtitle{
 			font-size: 1.2em;
 			}
 	}
+@media(max-width:799px) {
+
+	li.li{
+		font-size: 1.2em;
+		position:relative;
+	}
+	span.list-title{
+		position: relative;
+		font-size: 1.5em;
+			}
+
+}
+
 
 @media(max-width:767px) {
 
@@ -626,7 +640,7 @@ span.subtitle{
 			width: 32.3%;
 			}
 		span.list-title {
-			font-size: 5vw;
+		
 			top: -32px;
 			position: relative;
 			}
