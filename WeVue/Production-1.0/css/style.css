@@ -285,7 +285,8 @@ object.slide2-phone{
       -webkit-animation: gwd-gen-on9ggwdanimation_gwd-keyframes 7s linear 0s infinite normal forwards;
     }
 .branding-1{
-	top: 160px;;
+	top: 133px;
+left: 71.4%;
 	}
 .collect-content{
 	top:165px;
@@ -669,7 +670,7 @@ img.showcase-wevue{
 @media(min-width:801px) and (max-width: 999px) {
 
 	.branding-1st{
-		top:139px;
+		top:133px;
 		}
 
 	.collect-content{
@@ -938,7 +939,7 @@ top: 310px;
 		width: 40%;
 		}
 		.branding-1st{
-			top: 146px;
+			top: 150px;
 		}
 	.branding {
 		width: 32.6%;
