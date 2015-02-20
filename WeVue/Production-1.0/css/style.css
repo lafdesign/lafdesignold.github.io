@@ -183,16 +183,16 @@ object.slide2-phone{
 	}
 .branding-1st{
 	top: 138px;
+	-webkit-filter: drop-shadow(0 0 3px white);
+	background-color: rgb(102, 102, 102);
 	}
 .branding{
 	width: 24.6%;
 	left: 71.6%;
-
-	border: 1px solid white;
 	position: absolute;
 	border-radius: 4px;
 	z-index: 2;
-  	background-color: rgb(102, 102, 102);
+  	
     }
     @-webkit-keyframes gwd-gen-on9ggwdanimation_gwd-keyframes {
       0% {
@@ -446,6 +446,9 @@ span.subtitle{
 	width: 57%;
 	display: inline-block
 	}
+.fa-lock{
+	transform: rotate(20deg);
+}
 @media(min-width:1500px) {
 
 		img.intro-icons{
@@ -669,7 +672,7 @@ span.subtitle{
 		.branding-1st {
 			top: 163px;
 			}
-		.branding {
+		.branding{
 			left: 62%;
 			}
 		.collect-content{
@@ -699,7 +702,7 @@ span.subtitle{
 		.branding-1st{
 			top: 164px;
 			}
-		.branding {
+		.branding{
 			left: 60.8%;
 			}
 		.collect-content{	

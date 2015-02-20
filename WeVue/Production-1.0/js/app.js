@@ -30,7 +30,7 @@
             function showNextQuote() {
                 ++quoteIndex;
                 quotes.eq(quoteIndex % quotes.length)
-                    .fadeIn(2000)
+                    .fadeIn(1000)
                     .delay(4300)
                     .fadeOut(2000, showNextQuote);
             }
@@ -42,12 +42,26 @@
             function showNextQuote() {
                 ++quoteIndex;
                 quotes.eq(quoteIndex % quotes.length)
-                    .fadeIn(1500)
-                    .delay(1500)
+                    .fadeIn(500)
+                    .delay(3200)
                     .fadeOut(1500, showNextQuote);
             }
             showNextQuote();
         })();
+
+(function() {
+    var quotes = $(".screen-2-fade");
+    var quoteIndex = -1;
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(500)
+            .delay(2000)
+            .fadeOut(500, showNextQuote);
+    }
+    showNextQuote();
+})();
+
 
 onScrollInit( $('.os-animation') );
 
