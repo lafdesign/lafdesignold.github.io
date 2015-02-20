@@ -102,10 +102,7 @@ background: #eb7260;
 	padding-bottom: 20px;
 }
 
-.section-4{
 
-
-}
 h1.brand-heading{
 	font-family: 'Roboto', sans-serif;
 	top: 45px;
@@ -246,11 +243,13 @@ object.slide2-phone{
 	position: relative;
 	z-index: 1;
 	}
-
+.branding-1st{
+	top: 138px;
+}
 .branding{
 	width: 24.6%;
 	left: 71.6%;
-	top: 138px;
+
 	border: 1px solid white;
 	position: absolute;
 	border-radius: 4px;
@@ -353,7 +352,7 @@ ul.features-1-list{
 	font-size: 4vw;
 	text-align: left;
 	position: relative;
-	left: 8%;
+	
 	color: #fff;
 
 	}
@@ -628,7 +627,12 @@ img.showcase-wevue{
 	left: 42.5%;
 	top: 10%;
 	}
-
+.list-left{
+	left:-4%;
+}
+.list-right{
+	left: 8%;
+}
 
 @media(min-width:1500px) {
 
@@ -637,11 +641,13 @@ img.showcase-wevue{
 		max-width: 170px;
 		margin: 1%;
 		}
-
+    .branding-1st{
+    		top: 169px;
+    }
 	.branding {
 		width: 24.6%;
 		left: 71.6%;
-		top: 169px;
+	
 		border: 1px solid white;
 		position: absolute;
 		border-radius: 4px;
@@ -653,20 +659,20 @@ img.showcase-wevue{
 		}
 	img.landing-page{
 	top: 56%;
-}
+	}
 }
 
 
 @media(min-width:801px) and (max-width: 999px) {
 
-	.branding{
+	.branding-1st{
 		top:139px;
 		}
 
 	.collect-content{
 		top: 166px;
 		}
-	}
+}
 
 
 @media(min-width:800px) {
@@ -703,7 +709,7 @@ img.showcase-wevue{
 	}
 	img.landing-page{
 	top: 54%;
-}
+	}
 }
 
 @media(max-width:1000px){
@@ -777,6 +783,9 @@ top: 307px;
 		font-size: 1em;
 		text-align: left;
 		}
+	.collect-content{
+		top:165px;
+	}
 	h3{
  		font-size: 1em;
  		}
@@ -829,10 +838,13 @@ top: 307px;
 	.phone-feature{
 		width: 40%;
 		}
+		.branding-1st{
+			top: 146px;
+		}
 	.branding {
 		width: 32.6%;
 		left: 62.4%;
-		top: 146px;
+		
 		}
 	div.push{
 		width: 30%;	
@@ -856,15 +868,18 @@ top: 307px;
 		left: 4.5%;
 		width: 33.3%;
 		z-index: 1;
-		top: 189px;
+		top: 170px;
 		border: 2px solid white;
 		} 
 }
 
 @media(max-width:600px) {
+		.branding-1st{
+			top: 146px;
+		}
 	.branding {
 		left: 62%;
-		top: 170px;
+		
 		}
 	.collect-content{
 		top:185px;
@@ -915,9 +930,12 @@ top: 310px;
 }
 }
 @media(max-width:550px) {
+	.branding-1st{
+		top: 146px;
+	}
 	.branding {
 		left: 62%;
-		top: 159px;
+	
 		}
 	.collect-content{
 		top:165px;
@@ -945,9 +963,13 @@ top: 310px;
 }
 
 @media(max-width:500px) {
+	.branding-1st {
+	
+		top: 163px;
+	}
 	.branding {
 		left: 62%;
-		top: 163px;
+		
 		}
 	.collect-content{
 		top:185px;
@@ -997,9 +1019,12 @@ top: 310px;
 }
 
 @media(max-width:450px) {
+	.branding-1st{
+		top: 163px;
+	}
 	.branding {
 		left: 60.9%;
-		top: 163px;
+		
 		}
 	.collect-content{	
 		top:90px;
