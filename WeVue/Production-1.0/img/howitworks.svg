@@ -12,15 +12,16 @@
 	.st4{fill:#FFFFFF;}
 	.st5{fill:none;}
 	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-	.st7{font-size:21;}
-	.st8{font-size:72;}
+	.st7{font-size:21px;}
+	.st8{font-size:72px;}
 	.st9{fill:#3F474F;}
 	.st10{font-family:'Avenir-Heavy';}
-	.st11{font-size:27.028;}
+	.st11{font-size:27px;}
+	
 
 </style>
 <rect x="261.327" y="26.479" class="st5" width="531.844" height="138"/>
-<text transform="matrix(1 0 0 1 305.3486 80.9121)" class="st4 st10 st8">How it works</text>
+<text transform="matrix(1 0 0 1 305.3486 80.9121)" class="st4 st10 st8 how-h2">How it works</text>
 <g>
 	<g>
 
@@ -54,14 +55,14 @@ c
             c9.77,1.06,18.873-3.271,24.366-10.605C606.067,234.427,598.101,228.248,588.331,227.189 M585.788,251.932
             c-6.137-0.665-10.57-6.179-9.908-12.315c0.664-6.134,6.179-10.571,12.314-9.905c6.137,0.663,10.574,6.177,9.908,12.312
             C597.438,248.159,591.924,252.597,585.788,251.932">
-    <animateTransform attributeName="transform" begin="1" attributeType="HML" type="translate" dur="4.2s" values="-15,350;0,-55;0,25;290,35;" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" begin="1" attributeType="HML" type="translate" dur="4.7s" values="-15,350;0,-55;-20,25;270,35;" repeatCount="indefinite"/>
 
         </path>
         <path class="st4" d="M593.004,241.473c-0.359,3.318-3.344,5.72-6.663,5.36c-3.319-0.36-5.721-3.343-5.36-6.664
             c0.359-3.319,3.342-5.719,6.663-5.359C590.964,235.169,593.362,238.152,593.004,241.473">
         
 
-        <animateTransform attributeName="transform" begin="1" attributeType="HML" type="translate" dur="4.2s" values="-15,350;0,-55;0,25;290,35;" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" begin="1" attributeType="HML" type="translate" dur="4.7s" values="-15,350;0,-55;-20,25;270,35;" repeatCount="indefinite"/>
         </path>
 
 
@@ -71,7 +72,39 @@ c
 			c0.359-3.319,3.342-5.719,6.663-5.359C590.964,235.169,593.362,238.152,593.004,241.473">
 		
 
-		<animateTransform attributeName="transform" begin="1" attributeType="HML" type="translate" dur="3.3s" values="-350,20; -250,360; 20,360;  -60,35;"  repeatCount="indefinite"/>
+		<animateTransform attributeName="transform" begin="1" attributeType="HML" type="translate" dur="6.6s" values="
+				 -510,-40;
+			 -510,-40;
+			 -510,-40;
+			 -510,90;
+			  -510,70;
+			-510,90;
+		     -510,90;
+			 -270,90;
+			  -260,115;
+			   
+			 -270,190;
+
+		     -260,360;  
+		      -210, 350;  
+		     -160, 360;  
+		      -105, 350;
+		     -30, 360; 
+		     	40, 350;   
+		     120,360; 
+
+
+
+		     -60,35;
+		     -60,35;
+		     -60,35;
+		     280,110;
+		     280,90;
+		     280,110;
+		     280,110;
+		     -10,-70;
+		     -200,-60;
+		     -510,-40;"  repeatCount="indefinite"/>
 		</path>
 
 
@@ -132,41 +165,44 @@ c
 
 			<rect x="466.117" y="226.604" transform="matrix(0.9965 -0.0836 0.0836 0.9965 -18.3482 40.6805)" class="st4" width="20.706" height="25.556">
 
-				<animateTransform attributeName="transform" begin="1.6" attributeType="HML" type="translate" dur="4s" values="30,350;0,-25;0,25;300,35;" repeatCount="indefinite"/>
+				<animateTransform attributeName="transform" begin="1.6" attributeType="HML" type="translate" dur="4s" values="30,300;0,-25;0,25;300,45;" repeatCount="indefinite"/>
 			</rect>
 		
 			<rect x="467.104" y="228.321" transform="matrix(0.9965 -0.0835 0.0835 0.9965 -18.1444 40.6167)" class="st9" width="18.353" height="17.612">
 
-				<animateTransform attributeName="transform" begin="1.6" attributeType="HML" type="translate" dur="4s" values="30,350;0,-25;0,25;300,35;" repeatCount="indefinite"/>
+				<animateTransform attributeName="transform" begin="1.6" attributeType="HML" type="translate" dur="4s" values="30,300;0,-25;0,25;300,45;" repeatCount="indefinite"/>
 			</rect>
-		
 
-
+			
 
 <!-- this is the photo in the folder-->
 
+<rect x="466.117" y="226.604" transform="matrix(0.9965 -0.0836 0.0836 0.9965 -18.3482 40.6805)" class="st4" width="20.706" height="25.556">
 
-			<rect x="448.059" y="231.755" transform="matrix(-0.8906 0.4548 -0.4548 -0.8906 977.8851 253.8052)" class="st4" width="20.706" height="25.556">
-				
-					<animateTransform attributeName="transform" begin="1.5" attributeType="HML" type="translate" dur="3.6s" values="0,350;0,-20;0,20;320,15;" repeatCount="indefinite"/>
-			</rect>
-		
-			<rect x="448.207" y="233.711" transform="matrix(-0.8906 0.4548 -0.4548 -0.8906 975.0235 250.463)" class="st9" width="18.353" height="17.613">
-				
-					<animateTransform attributeName="transform" begin="1.5" attributeType="HML" type="translate" dur="3.6s" values="0,350;0,-20;0,20;320,15;" repeatCount="indefinite"/>
-			</rect>
-
-<!-- this is the photo in the folder-->
-
-		
-			<rect x="457.878" y="231.306" transform="matrix(0.9616 -0.2744 0.2744 0.9616 -49.0003 137.8332)" class="st4" width="20.705" height="25.557">
-
-					<animateTransform attributeName="transform" begin=".3" attributeType="HML" type="translate" dur="4.5s" values="0,350;0,-15;0,15; 330,15;" repeatCount="indefinite"/>
-			</rect>
-		
-			<rect x="458.433" y="233.103" transform="matrix(0.9616 -0.2744 0.2744 0.9616 -48.4263 137.5738)" class="st9" width="18.353" height="17.613">
 				<animateTransform attributeName="transform" begin=".3" attributeType="HML" type="translate" dur="4.5s" values="0,350;0,-15;0,15; 330,15;" repeatCount="indefinite"/>
-		</rect>
+
+			</rect>
+		
+			<rect x="467.104" y="228.321" transform="matrix(0.9965 -0.0835 0.0835 0.9965 -18.1444 40.6167)" class="st9" width="18.353" height="17.612">
+
+				<animateTransform attributeName="transform" begin=".3" attributeType="HML" type="translate" dur="4.5s" values="0,350;0,-15;0,15; 330,15;" repeatCount="indefinite"/>
+
+			</rect>
+			
+<!-- this is the photo in the folder-->
+
+<rect x="466.117" y="226.604" transform="matrix(0.9965 -0.0836 0.0836 0.9965 -18.3482 40.6805)" class="st4" width="20.706" height="25.556">
+
+						
+	<animateTransform attributeName="transform" begin="1.5" attributeType="HML" type="translate" dur="3.6s" values="0,350;0,-20;0,20;320,15;" repeatCount="indefinite"/>
+			</rect>
+		
+			<rect x="467.104" y="228.321" transform="matrix(0.9965 -0.0835 0.0835 0.9965 -18.1444 40.6167)" class="st9" width="18.353" height="17.612">
+
+						
+	<animateTransform attributeName="transform" begin="1.5" attributeType="HML" type="translate" dur="3.6s" values="0,350;0,-20;0,20;320,15;" repeatCount="indefinite"/>
+			</rect>
+			
 
 <!-- this is the NOTE in the folder-->
 
@@ -245,21 +281,20 @@ c
 					C591.913,733.756,602.403,738.477,615.299,738.477">
 					<animateTransform attributeName="transform" begin=".8" attributeType="HML" type="translate" dur="3s" values="0,15;0,-15;0,15" repeatCount="indefinite"/>
 					
+   </path>
+            </g>
+            <path class="st4" d="M683.852,720.236v-2.08c-4.759-3.647-8.008-10.935-8.008-19.343c0-12.056,1.984-20.781,14.901-20.957
+                c13.27-0.179,14.908,8.901,14.908,20.957c0,8.408-3.25,15.695-8.009,19.343v2.08l5.103,2.268l11.996,5.332h-23.995h-23.994
+                l11.997-5.332L683.852,720.236z M690.764,738.475c12.899,0,23.393-4.719,23.976-10.639h-47.945
+                C667.378,733.756,677.868,738.475,690.764,738.475">
+                <animateTransform attributeName="transform" begin="1" attributeType="HML" type="translate" dur="3s" values="0,15;0,-15;0,15" repeatCount="indefinite"/>
+                    
 
-			</path>
-			</g>
-			<path class="st4" d="M683.852,720.236v-2.08c-4.759-3.647-8.008-10.935-8.008-19.343c0-12.056,1.984-20.781,14.901-20.957
-				c13.27-0.179,14.908,8.901,14.908,20.957c0,8.408-3.25,15.695-8.009,19.343v2.08l5.103,2.268l11.996,5.332h-23.995h-23.994
-				l11.997-5.332L683.852,720.236z M690.764,738.475c12.899,0,23.393-4.719,23.976-10.639h-47.945
-				C667.378,733.756,677.868,738.475,690.764,738.475">
-				<animateTransform attributeName="transform" begin="1" attributeType="HML" type="translate" dur="3s" values="0,15;0,-15;0,15" repeatCount="indefinite"/>
-					
-
-			</path>
-		</g>
-	</g>
-	<g>
-		<g>
+            </path>
+        </g>
+    </g>
+    <g>
+        <g>
 
 <!-- ADMIN USER -->
 			<path class="st4" d="M171.692,303.18l-18.078,8.032h36.157h36.156l-18.077-8.032l-7.684-3.416v-3.134
@@ -276,9 +311,9 @@ c
 			</path>
 		</g>
 		<rect x="61.923" y="190.549" class="st5" width="255.695" height="50.363"/>
-		<text transform="matrix(1 0 0 1 134.728 210.9824)" class="st4 st10 st11">The EDC </text>
+		<text transform="matrix(1 0 0 1 120.728 210.9824)" class="st4 st10 st11">The Admin</text>
 		<rect x="44.685" y="342.641" class="st5" width="290.172" height="151.24"/>
-		<text transform="matrix(1 0 0 1 68.2671 358.5166)"><tspan x="0" y="0" class="st4 st10 st7">Submits a request to the </tspan><tspan x="-7.991" y="25.2" class="st4 st10 st7">community via the app for </tspan><tspan x="17.713" y="50.4" class="st4 st10 st7">photos and videos of </tspan><tspan x="-15.918" y="82.834" class="st4 st10 st7">“Downtown then and Now”</tspan><tspan x="258.925" y="82.834" class="st4 st10 st11"> </tspan></text>
+		<text transform="matrix(1 0 0 1 68.2671 358.5166)"><tspan x="0" y="0" class="st4 st10 st7">Submits a request to the </tspan><tspan x="-7.991" y="25.2" class="st4 st10 st7">community via the app for </tspan><tspan x="17.713" y="50.4" class="st4 st10 st7">photos and videos of </tspan><tspan x="25" y="75.6" class="st4 st10 st7"> a topic or location</tspan><tspan x="258.925" y="82.834" class="st4 st10 st11"> </tspan></text>
 		
 <!-- LINES TO ADMIN on left to the folder-->
 		<g>
@@ -310,8 +345,8 @@ c
 		<path class="st4" d="M879.635,285.236c0,8.031-6.513,14.544-14.541,14.544c-8.035,0-14.541-6.513-14.541-14.544
 			c0-8.029,6.506-14.54,14.541-14.54C873.122,270.696,879.635,277.207,879.635,285.236"/>
 	</g>
-	<text transform="matrix(1 0 0 1 717.8604 217.2861)" class="st4 st10 st11">www.ItsYourMove.com</text>
-	<text transform="matrix(1 0 0 1 802.9678 367.665)"><tspan x="0" y="0" class="st4 st10 st7">Shows what </tspan><tspan x="-41.432" y="25.2" class="st4 st10 st7">Tampa Bay looks like</tspan><tspan x="-6.414" y="50.4" class="st4 st10 st7">from our eyes</tspan></text>
+	<text transform="matrix(1 0 0 1 775.8604 217.2861)" class="st4 st10 st11"> Your Website</text>
+	<text transform="matrix(1 0 0 1 802.9678 367.665)"><tspan x="-10" y="0" class="st4 st10 st7">Display content   </tspan><tspan x="-41.432" y="25.2" class="st4 st10 st7">generated on the app</tspan><tspan x="-6.414" y="50.4" class="st4 st10 st7"></tspan></text>
 	
 <!-- LINES TO EYE on Right in the folder-->
 
@@ -337,6 +372,6 @@ c
 		</line>
 	</g>
 	<rect x="239.923" y="609.133" class="st5" width="563.281" height="151.24"/>
-	<text transform="matrix(1 0 0 1 332.0005 625.0088)"><tspan x="0" y="0" class="st4 st10 st7">Deputized members of the community </tspan><tspan x="-24.496" y="32.434" class="st4 st10 st7">submit and caption their photos and videos</tspan><tspan x="403.618" y="32.434" class="st4 st10 st11"> </tspan></text>
+	<text transform="matrix(1 0 0 1 332.0005 625.0088)"><tspan x="-12" y="0" class="st4 st10 st7">Deputized members of the community to </tspan><tspan x="-24.496" y="32.434" class="st4 st10 st7">submit and caption their photos and videos</tspan><tspan x="403.618" y="32.434" class="st4 st10 st11"> </tspan></text>
 </g>
 </svg>
