@@ -139,6 +139,7 @@ a:focus {
     text-align: center;
     color: #fff;
   background: url(../img/background/lancephoto.jpg) no-repeat bottom center scroll;
+  -webkit-filter: blur(3px); filter: blur(3px);
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
