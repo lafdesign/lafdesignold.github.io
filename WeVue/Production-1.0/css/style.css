@@ -467,6 +467,14 @@ top: -50px;
 
 
 }
+
+
+img.brand-logo{
+	position: relative;
+top: 65px;
+width: 40%;
+}
+}
 @media(min-width:1500px) {
 		.intro-container{
 			position: relative;

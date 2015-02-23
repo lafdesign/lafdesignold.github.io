@@ -126,6 +126,7 @@ div.sub-layer{
 	height: 100%;
 	background-image: url('../img/dot.png');
 	opacity: 0.6;
+	-webkit-filter: blur(3px); filter: blur(3px);
 	}
 
 div.intro-container{
