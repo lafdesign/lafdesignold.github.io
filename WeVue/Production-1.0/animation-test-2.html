@@ -8,7 +8,7 @@
 
 <style type="text/css">
 	
-.container{
+.container-android{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -17,25 +17,26 @@
 	overflow:hidden;
 	
 }
-.phone{
+.phone-android{
 
 	position: relative;
 width: 100%;
+z-index: 2;
 }
-.feed{
+.feed-android{
 position: relative;
 width: 100%;
 top:0;
 left: 0;
-z-index: -1;
+z-index: 3;
 
 }
 
 #inner:hover .move-up {
-    transform: translate(0,-530px);
-    -webkit-transform: translate(0,-530px);
-    -o-transform: translate(0,-530px); 
-    -moz-transform: translate(0,-530px);
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%); 
+    -moz-transform: translate(0,-50%);
 }
 .inner{
 
@@ -53,20 +54,18 @@ top: 10%;
 -webkit-transition: all 2s ease-in-out;
 -moz-transition: all 2s ease-in-out;
 -o-transition: all 2s ease-in-out;
-animation-iteration-count: infinite;
+
 
 }
 </style>
 
 
-<div class="container">
+<div class="container-android">
 	
-<img class="phone"src="img/phone_white.png">
-<div id="inner"class="inner">
+<img class="phone-android"src="img/phone_white.png">
+<div id="inner"class="inner aniamated fadeInDown">
 
-<span class=""><img class="feed move-up object "src="img/feed.jpg"></span>
-</div>
-
+<img class="feed-android move-up object "src="img/feed.jpg">
 </div>
 </body>
 </html>

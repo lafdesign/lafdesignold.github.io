@@ -491,7 +491,7 @@ img.brand-logo{
 top: 65px;
 width: 40%;
 }
-img.gif-f1{
+.gif-f1{
 position: absolute;
 display: inline;
 width: 47%;
@@ -502,6 +502,56 @@ left: 0;
 .i-phone{
 left: -0.4%;
 top: -42px;
+
+}
+
+
+
+
+.container-android{
+	
+
+	overflow:hidden;
+	
+}
+.phone-android{
+
+	position: relative;
+width: 100%;
+z-index: 2;
+}
+.feed-android{
+position: relative;
+width: 100%;
+top:0;
+left: 0;
+z-index: 3;
+
+}
+
+#inner:hover .move-up {
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%); 
+    -moz-transform: translate(0,-50%);
+}
+.inner{
+
+		position: absolute;
+overflow: hidden;
+
+width: 73%;
+left: 13%;
+height: 77%;
+top: 10%;
+}
+
+.object {
+
+-webkit-transition: all 2s ease-in-out;
+-moz-transition: all 2s ease-in-out;
+-o-transition: all 2s ease-in-out;
+
 
 }
 @media(min-width:1500px) {
@@ -594,7 +644,7 @@ top: -42px;
 	padding-bottom: 10%;
 
 	}
-	img.gif-f1 {
+	.gif-f1 {
 position: absolute;
 display: inline;
 width: 37%;
@@ -608,7 +658,7 @@ top: -50px;
 	}
 
 @media(max-width:1000px){
-	img.gif-f1{
+	.gif-f1{
 		top: 158px;
 
 	}
@@ -726,7 +776,7 @@ position: relative;
 top: 88px;
 
 }
-img.gif-f1 {
+.gif-f1 {
 top:125px;
 width: 41%;
 }
@@ -742,7 +792,8 @@ width: 75%;
 left: 1.6%;
 top: -6px;
 }
-img.gif-f1 {
+
+.gif-f1 {
 top: 235px;
 width: 45%;
 left: -5%;
@@ -790,7 +841,7 @@ top: 250px;
 				top: -41px;
 
 			}
-			img.gif-f1 {
+			.gif-f1 {
 top: 336px;
 	}
 	.push-icon {
