@@ -152,7 +152,7 @@ img.how-it-works{
 	position: relative;
 	width: 95%;
 	opacity:0;
-	top: -95px;
+	top: 0px;
 	}
 
 .icons{
@@ -165,7 +165,7 @@ h3.elevator{
 	font-size: 2vw;
 	position: relative;
 	z-index: 100;
-	top:-150px;
+	top:0px;
 	}
 
 img.screenshot1{
@@ -373,16 +373,16 @@ h2.h2-features{
 	}
 
 .fa-icons{
-	font-size: 1.5em;
+	font-size: 2.5em;
 	color: #219ab3;
 	}
 .fa-icons-dark{
-	font-size: 1.5em;
+	font-size: 2.5em;
 	color:  #1F5F6C;
 	}
 .fa-icons-med{
 	color:#1C8296;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	}
 .blue-text{
 	color: #219ab3;
@@ -440,6 +440,9 @@ p.footer{
 	}
 
 li.li{
+	font-size: 1.5em;
+	}
+li.li-2{
 	font-size: 1.5em;
 	}
 
@@ -501,6 +504,12 @@ img.brand-logo{
     -o-transform: translate(0,-50%); 
     -moz-transform: translate(0,-50%);
 	}
+li:hover .move-up {
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%); 
+    -moz-transform: translate(0,-50%);
+	}
 
 .inner{
 	position: absolute;
@@ -516,6 +525,13 @@ img.brand-logo{
 	-moz-transition: all 2s ease-in-out;
 	-o-transition: all 2s ease-in-out;
 	}
+.fa{
+	display: inline;
+}
+.li{
+	display: inline; 
+}
+
 @media(min-width:1500px) {
 
 		.intro-container{
@@ -604,17 +620,24 @@ img.brand-logo{
 		.gif-f1 {
 			position: absolute;
 			display: inline;
-			width: 37%;
+			width: 35%;
 			}
 		.to-about{
 			position: relative;
 			top: -50px;
-			}			
+			}	
+			img.how-it-works{
+			position: relative;
+			width: 88%;
+			}	
 		}
 
 @media(max-width:1000px){
 		.gif-f1{
 			top: 158px;
+			}
+		.push-icon{
+			width: 10%;
 			}
 		}
 
@@ -641,6 +664,10 @@ img.brand-logo{
 @media(max-width:799px) {
 
 		li.li{
+			font-size: 1.3em;
+			position:relative;
+			}
+		li.li-2{
 			font-size: 1.3em;
 			position:relative;
 			}
@@ -790,7 +817,7 @@ img.brand-logo{
 			top: 336px;
 			}
 		.push-icon {
-			width: 21%;
+			width: 14%;
 			}
 		.phone-feature {
 			width: 45%;
@@ -893,6 +920,10 @@ img.brand-logo{
 			width:100%;
 			}
 		li.li{
+			text-align: center;
+			position: initial;
+			}
+		li.li-2{
 			text-align: center;
 			position: initial;
 			}
