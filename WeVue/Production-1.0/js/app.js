@@ -121,4 +121,8 @@ function onScrollInit( items, trigger ) {
  onScrollInit( $('.os-animation') );
  onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
 
- 
+var p = document.getElementsByTagName('img')[0];
+p.onclick = function() {
+ // Trigger the `onhover` event on the paragraph
+ img.onhover.call(p);
+};
