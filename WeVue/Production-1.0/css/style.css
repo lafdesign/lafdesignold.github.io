@@ -453,7 +453,9 @@ span.subtitle{
 
 .landing-text{
 	width: 57%;
-	display: inline-block
+	display: inline-block;
+	padding-left:1%;
+	margin-top: 1%;
 	}
 .fa-lock{
 	transform: rotate(20deg);
@@ -711,10 +713,11 @@ width: 56%;
 			top: 83px;
 			}
 
-			div.switch-out {
-min-height: 160px;
+div.switch-out {
+min-height: 188px;
 position: relative;
-top: 100px;
+top: 88px;
+
 }
 img.gif-f1 {
 top:125px;
@@ -798,12 +801,18 @@ margin-top: 0px;
 
 padding-bottom: 0%; 
 }
+img.how-it-works{
+	padding-bottom: 20px;
+}
 
 ul.features-1-list{
 	top:-50px;
 }
 .last-list{
 	top:50px;
+}
+.features-section{
+	padding-top: 0px;
 }
 
 @media(max-width:550px) {
