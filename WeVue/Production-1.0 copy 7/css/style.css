@@ -80,6 +80,8 @@ p{
 	background-color: #36424d;
 	margin-top: 135px;
 	padding-top: 40px;
+	padding-bottom: 7%;
+
 	}
 
 #features-2{
@@ -267,9 +269,17 @@ h2.feature-1-title{
 	color: #fff;
 	}
 
+.list-left{
+	left:-4%;
+	}
+.list-right{
+	left: 41%;
+	width: 80%;
+	}
+
 ul.features-1-list{
 	font-family: 'Roboto', sans-serif;
-	width: 100%;
+
 	list-style: none;
 
 	text-align: left;
@@ -395,9 +405,7 @@ h2.h2-features{
 	}
 
 
-div.switch-out{
-	min-height: 100px;
-	}
+
 h3{
  	font-size: 1.8em;
  	}
@@ -416,12 +424,6 @@ p.footer{
 	font-family: 'Roboto', sans-serif;
 	}
 
-.list-left{
-	left:-4%;
-	}
-.list-right{
-	left: 8%;
-	}
 
 span.subtitle{
 		
@@ -456,8 +458,44 @@ li.li{
 	top: -45px;
 
 	}
-@media(min-width:1500px) {
+div.switch-out{
+	min-height: 160px;
+position: relative;
+top: 100px;
+}
+.intro-container{
 
+
+position: relative;
+top: -50px;
+
+
+}
+
+
+img.brand-logo{
+	position: relative;
+top: 65px;
+width: 40%;
+}
+img.gif-f1{
+position: absolute;
+display: inline;
+width: 41%;
+left: 0;
+top: 67px;
+}
+
+.i-phone{
+left: -0.4%;
+top: 16px;
+
+}
+@media(min-width:1500px) {
+		.intro-container{
+			position: relative;
+			top: -100px;
+			}
 		img.intro-icons{
 			width: 27%;
 			max-width: 170px;
@@ -501,6 +539,10 @@ li.li{
 			top: 41px;
 			position: relative;
 			}
+		.list-right {
+		left: 41%;
+		width: 68%;
+		}
 	}
 
 @media(min-width:800px) {
@@ -532,13 +574,23 @@ li.li{
 			font-size: 4vw;
 			}
 		.branding-1st {
-			top: 159px;
+			top: 168px;
 			left: 71.6%;
 			}
+		#features{
+
+	padding-bottom: 10%;
+
+	}
+
+			
 	}
 
 @media(max-width:1000px){
-	
+	img.gif-f1{
+		top:100px;
+
+	}
 	}
 
 @media(max-width:840px) {
@@ -555,6 +607,10 @@ li.li{
 			top: 136px;
 			font-size: 1.2em;
 			}
+			.intro-container{
+			position: relative;
+			top: 0px;
+			}
 	}
 @media(max-width:799px) {
 
@@ -566,6 +622,13 @@ li.li{
 		position: relative;
 		font-size: 1.6em;
 			}
+		.list-right {
+left: 38%;
+width: 56%;
+}
+.push-icon{
+	width: 10%;
+}
 
 }
 
@@ -580,7 +643,7 @@ li.li{
 			text-align: left;
 			}
 		.collect-content{
-			top:165px;
+			top:196px;
 			}
 		h3{
 	 		font-size: 1em;
@@ -598,14 +661,14 @@ li.li{
 			font-size: 1em;
 			}
 		.phone-feature{
-			width: 40%;
+			width: 43%;
 			}
 		.branding-1st{
-			top: 146px;
+			top: 164px;
 			}
 		.branding {
 			width: 32.6%;
-			left: 62.4%;
+			left: 62%;
 			}
 		div.push{
 			width: 30%;	
@@ -620,6 +683,9 @@ li.li{
 			top: 170px;
 			border: 2px solid white;
 			} 
+		h3.quotes{
+			font-size: 1em;
+		}
 	}
 
 @media(max-width:700px){
@@ -627,7 +693,33 @@ li.li{
 		h1.brand-heading{
 			top: 83px;
 			}
-	}
+
+			div.switch-out {
+min-height: 160px;
+position: relative;
+top: 100px;
+}
+img.gif-f1 {
+top:125px;
+width: 41%;
+}
+		.intro-container{
+			position: relative;
+			top: 0px;
+		}
+	.list-right {
+left: 27%;
+width: 75%;
+}
+	.i-phone {
+left: 1.6%;
+top: -6px;
+}
+img.gif-f1 {
+top: 235px;
+width: 45%;
+}
+}
 
 @media(max-width:600px) {
 

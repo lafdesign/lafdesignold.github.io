@@ -222,7 +222,7 @@ object.slide2-phone{
     }
 
 .collect-content{
-	top:165px;
+	top:203px;
 	}
 .push-li{
 	position: relative;
@@ -287,6 +287,16 @@ ul.features-1-list{
 	color: #fff;
 
 	}
+	ul.last-list{
+	font-family: 'Roboto', sans-serif;
+
+	list-style: none;
+
+	text-align: left;
+	position: relative;
+	color: #fff;
+
+	}
 
 ul.features-2-list{
 	font-family: 'Roboto', sans-serif;
@@ -301,16 +311,15 @@ ul.features-2-list-2{
 	text-align: left;	
 	}
 
-span.list-title{
+h3.list-title{
 	color: white;
-	
-	position: relative;
-	top: -20px;
-	width: 78%;
+	text-align: left;
+position: relative;
+z-index: 10;
 	}
 
 
-span.list-title2{
+	h3.list-title2{
 	color: rgb(108, 116, 123);
 	}
 
@@ -481,14 +490,14 @@ width: 40%;
 img.gif-f1{
 position: absolute;
 display: inline;
-width: 41%;
+width: 47%;
 left: 0;
-top: 67px;
+
 }
 
 .i-phone{
 left: -0.4%;
-top: 16px;
+top: -42px;
 
 }
 @media(min-width:1500px) {
@@ -512,9 +521,7 @@ top: 16px;
 			border-radius: 4px;
 			z-index: 2;
 			}
-		.collect-content{
-			top:167px;
-			}
+		
 		.branding-1st {
 			top: 157px;
 			left: 71.6%;
@@ -531,7 +538,7 @@ top: 16px;
 			left: 71.3%;
 			}
 		.collect-content{
-			top: 166px;
+			top: 243px;
 			}
 		.landing-text {
 			width: 57%;
@@ -548,7 +555,7 @@ top: 16px;
 @media(min-width:800px) {
 
 		.branding-1st{
-			top:135px;
+			top:180px;
 			left: 71.3%;
 			}
 		h3{
@@ -560,7 +567,7 @@ top: 16px;
 		ul.features-2-list{
 		
 			}
-		span.list-title{
+		h3.list-title{
 		font-size: 2em;
 			}
 		.features-section{
@@ -574,7 +581,7 @@ top: 16px;
 			font-size: 4vw;
 			}
 		.branding-1st {
-			top: 168px;
+			top: 204px;
 			left: 71.6%;
 			}
 		#features{
@@ -582,13 +589,18 @@ top: 16px;
 	padding-bottom: 10%;
 
 	}
+	img.gif-f1 {
+position: absolute;
+display: inline;
+width: 37%;
+}
 
 			
 	}
 
 @media(max-width:1000px){
 	img.gif-f1{
-		top:100px;
+		top: 158px;
 
 	}
 	}
@@ -618,7 +630,7 @@ top: 16px;
 		font-size: 1.3em;
 		position:relative;
 	}
-	span.list-title{
+	h3.list-title{
 		position: relative;
 		font-size: 1.6em;
 			}
@@ -628,6 +640,10 @@ width: 56%;
 }
 .push-icon{
 	width: 10%;
+}
+
+.branding-1st{
+	top:168px;
 }
 
 }
@@ -643,7 +659,7 @@ width: 56%;
 			text-align: left;
 			}
 		.collect-content{
-			top:196px;
+			top:232px;
 			}
 		h3{
 	 		font-size: 1em;
@@ -654,7 +670,7 @@ width: 56%;
 			width: 95%;
 			opacity:0;
 			}
-		span.list-title{
+		h3.list-title{
 			color:gray;
 			}
 		h3.elevator {
@@ -664,11 +680,12 @@ width: 56%;
 			width: 43%;
 			}
 		.branding-1st{
-			top: 164px;
+			top: 199px;
 			}
 		.branding {
-			width: 32.6%;
-			left: 62%;
+			width: 35.2%;
+			left: 59.5%;
+
 			}
 		div.push{
 			width: 30%;	
@@ -718,13 +735,22 @@ top: -6px;
 img.gif-f1 {
 top: 235px;
 width: 45%;
+left: -5%;
+}
+
+.branding {
+width: 35.2%;
+left: 61.2%;
+}
+.branding-1st {
+top: 250px;
 }
 }
 
 @media(max-width:600px) {
 
 		.branding-1st{
-			top: 146px;
+			top: 174px;
 			}
 		h1.brand-heading{
 			top: 74px;
@@ -740,7 +766,7 @@ width: 45%;
 			left: 5.1%;
 			width: 32.3%;
 			}
-		span.list-title {
+		h3.list-title {
 		
 			top: -32px;
 			position: relative;
@@ -750,7 +776,35 @@ width: 45%;
 			top: 77px;
 			font-size: 1em;
 			}
+			.i-phone{
+				top: -41px;
+
+			}
+			img.gif-f1 {
+top: 453px;
 	}
+	.push-icon {
+width: 21%;
+}
+.phone-feature {
+width: 45%;
+}
+#showcase {
+height: 1062px;
+}
+#features {
+
+margin-top: 0px; 
+
+padding-bottom: 0%; 
+}
+
+ul.features-1-list{
+	top:-50px;
+}
+.last-list{
+	top:50px;
+}
 
 @media(max-width:550px) {
 
@@ -811,15 +865,13 @@ width: 45%;
 			width: 100%;
 			}
 		.desktop{
-			display: block;
-			width: 50%;
-			left: 25%;
-			position: relative;
-			top: -55px;
+			display: none;
+			
 		}
-		.widget{
-			position: relative;
-			top: -90px;
+		.widget {
+position: absolute;
+top: -90px;
+left: 127px;
 
 		}
 		.landing-text{
@@ -827,20 +879,30 @@ width: 45%;
 			top:-48px;
 		}
 		.to-contact{
-			position: relative;
-			top: -60px;
+			
+			top: 29px;
 		}
+		.list-right {
+left: 27%;
+width: 82%;
 	}
-
+	.widget-text {
+width:100%;
+}
+li.li{
+	text-align: center;
+	position: initial;
+}
+}
 @media(max-width:450px) {
 
 		.branding-1st{
-			top: 164px;
+			top: 282px;
 			}
 		.branding{
-			left: 60.8%;
+			left: 58.8%;
 			}
 		.collect-content{	
-			top:198px;
+			top:315px;
 			}
 	}
