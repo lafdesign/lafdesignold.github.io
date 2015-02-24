@@ -80,6 +80,8 @@ p{
 	background-color: #36424d;
 	margin-top: 135px;
 	padding-top: 40px;
+	padding-bottom: 7%;
+
 	}
 
 #features-2{
@@ -267,9 +269,17 @@ h2.feature-1-title{
 	color: #fff;
 	}
 
+.list-left{
+	left:-4%;
+	}
+.list-right{
+	left: 41%;
+	width: 80%;
+	}
+
 ul.features-1-list{
 	font-family: 'Roboto', sans-serif;
-	width: 100%;
+
 	list-style: none;
 
 	text-align: left;
@@ -414,12 +424,6 @@ p.footer{
 	font-family: 'Roboto', sans-serif;
 	}
 
-.list-left{
-	left:-4%;
-	}
-.list-right{
-	left: 8%;
-	}
 
 span.subtitle{
 		
@@ -474,6 +478,12 @@ img.brand-logo{
 top: 65px;
 width: 40%;
 }
+img.gif-f1{
+position: absolute;
+display: inline;
+width: 41%;
+left: 0;
+top: 67px;
 }
 @media(min-width:1500px) {
 		.intro-container{
@@ -557,11 +567,20 @@ width: 40%;
 			top: 159px;
 			left: 71.6%;
 			}
+		#features{
+
+	padding-bottom: 10%;
+
+	}
+
 			
 	}
 
 @media(max-width:1000px){
-	
+	img.gif-f1{
+		top:100px;
+
+	}
 	}
 
 @media(max-width:840px) {
@@ -660,11 +679,20 @@ min-height: 160px;
 position: relative;
 top: 18px;
 }
+img.gif-f1 {
+top:125px;
+width: 41%;
+}
 		.intro-container{
 			position: relative;
 			top: 0px;
 		}
+		.list-right {
+
+left: 33%;
+width: 62%;
 	}
+}
 
 @media(max-width:600px) {
 
