@@ -485,6 +485,12 @@ width: 41%;
 left: 0;
 top: 67px;
 }
+
+.i-phone{
+left: -0.4%;
+top: 16px;
+
+}
 @media(min-width:1500px) {
 		.intro-container{
 			position: relative;
