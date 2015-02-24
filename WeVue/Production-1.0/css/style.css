@@ -151,6 +151,7 @@ img.how-it-works{
 	position: relative;
 	width: 95%;
 	opacity:0;
+	top: -95px;
 	}
 
 .icons{
@@ -163,6 +164,7 @@ h3.elevator{
 	font-size: 2vw;
 	position: relative;
 	z-index: 100;
+	top:-150px;
 	}
 
 img.screenshot1{
@@ -531,7 +533,8 @@ top: -42px;
 		.subtitle{
 	
 			}
-	}
+
+}
 
 @media(min-width:801px) and (max-width: 999px) {
 
@@ -595,6 +598,10 @@ top: -42px;
 position: absolute;
 display: inline;
 width: 37%;
+}
+.to-about{
+	position: relative;
+top: -50px;
 }
 
 			
@@ -668,7 +675,7 @@ width: 56%;
 	 		}
 		img.how-it-works{
 			position: relative;
-			top: '';
+			top: -100px;
 			width: 95%;
 			opacity:0;
 			}
@@ -728,7 +735,7 @@ width: 41%;
 			top: 0px;
 		}
 	.list-right {
-left: 27%;
+left: 30%;
 width: 75%;
 }
 	.i-phone {
@@ -784,7 +791,7 @@ top: 250px;
 
 			}
 			img.gif-f1 {
-top: 453px;
+top: 336px;
 	}
 	.push-icon {
 width: 21%;
@@ -801,9 +808,7 @@ margin-top: 0px;
 
 padding-bottom: 0%; 
 }
-img.how-it-works{
-	padding-bottom: 20px;
-}
+
 
 ul.features-1-list{
 	top:-50px;
