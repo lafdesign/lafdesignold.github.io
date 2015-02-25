@@ -714,7 +714,7 @@ li:hover .move-up {
 			text-align: left;
 			}
 		.collect-content{
-			top:232px;
+			top:255px;
 			}
 		h3{
 	 		font-size: 1em;
@@ -796,7 +796,7 @@ li:hover .move-up {
 			left: 61.2%;
 			}
 		.branding-1st {
-			top: 250px;
+			top: 223px;
 			}
 		h3.elevator{
 			top: -81px;
@@ -850,8 +850,13 @@ li:hover .move-up {
 			margin-top: 0px; 
 			padding-bottom: 0%; 
 			}
+		ul.list-right{
+			left: 161px;
+			max-width: 60%;
+		}
 		ul.features-1-list{
 			top:-50px;
+		
 			}
 		.last-list{
 			top:50px;
