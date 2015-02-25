@@ -542,6 +542,8 @@ li:hover .move-up {
 	display: block; 
 }
 
+
+
 @media(min-width:1500px) {
 
 		.intro-container{
@@ -578,7 +580,8 @@ li:hover .move-up {
 			left: 71.3%;
 			}
 		.collect-content{
-			top: 243px;
+			top: 242px;
+			left: 71.3%;		
 			}
 		.landing-text {
 			width: 57%;
@@ -643,7 +646,7 @@ li:hover .move-up {
 		.push-icon{
 			width: 6%;
 			position: absolute;
-			left: -0.5%;
+			left: .5%;
 			}
 		}
 
@@ -714,7 +717,7 @@ li:hover .move-up {
 			text-align: left;
 			}
 		.collect-content{
-			top:255px;
+			top:229px;
 			}
 		h3{
 	 		font-size: 1em;
@@ -793,7 +796,7 @@ li:hover .move-up {
 			}
 		.branding {
 			width: 35.2%;
-			left: 61.2%;
+			left: 61.4%;
 			}
 		.branding-1st {
 			top: 223px;
@@ -853,11 +856,9 @@ li:hover .move-up {
 		ul.list-right{
 			left: 123px;
 			max-width: 52%;
-
 		}
 		ul.features-1-list{
 			top:-50px;
-		
 			}
 		.last-list{
 			top:50px;
