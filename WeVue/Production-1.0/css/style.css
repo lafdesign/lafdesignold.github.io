@@ -375,14 +375,24 @@ h2.h2-features{
 .fa-icons{
 	font-size: 2.5em;
 	color: #219ab3;
+	position: absolute;
+	left: 1%;
 	}
 .fa-icons-dark{
+	font-size: 2.5em;
+	color:  #1F5F6C;
+	position: absolute;
+	left: 0%;
+	}
+	.fa-icons-dark2{
 	font-size: 2.5em;
 	color:  #1F5F6C;
 	}
 .fa-icons-med{
 	color:#1C8296;
 	font-size: 2.5em;
+	position: absolute;
+	left: 0%;
 	}
 .blue-text{
 	color: #219ab3;
@@ -471,8 +481,8 @@ img.brand-logo{
 .gif-f1{
 	position: absolute;
 	display: inline;
-	width: 47%;
-	left: 0;
+	width: 44%;
+	left: -15px;
 	}
 
 .i-phone{
@@ -529,7 +539,7 @@ li:hover .move-up {
 	display: inline;
 }
 .li{
-	display: inline; 
+	display: block; 
 }
 
 @media(min-width:1500px) {
@@ -626,18 +636,25 @@ li:hover .move-up {
 			position: relative;
 			top: -50px;
 			}	
-			img.how-it-works{
+		img.how-it-works{
 			position: relative;
 			width: 88%;
 			}	
+		.push-icon{
+			width: 6%;
+			position: absolute;
+			left: -0.5%;
+			}
 		}
 
 @media(max-width:1000px){
 		.gif-f1{
-			top: 158px;
+			top: 198px;
 			}
 		.push-icon{
-			width: 10%;
+			width: 6%;
+			position: absolute;
+			left: -1.2%;
 			}
 		}
 
@@ -713,6 +730,7 @@ li:hover .move-up {
 			}
 		h3.elevator {
 			font-size: 1em;
+			top:-81px;
 			}
 		.phone-feature{
 			width: 43%;
@@ -779,6 +797,9 @@ li:hover .move-up {
 			}
 		.branding-1st {
 			top: 250px;
+			}
+		h3.elevator{
+			top: -81px;
 			}
 		}
 
