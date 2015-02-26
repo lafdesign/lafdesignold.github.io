@@ -273,7 +273,8 @@ h2.feature-1-title{
 	}
 .list-right{
 	left: 41%;
-	width: 80%;
+width: 59%;
+
 	}
 
 ul.features-1-list{
@@ -682,9 +683,10 @@ top: -45px;
 			width: 88%;
 			}	
 		.push-icon{
-			width: 6%;
+			width: 9%;
 			position: absolute;
-			left: .5%;
+			left: -.4%;
+
 			}
 			.iphone-container {
 
@@ -699,7 +701,7 @@ top: -45px;
 			top: 198px;
 			}
 		.push-icon{
-			width: 6%;
+			width: 10%;
 			position: absolute;
 			left: -1.2%;
 			}
@@ -933,8 +935,9 @@ width: 36%;
 			padding-bottom: 0%; 
 			}
 		ul.list-right{
-			left: 123px;
-			max-width: 70%;
+		left: 41%;
+max-width: 53%;
+
 		}
 		ul.features-1-list{
 			top:-50px;
