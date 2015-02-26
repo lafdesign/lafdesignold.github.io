@@ -310,6 +310,7 @@ h3.list-title{
 	text-align: left;
 	position: relative;
 	z-index: 10;
+	text-transform: lowercase;
 	}
 
 	h3.list-title2{
@@ -557,7 +558,7 @@ li:hover .move-up {
 .iphone-inner{
 	position: absolute;
 	width: 87%;
-	left: 13.5%;
+	left: 12.6%;
 }
 
 .iphone-screenshot{
@@ -568,6 +569,9 @@ li:hover .move-up {
 
 }
 
+.darker{
+	color: #3f474f;
+}
 
 @media(min-width:1500px) {
 
@@ -913,10 +917,10 @@ width: 36%;
 			top: -41px;
 			}
 		.gif-f1 {
-			top: 400px;
+			top: 300px;
 			}
 		.push-icon {
-			width: 28%;
+			width: 22%;
 			}
 		.phone-feature {
 			width: 45%;
@@ -930,7 +934,7 @@ width: 36%;
 			}
 		ul.list-right{
 			left: 123px;
-			max-width: 52%;
+			max-width: 70%;
 		}
 		ul.features-1-list{
 			top:-50px;
@@ -1009,7 +1013,7 @@ width: 26%;
 			}
 		.widget {
 			position: absolute;
-			top: -90px;
+			top: -115px;
 			left: 127px;
 			}
 		.landing-text{
@@ -1027,7 +1031,7 @@ width: 26%;
 			width:100%;
 			}
 		li.li{
-			text-align: center;
+		
 			position: initial;
 			}
 		li.li-2{
@@ -1041,6 +1045,10 @@ width: 26%;
 		.intro {
 			padding: 0;
 
+}
+.iphone-container {
+
+left: -14%;
 }
 
 
@@ -1057,3 +1065,8 @@ width: 26%;
 			top:315px;
 			}
 		}
+
+
+.darker{
+	color: #3f474f;
+}
