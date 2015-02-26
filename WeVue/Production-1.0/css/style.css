@@ -197,6 +197,7 @@ object.slide2-phone{
 	border-radius: 4px;
 	z-index: 2;
     }
+
     @-webkit-keyframes gwd-gen-on9ggwdanimation_gwd-keyframes {
       0% {
         -webkit-animation-timing-function: linear;
@@ -264,6 +265,10 @@ span.details-title{
 h2.feature-1-title{
 	text-align: left;
 	color: #fff;
+	}
+
+.last-list{
+	left:-4%;
 	}
 
 .list-left{
@@ -542,6 +547,29 @@ li:hover .move-up {
 	display: block; 
 }
 
+.iphone-container{
+	position: relative;
+	width: 30%;
+}	
+
+.iphone-frame{
+	position: absolute;
+	width: 100%;
+}
+
+.iphone-inner{
+	position: absolute;
+	width: 87%;
+	left: 13.5%;
+}
+
+.iphone-screenshot{
+	position: absolute;
+	width: 100%;
+	margin-top: 34%;
+	left: 51%;
+
+}
 
 
 @media(min-width:1500px) {
@@ -572,6 +600,15 @@ li:hover .move-up {
 			left: 71.6%;
 			}
 		}
+
+@media(min-width:1001px) and (max-width: 1300px) {
+
+.iphone-container {
+width: 28%;
+left: -10%;
+top: -45px;
+}
+}
 
 @media(min-width:801px) and (max-width: 999px) {
 
@@ -648,6 +685,12 @@ li:hover .move-up {
 			position: absolute;
 			left: .5%;
 			}
+			.iphone-container {
+
+			width: 28%;
+			left: -4%;
+			top: -50px;
+			}
 		}
 
 @media(max-width:1000px){
@@ -659,8 +702,14 @@ li:hover .move-up {
 			position: absolute;
 			left: -1.2%;
 			}
-		}
+			.iphone-container {
 
+left: -5%;
+		}
+		ul.features-1-list{
+			width: 70%;
+		}
+}
 @media(max-width:840px) {
 
 		.blue-h2{
@@ -679,6 +728,19 @@ li:hover .move-up {
 			position: relative;
 			top: 0px;
 			}
+			.iphone-container {
+			position: relative;
+			width: 40%;
+			left: -18%;
+			}
+			.list-left {
+			left: -4%;
+			width: 65%;
+			}
+			.phone-helper{
+				top: -10px;
+				left: -13%;
+		}
 		}
 
 @media(max-width:799px) {
@@ -705,8 +767,10 @@ li:hover .move-up {
 		.branding-1st{
 			top:168px;
 			}
+			ul.features-1-list{
+				width: 66%;
 		}
-
+}
 @media(max-width:767px) {
 
 		h1.brand-heading{
@@ -724,8 +788,8 @@ li:hover .move-up {
 	 		}
 		img.how-it-works{
 			position: relative;
-			top: -100px;
-			width: 95%;
+			top: -33px;
+			width: 100%;
 			opacity:0;
 			}
 		h3.list-title{
@@ -782,8 +846,8 @@ li:hover .move-up {
 			top: 0px;
 			}
 		.list-right {
-			left: 30%;
-			width: 75%;
+			left: 37%;
+			width: 64%;
 			}
 		.i-phone {
 			left: 1.6%;
@@ -804,21 +868,35 @@ li:hover .move-up {
 		h3.elevator{
 			top: -81px;
 			}
+			.phone-helper {
+
+left: -16%;
+}
 		}
+@media(min-width:651px) and (max-width: 839px) {
+
+
+.iphone-container {
+
+width: 36%;
+
+}
+
+}
 
 @media(max-width:600px) {
 
 		.branding-1st{
-			top: 174px;
+			top: 241px;
 			}
 		h1.brand-heading{
 			top: 74px;
 			}
 		.branding {
-			left: 62%;
+			left: 60%;
 			}
 		.collect-content{
-			top:185px;
+			top:241px;
 			}
 		img.screen-2 {
 			position: absolute;
@@ -859,7 +937,9 @@ li:hover .move-up {
 		}
 		ul.features-1-list{
 			top:-50px;
+			width: 66%;
 			}
+	
 		.last-list{
 			top:50px;
 			}
@@ -955,6 +1035,10 @@ li:hover .move-up {
 			text-align: center;
 			position: initial;
 			}
+				.phone-helper{
+				
+				left: -13%;
+		}
 		}
 @media(max-width:450px) {
 
