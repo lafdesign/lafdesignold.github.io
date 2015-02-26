@@ -126,7 +126,7 @@ div.sub-layer{
 	position: absolute;
 	top: 0;
 	width: 100%;
-	height: 100%;
+	height: 130%;
 	background-image: url('../img/dot.png');
 	opacity: 0.6;
 	}
@@ -916,16 +916,16 @@ width: 36%;
 			top: -41px;
 			}
 		.gif-f1 {
-			top: 336px;
+			top: 400px;
 			}
 		.push-icon {
-			width: 14%;
+			width: 28%;
 			}
 		.phone-feature {
 			width: 45%;
 			}
 		#showcase {
-			height: 1062px;
+			height: 1100px;
 			}
 		#features {
 			margin-top: 0px; 
@@ -946,6 +946,9 @@ width: 36%;
 		.features-section{
 			padding-top: 0px;
 			}
+			img.intro-icons {
+width: 26%;
+}
 		}
 @media(max-width:550px) {
 
@@ -971,11 +974,10 @@ width: 36%;
 			top: 105px;
 			margin-top: 10%;
 			}
-		h2.salmon{
-			position: relative;
-			top: -31px;
+			.iphone-container{
+				top:100px;
 			}
-		}
+		}		
 
 @media(max-width:500px) {
 
