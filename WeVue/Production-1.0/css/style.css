@@ -1041,6 +1041,11 @@ width: 26%;
 				
 				left: -13%;
 		}
+		.intro .intro-body {
+
+position: relative;
+top: -50px;
+}
 		}
 @media(max-width:450px) {
 
