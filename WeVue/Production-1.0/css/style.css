@@ -1053,7 +1053,9 @@ width: 26%;
 
 left: -14%;
 }
-
+.album-nav{
+	display: none;
+}
 
 		}
 @media(max-width:450px) {
