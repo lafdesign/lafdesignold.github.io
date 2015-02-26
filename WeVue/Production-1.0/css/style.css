@@ -122,13 +122,10 @@ h1.brand-heading{
     left: 2%;
 	}
 
-div.sub-layer{
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 130%;
+.sub-layer{
+
 	background-image: url('../img/dot.png');
-	opacity: 0.6;
+
 	}
 
 div.intro-container{
@@ -1041,10 +1038,9 @@ width: 26%;
 				
 				left: -13%;
 		}
-		.intro .intro-body {
+		.intro {
+			padding: 0;
 
-position: relative;
-top: -50px;
 }
 		}
 @media(max-width:450px) {
