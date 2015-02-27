@@ -877,13 +877,13 @@ div.widget-body{
 div.widget-body:hover{
 	border: 2px solid transparent;
 	}
-.desktop{
-	margin-top: 3%;
-	width: 90%;
+.landing{
+	
+
 	position: relative;
-	left: 5%;
-	margin-bottom: 2%;
 }
+
+
 
 @media(min-width:1500px) {
 
@@ -1204,8 +1204,12 @@ div.widget-body:hover{
 			width:100%;
 			}
 		.landing-text {
-			width:100%;
+			width:96%;
 			}
+		.landing{
+			width: 100%;
+			left: -5%;
+		}
 		li.li{
 			position: initial;
 			}
