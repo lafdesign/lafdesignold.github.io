@@ -382,6 +382,9 @@ h2.h2-features{
 	position: absolute;
 	left: 1%;
 	}
+.fa:hover{
+	border:1px solid transparent;
+}
 .fa-icons-dark{
 	font-size: 2.5em;
 	color:  #1F5F6C;
@@ -391,6 +394,9 @@ h2.h2-features{
 	.fa-icons-dark2{
 	font-size: 2.5em;
 	color:  #1F5F6C;
+	}
+	.fa-icons-dark2:hover{
+	border: none;
 	}
 .fa-icons-med{
 	color:#1C8296;
@@ -408,7 +414,11 @@ h2.h2-features{
 	color:#E4FFFA;
 	}
 .blue-text-med-light{
-	color: #67B3C2
+	color: #67B3C2;
+	}
+
+.yellow-text{
+	color: #E8E81F;
 	}
 
 h3{
@@ -430,8 +440,11 @@ p.footer{
 	}
 
 .widget-text{
-	width: 57%;
-	display: inline-block
+	position: relative;
+	width:60%;
+	display: inline-block;
+	left:22%;
+	top:-40px;
 	}
 
 .widget{
@@ -460,10 +473,6 @@ li.li-2{
 	font-size: 1.5em;
 	}
 
-.to-contact{
-	position: relative;
-	top: -45px;
-	}
 
 div.switch-out{
 	min-height: 160px;
@@ -574,6 +583,26 @@ li:hover .move-up {
 	color: #3f474f;
 }
 
+div.widget-container{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	display: block;
+
+}
+div.widget-body{
+position: relative;
+height: 20% ;
+width: 32%;
+padding: 1%;
+display: inline-block;
+border-radius: 3px;
+
+}
+
+div.widget-body:hover{
+	border: 2px solid transparent;
+}
 @media(min-width:1500px) {
 
 		.intro-container{
@@ -601,6 +630,8 @@ li:hover .move-up {
 			top: 157px;
 			left: 71.6%;
 			}
+
+
 		}
 
 @media(min-width:1001px) and (max-width: 1300px) {
@@ -875,6 +906,7 @@ left: -5%;
 
 left: -16%;
 }
+
 		}
 @media(min-width:651px) and (max-width: 839px) {
 
@@ -928,7 +960,7 @@ width: 36%;
 			width: 45%;
 			}
 		#showcase {
-			height: 1100px;
+			height: 1170px;
 			}
 		#features {
 			margin-top: 0px; 
@@ -953,6 +985,18 @@ max-width: 53%;
 			img.intro-icons {
 width: 26%;
 }
+div.widget-body{
+position: relative;
+height: 20% ;
+width: 50%;
+padding: 1%;
+display: inline-block;
+border-radius: 3px;
+
+}
+.widget-text{
+			top:-60px;
+		}
 		}
 @media(max-width:550px) {
 
@@ -1024,7 +1068,7 @@ width: 26%;
 			top:-48px;
 			}
 		.to-contact{
-			top: 29px;
+			top: 0px;
 			}
 		.list-right {
 			left: 27%;
@@ -1039,7 +1083,8 @@ width: 26%;
 			}
 		li.li-2{
 			text-align: left;
-			position: initial;
+			top:-50px;
+			left: 0;
 			}
 				.phone-helper{
 				
@@ -1056,6 +1101,7 @@ left: -14%;
 .album-nav{
 	display: none;
 }
+
 
 		}
 @media(max-width:450px) {
@@ -1075,3 +1121,5 @@ left: -14%;
 .darker{
 	color: #3f474f;
 }
+
+
