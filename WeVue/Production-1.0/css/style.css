@@ -1138,7 +1138,7 @@ div.widget-body:hover{
 			width: 22%;
 			}
 		#showcase {
-			height: 1415px;
+			height: 1435px;
 			}
 		#features {
 			margin-top: 0px; 
@@ -1217,6 +1217,7 @@ div.widget-body:hover{
 			text-align: left;
 			top:-50px;
 			left: 0;
+			position: relative;
 			}
 		.phone-helper{
 			left: -13%;
