@@ -590,9 +590,6 @@ h2.feature-1-title{
 	color: #fff;
 	}
 
-.last-list{
-	left:-4%;
-	}
 
 .list-left{
 	left:-4%;
@@ -602,6 +599,15 @@ h2.feature-1-title{
 width: 59%;
 
 	}
+
+.landing{
+	margin-top: 2%;
+	border-radius: 5px;
+	border: 2px solid #219ab3;
+
+
+}
+
 
 ul.features-1-list{
 	font-family: 'Roboto', sans-serif;
@@ -615,7 +621,6 @@ ul.features-1-list{
 	font-family: 'Roboto', sans-serif;
 	list-style: none;
 	text-align: left;
-	position: relative;
 	color: #fff;
 
 	}
@@ -659,6 +664,13 @@ h3.list-title{
 	position: absolute;
 	left: 0%;
 	}
+
+	.fa-icons-dark1{
+	font-size: 2.5em;
+	color:  #1F5F6C;
+
+
+	}
 	.fa-icons-dark2{
 	font-size: 2.5em;
 	color:  #1F5F6C;
@@ -672,6 +684,9 @@ h3.list-title{
 	position: absolute;
 	left: 0%;
 	}
+.fa-retweet{
+	position: relative;
+}
 .blue-text{
 	color: #219ab3;
 	}
@@ -711,24 +726,17 @@ p.footer{
 	position: relative;
 	width:60%;
 	display: inline-block;
-	left:22%;
 	top:-40px;
 	}
 
-.widget{
-	display: inline-block
-	}
-
-.desktop{
-	display: inline-block
-	}
-
 .landing-text{
-	width: 57%;
+	position: relative;
+	width:60%;
 	display: inline-block;
-	padding-left:3%;
-	margin-top: 1%;
+	
+
 	}
+
 
 .fa-lock{
 	transform: rotate(20deg);
@@ -869,7 +877,13 @@ div.widget-body{
 div.widget-body:hover{
 	border: 2px solid transparent;
 	}
-
+.desktop{
+	margin-top: 3%;
+	width: 90%;
+	position: relative;
+	left: 5%;
+	margin-bottom: 2%;
+}
 
 @media(min-width:1500px) {
 
@@ -1124,7 +1138,7 @@ div.widget-body:hover{
 			width: 22%;
 			}
 		#showcase {
-			height: 1170px;
+			height: 1385px;
 			}
 		#features {
 			margin-top: 0px; 
@@ -1137,9 +1151,6 @@ div.widget-body:hover{
 		ul.features-1-list{
 			top:-50px;
 			width: 66%;
-			}
-		.last-list{
-			top:50px;
 			}
 		.features-section{
 			padding-top: 0px;
@@ -1181,14 +1192,18 @@ div.widget-body:hover{
 		div.form-area{
 			width: 100%;
 			}
-		.to-contact{
-			top: 0px;
+		.to-contact {
+			top: -35px;
+			position: relative;
 			}
 		.list-right {
 			left: 27%;
 			width: 82%;
 			}
 		.widget-text {
+			width:100%;
+			}
+		.landing-text {
 			width:100%;
 			}
 		li.li{

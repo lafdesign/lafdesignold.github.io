@@ -63,31 +63,7 @@ $('.navbar-collapse ul li a').click(function() {
             }
             showNextQuote();
         })();
-(function() {
-            var quotes = $(".features-img");
-            var quoteIndex = -1;
-            function showNextQuote() {
-                ++quoteIndex;
-                quotes.eq(quoteIndex % quotes.length)
-                    .fadeIn(500)
-                    .delay(3200)
-                    .fadeOut(1500, showNextQuote);
-            }
-            showNextQuote();
-        })();
 
-(function() {
-    var quotes = $(".screen-2-fade");
-    var quoteIndex = -1;
-    function showNextQuote() {
-        ++quoteIndex;
-        quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(500)
-            .delay(2000)
-            .fadeOut(500, showNextQuote);
-    }
-    showNextQuote();
-})();
 
 // activates animate.css classes on scroll 
 onScrollInit( $('.os-animation') );

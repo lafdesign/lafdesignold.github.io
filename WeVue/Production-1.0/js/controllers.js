@@ -18,11 +18,7 @@ angular.module('App.controllers', []).
         $scope.emailRequired = 'Email Required';
       }
  
-      if (!$scope.formInfo.company) {
-        $scope.passwordRequired = 'Field Required';
-      }
+   
     };
   }])
-  .controller('AppCtrl2', [function() {
- 
-  }]);
+  
