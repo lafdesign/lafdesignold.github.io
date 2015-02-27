@@ -11,5 +11,10 @@ angular
 			controller: 'homeCtrl'	
 			
 		})
+			.state('about', {
+			url: '/about',
+			templateUrl: 'template/about.html',
+			controller: 'aboutCtrl'	
 			
+		})
 	}])
