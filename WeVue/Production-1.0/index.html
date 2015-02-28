@@ -309,6 +309,7 @@
  <br>
 <input type="text" class="form-control "id="number" ng-model="myForm.number" placeholder="Phone - (optional)" >
 
+
    
 
  
@@ -322,6 +323,11 @@
     {{myForm.email}}
   </div>
 </div>
+
+
+
+
+        {"item_name":"Contact Me Form", "item_data":{"Name":"John Smith", "Email":"john@smith.com", "PhoneNumber":"222-333-4444"}}
 
 <script>
   angular.module("myapp", [])
@@ -339,7 +345,7 @@
           ,number  : $scope.myForm.number
        };
 
-       var responsePromise = $http.post("/angularjs-examples/json-test-data.jsp", dataObject, {});
+       var responsePromise = $http.post("http://wevue-dev.herokuapp.com/api/v1/misc/add_form_submission", dataObject, {});
        responsePromise.success(function(dataFromServer, status, headers, config) {
           console.log(dataFromServer.title);
        });
