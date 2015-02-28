@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="myapp">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -260,7 +260,9 @@
              
                     <ul>
                         <li class=" li center-block landing-text os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s"> <i class="fa fa-retweet fa-icons-dark os-animation" data-os-animation="rotateIn" data-os-animation-delay="2s"></i> &nbsp;&nbsp;&nbsp;<span class="features-section">On social media: </span>photos and videos shared from the app on social media drive traffic to a branded page that links to any relevant site about you company.  </li>
+                        <hr>
                         <img src="img/landing-page.png" class="landing center-block"width="90%" style="paddin-top:1%;" position="relative" z-index="1">
+                        <hr>
                         <br>
                         </ul>
                     <a href="#contact" class="to-contact btn btn-circle page-scrollos-animation" data-os-animation="flipInY" data-os-animation-delay=".2s" >
@@ -281,29 +283,58 @@
                 <div class=" form-area btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s">
                 Request Demo
 <!-- Angualr form  -->
-                <form 
-                    name="formInfo"
-                    class="form-horizontal" 
-                    ng-submit="addNew()"
-                    >                 
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="inputName" placeholder="Your Name" ng-model="formInfo.Name" required>
-                        </div>
-                        
-                        <div class="form-group">
-                          <input  type="email" class="form-control" id="inputEmail" placeholder="Company Email" ng-model="formInfo.Email" required>
-                        </div>
 
-                        <div class="form-group"> 
-                          <input type="text" class="form-control " id="inputPhoneNumber" placeholder="Phone Number- optional" ng-model="formInfo.PhoneNumber">
-                        </div>
-                    </form>
-                </div>
-                <br>
-                <br>
-                <input type="submit" ng-disabled="formInfo.$invalid" class="btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"
-                ></input>
+<div ng-controller="MyController" >
+  <form>
+   
+    <input type="text" class="form-control" id="name" placeholder="Your Name" ng-model="myForm.name" required>
+    <br>
 
+ <input  type="email" class="form-control" id="email" placeholder="Company Email" ng-model="myForm.email" required>
+ <br>
+<input type="text" class="form-control "id="number" ng-model="myForm.number" placeholder="Phone Number- optional" >
+
+   
+
+ 
+  </form>
+     <button class="btn btn-default btn-lg os-animation" ng-disabled="myForm.$invalid" data-os-animation="pulse" data-os-animation-delay=".1s" ng-click="myForm.submitTheForm()">Submit Form</button>
+
+  <div>
+    {{myForm.name}}
+  </div>
+  <div>
+    {{myForm.email}}
+  </div>
+</div>
+
+<script>
+  angular.module("myapp", [])
+     .controller("MyController", function($scope, $http) {
+       $scope.myForm = {};
+       $scope.myForm.name = "";
+       $scope.myForm.email = "";
+       $scope.myForm.number = "";
+
+     $scope.myForm.submitTheForm = function(item, event) {
+       console.log("--> Submitting form");
+       var dataObject = {
+          name : $scope.myForm.name
+          ,email : $scope.myForm.email
+          ,number  : $scope.myForm.number
+       };
+
+       var responsePromise = $http.post("/angularjs-examples/json-test-data.jsp", dataObject, {});
+       responsePromise.success(function(dataFromServer, status, headers, config) {
+          console.log(dataFromServer.title);
+       });
+        responsePromise.error(function(data, status, headers, config) {
+          alert("Submitting form failed!");
+       });
+     }
+
+  });
+</script>
 
 
 

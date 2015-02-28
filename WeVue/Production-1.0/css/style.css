@@ -291,7 +291,7 @@ a:focus {
 
 .btn-default {
     border: 1px solid #219ab3;
-    color: #219ab3;
+    color: #fff;
     background-color: transparent;
 }
 
@@ -434,7 +434,7 @@ p{
 	}
 
 .content-section {
-	 padding-top: 100px;
+	padding-top: 100px;
 	}
 
 #features{
@@ -590,24 +590,20 @@ h2.feature-1-title{
 	color: #fff;
 	}
 
-
 .list-left{
 	left:-4%;
 	}
+
 .list-right{
 	left: 41%;
-width: 59%;
-
+	width: 59%;
 	}
 
 .landing{
 	margin-top: 3%;
 	border-radius: 5px;
 	border: 2px solid #219ab3;
-
-
-}
-
+	}
 
 ul.features-1-list{
 	font-family: 'Roboto', sans-serif;
@@ -622,15 +618,14 @@ ul.features-1-list{
 	list-style: none;
 	text-align: left;
 	color: #fff;
-
 	}
 
 ul.features-2-list{
 	font-family: 'Roboto', sans-serif;
 	width: 58%;
 	list-style: none;
-
 	}
+
 ul.features-2-list-2{
 	font-family: 'Roboto', sans-serif;
 	list-style: none;
