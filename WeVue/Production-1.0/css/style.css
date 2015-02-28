@@ -1192,6 +1192,8 @@ div.widget-body:hover{
 
 		div.intro-container{
 			font-size: 3vw;
+			position: relative;
+			top: -2px;
 			}
 		form{
 			padding: 1%;
@@ -1199,6 +1201,10 @@ div.widget-body:hover{
 		div.form-area{
 			width: 100%;
 			}
+		.to-about{
+			position: relative;
+			top: -10px;
+		}
 		.to-contact {
 			top: -35px;
 			position: relative;
@@ -1248,7 +1254,16 @@ div.widget-body:hover{
 	hr.hr{
 		display: block;
 	}
+img.brand-logo {
 
+top: 85px;
+width: 50%;
+}
 
+h3.quotes {
+font-size: 1.3em;
+top: -21px;
+position: relative;
+}
 		}
 
