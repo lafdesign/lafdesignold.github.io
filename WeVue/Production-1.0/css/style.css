@@ -432,7 +432,9 @@ a{
 p{
 	font-family: 'Roboto', sans-serif;
 	}
-
+hr.hr{
+	display:none;
+}
 .content-section {
 	padding-top: 100px;
 	}
@@ -602,7 +604,8 @@ h2.feature-1-title{
 .landing{
 	margin-top: 3%;
 	border-radius: 5px;
-	border: 2px solid #219ab3;
+	/* border: 85px solid #219ab3; */
+	border-top: 100px solid;
 	}
 
 ul.features-1-list{
@@ -980,9 +983,6 @@ div.widget-body:hover{
 			position: relative;
 			top: -35px;
 			}
-		#showcase{
-			height: 900px;
-			}
 		.showcase-subtitle{
 			position: absolute;
 			top: 136px;
@@ -1203,7 +1203,7 @@ div.widget-body:hover{
 			}
 		.landing{
 			width: 100%;
-			left: -5%;
+			
 		}
 		li.li{
 			position: initial;
@@ -1226,5 +1226,16 @@ div.widget-body:hover{
 		.album-nav{
 			display: none;
 			}
+
+.landing{
+	margin-top: 3%;
+	border-radius: 5px;
+	/* border: 85px solid #219ab3; */
+	border-top: 10px solid;
+	}
+	hr.hr{
+		display: block;
+	}
+
 		}
 
