@@ -437,6 +437,8 @@ hr.hr{
 }
 .content-section {
 	padding-top: 100px;
+	position: relative;
+	z-index: 3;
 	}
 
 #features{
@@ -483,7 +485,9 @@ h1.brand-heading{
     min-width: 51px;
     left: 2%;
 	}
-
+.main-logo:hover{
+	border:1px solid transparent;
+	}
 .sub-layer{
 	background-image: url('../img/dot.png');
 	}
@@ -503,8 +507,11 @@ img.intro-icons{
 	width: 27%;
 	max-width: 110px;
 	margin: 1%;
+	opacity: .9;
 	}
-
+img.intro-icons:hover{
+	border:1px solid transparent;
+	}
 img.how-it-works{
 	position: relative;
 	width: 95%;
@@ -876,12 +883,17 @@ div.widget-body:hover{
 	border: 2px solid transparent;
 	}
 .landing{
-	
-
 	position: relative;
+	z-index: 2;
 }
 
+#phone-2{
+	border: 0px;
+}
 
+#phone-2:hover{
+	border: 1px solid transparent;
+}
 
 @media(min-width:1500px) {
 
