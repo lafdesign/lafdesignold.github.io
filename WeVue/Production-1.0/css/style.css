@@ -1145,7 +1145,7 @@ div.widget-body:hover{
 			width: 22%;
 			}
 		#showcase {
-			height: 1580px;
+			height: 1625px;
 			}
 		#features {
 			margin-top: 0px; 
@@ -1264,6 +1264,12 @@ h3.quotes {
 font-size: 1.3em;
 top: -21px;
 position: relative;
+}
+.quote-title{
+
+
+padding-top: 5px;
+
 }
 		}
 
