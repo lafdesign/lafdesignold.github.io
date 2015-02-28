@@ -302,12 +302,12 @@
 <div ng-controller="MyController" >
   <form>
    
-    <input type="text" class="form-control" id="name" placeholder="Your Name" ng-model="myForm.name" required>
+    <input type="text" class="form-control" id="Name" placeholder="Your Name" ng-model="myForm.Name" required>
     <br>
 
- <input  type="email" class="form-control" id="email" placeholder="Company Email" ng-model="myForm.email" required>
+ <input  type="email" class="form-control" id="Email" placeholder="Company Email" ng-model="myForm.Email" required>
  <br>
-<input type="text" class="form-control "id="number" ng-model="myForm.number" placeholder="Phone - (optional)" >
+<input type="text" class="form-control "id="PhoneNumber" ng-model="myForm.PhoneNumber" placeholder="Phone - (optional)" >
 
 
    
@@ -317,10 +317,10 @@
      <button class="btn btn-default btn-lg os-animation" ng-disabled="myForm.$invalid" data-os-animation="pulse" data-os-animation-delay=".1s" ng-click="myForm.submitTheForm()">Submit</button>
 
   <div>
-    {{myForm.name}}
+    {{myForm.Name}}
   </div>
   <div>
-    {{myForm.email}}
+    {{myForm.Email}}
   </div>
 </div>
 
@@ -330,19 +330,22 @@
         {"item_name":"Contact Me Form", "item_data":{"Name":"John Smith", "Email":"john@smith.com", "PhoneNumber":"222-333-4444"}}
 
 <script>
-  angular.module("myapp", [])
+  angular.module("ContactMeForm", [])
      .controller("MyController", function($scope, $http) {
        $scope.myForm = {};
-       $scope.myForm.name = "";
-       $scope.myForm.email = "";
-       $scope.myForm.number = "";
+       $scope.myForm.Name = "";
+       $scope.myForm.Email = "";
+       $scope.myForm.PhoneNumber = "";
 
      $scope.myForm.submitTheForm = function(item, event) {
        console.log("--> Submitting form");
        var dataObject = {
-          name : $scope.myForm.name
-          ,email : $scope.myForm.email
-          ,number  : $scope.myForm.number
+        item_name : "Contact Me Form"
+        ,item_data : {
+          Name : $scope.myForm.Name
+          ,Email : $scope.myForm.Email
+          ,PhoneNumber  : $scope.myForm.PhoneNumber
+        }
        };
 
        var responsePromise = $http.post("http://wevue-dev.herokuapp.com/api/v1/misc/add_form_submission", dataObject, {});
