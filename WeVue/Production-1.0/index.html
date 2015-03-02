@@ -294,72 +294,50 @@
                 <h2 class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".1s" >Want to learn more about the culture app <span class="os-animation" data-os-animation="tada" data-os-animation-delay="2.5s">?
                 </span></h2>
                 <p class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.8s">Feel free to email us to provide some feedback, give us suggestions, or to just say hello!</p>
-                <p><a class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s" href="mailto:#">info@wevue.com</a></p>
-                <div class=" form-area btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s">
-                Request Demo
+                <p><a class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s" href="mailto:info@wevue.com">info@wevue.com</a></p>
+                  <h3 class="success-message center-block toBeAnimated" id="success">
+                  <span style="color:#fff"> Thanks! </span><br>Our Team will be in touch !
+                </h3> 
+                <div class=" form-area btn btn-default btn-lg toBeAnimated os-animation" data-os-animation="pulse" data-os-animation-delay=".1s" id="form">
+                Request Demo    
+              
 <!-- Angualr form  -->
-               
-                
-
-<div ng-app="formApp">
-  <div ng-controller="FormController">
-  <form novalidate class="simple-form">
-    <input type="text" ng-model="user.Name"
-    class="form-control" 
-                id="Name" 
-                placeholder="Your Name" required /><br />
-   <input type="email" ng-model="user.Email" 
-   class="form-control" 
-    id="Email" 
-                placeholder="Company Email" required/><br />
-  <input type="text" ng-model="user.PhoneNumber"
-  class="form-control "
-    id="Number"
-    placeholder="Phone - (optional)" /><br />
-    <input class="btn btn-default btn-lg os-animation" type="submit" ng-click="update(user)" value="Save"
-    data-os-animation="pulse" data-os-animation-delay=".1s" />
-  </form>
-
-</div>
-</div>
-
-<script>
-  angular.module('formApp', [])
-    .controller('FormController', ['$scope', '$http', function($scope, $http) {
-      $scope.form_data = {};
-
-     
-    
-      
-      $scope.update = function(user) {
-        $scope.form_data = angular.copy(user);
-         var dataObject = {
-        item_name : "Contact Me Form"
-        ,item_data : $scope.form_data
-       };
-  
-
-     var responsePromise = $http.post("http://wevue-dev.herokuapp.com/api/v1/misc/add_form_submission", dataObject, {});
-                   responsePromise.success(function(dataFromServer, status, headers, config)                
-                   {
-                       var outputDate=angular.fromJson(dataFromServer);
-                   });
-                    responsePromise.error(function(data, status, headers, config) {
-                      console.log("Error in fetching user store call!");
-                   });    
-                };
-            }]);
-</script>
-
-
-
-
-
-
+                <div ng-app="formApp">
+                    <div ng-controller="FormController">
+                        <form novalidate class="animated" >
+                            <input 
+                                type="text" 
+                                ng-model="user.Name"
+                                class="form-control" 
+                                id="Name" 
+                                placeholder="Your Name" required /><br />
+                            <input 
+                                type="email" 
+                                ng-model="user.Email" 
+                                class="form-control toBeAnimatedFast" 
+                                id="Email" 
+                                placeholder="Company Email" required/><br />
+                            <input 
+                                type="text" ng-model="user.PhoneNumber"
+                                class="form-control toBeAnimatedFast2 "
+                                id="Number"
+                                placeholder="Phone - (optional)" /><br />
+                            <input 
+                                id="submit"
+                                class="btn-default btn-lg os-animation" type="submit" 
+                                ng-click="update(user)" 
+                                value="Save"
+                                data-os-animation="pulse" 
+                                data-os-animation-delay=".1s" />
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+
 <!-- Footer -->
     <footer>
         <div class="container text-center">
@@ -372,6 +350,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/formApp.js"></script>
 
 
 </body>
