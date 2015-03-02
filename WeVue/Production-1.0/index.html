@@ -210,7 +210,7 @@
                     <h2 class="">
                     A CONTENT MARKETING TOOL TO TELL YOUR <span class="blue-text-light os-animation" data-os-animation="pulse" data-os-animation-delay=".2s">STORIES </span></h2>
                     <h3 class="list-title list-title2 os-animation toBeAnimated" data-os-animation="fadeIn " data-os-animation-delay=".4s" text-align="center">The people that work with you have tales to tell - leverage them to gather: </h3>
-                <div class="iphone-container pull-right os-animation toBeAnimated" data-os-animation="flipInY" data-os-animation-delay=".3s"> 
+                <div class="iphone-container pull-right os-animation toBeAnimated" data-os-animation="fadeIn" data-os-animation-delay=".3s"> 
                     <img class="iphone-frame"src="img/phone.png">
                     <div class="iphone-inner">
                         <img src="img/create-a-vue.png" class="iphone-screenshot ">
@@ -258,20 +258,20 @@
                   </ul>
                   <hr class="hr">
                     <div class="widget-container center-block">
-                        <div class="widget-body os-animation" data-os-animation="rotateInDownLeft" data-os-animation-delay=".3s"> 
+                        <div class="widget-body"> 
                             <img src="img/widget-1.png" class="img-rounded" width="100%">
                         </div>
-                        <div class="widget-body os-animation" data-os-animation="fadeInDownBig" data-os-animation-delay=".3s"> 
+                        <div class="widget-body "> 
                             <img src="img/widget-2.png" class="img-rounded" width="100%">
                         </div>
-                        <div class="widget-body os-animation" data-os-animation="rotateInDownRight" data-os-animation-delay=".3s"> 
+                        <div class="widget-body "> 
                             <img src="img/widget-3.png"  class="img-rounded" width="100%">
                         </div>
                     </div>
                     <hr class="hr">
                     <br>
 
-             
+    
                     <ul>
                         <li class=" li center-block landing-text os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s"> <i class="fa fa-retweet fa-icons-dark os-animation" data-os-animation="rotateIn" data-os-animation-delay="2s"></i> &nbsp;&nbsp;&nbsp;<span class="features-section">On social media: </span>photos and videos shared from the app on social media drive traffic to a branded page that links to any relevant site about you company.  </li>
                         </ul>
@@ -298,67 +298,62 @@
                 <div class=" form-area btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s">
                 Request Demo
 <!-- Angualr form  -->
+                <div ng-controller="MyController" >
+                    <form class="animated " >
+                        <input type="text" class="form-control" id="Name" placeholder="Your Name" ng-model="myForm.name" required>
+                        <br>
+                        <input  type="email" class="form-control" id="Email" placeholder="Company Email" ng-model="myForm.email" required>
+                        <br>
+                        <input type="text" class="form-control "id="Number" ng-model="myForm.number" placeholder="Phone - (optional)" >
+                    </form>
+                    <button class="btn btn-default btn-lg os-animation" ng-disabled="myForm.$invalid" data-os-animation="pulse" data-os-animation-delay=".1s" ng-click="myForm.submitTheForm()">Submit</button>
+                    <div>
+                    {{myForm.name}}
+                    </div>
+                    <div>
+                    {{myForm.email}}
+                    </div>
+                    <div>
+                    {{myForm.number}}
+                    </div>
+                </div>
 
-<div ng-controller="MyController" >
-  <form>
-   
-    <input type="text" class="form-control" id="Name" placeholder="Your Name" ng-model="myForm.Name" required>
-    <br>
-
- <input  type="email" class="form-control" id="Email" placeholder="Company Email" ng-model="myForm.Email" required>
- <br>
-<input type="text" class="form-control "id="PhoneNumber" ng-model="myForm.PhoneNumber" placeholder="Phone - (optional)" >
-
-
-   
-
- 
-  </form>
-     <button class="btn btn-default btn-lg os-animation" ng-disabled="myForm.$invalid" data-os-animation="pulse" data-os-animation-delay=".1s" ng-click="myForm.submitTheForm()">Submit</button>
-
-  <div>
-    {{myForm.Name}}
-  </div>
-  <div>
-    {{myForm.Email}}
-  </div>
-</div>
+                <script>
+                  angular.module("myapp", [])
 
 
+                     .controller("MyController",  function($scope, $http) {
+                       $scope.myForm = {};
+                       $scope.myForm.name = "";
+                       $scope.myForm.email = "";
+                       $scope.myForm.number = "";
+
+                     $scope.myForm.submitTheForm = function(item, event) {
+                       console.log("--> Submitting form");
+
+               
+
+                        var dataObject = {
+                        item_name : "Contact Me Form"
+                        ,item_data : [{
+                          Name : $scope.contactForm.Name
+                          ,Email : $scope.contactForm.Email
+                          ,PhoneNumber  : $scope.contactForm.PhoneNumber
+                        }]
+                       };
 
 
-        {"item_name":"Contact Me Form", "item_data":{"Name":"John Smith", "Email":"john@smith.com", "PhoneNumber":"222-333-4444"}}
-
-<script>
-  angular.module("ContactMeForm", [])
-     .controller("MyController", function($scope, $http) {
-       $scope.myForm = {};
-       $scope.myForm.Name = "";
-       $scope.myForm.Email = "";
-       $scope.myForm.PhoneNumber = "";
-
-     $scope.myForm.submitTheForm = function(item, event) {
-       console.log("--> Submitting form");
-       var dataObject = {
-        item_name : "Contact Me Form"
-        ,item_data : {
-          Name : $scope.myForm.Name
-          ,Email : $scope.myForm.Email
-          ,PhoneNumber  : $scope.myForm.PhoneNumber
-        }
-       };
-
-       var responsePromise = $http.post("http://wevue-dev.herokuapp.com/api/v1/misc/add_form_submission", dataObject, {});
-       responsePromise.success(function(dataFromServer, status, headers, config) {
-          console.log(dataFromServer.title);
-       });
-        responsePromise.error(function(data, status, headers, config) {
-          alert("Submitting form failed!");
-       });
-     }
-
-  });
-</script>
+                 var responsePromise = $http.post("http://wevue-dev.herokuapp.com/api/v1/misc/add_form_submission", dataObject, {});
+                   responsePromise.success(function(dataFromServer, status, headers, config)                
+                   {
+                       var outputDate=angular.fromJson(dataFromServer);
+                   });
+                    responsePromise.error(function(data, status, headers, config) {
+                      console.log("Error in fetching user store call!");
+                   });
+                     }
+                  });
+                </script>
 
 
 

@@ -389,16 +389,16 @@ input{
 	color: #219ab3;
 	}
 
-input#inputName.ng-invalid.ng-dirty{
+input#Name.ng-invalid.ng-dirty{
 	border:1px solid red;
 	}
-input#inputCompany.ng-invalid.ng-dirty{
+input#Email.ng-invalid.ng-dirty{
 	border:1px solid red;
 	}
-input#inputEmail.ng-invalid.ng-dirty{
+input#Number.ng-invalid.ng-dirty{
 	border:1px solid red;
 	}
-input#inputEmail.ng-invalid.ng-dirty:focus{
+input#Email.ng-invalid.ng-dirty:focus{
 	border:1px solid #219ab3;
 	}
 
