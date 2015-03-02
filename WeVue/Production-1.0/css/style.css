@@ -374,6 +374,43 @@ body{
 .toBeAnimated {
   	-webkit-animation-duration: 3s;
   	-webkit-animation-delay: 2s;
+  	-moz-animation-duration: 3s;
+  	-moz-animation-delay: 2s;
+  	-o-animation-duration: 3s;
+  	-o-animation-delay: 2s;
+  	animation-duration: 3s;
+  	animation-delay: 2s;
+	}	
+.toBeAnimatedMed {
+   	-webkit-animation-duration: 2s;
+  	-webkit-animation-delay: 1s;
+  	-moz-animation-duration: 2s;
+  	-moz-animation-delay: 1s;
+  	-o-animation-duration: 2s;
+  	-o-animation-delay: 1s;
+  	animation-duration: 2s;
+  	animation-delay: 1s;
+	}	
+.toBeAnimatedFast {
+   	-webkit-animation-duration: 1s;
+  	-webkit-animation-delay: .2s;
+  	-moz-animation-duration: 1s;
+  	-moz-animation-delay: .2s;
+  	-o-animation-duration: 1s;
+  	-o-animation-delay: .2s;
+  	animation-duration: 1s;
+  	animation-delay: .2s;
+	}	
+
+.toBeAnimatedFast2 {
+   	-webkit-animation-duration: 1s;
+  	-webkit-animation-delay: .4s;
+  	-moz-animation-duration: 1s;
+  	-moz-animation-delay: .4s;
+  	-o-animation-duration: 1s;
+  	-o-animation-delay: .4s;
+  	animation-duration: 1s;
+  	animation-delay: .4s;
 	}	
 
 .os-animation{
@@ -417,8 +454,21 @@ form{
 	}
 div.form-area{
 	width:50%;
+	position: relative;
 	}
+.success-message{
+	display: none;
+	position: absolute;	
+	font-size: 1.4em;
+	width: 60%;
+	color: #219ab3;
+	text-align: center;
+	left: 20%;
 
+	}
+.success-display{
+	display: block;
+	}
 .form-control{
 	color: #219ab3;
 	}
@@ -894,6 +944,8 @@ div.widget-body:hover{
 #phone-2:hover{
 	border: 1px solid transparent;
 }
+
+
 
 @media(min-width:1500px) {
 

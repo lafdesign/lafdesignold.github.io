@@ -93,6 +93,24 @@ function onScrollInit( items, trigger ) {
 }
 
 
+$('#submit').on('click', function() {
+            $('#form').addClass('animated flipOutY');
+        });
+$('#submit').on('click', function() {
+            $('#Name').addClass('animated flipOutX');
+        });
+$('#submit').on('click', function() {
+            $('#Email').addClass('animated flipOutX');
+        });
+$('#submit').on('click', function() {
+            $('#Number').addClass('animated toBeAnimatedFast flipOutX');
+        });
+$('#submit').on('click', function() {
+            $('#success').addClass('  success-display animated fadeIn ');
+        });
+
+
+
 
  onScrollInit( $('.os-animation') );
  onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
