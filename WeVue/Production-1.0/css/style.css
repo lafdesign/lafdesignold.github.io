@@ -558,9 +558,11 @@ img.intro-icons{
 	margin: 1%;
 	opacity: .9;
 	}
+
 img.intro-icons:hover{
 	border:1px solid transparent;
 	}
+
 img.how-it-works{
 	position: relative;
 	width: 95%;
@@ -606,7 +608,6 @@ h3.elevator{
     body .gwd-gen-on9ggwdanimation {
       -webkit-animation: gwd-gen-on9ggwdanimation_gwd-keyframes 7s linear 0s infinite normal forwards;
     }
-
 
 .push-li{
 	position: relative;
@@ -660,7 +661,6 @@ h2.feature-1-title{
 .landing{
 	margin-top: 3%;
 	border-radius: 5px;
-	/* border: 85px solid #219ab3; */
 	border-top: 100px solid;
 	}
 
@@ -670,16 +670,13 @@ ul.features-1-list{
 	text-align: left;
 	position: relative;
 	color: #fff;
-
 	}
+
 	ul.last-list{
-	
 	font-family: 'Roboto', sans-serif;
 	list-style: none;
 	text-align: left;
 	color: #fff;
-
-
 	}
 
 ul.features-2-list{
@@ -714,7 +711,7 @@ h3.list-title{
 	}
 .fa:hover{
 	border:1px solid transparent;
-}
+	}
 .fa-icons-dark{
 	font-size: 2.5em;
 	color:  #1F5F6C;
@@ -740,7 +737,7 @@ h3.list-title{
 	}
 .fa-retweet{
 	position: relative;
-}
+	}
 .blue-text{
 	color: #219ab3;
 	}
@@ -787,10 +784,7 @@ p.footer{
 	position: relative;
 	width:60%;
 	display: inline-block;
-	
-
 	}
-
 
 .fa-lock{
 	transform: rotate(20deg);
@@ -802,7 +796,6 @@ li.li{
 li.li-2{
 	font-size: 1.5em;
 	}
-
 
 div.switch-out{
 	min-height: 160px;
@@ -841,7 +834,6 @@ img.brand-logo{
 	width: 100%;
 	z-index: 2;
 	}
-
 .feed-android{
 	position: relative;
 	width: 100%;
@@ -931,22 +923,23 @@ div.widget-body{
 div.widget-body:hover{
 	border: 2px solid transparent;
 	}
+
 .landing{
 	position: relative;
 	z-index: 2;
-}
+	}
 
 #phone-2{
 	border: 0px;
-}
+	}	
 
 #phone-2:hover{
 	border: 1px solid transparent;
-}
+	}
 
 .push-li{
 	width: 600px;
-}
+	}
 
 .showcase-post{
 	height: 576px;
@@ -963,7 +956,6 @@ div.widget-body:hover{
 	height: 322px;
 	position: relative;
     left: -2%;
-
 	}
 
 .to-showcase2{
@@ -974,14 +966,12 @@ div.widget-body:hover{
 
 ul.social-media-list{
 	position: relative;
-}
+	}
 
 .iframe{
 	width:100%;
 	height:450px;
-}
-
-
+	}
 
 
 @media(min-width:1500px) {
@@ -1154,8 +1144,8 @@ ul.social-media-list{
 			}
 		ul.features-1-list{
 			width: 66%;
+			}
 		}
-	}
 
 @media(max-width:767px) {
 
@@ -1235,7 +1225,7 @@ ul.social-media-list{
 		.iphone-container {
 			width: 34%;
 			}
-	}
+		}
 
 @media(max-width:600px) {
 
@@ -1293,36 +1283,30 @@ ul.social-media-list{
 			top:-60px;
 			}
 		.iframe{
-	width:100%;
-	height:200px;
-}
-.intro {
-padding: 0;
-height: 675px;
-}
-
-.content-section {
-
-z-index: 3;
-height: 550px;
+			width:100%;
+			height:200px;
+			}
+		.intro {
+			padding: 0;
+			height: 675px;
+			}
+		.content-section {
+			z-index: 3;
+			height: 550px;
+			}
+		#features {
+			height: 900px;
+			}
+		#features-2 {
+			height: 800px;
+			}
+		#features-4 {
+			height: 850px;
+			}
+		#contact{
+			height: 700px;
+			}
 		}
-#features {
-
-height: 900px;
-}
-#features-2 {
-
-height: 800px;
-}
-
-#features-4 {
-
-height: 850px;
-}
-#contact{
-	height: 700px;
-}
-]
 
 @media(max-width:550px) {
 
@@ -1334,36 +1318,27 @@ height: 850px;
 			}
 		.phone-2{
 			top: 30px;
-
 		}
 		li, i {
-
 			 /*CSS transitions*/
-
 			 -o-transition-property: none !important;
 			 -moz-transition-property: none !important;
 			 -ms-transition-property: none !important;
 			 -webkit-transition-property: none !important;
 			 transition-property: none !important;
-
 			 /*CSS transforms*/
-
 			 -o-transform: none !important;
 			 -moz-transform: none !important;
 			 -ms-transform: none !important;
 			 -webkit-transform: none !important;
 			 transform: none !important;
-
 			 /*CSS animations*/
-
 			 -webkit-animation: none !important;
 			 -moz-animation: none !important;
 			 -o-animation: none !important;
 			 -ms-animation: none !important;
 			 animation: none !important;
-
 			}
-
 		}
 
 @media(max-width:500px) {
@@ -1423,13 +1398,12 @@ height: 850px;
 		.landing{
 			margin-top: 3%;
 			border-radius: 5px;
-			/* border: 85px solid #219ab3; */
 			border-top: 10px solid;
 			position: relative;
 			top: -170px;
 			}
 		hr.hr{
-				display: block;
+			display: block;
 			}
 		img.brand-logo {
 			top: 85px;
