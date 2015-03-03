@@ -281,5 +281,27 @@
                           <input type="text" class="form-control " id="inputCompany" placeholder="Company or Project" ng-model="formInfo.Company" required>
                         </div>
                         <div class="form-group">
-                          <input  type="email" class="form-control" id="inputEmail" 
+                          <input  type="email" class="form-control" id="inputEmail" placeholder="Email" ng-model="formInfo.Email" required>
+                        </div>
+                    </form>
+
+                </div>
+<br>
+<br>
+        
+                <button type="submit" ng-disabled="formInfo.$invalid" class="btn btn-default btn-lg os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"
+                > Send</button>
+
+            </div>
+          
+
+        </div>
+    </section>
+
+<!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".1s">Copyright &copy; WeVue 2015</p>
+        </div>
+    </footer>
 
