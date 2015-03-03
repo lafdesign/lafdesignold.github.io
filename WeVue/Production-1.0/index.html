@@ -210,11 +210,9 @@
                     <h2 class="">
                     A CONTENT MARKETING TOOL TO TELL YOUR <span class="blue-text-light os-animation" data-os-animation="pulse" data-os-animation-delay=".2s">STORIES </span></h2>
                     <h3 class="list-title list-title2 os-animation toBeAnimated" data-os-animation="fadeIn " data-os-animation-delay=".4s" text-align="center">The people that work with you have tales to tell - leverage them to gather: </h3>
-                <div class="iphone-container pull-right os-animation toBeAnimated" data-os-animation="fadeIn" data-os-animation-delay=".3s"> 
-                    <img class="iphone-frame"src="img/phone.png">
-                    <div class="iphone-inner">
-                        <img src="img/profile.png" class="iphone-screenshot ">
-                    </div>
+                <div class="iphone-container side-phone pull-right os-animation toBeAnimated" data-os-animation="fadeIn" data-os-animation-delay=".3s"> 
+                    <img src="img/01_iphone.png" class="perspective-phone">
+                   
                 </div>
                     <ul class="features-1-list list-left">
                         <br>
@@ -264,6 +262,7 @@
                      <a href="#showcase2" class="to-showcase2 btn btn-circle page-scroll os-animation" data-os-animation="flipInY" data-os-animation-delay=".2s" >
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
+
                     <img id="showcase2"  src="img/showcase.svg" class="small-showcase">
                   
               
@@ -324,9 +323,10 @@
                                 id="submit"
                                 class="btn-default btn-lg os-animation" type="submit" 
                                 ng-click="update(user)" 
-                                value="Save"
+                                value="Send"
                                 data-os-animation="pulse" 
-                                data-os-animation-delay=".1s" />
+                                data-os-animation-delay=".1s"
+                                ng-disbaled="$invalid" />
                         </form>
                     </div>
                 </div>
@@ -345,6 +345,7 @@
     height: 500px;
     margin-top: -66px;
 ">
+   <img src="img/embed-icon.png">
     </footer>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>  

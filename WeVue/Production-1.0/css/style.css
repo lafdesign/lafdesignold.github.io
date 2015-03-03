@@ -964,16 +964,34 @@ div.widget-body:hover{
 	width: 40%;
 	padding-top: 68px;
 	height: 322px;
+	position: relative;
+    left: -2%;
+
 	}
 
 .to-showcase2{
 	position: relative;
 	top: -350px;
-	left: 20%;
+	left: 21%;
 	}
 
 ul.social-media-list{
 	position: relative;
+}
+
+.side-phone{
+	top: 0px;
+
+
+}
+.perspective-phone{
+width: 230%;
+padding-top: 23px;
+left: -60%;
+position: relative;
+top: 30px;
+
+
 }
 
 @media(min-width:1500px) {
@@ -1078,6 +1096,10 @@ ul.social-media-list{
 		ul.features-1-list{
 			width: 70%;
 			}
+			ul.last-list {
+				position: relative;
+			left: -171px;
+			}
 		}
 
 @media(max-width:840px) {
@@ -1110,7 +1132,10 @@ ul.social-media-list{
 			}
 		.push-li{
 			width:initial;
-
+			}
+		.perspective-phone {
+			left: -33%;
+			position: relative;
 			}
 		}
 
@@ -1212,6 +1237,13 @@ ul.social-media-list{
 		.phone-helper {
 			left: -16%;
 			}
+			.perspective-phone{
+width: 171%;
+padding-top: 30px;
+top: -50px;
+position: relative; 
+left: 0;              
+}
 		}
 
 @media(min-width:651px) and (max-width: 839px) {
