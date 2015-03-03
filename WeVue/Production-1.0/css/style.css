@@ -1296,10 +1296,33 @@ ul.social-media-list{
 	width:100%;
 	height:200px;
 }
+.intro {
+padding: 0;
+height: 675px;
+}
 
+.content-section {
 
-
+z-index: 3;
+height: 550px;
 		}
+#features {
+
+height: 900px;
+}
+#features-2 {
+
+height: 800px;
+}
+
+#features-4 {
+
+height: 850px;
+}
+#contact{
+	height: 700px;
+}
+]
 
 @media(max-width:550px) {
 
