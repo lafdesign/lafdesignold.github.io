@@ -952,19 +952,25 @@ div.widget-body:hover{
 }
 
 .showcase-post{
-height: 576px;
-margin-top: 50px;
-width: 91%;
-padding-top: -31px;
-position: relative;
-top: -82px;
-}
+	height: 576px;
+	margin-top: 50px;
+	width: 91%;
+	padding-top: -31px;
+	position: relative;
+	top: -82px;
+	}
 
 .small-showcase{
 	width: 40%;
-padding-top: 68px;
-height: 322px;
-}
+	padding-top: 68px;
+	height: 322px;
+	}
+
+.to-showcase2{
+	position: relative;
+	top: -350px;
+	left: 20%;
+	}
 
 @media(min-width:1500px) {
 
