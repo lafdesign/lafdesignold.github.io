@@ -38,7 +38,7 @@
 		<path class="st9" d="M503.367,223.406l-9.211,2.087l16.93,3.351l16.933,3.354l-7.722-5.439l-3.282-2.312l0.293-1.467
 			c3.862-1.91,7.176-6.598,8.353-12.531c1.683-8.507,1.792-15.143-7.592-16.87c-9.142-1.681-11.762,4.2-13.445,12.705
 			c-1.173,5.932,0.102,11.529,2.947,14.768l-0.29,1.468L503.367,223.406z">
-			<animateTransform attributeName="transform" begin=".1" attributeType="HML" type="translate" dur="4.5s" values="25,360;0,-25;0,25;310,35;" repeatCount="indefinite"/>
+			<animateTransform attributeName="transform" begin=".1" attributeType="HML" type="rotate" dur="4.5s" values="25,360;0,-25;0,25;310,35;" repeatCount="indefinite"/>
 		</path>
 
 		<path class="st9" d="M509.613,236.363c9.1,1.802,17.162-0.063,18.4-4.161l-33.829-6.698
