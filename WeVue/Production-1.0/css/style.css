@@ -972,6 +972,10 @@ div.widget-body:hover{
 	left: 20%;
 	}
 
+ul.social-media-list{
+	position: relative;
+}
+
 @media(min-width:1500px) {
 
 		.intro-container{
@@ -1164,6 +1168,10 @@ div.widget-body:hover{
 		h3.quotes{
 			font-size: 1em;
 			}
+		ul.last-list{
+			top: -383px;
+			left: -140px;
+			}
 		}
 
 @media(max-width:700px){
@@ -1278,7 +1286,48 @@ div.widget-body:hover{
 		.iphone-container{
 			top:100px;
 			}
-		}		
+			.showcase-post {
+height: 250px;
+margin-top: 50px;
+width: 100%;
+padding-top: -31px;
+position: relative;
+top: -82px;
+}
+ul.last-list {
+top: -107px;
+left: -20px;
+}
+.small-showcase {
+width: 108%;
+padding-top: -19px;
+height: 319px;
+display: inline;
+position: relative;
+z-index: 1;
+top: -100px;
+}
+.to-showcase2 {
+position: relative;
+top: -160px;
+left:0;
+		}	
+		ul.social-media-list {
+position: relative;
+top: -150px;
+z-index: 3;
+}
+hr.hr2{
+position: relative;
+top: 50px;
+
+	}	
+hr.hr3{
+	position: relative;
+top: -390px;
+
+}
+}
 
 @media(max-width:500px) {
 
@@ -1296,9 +1345,9 @@ div.widget-body:hover{
 		.to-about{
 			position: relative;
 			top: -10px;
-		}
+			}	
 		.to-contact {
-			top: -35px;
+			top: -220px;
 			position: relative;
 			}
 		.list-right {
@@ -1342,6 +1391,8 @@ div.widget-body:hover{
 	border-radius: 5px;
 	/* border: 85px solid #219ab3; */
 	border-top: 10px solid;
+	position: relative;
+	top: -170px;
 	}
 	hr.hr{
 		display: block;
