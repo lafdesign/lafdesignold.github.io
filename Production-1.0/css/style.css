@@ -406,6 +406,17 @@ input:-webkit-autofill {
     border-bottom: 1px solid gray;
 	}
 
+
+
+
+
+form.ng-valid input    {
+ display: ""
+}
+
+input#submit  {
+ display: none;
+}
 input:-webkit-autofill:focus {
     -webkit-box-shadow: ,0 0 0 50px white inset;
     -webkit-text-fill-color: #219ab3;
@@ -529,32 +540,6 @@ h3.elevator{
 	z-index: 100;
 	top:0px;
 	}
-
-@-webkit-keyframes gwd-gen-on9ggwdanimation_gwd-keyframes {
-      0% {
-        -webkit-animation-timing-function: linear;
-        background-color: rgb(102, 102, 102);
-      }
-      28.57% {
-        -webkit-animation-timing-function: linear;
-        background-color: rgb(0, 0, 255);
-      }
-      57.14% {
-        -webkit-animation-timing-function: linear;
-        background-color: rgb(204, 0, 0);
-      }
-      85.71% {
-        -webkit-animation-timing-function: linear;
-        background-color: rgb(102, 102, 102);
-      }
-      100% {
-        -webkit-animation-timing-function: linear;
-        background-color: rgb(102, 102, 102);
-      }
-    }
-    body .gwd-gen-on9ggwdanimation {
-      -webkit-animation: gwd-gen-on9ggwdanimation_gwd-keyframes 7s linear 0s infinite normal forwards;
-    }
 
 
 .push-li{
@@ -1192,7 +1177,7 @@ width: 100%;
 			padding-top: 0px;
 			}
 		img.intro-icons {
-			width: 26%;
+			width: 24.5%;
 			}
 		div.widget-body{
 			position: relative;
@@ -1330,6 +1315,10 @@ padding-top: 5px;
 			.gif-f1 {
 top: 350px;
 }
+.intro{
+height: 550px;
+}
+}
 
 /* iphone 6 and  portrait */
 
@@ -1357,5 +1346,9 @@ height: 500px;
 }
 }
 
+
+li{
+	display: table;
+}
 
 
