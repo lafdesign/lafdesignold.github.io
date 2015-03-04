@@ -38,19 +38,7 @@ $('.navbar-collapse ul li a').click(function() {
             showNextQuote();
         })();
 
-// sldie control on phones 
-(function() {
-            var quotes = $(".quotes2");
-            var quoteIndex = -1;
-            function showNextQuote() {
-                ++quoteIndex;
-                quotes.eq(quoteIndex % quotes.length)
-                    .fadeIn(2000)
-                    .delay(1000)
-                    .fadeOut(2000, showNextQuote);
-            }
-            showNextQuote();
-        })();
+// slide control on phones 
 (function() {
             var quotes = $(".branding-img");
             var quoteIndex = -1;
@@ -93,6 +81,16 @@ function onScrollInit( items, trigger ) {
 }
 
 
+// activates animate.css classes on scroll 
+
+ onScrollInit( $('.os-animation') );
+ onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
+
+
+
+
+
+// click events with form submission
 $('#submit').on('click', function() {
             $('#form').addClass('animated flipOutY');
         });
@@ -111,14 +109,3 @@ $('#submit').on('click', function() {
 $('#submit').on('click', function() {
             $('#fade-success').addClass('animated fadeOut');
         });
-
-
-
- onScrollInit( $('.os-animation') );
- onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
-
-var p = document.getElementsByTagName('img')[0];
-p.onclick = function() {
- // Trigger the `onhover` event on the paragraph
- img.onhover.call(p);
-};

@@ -911,7 +911,9 @@ div.widget-body:hover{
 	}
 
 
-
+.features-section{
+		    color: #3f474f;
+			}
 
 
 
@@ -955,9 +957,7 @@ div.widget-body:hover{
 		h3.list-title{
 		font-size: 2em;
 			}
-		.features-section{
-		    color: #3f474f;
-			}
+		
 		}
 
 @media(min-width:1001px){
@@ -1059,7 +1059,7 @@ div.widget-body:hover{
 			width: 56%;
 			}
 		.push-icon{
-			width: 10%;
+			width: 12%;
 			}
 		ul.features-1-list{
 			width: 66%;
@@ -1083,9 +1083,6 @@ div.widget-body:hover{
 			top: -65px;
 			width: 100%;
 			opacity:0;
-			}
-		h3.list-title{
-			color:gray;
 			}
 		h3.elevator {
 			font-size: 1em;
@@ -1163,7 +1160,7 @@ div.widget-body:hover{
 			top: 400px;
 			}
 		.push-icon {
-			width: 22%;
+			width: 28%;
 			}
 		#showcase {
 			height: 1625px;
@@ -1285,7 +1282,7 @@ div.widget-body:hover{
 		.album-nav{
 			display: none;
 			}
-		.iframe{\element.style {
+		.iframe{
 width: 250px;
 }
 
@@ -1342,4 +1339,22 @@ height: 500px;
 }
 }
 
+
+.align_left {
+	float: left; 
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+.align_right {
+	float: right; 
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.align_center {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
 
