@@ -389,16 +389,14 @@ input{
 	color: #219ab3;
 	}
 
-input#inputName.ng-invalid.ng-dirty{
+input#Name.ng-invalid.ng-dirty{
 	border:1px solid red;
 	}
-input#inputCompany.ng-invalid.ng-dirty{
+
+input#Email.ng-invalid.ng-dirty{
 	border:1px solid red;
 	}
-input#inputEmail.ng-invalid.ng-dirty{
-	border:1px solid red;
-	}
-input#inputEmail.ng-invalid.ng-dirty:focus{
+input#Email.ng-invalid.ng-dirty:focus{
 	border:1px solid #219ab3;
 	}
 
@@ -562,6 +560,7 @@ h3.elevator{
 .push-li{
 	position: relative;
 	left: -2%;
+	width: 600px;
 	}
 
 span.details-title{
@@ -738,8 +737,6 @@ p.footer{
 	position: relative;
 	width:60%;
 	display: inline-block;
-	
-
 	}
 
 
@@ -775,7 +772,7 @@ img.brand-logo{
 .gif-f1{
 	position: absolute;
 	display: inline;
-	width: 44%;
+	width: 35%;
 	left: -15px;
 	}
 
@@ -916,7 +913,11 @@ div.widget-body:hover{
 			}
 
 
+.iframe{
+	height: 475px;
+width: 100%;
 
+}
 
 @media(min-width:1500px) {
 
@@ -937,6 +938,13 @@ div.widget-body:hover{
 			width: 28%;
 			left: -10%;
 			top: -45px;	
+			}
+		}
+
+@media(max-width: 1100px) {
+	
+		.push-li{
+			width: 550px;
 			}
 		}
 
@@ -998,7 +1006,7 @@ div.widget-body:hover{
 			top: 198px;
 			}
 		.push-icon{
-			width: 10%;
+			width: 9%;
 			position: absolute;
 			left: -1.2%;
 			}
@@ -1007,6 +1015,9 @@ div.widget-body:hover{
 			}
 		ul.features-1-list{
 			width: 70%;
+			}
+		.push-li {
+			width: 469px;
 			}
 		}
 
@@ -1037,6 +1048,9 @@ div.widget-body:hover{
 		.phone-helper{
 			top: -10px;
 			left: -13%;
+			}
+		.push-li{
+			width:initial;
 			}
 		}
 
@@ -1156,11 +1170,8 @@ div.widget-body:hover{
 		.i-phone{
 			top: -41px;
 			}
-		.gif-f1 {
-			top: 400px;
-			}
 		.push-icon {
-			width: 28%;
+			width: 22%;
 			}
 		#showcase {
 			height: 1625px;
@@ -1312,24 +1323,30 @@ position: relative;
 padding-top: 5px;
 
 }
-		}
+	.push-icon {
+			width: 28%;
+			}
+			.gif-f1 {
+top: 350px;
+}
 
+/* iphone 6 and  portrait */
 
 
 @media only screen 
-    and (max-device-width: 640px), 
-    only screen and (max-device-width: 667px), 
-    only screen and (max-width: 480px)
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 2)
 { 
 
 .intro {
 padding: 0;
 height: 666px;
 }
-
 }
 
-
+/* iphone 4 portrait & landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3)
 {
@@ -1340,21 +1357,4 @@ height: 500px;
 }
 
 
-.align_left {
-	float: left; 
-	margin-right: 1em;
-	margin-bottom: 1em;
-}
-
-.align_right {
-	float: right; 
-	margin-left: 1em;
-	margin-bottom: 1em;
-}
-
-.align_center {
-	display: block; 
-	margin-left: auto; 
-	margin-right: auto;
-}
 
