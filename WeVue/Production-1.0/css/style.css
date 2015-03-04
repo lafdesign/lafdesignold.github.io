@@ -1430,7 +1430,7 @@ ul.social-media-list{
 			}
 		}
 
-
+/* iphone 6 and 6+ portrait */
 @media only screen 
     and (max-device-width: 640px), 
     only screen and (max-device-width: 667px), 
@@ -1453,4 +1453,50 @@ margin-bottom: -44px;
 }
 
 }
+/* iphone 6 and 6+ portrait & landscape */
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+
+#features {
+height: 985px;
+}
+
+.gif-f1 {
+top: 433px;
+}
+#features-2 {
+height: 925px;
+}
+
+#features-3{
+
+width: 600px
+}
+
+#features-4 {
+height: 900px;
+}
+
+#showcase {
+height: 1680px;
+}
+.intro {
+padding: 0;
+height: 500px;
+}
+.content-section {
+
+height: 450px;
+}
+.iphone-container2 {
+left: -19%;
+width: 54%;
+}
+.iphone-container {
+
+width: 34%;
+
+}
+}
