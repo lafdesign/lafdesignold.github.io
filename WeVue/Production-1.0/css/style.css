@@ -1430,3 +1430,27 @@ ul.social-media-list{
 			}
 		}
 
+
+@media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px)
+{ 
+
+.to-feature4{
+	position: relative;
+top: -50px;
+}
+}
+.to-contact {
+top: -25px;
+position: relative;
+}
+
+ul.features-1-list {
+
+margin-bottom: -44px;
+}
+
+}
+
