@@ -86,9 +86,9 @@ function onScrollInit( items, trigger ) {
  onScrollInit( $('.os-animation') );
  onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
 
+$( "form.ng-valid > input#submit" ).css( "display", "block" );
 
-
-
+document.getElementById("#submit").disabled = true; 
 
 // click events with form submission
 $('#submit').on('click', function() {
