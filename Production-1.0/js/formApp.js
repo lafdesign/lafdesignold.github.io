@@ -9,8 +9,6 @@ angular.module('formApp', [])
         ,item_data : $scope.form_data
        };
        
-
-
      var responsePromise = $http.post("http://wevue-dev.herokuapp.com/api/v1/misc/add_form_submission", dataObject, {});
                    responsePromise.success(function(dataFromServer, status, headers, config)                
                    {

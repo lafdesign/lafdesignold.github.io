@@ -1,4 +1,3 @@
-
 body {
     width: 100%;
     height: 100%;
@@ -362,9 +361,6 @@ body {
 
 
 
-
-
-
 body{
 	overflow-y: scroll; 
 	margin: 0px 0px 0px 0px;
@@ -406,21 +402,16 @@ input:-webkit-autofill {
     border-bottom: 1px solid gray;
 	}
 
-
 input#submit{
 	
-}
+	}
 form.ng-invalid {
 	
- }
-
+ 	}
 
 form.ng-valid {
 
-
 	}
-
-
 input:-webkit-autofill:focus {
     -webkit-box-shadow: ,0 0 0 50px white inset;
     -webkit-text-fill-color: #219ab3;
@@ -431,11 +422,9 @@ form{
 div.form-area{
 	width:50%;
 	}
-
 .form-control{
 	color: #219ab3;
 	}
-
 ul{
 	text-align: left;
 	}
@@ -447,50 +436,42 @@ p{
 	}
 hr.hr{
 	display:none;
-}
+	}
 .content-section {
 	padding-top: 100px;
 	position: relative;
 	z-index: 3;
 	}
-
 #features{
 	background-color: #36424d;
 	margin-top: 135px;
 	padding-top: 40px;
 	padding-bottom: 7%;
 	}
-
 #features-2{
 	background: #eb7260;
 	padding-top: 0px;
 	}
-
 .features-section-2{
 	background: #eb7260;
 	}
-
 #features-4{
 	background-color: #2ea28e;
 	padding-top: 20px;
 	}
-
 #showcase{
 	background-color: #548db5;
 	padding-top: 10px;
 	}
-
 #contact{
 	background-color: #36424d;
 	padding-bottom: 20px;
 	}
-
 h1.brand-heading{
 	font-family: 'Roboto', sans-serif;
 	top: 115px;
 	position: relative;
 	}
- 
 .main-logo{
     position: absolute;
     width: 3%;
@@ -504,18 +485,15 @@ h1.brand-heading{
 .sub-layer{
 	background-image: url('../img/dot.png');
 	}
-
 div.intro-container{
 	font-size: 2.8vw;
 	font-family: 'Roboto', sans-serif;
 	}
-
 div.intro-container span{
 	font-size: 16vw;
 	position: relative;
 	top: 3vw;
 	}
-
 img.intro-icons{
 	width: 27%;
 	max-width: 110px;
@@ -531,27 +509,22 @@ img.how-it-works{
 	opacity:0;
 	top: 0px;
 	}
-
 .icons{
 	font-size: 6vw;
 	position: relative;
 	top: 8px;
 	}
-
 h3.elevator{
 	font-size: 2vw;
 	position: relative;
 	z-index: 100;
 	top:0px;
 	}
-
-
 .push-li{
 	position: relative;
 	left: -2%;
 	width: 600px;
 	}
-
 span.details-title{
 	position: absolute;
 	left: -1%;
@@ -559,7 +532,6 @@ span.details-title{
 	width: 100%;
 	z-index: 1;
 	}
-
 .features-section{
 	width: 100%;
     padding: 50px 0;
@@ -570,7 +542,6 @@ span.details-title{
     -o-background-size: cover;
     font-family: 'Roboto', sans-serif;
 	}
-
 .showcase-section{
 	width: 100%;
     padding: 50px 0;
@@ -581,55 +552,45 @@ span.details-title{
     -o-background-size: cover;
     font-family: 'Roboto', sans-serif;
 	}
-
 h2.feature-1-title{
 	text-align: left;
 	color: #fff;
 	}
-
 .list-left{
 	left:-4%;
 	}
-
 .list-right{
 	left: 41%;
 	width: 59%;
 	}
-
 .landing{
 	margin-top: 3%;
 	border-radius: 5px;
-	/* border: 85px solid #219ab3; */
 	border-top: 100px solid;
 	}
-
 ul.features-1-list{
 	font-family: 'Roboto', sans-serif;
 	list-style: none;
 	text-align: left;
 	position: relative;
 	color: #fff;
-
 	}
-	ul.last-list{
+ul.last-list{
 	font-family: 'Roboto', sans-serif;
 	list-style: none;
 	text-align: left;
 	color: #fff;
 	}
-
 ul.features-2-list{
 	font-family: 'Roboto', sans-serif;
 	width: 58%;
 	list-style: none;
 	}
-
 ul.features-2-list-2{
 	font-family: 'Roboto', sans-serif;
 	list-style: none;
 	text-align: left;	
 	}
-
 h3.list-title{
 	color: white;
 	text-align: left;
@@ -637,11 +598,9 @@ h3.list-title{
 	z-index: 10;
 	text-transform: lowercase;
 	}
-
-	h3.list-title2{
+h3.list-title2{
 	color: rgb(108, 116, 123);
 	}
-
 .fa-icons{
 	font-size: 2.5em;
 	color: #219ab3;
@@ -650,25 +609,22 @@ h3.list-title{
 	}
 .fa:hover{
 	border:1px solid transparent;
-}
+	}
 .fa-icons-dark{
 	font-size: 2.5em;
 	color:  #1F5F6C;
 	position: absolute;
 	left: 0%;
 	}
-
-	.fa-icons-dark1{
-	font-size: 2.5em;
-	color:  #1F5F6C;
-
-
-	}
-	.fa-icons-dark2{
+.fa-icons-dark1{
 	font-size: 2.5em;
 	color:  #1F5F6C;
 	}
-	.fa-icons-dark2:hover{
+.fa-icons-dark2{
+	font-size: 2.5em;
+	color:  #1F5F6C;
+	}
+.fa-icons-dark2:hover{
 	border: none;
 	}
 .fa-icons-med{
@@ -679,7 +635,7 @@ h3.list-title{
 	}
 .fa-retweet{
 	position: relative;
-}
+	}
 .blue-text{
 	color: #219ab3;
 	}
@@ -692,84 +648,67 @@ h3.list-title{
 .blue-text-med-light{
 	color: #67B3C2;
 	}
-
 .yellow-text{
 	color: #E8E81F;
 	}
-
 h3{
  	font-size: 1.8em;
  	}
-
 h3.quotes{
 	font-size: 1.8em;
 	}
-
 .quotes2{
 	font-size: .65em;
 	text-align: left;
  	}
-
 p.footer{
 	font-size: 1em;
 	font-family: 'Roboto', sans-serif;
 	}
-
 .widget-text{
 	position: relative;
 	width:60%;
 	display: inline-block;
 	top:-40px;
 	}
-
 .landing-text{
 	position: relative;
 	width:60%;
 	display: inline-block;
 	}
-
-
 .fa-lock{
 	transform: rotate(20deg);
 	}
-
 li.li{
 	font-size: 1.5em;
 	}
 li.li-2{
 	font-size: 1.5em;
 	}
-
-
 div.switch-out{
 	min-height: 160px;
 	position: relative;
 	top: 100px;
 	}
-
 .intro-container{
 	position: relative;
 	top: -50px;
 	}
-
 img.brand-logo{
 	position: relative;
 	top: 65px;
 	width: 40%;
 	}
-
 .gif-f1{
 	position: absolute;
 	display: inline;
 	width: 35%;
 	left: -15px;
 	}
-
 .i-phone{
 	left: -0.4%;
 	top: -42px;
 	}
-
 .container-android{
 	overflow:hidden;
 	}
@@ -778,7 +717,6 @@ img.brand-logo{
 	width: 100%;
 	z-index: 2;
 	}
-
 .feed-android{
 	position: relative;
 	width: 100%;
@@ -787,7 +725,6 @@ img.brand-logo{
 	z-index: 3;
 	-webkit-user-select: none;
 	}
-
 #inner:hover .move-up {
     transform: translate(0,-50%);
     -webkit-transform: translate(0,-50%);
@@ -800,7 +737,6 @@ li:hover .move-up {
     -o-transform: translate(0,-50%); 
     -moz-transform: translate(0,-50%);
 	}
-
 .inner{
 	position: absolute;
 	overflow: hidden;
@@ -809,7 +745,6 @@ li:hover .move-up {
 	height: 77%;
 	top: 10%;
 	}
-
 .object {
 	-webkit-transition: all 2s ease-in-out;
 	-moz-transition: all 2s ease-in-out;
@@ -821,41 +756,34 @@ li:hover .move-up {
 .li{
 	display: block; 
 	}
-
 .iphone-container{
 	position: relative;
 	width: 30%;
 	}	
-
 .iphone-frame{
 	position: absolute;
 	width: 100%;
 	}
-
 .iphone-inner{
 	position: absolute;
 	width: 87%;
 	left: 12.6%;
 	}
-
 .iphone-screenshot{
 	position: absolute;
 	width: 100%;
 	margin-top: 34%;
 	left: 51%;
 	}
-
 .darker{
 	color: #3f474f;
 	}
-
 div.widget-container{
 	position: relative;
 	width: 100%;
 	height: 20%;
 	display: block;
 	}
-
 div.widget-body{
 	position: relative;
 	height: 20% ;
@@ -864,24 +792,19 @@ div.widget-body{
 	display: inline-block;
 	border-radius: 3px;
 	}
-
 div.widget-body:hover{
 	border: 2px solid transparent;
 	}
 .landing{
 	position: relative;
 	z-index: 2;
-}
-
+	}
 #phone-2{
 	border: 0px;
-}
-
+	}
 #phone-2:hover{
 	border: 1px solid transparent;
-}
-
-
+	}
 .success-message{
 	display: none;
 	position: absolute;	
@@ -890,23 +813,20 @@ div.widget-body:hover{
 	color: #219ab3;
 	text-align: center;
 	left: 20%;
-
 	}
 .success-display{
 	display: block;
 	}
-
-
 .features-section{
-		    color: #3f474f;
-			}
-
-
+    color: #3f474f;
+	}
 .iframe{
 	height: 475px;
-width: 100%;
+	width: 100%;
+	}
 
-}
+
+
 
 @media(min-width:1500px) {
 
@@ -939,7 +859,6 @@ width: 100%;
 
 @media(min-width:801px) and (max-width: 999px) {
 
-		
 		.list-right {
 			left: 41%;
 			width: 68%;
@@ -952,9 +871,8 @@ width: 100%;
 	 		font-size: .8em;
 	 		}
 		h3.list-title{
-		font-size: 2em;
+			font-size: 2em;
 			}
-		
 		}
 
 @media(min-width:1001px){
@@ -1066,8 +984,8 @@ width: 100%;
 			}
 		ul.features-1-list{
 			width: 66%;
+			}
 		}
-	}
 
 @media(max-width:767px) {
 
@@ -1147,11 +1065,11 @@ width: 100%;
 		h1.brand-heading{
 			top: 74px;
 			}
-		h3.list-title {
+		h3.list-title{
 			top: -32px;
 			position: relative;
 			}
-		.showcase-subtitle {
+		.showcase-subtitle{
 			position: absolute;
 			top: 77px;
 			font-size: 1em;
@@ -1159,11 +1077,10 @@ width: 100%;
 		.i-phone{
 			top: -41px;
 			}
-		.push-icon {
+		.push-icon{
 			width: 22%;
 			}
-		
-		#features {
+		#features{
 			margin-top: 0px; 
 			padding-bottom: 0%; 
 			}
@@ -1178,7 +1095,7 @@ width: 100%;
 		.features-section{
 			padding-top: 0px;
 			}
-		img.intro-icons {
+		img.intro-icons{
 			width: 24.5%;
 			}
 		div.widget-body{
@@ -1240,12 +1157,12 @@ width: 100%;
 		.to-about{
 			position: relative;
 			top: -10px;
-		}
-		.to-contact {
+			}
+		.to-contact{
 			top: -35px;
 			position: relative;
 			}
-		.list-right {
+		.list-right{
 			left: 27%;
 			width: 82%;
 			}
@@ -1256,9 +1173,8 @@ width: 100%;
 			width:96%;
 			}
 		.landing{
-			width: 100%;
-			
-		}
+			width: 100%;	
+			}
 		li.li{
 			position: initial;
 			}
@@ -1274,56 +1190,48 @@ width: 100%;
 		.intro {
 			padding: 0;
 			}
-		.iphone-container {
+		.iphone-container{
 			left: -14%;
 			}
 		.album-nav{
 			display: none;
 			}
 		.iframe{
-width: 250px;
-height:210px;
-}
-
-.landing{
-	margin-top: 3%;
-	border-radius: 5px;
-	/* border: 85px solid #219ab3; */
-	border-top: 10px solid;
-	}
-	hr.hr{
-		display: block;
-	}
-img.brand-logo {
-
-top: 85px;
-width: 50%;
-}
-
-h3.quotes {
-font-size: 1.3em;
-top: -21px;
-position: relative;
-}
-.quote-title{
-
-
-padding-top: 5px;
-
-}
-	.push-icon {
+			width: 250px;
+			height:210px;
+			}
+		.landing{
+			margin-top: 3%;
+			border-radius: 5px;
+			border-top: 10px solid;
+			}
+		hr.hr{
+			display: block;
+			}
+		img.brand-logo{
+			top: 85px;
+			width: 50%;
+			}
+		h3.quotes {
+			font-size: 1.3em;
+			top: -21px;
+			position: relative;
+			}
+		.quote-title{
+			padding-top: 5px;
+			}
+		.push-icon {
 			width: 28%;
 			}
-			.gif-f1 {
-top: 350px;
-}
-.intro{
-height: 550px;
-}
-}
+		.gif-f1 {
+			top: 350px;
+			}
+		.intro{
+			height: 550px;
+			}
+		}	
 
 /* iphone 6 and  portrait */
-
 
 @media only screen 
     and (min-device-width : 375px) 
@@ -1332,25 +1240,22 @@ height: 550px;
     and (-webkit-min-device-pixel-ratio : 2)
 { 
 
-.intro {
-padding: 0;
-height: 666px;
-}
+		.intro {
+		padding: 0;
+		height: 666px;
+		}
 }
 
 /* iphone 4 portrait & landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3)
 {
-.intro {
-padding: 0;
-height: 500px; 
-}
+		.intro {
+		padding: 0;
+		height: 500px; 
+		}
 }
 
 
-li{
-	display: table;
-}
 
 

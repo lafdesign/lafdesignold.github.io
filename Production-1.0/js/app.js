@@ -1,4 +1,3 @@
-
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
@@ -80,8 +79,6 @@ function onScrollInit( items, trigger ) {
   });
 }
 
-
-
 // activates animate.css classes on scroll 
 
  onScrollInit( $('.os-animation') );
@@ -109,11 +106,13 @@ $('#submit').on('click', function() {
         });
 
 
+// activates button in form  
+
 
 $(function(){
      $('#Email').keyup(function(){
           if ($(this).val() == '') { //Check to see if there is any text entered
-               //If there is no text within the input ten disable the button
+               //If there is no text within the input then disable the button
                $('.enable').prop('disabled', true);
           } else {
                //If there is text in the input, then enable the button
