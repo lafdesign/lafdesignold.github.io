@@ -405,7 +405,7 @@ form.ng-invalid > #submit {
 	display: none;
  	}
 input:-webkit-autofill:focus {
-    -webkit-box-shadow: ,0 0 0 50px white inset;
+    -webkit-box-shadow: 0 0 0 50px white inset;
     -webkit-text-fill-color: #219ab3;
 	}
 form{
