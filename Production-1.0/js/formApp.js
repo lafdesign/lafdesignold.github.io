@@ -8,7 +8,7 @@ angular.module('formApp', [])
         item_name : "Contact Me Form"
         ,item_data : $scope.form_data
        };
-        var dataObject = JSON.stringify(dataObject);
+       
 
 
      var responsePromise = $http.post("http://wevue-dev.herokuapp.com/api/v1/misc/add_form_submission", dataObject, {});

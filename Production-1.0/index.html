@@ -76,7 +76,7 @@
                         <div class="intro-container">
                             Personal
                             <span class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".1s">}</span>
-                            <a href="http://wevue.com" target="blank">
+                            <a href="http://wevue-production.s3.amazonaws.com/www/site-ani.html" target="blank">
                                 <img src="img/wevue_logo_icon.png" class="img-rounded intro-icons" alt="WeVue app Logo: redirects to 'personal' WeVue app page">
                             </a>
                             <a class="page-scroll" href="#about">
@@ -306,7 +306,7 @@
 <!-- Angualr form  -->
                     <div ng-app="formApp" >
                         <div ng-controller="FormController">
-                            <form novalidate class="animated"
+                            <form id="form" novalidate class="animated"
                             
                             >
                                 <input 
@@ -328,12 +328,12 @@
                                     placeholder="Phone - (optional)" /><br />
                                 <input 
                                     id="submit"
-                                    class="btn-default btn-lg os-animation" type="submit" 
+                                    class=" enable btn-default btn-lg os-animation" type="submit" 
                                     ng-click="update(user)" 
                                     value="Send"
                                     data-os-animation="pulse" 
                                     data-os-animation-delay=".1s"
-                                    ng-disabled="FormController.Name.$invalid"/>
+                                    disabled="disabled"/>
                                     
                                     
                             </form>
