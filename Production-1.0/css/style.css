@@ -401,18 +401,9 @@ input:-webkit-autofill {
     -webkit-text-fill-color: #219ab3;
     border-bottom: 1px solid gray;
 	}
-
-input#submit{
-	
-	}
 form.ng-invalid > #submit {
 	display: none;
-	
  	}
-
-form.ng-valid {
-
-	}
 input:-webkit-autofill:focus {
     -webkit-box-shadow: ,0 0 0 50px white inset;
     -webkit-text-fill-color: #219ab3;
@@ -1230,6 +1221,14 @@ div.widget-body:hover{
 		.intro{
 			height: 550px;
 			}
+		}
+
+@media(max-width:400px) {
+		.iframe{
+			width: 250px;
+			height:210px;
+			}
+
 		}	
 
 /* iphone 6 and  portrait */
