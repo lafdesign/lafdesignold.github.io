@@ -405,7 +405,8 @@ input:-webkit-autofill {
 input#submit{
 	
 	}
-form.ng-invalid {
+form.ng-invalid > #submit {
+	display: none;
 	
  	}
 
