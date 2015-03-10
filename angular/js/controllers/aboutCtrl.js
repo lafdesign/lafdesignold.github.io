@@ -1,7 +1,7 @@
 angular
   .module('app')
   .controller('aboutCtrl', ['$scope', function($scope) {
-  	$scope.title = "Contact";
+  	$scope.title = "About";
     $scope.items = ['home','about','contact'];
-    $scope.selectedValue = 'contact';
+    $scope.selectedValue = 'about';
   }]);
