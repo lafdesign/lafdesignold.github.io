@@ -7,12 +7,12 @@ angular
     $stateProvider
       .state('home', {
         url: '/',
-        templateUrl: 'home.html',
+        templateUrl: 'templates/home.html',
         controller: 'homeCtrl'
       })
       .state('about', {
         url: '/about',
-        templateUrl: 'about.html',
+        templateUrl: 'templates/about.html',
         controller: 'aboutCtrl'
       })
   }])
