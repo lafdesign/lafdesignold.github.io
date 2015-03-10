@@ -15,4 +15,9 @@ angular
         templateUrl: 'templates/about.html',
         controller: 'aboutCtrl'
       })
+      .state('contact', {
+        url: '/contact',
+        templateUrl: 'templates/contact.html',
+        controller: 'contactCtrl'
+      })
   }])
