@@ -570,10 +570,8 @@ section#features-3 li:before { color: #1F5F6C; }
 
 
 ul.last-list {
-	font-family: 'Roboto', sans-serif;
-	list-style: none;
-	text-align: left;
-	color: #fff;
+	padding-bottom: 2.7%;
+	padding-top: 2%;
 	}
 h3.list-title {
 	color: white;
