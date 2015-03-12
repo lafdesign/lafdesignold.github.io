@@ -786,8 +786,8 @@ div.widget-body:hover { border: 2px solid transparent; }
 	left: -5%;
 	}
 div.wevue_album_widget_image {
-	width: 15em !important;
-	height: 12em !important;
+	width: 240px !important;
+	height: 180px !important;
 	}
 
 @media(min-width:1500px) {
