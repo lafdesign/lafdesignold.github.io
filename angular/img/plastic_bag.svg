@@ -3118,6 +3118,6 @@
 
 
 
-	<animateTransform attributeName="transform" begin=".1" attributeType="HML" type="translate" dur="10.5s" values="0,0; 0,-15;0, 0; 0,-15;0, 0; 212, 120;  -120, -30; -150, -50;-160, -70; 0,0;" repeatCount="indefinite"/>
+	<animateTransform attributeName="transform" begin=".1" attributeType="HML" type="translate" dur="10.5s" values="0,0; 0,-15; 0, 0; 212, 120;  -120, -30; -150, -50;-160, -70; 0,0;" repeatCount="indefinite"/>
 </g>
 </svg>
