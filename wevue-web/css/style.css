@@ -1072,6 +1072,11 @@ div.widget-body:hover { border: 2px solid transparent; }
 		.widget-text {
 			top:-60px;
 			}
+		ul.last-list {
+			padding-bottom: 0;
+			padding-top: 0;
+			margin-bottom: -40px;
+			}
 		}
 
 @media(max-width:550px) {
