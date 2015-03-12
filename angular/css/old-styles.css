@@ -403,7 +403,7 @@ img.palm:hover{
     color: #fff;
     position: fixed;
     top:0;
-    left:-45%;
+ 
     width: 40%;
     height:100%;
     padding:10px;
@@ -436,7 +436,7 @@ img.palm:hover{
     color: #fff;
     position: fixed;
     top:0;
-    right:-45%;
+
     width: 40%;
     height:100%;
     padding:10px;
