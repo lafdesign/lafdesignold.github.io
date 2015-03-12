@@ -9,3 +9,10 @@ img.tree-scg {
   top: 50px;
   z-index: -2;
 }
+
+img.plastic_bag {
+	position: absolute;
+	top: 0;
+	z-index: 4;
+	
+}
