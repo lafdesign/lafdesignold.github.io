@@ -20,4 +20,9 @@ angular
         templateUrl: 'templates/contact.html',
         controller: 'contactCtrl'
       })
+      .state('portfolio', {
+        url: '/portfolio',
+        templateUrl: 'templates/portfolio.html',
+        controller: 'portfolioCtrl'
+      })
   }])
