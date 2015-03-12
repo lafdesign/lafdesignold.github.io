@@ -1,5 +1,5 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1022.666 710.666" style="enable-background:new 0 0 1022.666 710.666;"
+	 viewBox="0 0 2045 1421" style="enable-background:new 0 0 2045 1421;"
 	 xml:space="preserve">
 <style type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#D4D5D5;}
@@ -3118,14 +3118,18 @@
 
 
 
-	<animateTransform attributeName="transform" begin=".1" attributeType="HML" type="translate" dur="10.5s" values="0,0; 
+	<animateTransform attributeName="transform" begin="0.1" attributeType="HML" type="translate" dur="10.5s" values="0,0; 
 	0,-15; 
 	0, 0; 
 	212, 120; 
-	300, -300;
+	300, 300;
+	320, 280;
 	325, -70; 
-	-120, -30; 
-	-150, -50;
+	305, -90;
+	315, -80;
+	365, -99;
+	-220, -30; 
+	-350, -50;
 	-160, -70; 
 	 0,0;" repeatCount="indefinite"/>
 </g>

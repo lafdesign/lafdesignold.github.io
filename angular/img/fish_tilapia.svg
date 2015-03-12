@@ -2143,6 +2143,6 @@
 	<path class="st275" d="M180.087,86.256c1.181,2.179,2.229,4.335-0.995,5.751c-0.396-0.326-0.791-0.651-1.188-0.978
 		C178.197,89.239,177.616,87.05,180.087,86.256z"/>
 		
-<animateTransform attributeName="transform" begin=".1" attributeType="HML" type="translate" dur="5.5s" values="0,0; 0,-15;0, 0;" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" begin="0.1" attributeType="HML" type="translate" dur="5.5s" values="0,0; 0,-15;5, 4; -5,10;0, 0;" repeatCount="indefinite"/>
 </g>
 </svg>
