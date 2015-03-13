@@ -19,8 +19,8 @@ img.plastic_bag {
 
 img.github_logo {
   width: 10%;
-  position: absolute;
+  position: relative;
   left: 20%;
-  top: 620px;
+ 
 
 }
