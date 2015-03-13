@@ -16,3 +16,11 @@ img.plastic_bag {
 	left: 25%
 
 }
+
+img.github_logo {
+  width: 10%;
+  position: absolute;
+  left: 20%;
+  top: 620px;
+
+}
