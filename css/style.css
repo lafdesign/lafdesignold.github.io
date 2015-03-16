@@ -24,3 +24,11 @@ img.github_logo {
  
 
 }
+
+.demo5 {
+  background-image: url("./images/suit.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 40rem;
+}
