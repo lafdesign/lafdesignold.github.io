@@ -12,29 +12,11 @@
     });
     logo.stairs(17);
     demos = [
-      new OriDomi('.demo1', {
-        vPanels: 5,
-        ripple: true
-      }), new OriDomi('.demo2', {
-        maxAngle: 89,
-        ripple: true
-      }), new OriDomi('.demo3', {
-        vPanels: 8,
-        ripple: true
-      }), new OriDomi('.demo4', {
-        vPanels: 4,
-        ripple: true
+    
       }), new OriDomi('.demo5', {
         hPanels: 4,
         ripple: true
-      }), new OriDomi('.demo6', {
-        hPanels: 4,
-        ripple: true,
-        shading: false
-      }), new OriDomi('.demo7', {
-        vPanels: [1, 1, 2, 3, 5, 8, 13, 21, 34].map(function(n) {
-          return n * 1.1363636363636365;
-        }).reverse()
+     
       })
     ];
     setTimeout(function() {
@@ -65,4 +47,3 @@
 
 }).call(this);
 
-//# sourceMappingURL=demo.js.map
