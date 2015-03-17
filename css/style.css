@@ -25,6 +25,21 @@ img.github_logo {
 
 }
 
+
+img.train {
+  width:40%;
+  position: relative;
+  left: 20%;
+}
+
+
+ul.contact_list {
+  list-style: none;
+  display: inline-block;
+  font-size: 3em;
+
+
+}
 .demo {
   display: block;
   max-width: 80rem;
