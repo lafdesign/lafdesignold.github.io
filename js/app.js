@@ -2,8 +2,8 @@ angular
   .module('app', [
     'ui.router'
   ])
-  .config(['$urlRouterProvider', '$stateProvider',  function($urlRouterProvider, $stateProvider) {
-
+  .config(['$urlRouterProvider', '$stateProvider', '$locationProvider', function($urlRouterProvider, $stateProvider, $locationProvider) {
+$locationProvider.html5Mode(true).hashPrefix('!');
       $urlRouterProvider.otherwise('/');
     
   
@@ -27,10 +27,8 @@ angular
         url: '/portfolio',
         templateUrl: 'templates/portfolio.html',
         controller: 'portfolioCtrl'
-      })
-      .state("otherwise", {
-        url : '/'
       });
+      
 
       
   }])
