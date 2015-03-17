@@ -3,7 +3,6 @@ angular
     'ui.router'
   ])
   .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
-    $locationProvider.html5Mode(true);
     $urlRouterProvider.otherwise('/');
     $stateProvider
       .state('home', {
