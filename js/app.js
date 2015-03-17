@@ -4,7 +4,7 @@ angular
   ])
   .config(['$urlRouterProvider', '$stateProvider',  function($urlRouterProvider, $stateProvider) {
 
-    
+      $urlRouterProvider.otherwise('/');
     
   
     $stateProvider
@@ -27,9 +27,12 @@ angular
         url: '/portfolio',
         templateUrl: 'templates/portfolio.html',
         controller: 'portfolioCtrl'
+      })
+      .state("otherwise", {
+        url : '/'
       });
 
-      $urlRouterProvider.otherwise('/')
+      
   }])
 
    
