@@ -32,7 +32,13 @@ img.github_logo {
 
 }
 
+img.tilapia {
+    width: 40%;
+  left: 30%;
+  position: relative;
 
+
+}
 img.train {
   position: absolute;
   left: -530px;
@@ -51,6 +57,7 @@ text-align: center;
 
 
 }
+
 
 
 div.contact_info {
