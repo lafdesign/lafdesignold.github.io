@@ -54,8 +54,9 @@ text-align: center;
 
 
 div.contact_info {
-width: 1005;
-text-align: center;
+width: 40%;
+text-align: left;
+left: 30%;
 }
 .demo {
   display: block;
