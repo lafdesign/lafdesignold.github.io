@@ -26,6 +26,12 @@ img.github_logo {
 }
 
 
+img.train {
+  width:40%;
+  position: relative;
+  left: 20%;
+}
+
 
 ul.contact_list {
   list-style: none;
