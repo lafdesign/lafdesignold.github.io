@@ -13,7 +13,8 @@ img.tree-scg {
 img.plastic_bag {
 	position: relative;
 	width: 50%;
-	left: 25%
+	left: 25%;
+  z-index:-5;
 
 }
 
@@ -34,11 +35,22 @@ img.train {
 }
 
 ul.contact_list {
-  list-style: none;
+    list-style: none;
   display: inline-block;
   font-size: 3em;
+  position: absolute;
+  width: 15%;
+  padding: auto;
+
+  left: 42.5%;
 
 
+
+}
+
+
+div.contact_info {
+  
 }
 .demo {
   display: block;
