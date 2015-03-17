@@ -8,12 +8,9 @@ body html {
   float: none;
     margin: 0 auto;
 }
-img.tree-scg {
-  background-color: white;
-  width: 100%;
-  position: absolute;
-  top: 50px;
-  z-index: -2;
+img.tree-svg {
+  position: relative;
+  left: 4%;
 }
 
 img.plastic_bag {
