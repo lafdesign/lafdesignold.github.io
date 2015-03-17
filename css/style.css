@@ -38,11 +38,9 @@ ul.contact_list {
     list-style: none;
   display: inline-block;
   font-size: 3em;
-  position: absolute;
-  width: 15%;
-  padding: auto;
+width: 100%;
+text-align: center;
 
-  left: 42.5%;
 
 
 
@@ -50,7 +48,8 @@ ul.contact_list {
 
 
 div.contact_info {
-  
+width: 1005;
+text-align: center;
 }
 .demo {
   display: block;
