@@ -27,12 +27,6 @@ img.github_logo {
 
 
 img.train {
-  width:60%;
-  position: relative;
-  left: 20%;
-}
-
-img.train2 {
   position: absolute;
   left: -530px;
   top: 400px;
