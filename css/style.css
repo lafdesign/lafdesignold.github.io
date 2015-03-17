@@ -57,6 +57,7 @@ div.contact_info {
 width: 40%;
 text-align: left;
 left: 30%;
+position: relative;
 }
 .demo {
   display: block;
