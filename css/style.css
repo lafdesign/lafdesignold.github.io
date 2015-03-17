@@ -54,11 +54,15 @@ text-align: center;
 
 
 div.contact_info {
-width: 40%;
-text-align: left;
-left: 30%;
-position: relative;
+  width: 56%;
+  text-align: right;
+
+  position: relative;
+
 }
+
+
+
 .demo {
   display: block;
   max-width: 80rem;
