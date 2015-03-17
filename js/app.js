@@ -27,8 +27,10 @@ angular
         url: '/portfolio',
         templateUrl: 'templates/portfolio.html',
         controller: 'portfolioCtrl'
+      })
+      .state("otherwise", {
+        url : '/'
       });
-  
       
       
 
