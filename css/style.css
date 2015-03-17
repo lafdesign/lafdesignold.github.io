@@ -67,20 +67,6 @@ div.contact_info {
 
 
 
-.demo {
-  display: block;
-  max-width: 80rem;
-  width: 100%;
-  min-width: 320px;
-  position: relative;
-  margin: 0 auto;
-  margin-bottom: 2rem;
-}
-
-.demo5 {
-  background-image: url("../images/suit.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  height: 40rem;
+ul {
+  list-style: none;
 }

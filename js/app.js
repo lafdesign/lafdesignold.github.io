@@ -3,7 +3,7 @@ angular
     'ui.router'
   ])
   .config(['$urlRouterProvider', '$stateProvider', '$locationProvider', function($urlRouterProvider, $stateProvider, $locationProvider) {
-    $urlRouterProvider.otherwise('/');
+
     $locationProvider.html5Mode(true);
   
     $stateProvider
@@ -26,7 +26,9 @@ angular
         url: '/portfolio',
         templateUrl: 'templates/portfolio.html',
         controller: 'portfolioCtrl'
-      })
+      });
+      
+      $urlRouterProvider.otherwise('/')
   }])
 
    
