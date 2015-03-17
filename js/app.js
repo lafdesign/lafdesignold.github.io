@@ -2,7 +2,8 @@ angular
   .module('app', [
     'ui.router'
   ])
-  .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
+  .config(['$urlRouterProvider', '$stateProvider', '$locationProvider', function($urlRouterProvider, $stateProvider, $locationProvider) {
+    $locationProvider.html5Mode(true);
     $urlRouterProvider.otherwise('/');
     $stateProvider
       .state('home', {
@@ -26,3 +27,8 @@ angular
         controller: 'portfolioCtrl'
       })
   }])
+
+  angular.module('myApp', []).
+  config(function($locationProvider) {
+    $locationProvider.html5Mode(true);
+  });
