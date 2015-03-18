@@ -68,19 +68,34 @@ body html {
   background-color: #fbfbf7;
 }
 
-/* line 11, ../sass/screen.sass */
+/* line 13, ../sass/screen.sass */
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* line 16, ../sass/screen.sass */
+h1 h2 h3 {
+  font-family: "Nothing You Could Do", cursive;
+}
+
+/* line 19, ../sass/screen.sass */
+a {
+  font-family: "Syncopate", sans-serif;
+}
+
+/* line 22, ../sass/screen.sass */
 .center-block {
   float: none;
   margin: 0 auto;
 }
 
-/* line 15, ../sass/screen.sass */
+/* line 26, ../sass/screen.sass */
 img.tree-svg {
   position: relative;
   left: 3%;
 }
 
-/* line 19, ../sass/screen.sass */
+/* line 30, ../sass/screen.sass */
 img.plastic_bag {
   position: relative;
   width: 50%;
@@ -88,21 +103,21 @@ img.plastic_bag {
   z-index: -5;
 }
 
-/* line 25, ../sass/screen.sass */
+/* line 36, ../sass/screen.sass */
 img.github_logo {
   width: 10%;
   position: relative;
   left: 20%;
 }
 
-/* line 30, ../sass/screen.sass */
+/* line 41, ../sass/screen.sass */
 img.tilapia {
   width: 40%;
   left: 30%;
   position: relative;
 }
 
-/* line 35, ../sass/screen.sass */
+/* line 46, ../sass/screen.sass */
 img.train {
   position: absolute;
   left: -530px;
@@ -110,7 +125,7 @@ img.train {
   z-index: -4;
 }
 
-/* line 41, ../sass/screen.sass */
+/* line 52, ../sass/screen.sass */
 ul.contact_list {
   list-style: none;
   display: inline-block;
@@ -119,21 +134,21 @@ ul.contact_list {
   text-align: center;
 }
 
-/* line 48, ../sass/screen.sass */
+/* line 59, ../sass/screen.sass */
 img.train-bridge {
   position: absolute;
   top: 500px;
   left: 0;
 }
 
-/* line 53, ../sass/screen.sass */
+/* line 64, ../sass/screen.sass */
 div.contact_info {
   width: 56%;
   text-align: right;
   position: relative;
 }
 
-/* line 58, ../sass/screen.sass */
+/* line 69, ../sass/screen.sass */
 ul {
   list-style: none;
 }
