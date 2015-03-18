@@ -56,6 +56,13 @@ text-align: center;
 }
 
 
+img.train-bridge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
 
 div.contact_info {
   width: 56%;
