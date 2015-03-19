@@ -80,26 +80,38 @@ li {
 }
 
 /* line 20, ../sass/screen.sass */
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+/* line 25, ../sass/screen.sass */
 h3.footer {
   font-size: 2em;
   padding-top: 20%;
   text-align: center;
 }
 
-/* line 26, ../sass/screen.sass */
-div.home-body {
-  height: 2000px;
+/* line 30, ../sass/screen.sass */
+p {
   color: white;
+  font-size: 1.5em;
 }
 
-/* line 30, ../sass/screen.sass */
+/* line 35, ../sass/screen.sass */
+div.home-body {
+  height: 2000px;
+  background-color: white;
+}
+
+/* line 39, ../sass/screen.sass */
 a {
   color: white;
   font-size: 2em;
   text-decoration: none;
 }
 
-/* line 35, ../sass/screen.sass */
+/* line 44, ../sass/screen.sass */
 a:hover {
   border: 1px solid transparent;
   color: black;
