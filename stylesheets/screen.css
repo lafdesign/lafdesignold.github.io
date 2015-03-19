@@ -74,25 +74,24 @@ p {
 }
 
 /* line 16, ../sass/screen.sass */
-h1 h2 h3 {
+h1 {
   font-family: "Nothing You Could Do", cursive;
 }
 
-/* line 19, ../sass/screen.sass */
+/* line 20, ../sass/screen.sass */
 a {
   font-family: "Syncopate", sans-serif;
 }
 
-/* line 22, ../sass/screen.sass */
+/* line 23, ../sass/screen.sass */
 li a {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.5em;
 }
 
-/* line 26, ../sass/screen.sass */
+/* line 27, ../sass/screen.sass */
 a:hover {
   font-size: 2em;
-  background-color: white;
   color: black;
 }
 
