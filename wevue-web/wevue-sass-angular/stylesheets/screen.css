@@ -76,7 +76,7 @@ ul {
 
 /* line 17, ../sass/screen.sass */
 li {
-  padding-left: 20px;
+  padding-left: 10%;
 }
 
 /* line 20, ../sass/screen.sass */
@@ -89,5 +89,19 @@ h3.footer {
 /* line 26, ../sass/screen.sass */
 div.home-body {
   height: 2000px;
-  background-color: red;
+  color: white;
+}
+
+/* line 30, ../sass/screen.sass */
+a {
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+/* line 35, ../sass/screen.sass */
+a:hover {
+  border: 1px solid transparent;
+  color: black;
+  background-color: white;
 }
