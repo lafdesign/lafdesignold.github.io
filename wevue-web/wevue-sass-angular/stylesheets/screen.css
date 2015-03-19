@@ -71,4 +71,17 @@ body {
 /* line 13, ../sass/screen.sass */
 ul {
   list-style: none;
+  display: inline-flex;
+}
+
+/* line 17, ../sass/screen.sass */
+li {
+  padding-left: 20px;
+}
+
+/* line 20, ../sass/screen.sass */
+h3.footer {
+  font-size: 2em;
+  padding-top: 20%;
+  text-align: center;
 }
