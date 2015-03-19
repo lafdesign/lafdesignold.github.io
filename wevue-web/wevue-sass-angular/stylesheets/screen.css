@@ -85,3 +85,8 @@ h3.footer {
   padding-top: 20%;
   text-align: center;
 }
+
+/* line 26, ../sass/screen.sass */
+div.home-body {
+  height: 2000px;
+}
