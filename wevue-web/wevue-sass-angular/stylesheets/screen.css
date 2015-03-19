@@ -89,4 +89,5 @@ h3.footer {
 /* line 26, ../sass/screen.sass */
 div.home-body {
   height: 2000px;
+  background-color: red;
 }
