@@ -137,7 +137,7 @@ img.tilapia {
 
 /* line 58, ../sass/screen.sass */
 img.train {
-  position: absolute;
+  position: relative;
   left: -530px;
   top: 400px;
   z-index: -4;
@@ -177,14 +177,4 @@ div.wave-box {
   width: 25%;
   left: 35%;
   position: relative;
-}
-
-/* line 90, ../sass/screen.sass */
-#footer {
-  clear: both;
-  padding: 25px 0;
-  color: #777777;
-  background: #222222;
-  margin: 60px 0 0;
-  font-size: 14px;
 }
