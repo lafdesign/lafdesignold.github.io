@@ -53,7 +53,7 @@
 	
 }
 #rect2785:hover {
-	fill:#777;
+	fill:#89ACCF;
 	transition: .8s;
 	
 }
@@ -65,7 +65,7 @@
 	
 }
 #rect2783:hover {
-	fill:#444444;
+	fill:#556757;
 	transition: .8s;
 	
 }
@@ -90,7 +90,7 @@
 	
 }
 #rect3826:hover {
-	fill:#777;
+	fill:#986B6B;
 	transition: .8s;
 	
 }
