@@ -147,25 +147,6 @@
 }
 </style>
 
-<script type="text/javascript">
-
-	var x = document.getElementById('rect2783');
-
-
-x.addEventListener("click", function(){
-
-		this.classList.toggle('clickit');
-	
-}
-
-);
-
-
-
-
-
-
-</script>
 
 </defs>
 <sodipodi:namedview  inkscape:cy="39.169666" bordercolor="#666666" inkscape:zoom="0.54101951" borderopacity="1.0" gridspacingx="4px" gridempspacing="4" gridtolerance="10000" objecttolerance="10000" pagecolor="#ffffff" inkscape:cx="563.30164" showgrid="true" gridspacingy="4px" guidetolerance="10.0" id="base" inkscape:grid-points="true" inkscape:object-bbox="true" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="808" inkscape:window-x="-4" inkscape:window-y="22" inkscape:current-layer="svg2" inkscape:window-width="1152">
