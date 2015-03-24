@@ -30,10 +30,10 @@
 	.st1 {
 		stroke-dasharray: 2800;
 		stroke-dashoffset:0;
-		-webkit-animation: dash 8s linear forwards;
-		-o-animation: dash 8s linear forwards;
-		-moz-animation: dash 8s linear forwards;
-		animation: dash 8s linear forwards;
+		-webkit-animation: dash 10s linear forwards;
+		-o-animation: dash 10s linear forwards;
+		-moz-animation: dash 10s linear forwards;
+		animation: dash 10s linear forwards;
 
 	}
 
