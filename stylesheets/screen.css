@@ -121,26 +121,27 @@ img.tree-svg {
 /* line 45, ../sass/screen.sass */
 img.plastic_bag {
   position: relative;
+  display: block;
   width: 50%;
   left: 25%;
   z-index: -5;
 }
 
-/* line 51, ../sass/screen.sass */
+/* line 52, ../sass/screen.sass */
 img.github_logo {
   width: 10%;
   position: relative;
   left: 20%;
 }
 
-/* line 56, ../sass/screen.sass */
+/* line 57, ../sass/screen.sass */
 img.tilapia {
   width: 40%;
   left: 30%;
   position: relative;
 }
 
-/* line 61, ../sass/screen.sass */
+/* line 62, ../sass/screen.sass */
 img.train {
   position: relative;
   left: -530px;
@@ -148,7 +149,7 @@ img.train {
   z-index: -4;
 }
 
-/* line 67, ../sass/screen.sass */
+/* line 68, ../sass/screen.sass */
 ul.contact_list {
   list-style: none;
   display: inline-block;
@@ -157,34 +158,34 @@ ul.contact_list {
   text-align: center;
 }
 
-/* line 74, ../sass/screen.sass */
+/* line 75, ../sass/screen.sass */
 img.train-bridge {
   position: absolute;
   top: 500px;
   left: 0;
 }
 
-/* line 79, ../sass/screen.sass */
+/* line 80, ../sass/screen.sass */
 div.contact_info {
   width: 56%;
   text-align: right;
   position: relative;
 }
 
-/* line 84, ../sass/screen.sass */
+/* line 85, ../sass/screen.sass */
 img.waves {
   width: 100%;
   position: relative;
 }
 
-/* line 88, ../sass/screen.sass */
+/* line 89, ../sass/screen.sass */
 div.wave-box {
   width: 25%;
   left: 35%;
   position: relative;
 }
 
-/* line 93, ../sass/screen.sass */
+/* line 94, ../sass/screen.sass */
 .flip3d {
   width: 240px;
   height: 240px;
@@ -192,14 +193,14 @@ div.wave-box {
   float: left;
 }
 
-/* line 99, ../sass/screen.sass */
+/* line 100, ../sass/screen.sass */
 .flip3d > .front {
   position: absolute;
   transform: perspective(600px) rotateY(0deg);
   -webkit-transform: perspective(600px) rotateY(0deg);
-  background-color: #fc0fc0;
-  width: 240px;
-  height: 200px;
+  background-color: #ad3737;
+  width: 13%;
+  height: 10%;
   backface-visibility: hidden;
   -webkit-backface-visability: hidden;
   border-radius: 7px;
@@ -207,14 +208,14 @@ div.wave-box {
   webkit-transition: transform 0.5s linear 0s;
 }
 
-/* line 112, ../sass/screen.sass */
+/* line 113, ../sass/screen.sass */
 .flip3d > .back {
   position: absolute;
   transform: perspective(600px) rotateY(180deg);
   -webkit-transform: perspective(600px) rotateY(-180deg);
   background-color: #80bfff;
-  width: 240px;
-  height: 200px;
+  width: 13%;
+  height: 10%;
   backface-visibility: hidden;
   -webkit-backface-visability: hidden;
   border-radius: 7px;
@@ -222,13 +223,13 @@ div.wave-box {
   -webkit-transition: transform 0.5s linear 0s;
 }
 
-/* line 125, ../sass/screen.sass */
+/* line 126, ../sass/screen.sass */
 .flip3d:hover > .front {
   transform: perspective(600px) rotateY(-180deg);
   -webkit-transform: perspective(600px) rotateY(-180deg);
 }
 
-/* line 129, ../sass/screen.sass */
+/* line 130, ../sass/screen.sass */
 .flip3d:hover > .back {
   transform: perspective(600px) rotateY(0deg);
   -webkit-transform: perspective(600px) rotateY(0deg);
