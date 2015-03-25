@@ -3,7 +3,7 @@
 	  viewBox="0 0 960 343.851" enable-background="new 0 0 960 343.851" xml:space="preserve" style="background-color: #30CCCF;">
 <path fill="none" d="z"  />
 <rect x="276.532" y="-1.076" fill="none" width="406.846" height="105.566"/>
-<text transform="matrix(1 0 0 1 310.2075 40.5635)" fill="#FFFFFF" font-family="'Avenir-Heavy'" font-size="55.0781">How it works</text>
+
 <g>
 	<g>
 		<polygon fill="#30CCCF" points="477.963,158.689 469.487,149.08 431.394,149.08 431.394,158.689 431.394,233.834 535.758,233.834 
@@ -167,7 +167,7 @@
 				c15.292-0.207,16.83,10.258,16.83,24.158c0,9.693-3.735,18.092-9.578,22.299v2.395l6.247,2.662L249.447,216.838z"/>
 		</g>
 		<rect x="123.993" y="124.433" fill="none" width="195.601" height="38.526"/>
-		<text transform="matrix(1 0 0 1 166.54 140.0645)" fill="#FFFFFF" font-family="'Avenir-Heavy'" font-size="20.6757">The Admin </text>
+
 		<rect x="110.806" y="240.779" fill="none" width="221.974" height="115.694"/>
 	
 	</g>
@@ -179,7 +179,7 @@
 		<path fill="#FFFFFF" d="M749.521,196.867c0,6.144-4.981,11.126-11.124,11.126c-6.147,0-11.123-4.982-11.123-11.126
 			c0-6.142,4.976-11.123,11.123-11.123C744.539,185.744,749.521,190.725,749.521,196.867L749.521,196.867z"/>
 	</g>
-	<text transform="matrix(1 0 0 1 671.0527 144.8862)" fill="#FFFFFF" font-family="'Avenir-Heavy'" font-size="20.6757">Your Website</text>
+
 
 </g>
 
@@ -226,6 +226,6 @@
 
 </g>
 <rect x="373.599" y="99.097" fill="none" width="283.41" height="67.697"/>
-<text transform="matrix(1 0 0 1 373.5986 119.916)" fill="#FFFFFF" font-family="'Avenir-Roman'" font-size="27.5391">The Culture App</text>
+
 <path fill="none" d="z"/>
 </svg>
