@@ -90,3 +90,45 @@ div.wave-box
   left: 35%
   position: relative
 
+.flip3d 
+  width: 240px
+  height: 240px
+  margin: 10px
+  float: left
+
+.flip3d > .front 
+  position: absolute
+  transform: perspective( 600px ) rotateY( 0deg )
+  -webkit-transform: perspective( 600px ) rotateY( 0deg )
+  background-color: #fc0fc0
+  width: 240px
+  height: 200px
+  backface-visibility: hidden
+  -webkit-backface-visability: hidden
+  border-radius: 7px
+  transition: transform .5s linear 0s
+  webkit-transition: transform .5s linear 0s
+
+.flip3d > .back 
+  position: absolute
+  transform: perspective( 600px ) rotateY( 180deg )
+  -webkit-transform: perspective( 600px ) rotateY( -180deg )
+  background-color: #80bfff
+  width: 240px
+  height: 200px
+  backface-visibility: hidden
+  -webkit-backface-visability: hidden
+  border-radius: 7px
+  transition: transform .5s linear 0s
+  -webkit-transition: transform .5s linear 0s
+
+.flip3d:hover > .front 
+  transform: perspective( 600px ) rotateY( -180deg )
+  -webkit-transform: perspective( 600px ) rotateY( -180deg )
+
+.flip3d:hover > .back 
+  transform: perspective( 600px ) rotateY( 0deg )
+  -webkit-transform: perspective( 600px ) rotateY( 0deg )
+
+
+
