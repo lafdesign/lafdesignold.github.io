@@ -214,7 +214,7 @@
 	<g>
 		
 		<rect x="123.993" y="124.433" fill="none" width="195.601" height="38.526"/>
-	
+		<text transform="matrix(1 0 0 1 166.54 140.0645)" fill="#FFFFFF" font-family="'Avenir-Heavy'" font-size="20.6757">The Admin </text>
 		<rect x="110.806" y="240.779" fill="none" width="221.974" height="115.694"/>
 	
 	</g>
@@ -226,12 +226,13 @@
 		<path fill="#FFFFFF" d="M749.521,196.867c0,6.144-4.981,11.126-11.124,11.126c-6.147,0-11.123-4.982-11.123-11.126
 			c0-6.142,4.976-11.123,11.123-11.123C744.539,185.744,749.521,190.725,749.521,196.867L749.521,196.867z"/>
 	</g>
+	<text transform="matrix(1 0 0 1 671.0527 144.8862)" fill="#FFFFFF" font-family="'Avenir-Heavy'" font-size="20.6757">Your Website</text>
 
 </g>
 
 
 
 <rect x="373.599" y="99.097" fill="none" width="283.41" height="67.697"/>
-
+<text transform="matrix(1 0 0 1 373.5986 119.916)" fill="#FFFFFF" font-family="'Avenir-Roman'" font-size="27.5391">The Culture App</text>
 <path fill="none" d="z"/>
 </svg>
