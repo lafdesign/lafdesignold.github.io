@@ -108,12 +108,17 @@ ul {
 }
 
 /* line 38, ../sass/screen.sass */
+ul.catalogue {
+  font-size: 1em;
+}
+
+/* line 41, ../sass/screen.sass */
 img.tree-svg {
   position: relative;
   left: 3%;
 }
 
-/* line 42, ../sass/screen.sass */
+/* line 45, ../sass/screen.sass */
 img.plastic_bag {
   position: relative;
   width: 50%;
@@ -121,21 +126,21 @@ img.plastic_bag {
   z-index: -5;
 }
 
-/* line 48, ../sass/screen.sass */
+/* line 51, ../sass/screen.sass */
 img.github_logo {
   width: 10%;
   position: relative;
   left: 20%;
 }
 
-/* line 53, ../sass/screen.sass */
+/* line 56, ../sass/screen.sass */
 img.tilapia {
   width: 40%;
   left: 30%;
   position: relative;
 }
 
-/* line 58, ../sass/screen.sass */
+/* line 61, ../sass/screen.sass */
 img.train {
   position: relative;
   left: -530px;
@@ -143,7 +148,7 @@ img.train {
   z-index: -4;
 }
 
-/* line 64, ../sass/screen.sass */
+/* line 67, ../sass/screen.sass */
 ul.contact_list {
   list-style: none;
   display: inline-block;
@@ -152,27 +157,27 @@ ul.contact_list {
   text-align: center;
 }
 
-/* line 71, ../sass/screen.sass */
+/* line 74, ../sass/screen.sass */
 img.train-bridge {
   position: absolute;
   top: 500px;
   left: 0;
 }
 
-/* line 76, ../sass/screen.sass */
+/* line 79, ../sass/screen.sass */
 div.contact_info {
   width: 56%;
   text-align: right;
   position: relative;
 }
 
-/* line 81, ../sass/screen.sass */
+/* line 84, ../sass/screen.sass */
 img.waves {
   width: 100%;
   position: relative;
 }
 
-/* line 85, ../sass/screen.sass */
+/* line 88, ../sass/screen.sass */
 div.wave-box {
   width: 25%;
   left: 35%;
