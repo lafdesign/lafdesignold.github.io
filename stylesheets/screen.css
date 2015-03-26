@@ -68,63 +68,63 @@ body html {
   background-color: #fbfbf7;
 }
 
-/* line 14, ../sass/screen.sass */
+/* line 26, ../sass/screen.sass */
 .container {
   width: 100%;
   padding: 0;
 }
 
-/* line 18, ../sass/screen.sass */
+/* line 30, ../sass/screen.sass */
 p {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* line 21, ../sass/screen.sass */
+/* line 33, ../sass/screen.sass */
 h1 {
   font-family: "Nothing You Could Do", cursive;
   font-size: 2em;
 }
 
-/* line 25, ../sass/screen.sass */
+/* line 37, ../sass/screen.sass */
 a {
   font-family: "Syncopate", sans-serif;
 }
 
-/* line 28, ../sass/screen.sass */
+/* line 40, ../sass/screen.sass */
 li a {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.5em;
 }
 
-/* line 32, ../sass/screen.sass */
+/* line 44, ../sass/screen.sass */
 a.nav:hover {
   font-size: 2em;
   color: black;
 }
 
-/* line 36, ../sass/screen.sass */
+/* line 48, ../sass/screen.sass */
 .center-block {
   float: none;
   margin: 0 auto;
 }
 
-/* line 40, ../sass/screen.sass */
+/* line 52, ../sass/screen.sass */
 ul {
   list-style: none;
 }
 
-/* line 43, ../sass/screen.sass */
+/* line 55, ../sass/screen.sass */
 ul.catalogue {
   font-size: 0.6em;
 }
 
-/* line 46, ../sass/screen.sass */
+/* line 58, ../sass/screen.sass */
 img.tree-svg {
   position: relative;
   left: 3%;
 }
 
-/* line 50, ../sass/screen.sass */
+/* line 62, ../sass/screen.sass */
 img.plastic_bag {
   position: relative;
   display: block;
@@ -133,21 +133,21 @@ img.plastic_bag {
   z-index: -5;
 }
 
-/* line 57, ../sass/screen.sass */
+/* line 69, ../sass/screen.sass */
 img.github_logo {
   width: 10%;
   position: relative;
   left: 20%;
 }
 
-/* line 62, ../sass/screen.sass */
+/* line 74, ../sass/screen.sass */
 img.tilapia {
   width: 40%;
   left: 30%;
   position: relative;
 }
 
-/* line 67, ../sass/screen.sass */
+/* line 79, ../sass/screen.sass */
 img.train {
   position: relative;
   left: -530px;
@@ -155,7 +155,7 @@ img.train {
   z-index: -4;
 }
 
-/* line 73, ../sass/screen.sass */
+/* line 85, ../sass/screen.sass */
 ul.contact_list {
   list-style: none;
   display: inline-block;
@@ -164,34 +164,34 @@ ul.contact_list {
   text-align: center;
 }
 
-/* line 80, ../sass/screen.sass */
+/* line 92, ../sass/screen.sass */
 img.train-bridge {
   position: absolute;
   top: 500px;
   left: 0;
 }
 
-/* line 85, ../sass/screen.sass */
+/* line 97, ../sass/screen.sass */
 div.contact_info {
   width: 56%;
   text-align: right;
   position: relative;
 }
 
-/* line 90, ../sass/screen.sass */
+/* line 102, ../sass/screen.sass */
 img.waves {
   width: 100%;
   position: relative;
 }
 
-/* line 94, ../sass/screen.sass */
+/* line 106, ../sass/screen.sass */
 div.wave-box {
   width: 25%;
   left: 35%;
   position: relative;
 }
 
-/* line 99, ../sass/screen.sass */
+/* line 111, ../sass/screen.sass */
 .flip3d {
   width: 240px;
   height: 240px;
@@ -199,7 +199,7 @@ div.wave-box {
   float: left;
 }
 
-/* line 105, ../sass/screen.sass */
+/* line 117, ../sass/screen.sass */
 .flip3d > .front {
   position: absolute;
   transform: perspective(600px) rotateY(0deg);
@@ -214,7 +214,7 @@ div.wave-box {
   webkit-transition: transform 0.5s linear 0s;
 }
 
-/* line 118, ../sass/screen.sass */
+/* line 130, ../sass/screen.sass */
 .flip3d > .back {
   position: absolute;
   transform: perspective(600px) rotateY(180deg);
@@ -229,13 +229,13 @@ div.wave-box {
   -webkit-transition: transform 0.5s linear 0s;
 }
 
-/* line 131, ../sass/screen.sass */
+/* line 143, ../sass/screen.sass */
 .flip3d:hover > .front {
   transform: perspective(600px) rotateY(-180deg);
   -webkit-transform: perspective(600px) rotateY(-180deg);
 }
 
-/* line 135, ../sass/screen.sass */
+/* line 147, ../sass/screen.sass */
 .flip3d:hover > .back {
   transform: perspective(600px) rotateY(0deg);
   -webkit-transform: perspective(600px) rotateY(0deg);

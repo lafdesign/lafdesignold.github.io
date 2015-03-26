@@ -28,6 +28,11 @@ angular
         templateUrl: 'templates/portfolio.html',
         controller: 'portfolioCtrl'
       })
+      .state('resume', {
+        url: '/resume',
+        templateUrl: 'templates/resume.html',
+        controller: 'resumeCtrl'
+      })
       .state("otherwise", {
         url : '/'
       });
