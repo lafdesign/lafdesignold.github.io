@@ -2,7 +2,13 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1038.77 766.689" style=" background-color:black;enable-background:new 0 0 1038.77 766.689;"
 	 xml:space="preserve">
+
+
+
 <style type="text/css">
+
+
+
 	.st0{font-size:75.4068px;}
 	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#A3A5A1;}
 	.st2{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:10.669,10.669;}
@@ -21,7 +27,11 @@
 	.st15{font-family:'Avenir-Roman', sans-serif;}
 	.st16{fill-rule:evenodd;clip-rule:evenodd;fill:#D3D7CF;}
 	.st17{font-size:37.7034px;}
+
 </style>
+
+
+
 <rect x="240.819" y="-1.473" class="st10" width="557.008" height="144.529"/>
 <text font-family="Sans" transform="matrix(1 0 0 1 286.9243 55.5347)" class="st9 st14 st0">How it works</text>
 <g>
@@ -31,34 +41,52 @@
 		<polygon class="st4" points="516.596,217.259 504.992,204.103 452.839,204.103 452.839,217.259 452.839,320.139 595.722,320.139 
 			595.722,217.259 		"/>
 
+
 <!-- this is the user in the folder-->
-	<g>
 		<path class="st9" d="M503.367,223.406l-9.211,2.087l16.93,3.351l16.933,3.354l-7.722-5.439l-3.282-2.312l0.293-1.467
 			c3.862-1.91,7.176-6.598,8.353-12.531c1.683-8.507,1.792-15.143-7.592-16.87c-9.142-1.681-11.762,4.2-13.445,12.705
 			c-1.173,5.932,0.102,11.529,2.947,14.768l-0.29,1.468L503.367,223.406z">
+			<animateTransform attributeName="transform" begin="0.1" attributeType="HML" type="translate" dur="4.5s" values="25,360;0,-25;0,25;310,35;" repeatCount="indefinite"/>
 		</path>
 
 		<path class="st9" d="M509.613,236.363c9.1,1.802,17.162-0.063,18.4-4.161l-33.829-6.698
 			C493.766,229.763,500.512,234.562,509.613,236.363L509.613,236.363z">
-		</path>
-<animateTransform attributeName="transform" begin="0.1" attributeType="HML" type="translate" dur="5.5s" values="25,360;0,-25;0,25;310,35;" repeatCount="indefinite"/>
-	</g>
-	<!-- this is the eye in the folder-->
 
-	<g>
+			<animateTransform attributeName="transform" begin="0.1" attributeType="HML" type="translate" dur="4.5s" values="25,360;0,-25;0,25;310,35;" repeatCount="indefinite"/>
+		</path>
+
+
+<!-- this is the eye in the folder-->
+
+
+
 		<path class="st13" d="M596.064,223.196c0,7.249-5.877,13.127-13.125,13.127c-7.251,0-13.128-5.879-13.128-13.127
 			c0-7.25,5.877-13.126,13.128-13.126C590.188,210.07,596.064,215.947,596.064,223.196L596.064,223.196z">
+			  
+	<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="4s" values="0,350;0,-15;0,15;300,15;" repeatCount="indefinite"/>
+
+
+	
+
 		</path>
 		<path class="st9" d="M583.296,208.734c-10.229-1.108-19.768,3.427-25.518,11.109c3.974,8.733,12.318,15.206,22.548,16.312
 			c10.232,1.11,19.767-3.426,25.519-11.107C601.871,216.314,593.527,209.843,583.296,208.734L583.296,208.734z M580.632,234.647
 			c-6.427-0.697-11.07-6.471-10.377-12.898c0.696-6.424,6.472-11.071,12.897-10.374c6.428,0.694,11.075,6.469,10.377,12.895
 			C592.834,230.696,587.059,235.344,580.632,234.647L580.632,234.647z">
+			   
+	<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="4s" values="0,350;0,-15;0,15;300,15;" repeatCount="indefinite"/>
 		</path>
 		<path class="st9" d="M588.189,223.693c-0.376,3.476-3.502,5.99-6.979,5.614c-3.476-0.377-5.991-3.5-5.613-6.979
 			c0.376-3.476,3.499-5.989,6.978-5.613C586.053,217.091,588.565,220.216,588.189,223.693L588.189,223.693z">
+			  
+	<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="4s" values="0,350;0,-15;0,15;300,15;" repeatCount="indefinite"/>
 		</path>
-<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="5s" values="0,350;0,-15;0,15;300,25;" repeatCount="indefinite"/>
-	</g>
+		
+
+
+
+
+
 <!-- this is the FILM in the folder-->
 
 		<path class="st9" d="M569.638,223.75c1.028,7.037,2.049,14.076,3.092,21.111c0.187,1.269,0.209,2.51-0.534,3.405
@@ -109,34 +137,49 @@
 			c0.097,0.804,0.473,1.211,1.139,1.147c0.287-0.028,0.572-0.075,0.856-0.118c1.335-0.195,1.774-0.602,1.554-1.536
 			C539.355,217.705,538.52,218.043,537.768,218.162L537.768,218.162z">
 
-<animateTransform attributeName="transform" begin="1.3" attributeType="HML" type="translate" dur="5s" values="15,350;0,-25;0,25;390,35;390,25;360,635;" repeatCount="indefinite"/>
+				<animateTransform attributeName="transform" begin="1.3" attributeType="HML" type="translate" dur="4s" values="15,350;0,-25;0,25;290,35;" repeatCount="indefinite"/>
 		</path>
-		<!-- this is the photo in the folder-->
-	<g>
-			<rect x="455.299" y="208.121" transform="matrix(0.9965 -0.0836 0.0836 0.9965 -16.8861 39.7452)" class="st9" width="21.686" height="26.766">
-			</rect>
-			<rect x="456.332" y="209.919" transform="matrix(0.9965 -0.0835 0.0835 0.9965 -16.6752 39.6825)" class="st13" width="19.222" height="18.446">
-			</rect>
-<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="5s" values="-20,350;20,-15;0,15;360,15;360,25;320,650" repeatCount="indefinite"/>
-	</g>
-	<g>
+		
+
 		<!-- this is the photo in the folder-->
 			<rect x="455.299" y="208.121" transform="matrix(0.9965 -0.0836 0.0836 0.9965 -16.8861 39.7452)" class="st9" width="21.686" height="26.766">
+					<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="4s" values="-20,350;20,-15;0,15;300,15;" repeatCount="indefinite"/>
+					
+
 			</rect>
-			<rect x="456.332" y="209.919" transform="matrix(0.9965 -0.0835 0.0835 0.9965 -16.6752 39.6825)" class="st13" width="19.222" height="18.446">	
-			</rect>
-<animateTransform attributeName="transform" begin="0.7" attributeType="HML" type="translate" dur="5.5s" values="-50,350;0,-15;30,15; 360,25;350,25;360,625;" repeatCount="indefinite"/>
-	</g>
-	<g>
-			<!-- this is the photo in the folder-->
-			<rect x="455.299" y="208.121" transform="matrix(0.9965 -0.0836 0.0836 0.9965 -16.8861 39.7452)" class="st9" width="21.686" height="26.766">
-			</rect>
+		
 			<rect x="456.332" y="209.919" transform="matrix(0.9965 -0.0835 0.0835 0.9965 -16.6752 39.6825)" class="st13" width="19.222" height="18.446">
+					<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="4s" values="-20,350;20,-15;0,15;300,15;" repeatCount="indefinite"/>
+					
 			</rect>
-<animateTransform attributeName="transform" begin="0.5" attributeType="HML" type="translate" dur="5.5s" values="40,350;10,-20;0,15; 370,19;380,10;390,619;" repeatCount="indefinite"/>
-	</g>
+
+
+		<!-- this is the photo in the folder-->
+			<rect x="455.299" y="208.121" transform="matrix(0.9965 -0.0836 0.0836 0.9965 -16.8861 39.7452)" class="st9" width="21.686" height="26.766">
+					<animateTransform attributeName="transform" begin="0.7" attributeType="HML" type="translate" dur="4.5s" values="-50,350;0,-15;30,15; 320,25;" repeatCount="indefinite"/>
+			</rect>
+		
+			<rect x="456.332" y="209.919" transform="matrix(0.9965 -0.0835 0.0835 0.9965 -16.6752 39.6825)" class="st13" width="19.222" height="18.446">
+					<animateTransform attributeName="transform" begin="0.7" attributeType="HML" type="translate" dur="4.5s" values="-50,350;0,-15;30,15; 320,25;" repeatCount="indefinite"/>
+			</rect>
+
+		<!-- this is the photo in the folder-->
+			<rect x="455.299" y="208.121" transform="matrix(0.9965 -0.0836 0.0836 0.9965 -16.8861 39.7452)" class="st9" width="21.686" height="26.766">
+					<animateTransform attributeName="transform" begin="0.5" attributeType="HML" type="translate" dur="4.5s" values="40,350;10,-20;0,15; 320,19;" repeatCount="indefinite"/>
+			</rect>
+		
+			<rect x="456.332" y="209.919" transform="matrix(0.9965 -0.0835 0.0835 0.9965 -16.6752 39.6825)" class="st13" width="19.222" height="18.446">
+					<animateTransform attributeName="transform" begin="0.5" attributeType="HML" type="translate" dur="4.5s" values="40,350;10,-20;0,15; 320,19;" repeatCount="indefinite"/>
+			</rect>
+
+
+		
+		
 			<rect x="448.129" y="230.516" transform="matrix(0.9617 -0.2741 0.2741 0.9617 -47.4573 131.946)" class="st13" width="0.773" height="10.619"/>
+		
 			<rect x="469.725" y="224.354" transform="matrix(0.9618 -0.2737 0.2737 0.9618 -44.9098 137.4508)" class="st13" width="0.774" height="10.62"/>
+
+
 <!--  this is the note -->
 		<path class="st12" d="M491.96,236.201c-0.234-0.099-0.49-0.165-0.7-0.303c-6.671-4.354-13.326-8.736-20.016-13.061
 			c-1.617-1.042-2.389-2.497-2.533-4.32c-0.167-2.106,0.342-4.04,1.922-5.537c1.691-1.6,3.959-1.347,5.188,0.628
@@ -149,9 +192,12 @@
 			c-1.511,4.299-3.007,8.604-4.495,12.913c-0.557,1.617-1.08,3.245-1.619,4.868C492.103,235.982,492.032,236.094,491.96,236.201
 			L491.96,236.201z">
 
-<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="5s" values="0,350;0,-15;0,15;385,15;370,25;390,615;" repeatCount="indefinite"/>
+	<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="4s" values="0,350;0,-15;0,15;300,15;" repeatCount="indefinite"/>
 
 		</path>
+
+
+
 		<polygon class="st13" points="595.722,320.529 452.839,320.529 442.904,226.495 602.583,226.495 		"/>
 		<polygon class="st4" points="595.722,320.529 452.839,320.529 442.904,226.495 602.583,226.495 		"/>
 		<path class="st9" d="M554.174,274.747l-4.945-3.211l-2.358-16.794l-5.821,0.836l-12.818-11.144l-3.798,4.452h-17.031v5.635
@@ -205,46 +251,74 @@
 		<path class="st9" d="M888.383,269.528c0,8.411-6.82,15.232-15.229,15.232c-8.416,0-15.229-6.821-15.229-15.232
 			c0-8.409,6.813-15.228,15.229-15.228C881.562,254.3,888.383,261.119,888.383,269.528L888.383,269.528z"/>
 	</g>
-		<text transform="matrix(1 0 0 1 780.9531 198.3618)" class="st9 st14 st5">Your Website</text>
-		<text transform="matrix(1 0 0 1 808.0898 355.8564)"><tspan x="-12" y="-10" class="st9 st14 st3">Displays content</tspan><tspan x="-43.393" y="16.393" class="st9 st14 st3">generated on the app</tspan>
-		<tspan  x="-90.393" y="42" class="st9 st14 st3"> for marketing and recruitment</tspan></text>
-		<rect x="218.402" y="608.75" class="st10" width="589.933" height="158.396"/>
-		<text transform="matrix(1 0 0 1 314.8354 625.377)"><tspan x="60" y="0" class="st9 st14 st3">Members of the community </tspan><tspan x="-20.654" y="33.969" class="st9 st14 st3">submit and caption their photos and videos</tspan><tspan x="432.718" y="33.969" class="st9 st14 st5"> </tspan></text>
-	</g>
+	<text transform="matrix(1 0 0 1 780.9531 198.3618)" class="st9 st14 st5">Your Website</text>
+	<text transform="matrix(1 0 0 1 808.0898 355.8564)"><tspan x="-12" y="-10" class="st9 st14 st3">Displays content</tspan><tspan x="-43.393" y="16.393" class="st9 st14 st3">generated on the app</tspan>
+<tspan  x="-90.393" y="42" class="st9 st14 st3"> for marketing and recruitment</tspan></text>
+	<rect x="218.402" y="608.75" class="st10" width="589.933" height="158.396"/>
+	<text transform="matrix(1 0 0 1 314.8354 625.377)"><tspan x="60" y="0" class="st9 st14 st3">Members of the community </tspan><tspan x="-20.654" y="33.969" class="st9 st14 st3">submit and caption their photos and videos</tspan><tspan x="432.718" y="33.969" class="st9 st14 st5"> </tspan></text>
+</g>
+<g>
 
-	<g>
+
 <!--  this is the plane -->
-		<path class="st6" d="M77.323,246.716c0.031-1.936-0.645-3.125-2.711-3.813c-3.222-1.072-6.494-2.1-9.515-3.721
-			c0-0.281,0-0.561,0-0.841c1.521-1.284,3.458-0.852,5.195-1.221c1.565-0.333,3.2-0.337,4.772-0.646
-			c2.395-0.471,4.681-0.62,6.77,0.985c0.985,0.757,1.702,0.56,1.782-0.789c0.084-1.417,1.093-1.679,2.196-2.116
-			c5.398-2.137,9.39-0.853,13.213,3.733c4.552,5.461,9.974,10.196,15.009,15.256c0.618,0.621,1.587,1.22,0.976,2.274
-			c-0.563,0.972-1.495,0.372-2.282,0.235c-1.58-0.273-3.158-0.557-4.737-0.836c-2.357,0.445-4.524-0.546-6.776-0.901
-			c-6.82-1.329-13.583-2.942-20.442-4.076C77.819,249.546,77.41,249.127,77.323,246.716z">
-		</path>
-		<path class="st7" d="M110.527,253.972c-1.125-0.304-2.25-0.606-3.373-0.91c-2.043-0.167-3.938-0.903-5.828-1.598
-			c-6.819-2.51-13.739-4.732-20.557-7.242c-0.515-0.166-0.966-0.449-1.398-0.767c-3.801-1.924-7.98-2.863-11.922-4.825
-			c2.717-0.371,5.466-0.592,8.143-1.157c2.59-0.547,4.791,0.046,6.875,1.496c1.176,0.818,1.919,0.697,2.017-0.906
-			c0.114-1.861,1.354-2.193,2.943-2.785c4.329-1.613,7.127-0.117,10.047,3.119c4.633,5.135,9.762,9.821,14.681,14.696
-			c-0.249,1.184-0.856,0.445-1.361,0.256c-7.779-4.705-15.174-9.999-22.797-14.946c-0.535-0.347-1.203-1.083-1.787-0.185
-			c-0.571,0.877-0.385,1.81,0.581,2.337c1.658,0.907,3.266,1.9,4.951,2.756c5.856,2.975,11.831,5.724,17.5,9.056
-			C109.828,252.713,110.805,252.878,110.527,253.972z">
-		</path>
-		<path class="st16" d="M110.527,253.972c-1.505-1.757-3.714-2.413-5.643-3.45c-5.969-3.208-12.042-6.228-18.085-9.297
-			c-0.93-0.472-1.675-0.945-1.516-2.189c0.282-2.195,0.85-2.487,2.706-1.24c6.482,4.354,12.966,8.706,19.427,13.092
-			c1.145,0.778,2.574,1.083,3.523,2.168c0.215,0.408,0.675,0.737,0.424,1.297C111.039,254.328,110.706,254.319,110.527,253.972z">
-		</path>
-		<path class="st11" d="M80.72,243.754c6.467,2.229,12.948,4.417,19.392,6.708c2.356,0.837,4.818,1.403,7.042,2.601
-			c-1.755,0.892-3.362-0.209-4.994-0.476c-3.13-0.511-6.278-1.029-9.305-2.044c-2.992-1.396-6.185-2.15-9.368-2.936
-			c-1.688-0.417-2.924-1.317-3.317-3.096C80.088,244.137,80.007,243.618,80.72,243.754z">
-		</path>
-		<path class="st1" d="M80.72,243.754c-0.228,1.837,0.816,2.728,2.404,3.176c2.32,0.655,4.662,1.237,6.968,1.939
-			c1.036,0.315,2.145,0.618,2.764,1.672c-4.405-0.414-8.684-1.509-12.951-2.581c-1.519-0.382-1.489-1.929-0.979-3.193
-			c0.175-0.434,0.478-0.808,0.446-1.312C79.866,243.351,80.34,243.337,80.72,243.754z">
-		</path>
-		<path class="st8" d="M111.364,254.353c-0.142-0.433-0.283-0.865-0.424-1.297c0.403,0.064,0.788,0.748,1.216,0.038
-			c0.806,0.417,1.409,1.034,1.923,1.929C112.985,255.247,112.158,254.876,111.364,254.353z">
-		</path>
-<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="5s" values="50,0;0,-15;0,15;400,360;" repeatCount="indefinite"/>
+	<path class="st6" d="M77.323,246.716c0.031-1.936-0.645-3.125-2.711-3.813c-3.222-1.072-6.494-2.1-9.515-3.721
+		c0-0.281,0-0.561,0-0.841c1.521-1.284,3.458-0.852,5.195-1.221c1.565-0.333,3.2-0.337,4.772-0.646
+		c2.395-0.471,4.681-0.62,6.77,0.985c0.985,0.757,1.702,0.56,1.782-0.789c0.084-1.417,1.093-1.679,2.196-2.116
+		c5.398-2.137,9.39-0.853,13.213,3.733c4.552,5.461,9.974,10.196,15.009,15.256c0.618,0.621,1.587,1.22,0.976,2.274
+		c-0.563,0.972-1.495,0.372-2.282,0.235c-1.58-0.273-3.158-0.557-4.737-0.836c-2.357,0.445-4.524-0.546-6.776-0.901
+		c-6.82-1.329-13.583-2.942-20.442-4.076C77.819,249.546,77.41,249.127,77.323,246.716z">
+
+
+			<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="4s" values="50,0;0,-15;0,15;400,360;" repeatCount="indefinite"/>
+
+	</path>
+
+	<path class="st7" d="M110.527,253.972c-1.125-0.304-2.25-0.606-3.373-0.91c-2.043-0.167-3.938-0.903-5.828-1.598
+		c-6.819-2.51-13.739-4.732-20.557-7.242c-0.515-0.166-0.966-0.449-1.398-0.767c-3.801-1.924-7.98-2.863-11.922-4.825
+		c2.717-0.371,5.466-0.592,8.143-1.157c2.59-0.547,4.791,0.046,6.875,1.496c1.176,0.818,1.919,0.697,2.017-0.906
+		c0.114-1.861,1.354-2.193,2.943-2.785c4.329-1.613,7.127-0.117,10.047,3.119c4.633,5.135,9.762,9.821,14.681,14.696
+		c-0.249,1.184-0.856,0.445-1.361,0.256c-7.779-4.705-15.174-9.999-22.797-14.946c-0.535-0.347-1.203-1.083-1.787-0.185
+		c-0.571,0.877-0.385,1.81,0.581,2.337c1.658,0.907,3.266,1.9,4.951,2.756c5.856,2.975,11.831,5.724,17.5,9.056
+		C109.828,252.713,110.805,252.878,110.527,253.972z">
+
+
+			<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="4s" values="50,0;0,-15;0,15;400,360;" repeatCount="indefinite"/>
+
+	</path>
+
+	<path class="st16" d="M110.527,253.972c-1.505-1.757-3.714-2.413-5.643-3.45c-5.969-3.208-12.042-6.228-18.085-9.297
+		c-0.93-0.472-1.675-0.945-1.516-2.189c0.282-2.195,0.85-2.487,2.706-1.24c6.482,4.354,12.966,8.706,19.427,13.092
+		c1.145,0.778,2.574,1.083,3.523,2.168c0.215,0.408,0.675,0.737,0.424,1.297C111.039,254.328,110.706,254.319,110.527,253.972z">
+
+		<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="4s" values="50,0;0,-15;0,15;400,360;" repeatCount="indefinite"/>
+
+	</path>
+
+	<path class="st11" d="M80.72,243.754c6.467,2.229,12.948,4.417,19.392,6.708c2.356,0.837,4.818,1.403,7.042,2.601
+		c-1.755,0.892-3.362-0.209-4.994-0.476c-3.13-0.511-6.278-1.029-9.305-2.044c-2.992-1.396-6.185-2.15-9.368-2.936
+		c-1.688-0.417-2.924-1.317-3.317-3.096C80.088,244.137,80.007,243.618,80.72,243.754z">
+
+
+			<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="4s" values="50,0;0,-15;0,15;400,360;" repeatCount="indefinite"/>
+
+	</path>
+
+	<path class="st1" d="M80.72,243.754c-0.228,1.837,0.816,2.728,2.404,3.176c2.32,0.655,4.662,1.237,6.968,1.939
+		c1.036,0.315,2.145,0.618,2.764,1.672c-4.405-0.414-8.684-1.509-12.951-2.581c-1.519-0.382-1.489-1.929-0.979-3.193
+		c0.175-0.434,0.478-0.808,0.446-1.312C79.866,243.351,80.34,243.337,80.72,243.754z">
+
+
+			<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="4s" values="50,0;0,-15;0,15;400,360;" repeatCount="indefinite"/>
+
+	</path>
+
+	<path class="st8" d="M111.364,254.353c-0.142-0.433-0.283-0.865-0.424-1.297c0.403,0.064,0.788,0.748,1.216,0.038
+		c0.806,0.417,1.409,1.034,1.923,1.929C112.985,255.247,112.158,254.876,111.364,254.353z">
+
+
+			<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="4s" values="50,0;0,-15;0,15;400,360;" repeatCount="indefinite"/>
+
+	</path>
 </g>
 <rect x="373.712" y="135.672" class="st10" width="388.013" height="92.683"/>
 <text transform="matrix(1 0 0 1 373.7124 164.1753)" class="st9 st15 st17">The Culture App</text>
