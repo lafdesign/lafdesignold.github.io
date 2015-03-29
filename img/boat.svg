@@ -82,7 +82,9 @@
 
 </style>
 <g>
-	<animateTransform attributeName="transform" begin=".1" attributeType="HML" type="translate" dur=11.5s" values="0,0;-17,5; 15,-5;0,0" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" begin=".1" attributeType="HML" type="translate" dur="11.5s" values="0,0;-17,5; 15,-5;0,0" repeatCount="indefinite"/>
+
+
 	<path class="st74" d="M173.182,82.613c-0.236,0.031-0.473,0.064-0.709,0.098c-3.445,0.841-6.989,1.124-10.471,1.808
 		c-3.471,0.682-6.881,1.652-10.393,2.171c-4.28,0.633-8.446,1.938-12.766,2.369c-5.07,0.505-10.071,1.644-15.196,1.635
 		c-0.77-0.002-1.544,0.027-2.301-0.159c-2.481-0.771-4.849-1.835-7.242-2.836c-0.573-0.239-1.136-0.54-1.17-1.199
