@@ -240,3 +240,22 @@ div.wave-box {
   transform: perspective(600px) rotateY(0deg);
   -webkit-transform: perspective(600px) rotateY(0deg);
 }
+
+/* line 151, ../sass/screen.sass */
+ul.contact {
+  position: relative;
+  top: -45px;
+  left: -50px;
+}
+
+/* line 156, ../sass/screen.sass */
+.workText {
+  padding: 0;
+}
+
+/* line 159, ../sass/screen.sass */
+h3.hobbies-title {
+  position: relative;
+  left: 64%;
+  top: -20.5em;
+}
