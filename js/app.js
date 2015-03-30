@@ -33,6 +33,11 @@ angular
         templateUrl: 'templates/resume.html',
         controller: 'resumeCtrl'
       })
+       .state('svg', {
+        url: '/svg',
+        templateUrl: 'templates/svg.html',
+        controller: 'svgCtrl'
+      })
       .state("otherwise", {
         url : '/'
       });
