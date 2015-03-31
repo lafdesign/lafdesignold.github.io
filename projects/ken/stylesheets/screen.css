@@ -80,50 +80,62 @@ div.container {
   border: 1px solid black;
 }
 
-/* line 24, ../sass/screen.sass */
-ul {
-  list-style: none;
-  display: inline-flex;
+/* line 23, ../sass/screen.sass */
+.home-footer-img {
+  width: 30%;
+  display: inline;
+  position: relative;
+  float: left;
 }
 
-/* line 28, ../sass/screen.sass */
+/* line 29, ../sass/screen.sass */
+ul.nav {
+  list-style: none;
+  display: inline-flex;
+  width: 70%;
+  left: 15%;
+  position: relative;
+  font-size: 2vw;
+}
+
+/* line 37, ../sass/screen.sass */
 li {
   padding-left: 10%;
 }
 
-/* line 31, ../sass/screen.sass */
+/* line 40, ../sass/screen.sass */
 h1 {
   font-size: 3em;
   text-align: center;
 }
 
-/* line 36, ../sass/screen.sass */
+/* line 45, ../sass/screen.sass */
 h3.footer {
   font-size: 2em;
   padding-top: 20%;
   text-align: center;
 }
 
-/* line 41, ../sass/screen.sass */
+/* line 50, ../sass/screen.sass */
 p {
   color: black;
   font-size: 1.5em;
 }
 
-/* line 46, ../sass/screen.sass */
+/* line 55, ../sass/screen.sass */
 div.home-body {
   height: 2000px;
   background-color: white;
 }
 
-/* line 50, ../sass/screen.sass */
+/* line 59, ../sass/screen.sass */
 a {
   color: black;
   font-size: 2em;
   text-decoration: none;
 }
 
-/* line 55, ../sass/screen.sass */
+/* line 64, ../sass/screen.sass */
 a:hover {
   border: 1px solid transparent;
   color: black;
