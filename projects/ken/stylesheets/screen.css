@@ -89,6 +89,14 @@ div.container {
 }
 
 /* line 29, ../sass/screen.sass */
+img.main-fade {
+  position: absolute;
+  top: 51px;
+  width: 70%;
+  left: 15%;
+}
+
+/* line 35, ../sass/screen.sass */
 ul.nav {
   list-style: none;
   display: inline-flex;
@@ -98,44 +106,44 @@ ul.nav {
   font-size: 2vw;
 }
 
-/* line 37, ../sass/screen.sass */
+/* line 43, ../sass/screen.sass */
 li {
   padding-left: 10%;
 }
 
-/* line 40, ../sass/screen.sass */
+/* line 46, ../sass/screen.sass */
 h1 {
   font-size: 3em;
   text-align: center;
 }
 
-/* line 45, ../sass/screen.sass */
+/* line 51, ../sass/screen.sass */
 h3.footer {
   font-size: 2em;
   padding-top: 20%;
   text-align: center;
 }
 
-/* line 50, ../sass/screen.sass */
+/* line 56, ../sass/screen.sass */
 p {
   color: black;
   font-size: 1.5em;
 }
 
-/* line 55, ../sass/screen.sass */
+/* line 61, ../sass/screen.sass */
 div.home-body {
   height: 2000px;
   background-color: white;
 }
 
-/* line 59, ../sass/screen.sass */
+/* line 65, ../sass/screen.sass */
 a {
   color: black;
   font-size: 2em;
   text-decoration: none;
 }
 
-/* line 64, ../sass/screen.sass */
+/* line 70, ../sass/screen.sass */
 a:hover {
   border: 1px solid transparent;
   color: black;
