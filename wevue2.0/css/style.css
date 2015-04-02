@@ -412,6 +412,29 @@ p {
 hr.hr {
 	display:none;
 	}
+
+.flex-svg {
+	width: 50%;
+	left: 25%;
+	position: relative;
+	display: block;
+	}
+
+.svg-icon {
+	width: 23%;
+	display: inline;
+	}
+
+.horn-svg {
+	margin-right: 20%;
+	}
+
+.circle-svg {
+	margin-left: 20%;
+	}
+
+
+
 .content-section {
 	padding-top: 100px;
 	position: relative;
