@@ -472,8 +472,10 @@ div.intro-container span {
 img.intro-icons {
 	width: 27%;
 	max-width: 110px;
-	margin: 1%;
 	opacity: .9;
+	position: relative;
+    top: 82px;
+  	z-index: 3;
 	}
 img.intro-icons:hover {
 	border:1px solid transparent;
@@ -624,7 +626,7 @@ h3.list-title2 {
 .yellow-text { color: #E8E81F; }
 
 h3 { font-size: 1.8em; }
-h3.quotes { font-size: 1.8em; }
+h3.quotes { font-size: 2.3em; }
 
 .quotes2 {
 	font-size: .65em;
@@ -852,7 +854,7 @@ div.wevue_album_widget_image {
 			}
 		.to-about {
 			position: relative;
-			top: -50px;
+			top: 110px;
 			}	
 		img.how-it-works {
 			position: relative;
