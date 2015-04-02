@@ -418,8 +418,8 @@ hr.hr {
 	z-index: 3;
 	}
 #features-1 {
-	background-color: #36424d;
-	margin-top: 135px;
+	/*background-color: #36424d;
+	margin-top: 135px;*/
 	padding-top: 40px;
 	padding-bottom: 7%;
 	}
@@ -573,7 +573,7 @@ section#features-3 li:before { color: #1F5F6C; }
 
 ul.last-list {
 	padding-bottom: 2.7%;
-	padding-top: 2%;
+	padding-top: 7%;
 	}
 h3.list-title {
 	color: white;
@@ -779,7 +779,7 @@ div.widget-body:hover { border: 2px solid transparent; }
 	display: block;
 	}
 .features-section {
-    color: #3f474f;
+    color: #73B4F5;
 	}
 .iframe {
 	height: 475px;

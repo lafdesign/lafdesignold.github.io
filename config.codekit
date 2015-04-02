@@ -16549,15 +16549,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wevue2.0\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wevue2.0\/ideas\/blog.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -17085,17 +17076,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wevue2.0\/img\/apple-touch-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2138,
-		"inputAbbreviatedPath": "\/wevue2.0\/img\/apple-touch-icon.png",
-		"outputAbbreviatedPath": "\/wevue2.0\/img\/apple-touch-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/wevue2.0\/img\/background-app.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -17195,28 +17175,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wevue2.0\/img\/tile-wide.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3970,
-		"inputAbbreviatedPath": "\/wevue2.0\/img\/tile-wide.png",
-		"outputAbbreviatedPath": "\/wevue2.0\/img\/tile-wide.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wevue2.0\/img\/tile.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4800,
-		"inputAbbreviatedPath": "\/wevue2.0\/img\/tile.png",
-		"outputAbbreviatedPath": "\/wevue2.0\/img\/tile.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/wevue2.0\/img\/wevue-facebook-card.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -17246,17 +17204,6 @@
 		"initialSize": 57800,
 		"inputAbbreviatedPath": "\/wevue2.0\/img\/wevue-social-media-card.jpg",
 		"outputAbbreviatedPath": "\/wevue2.0\/img\/wevue-social-media-card.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wevue2.0\/img\/wevue_culture_icon.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2459,
-		"inputAbbreviatedPath": "\/wevue2.0\/img\/wevue_culture_icon.jpeg",
-		"outputAbbreviatedPath": "\/wevue2.0\/img\/wevue_culture_icon.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -17304,15 +17251,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/wevue2.0\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/wevue2.0\/js\/app.js": {
 		"fileType": 64,
@@ -17407,179 +17345,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wevue2.0\/stylesheets\/screen.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wevue2.0\/wevue-sass-angular\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wevue2.0\/wevue-sass-angular\/js\/app.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/js\/app.js",
-		"outputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/js\/min\/app-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wevue2.0\/wevue-sass-angular\/js\/controllers\/aboutCtrl.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/js\/controllers\/aboutCtrl.js",
-		"outputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/js\/controllers\/min\/aboutCtrl-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wevue2.0\/wevue-sass-angular\/js\/controllers\/contactCtrl.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/js\/controllers\/contactCtrl.js",
-		"outputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/js\/controllers\/min\/contactCtrl-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wevue2.0\/wevue-sass-angular\/js\/controllers\/homeCtrl.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/js\/controllers\/homeCtrl.js",
-		"outputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/js\/controllers\/min\/homeCtrl-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wevue2.0\/wevue-sass-angular\/sass\/ie.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/sass\/ie.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/ie.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/wevue2.0\/wevue-sass-angular\/sass\/print.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/sass\/print.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/print.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/wevue2.0\/wevue-sass-angular\/sass\/screen.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/sass\/screen.sass",
-		"outputAbbreviatedPath": "\/stylesheets\/screen.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
-	"\/wevue2.0\/wevue-sass-angular\/stylesheets\/ie.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/stylesheets\/ie.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wevue2.0\/wevue-sass-angular\/stylesheets\/print.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/stylesheets\/print.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wevue2.0\/wevue-sass-angular\/stylesheets\/screen.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/stylesheets\/screen.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wevue2.0\/wevue-sass-angular\/templates\/about.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/templates\/about.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wevue2.0\/wevue-sass-angular\/templates\/contact.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/templates\/contact.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wevue2.0\/wevue-sass-angular\/templates\/footer.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/templates\/footer.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wevue2.0\/wevue-sass-angular\/templates\/home.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/templates\/home.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wevue2.0\/wevue-sass-angular\/templates\/nav.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wevue2.0\/wevue-sass-angular\/templates\/nav.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
