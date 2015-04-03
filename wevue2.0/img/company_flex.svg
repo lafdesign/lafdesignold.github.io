@@ -2,10 +2,42 @@
 	 viewBox="0 0 504 504" style="enable-background:new 0 0 504 504;" xml:space="preserve">
 <style type="text/css">
 
-	.st0{fill:#3F474F;stroke:#42C8F4;stroke-width:2;stroke-miterlimit:10;}
+	.st0{
+	opacity: 0.8;
+	fill:#3F474F;
+	stroke:#42C8F4;
+	stroke-width:2;
+	stroke-miterlimit:10;
+
+	}
+
+.st0 {
+		stroke-dasharray: 3000;
+		stroke-dashoffset:0;
+		-webkit-animation: dash 10s linear forwards;
+		-o-animation: dash 10s linear forwards;
+		-moz-animation: dash 10s linear forwards;
+		animation: dash 10s linear forwards;
+
+	}
+
+
+
+	@-webkit-keyframes dash {
+		from {
+			stroke-dashoffset: 0;
+		}
+		to {
+			stroke-dashoffset: -3000;
+		}
+	}
+
+
+
+
 
 </style>
-	<path class="st0" d="M369.863,291.415c-21.879,4.351-38.278,16.13-50.224,29.29c-1.787-0.44-3.552-0.898-5.307-1.363
+	<path id="arm" class="st0" d="M369.863,291.415c-21.879,4.351-38.278,16.13-50.224,29.29c-1.787-0.44-3.552-0.898-5.307-1.363
 		c0-29.353,0-66.017,0-95.252c-11.204,7.58-22.081,14.938-33.497,22.662c0-7.824,0-15.023,0-22.841
 		c-11.447,7.745-22.362,15.13-33.872,22.916c0-7.98,0-15.134,0-22.708c-1.239,0.776-2.077,1.265-2.877,1.807
 		c-8.773,5.938-17.698,11.669-26.24,17.925c-4.008,2.935-8.053,3.468-12.971,2.739c-1.465-17.863-2.917-35.568-4.376-53.352

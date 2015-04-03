@@ -3,10 +3,10 @@
 	>
 <style type="text/css">
 
-	.st0{fill:#3F474F;stroke:#42C8F4;stroke-width:2;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#4CE570;stroke-width:7;stroke-miterlimit:10;}
-	.st2{fill:#3F474F;}
-	.st3{fill:#42C8F4;}
+	.st0{fill:#3F474F;stroke:#42C8F4;stroke-width:0;stroke-miterlimit:10; opacity:0.95;}
+	.st1{fill:none;stroke:#4CE570;stroke-width:7;stroke-miterlimit:10;  stroke-dasharray: 10 5; opacity:0.7;}
+	.st2{fill:#3F474F; opacity:0.95;}
+	.st3{fill:#42C8F4; opacity:0.95;}
 
 </style>
 <g>
