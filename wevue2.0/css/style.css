@@ -433,7 +433,7 @@ hr.hr {
 	margin-left: 50%;
 	}
 
-.modal-story{
+.modal-story p {
 	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -949,10 +949,23 @@ div.wevue_album_widget_image {
 .nav-justify ul li a {
 
 	}	
+.go-back-link {
+	position: absolute;
+	top: -2px;
+  	left: -15%;
+	color: white;
+}
 
 
+.go-back-link:hover {
+	border: 1px solid transparent;
+	color: gray;
+}
 
 
+.modal-backdrop {
+	background-color: "";
+}
 @media(min-width:1500px) {
 
 		.intro-container {
