@@ -963,8 +963,14 @@ div.wevue_album_widget_image {
 }
 
 
-.modal-backdrop {
-	background-color: "";
+
+
+
+.head-section {
+	  margin-bottom: 40px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
 }
 @media(min-width:1500px) {
 
