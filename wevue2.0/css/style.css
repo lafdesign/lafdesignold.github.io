@@ -465,6 +465,13 @@ hr.hr {
 	margin-top: 5px;
 	}
 
+.fa-circle-o {
+	  text-align: right;
+  font-size: 2.5em;
+  /* width: 2%; */
+  position: relative;
+  left: 49%;
+}
 
 
 	// section-team 
