@@ -139,6 +139,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    border-bottom: 1px solid rgb(17, 15, 32);
 }
 
 .intro .intro-body {
@@ -508,6 +509,7 @@ hr.hr {
 #contact {
 	background-color: #36424d;
 	padding-bottom: 20px;
+	border-bottom: 1px solid rgb(77, 90, 94);
 	}
 h1.brand-heading {
 	font-family: 'Roboto', sans-serif;
@@ -595,6 +597,7 @@ span.details-title {
     background-size: cover;
     -o-background-size: cover;
     font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid rgb(94, 145, 143);
 	}
 h2.feature-1-title {
 	text-align: left;
@@ -1031,6 +1034,17 @@ a.showcase-toggle {
   background: white;
   position: absolute;
   top: 10px;
+  right: 25%;
+  opacity: 0.25;
+}
+
+ h2.story:after {
+  content: "";
+  height: 1px;
+  width: 50%;
+  background: white;
+  position: absolute;
+  top: 0;
   right: 25%;
   opacity: 0.25;
 }
@@ -1529,6 +1543,9 @@ ul.social {
 		.iframe {
 			width: 250px;
 			height:210px;
+			}
+		img.intro-icons {
+			margin-bottom: 4%;
 			}
 
 		}	
