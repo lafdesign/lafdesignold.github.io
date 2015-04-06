@@ -474,6 +474,10 @@ hr.hr {
 }
 
 
+.fa-circle-o:hover {
+		color: transparent;
+	text-shadow: 1px 1px 2px rgba(48, 78, 113, 0.6), 0 0 0 #222;
+}
 .content-section {
 	padding-top: 100px;
 	position: relative;
@@ -656,7 +660,6 @@ h3.list-title2 {
 	left: 1%;
 	}
 
-.fa:hover { border:1px solid transparent; }
 
 .fa-icons-dark {
 	font-size: 2.5em;
@@ -1034,11 +1037,6 @@ a.showcase-toggle {
 
 
 
-div.modal-story div.modal-backdrop {
-
-  opacity: .8;
-    background-color: #e6e6e6;
-}
 
 
 
@@ -1065,12 +1063,27 @@ div.caption p {
 
 }
 
-.inset-shadow2{
+i.inset-shadow{
 	color: transparent;
 	text-shadow: 1px 1px 2px rgba(48, 78, 113, 0.6), 0 0 0 #222;
 
 
 }
+
+i:hover {
+text-shadow:none;
+color: initial;
+
+
+}
+
+ul.social {
+	margin-top: 50px;
+  margin-bottom: -25px;
+}
+
+
+
 @media(min-width:1500px) {
 
 		.intro-container {
@@ -1175,6 +1188,9 @@ div.caption p {
 		.footer-pipe {
 			display: initial;
 			}
+		img.intro-icons {
+			margin-bottom: 4%;
+			}
 		}
 
 @media(max-width:840px) {
@@ -1208,7 +1224,25 @@ div.caption p {
 		.push-li {
 			width:initial;
 			}
+
+		.thumbnail-left {
+		
+		  position: relative;
+		  display: block;
+		   width:100%;
+			}
+
+		.thumbnail-right {
+		
+		  position: relative;
+		    display: block;
+		    width:100%;
+			}
+		.flex {
+			margin-bottom: 18%;
+			}
 		}
+
 
 @media(max-width:799px) {
 
@@ -1350,6 +1384,7 @@ div.caption p {
 			}
 		img.intro-icons {
 			width: 24.5%;
+	     	margin-bottom: 5%;
 			}
 		div.widget-body {
 			position: relative;
@@ -1473,7 +1508,7 @@ div.caption p {
 			}
 		h3.quotes {
 			font-size: 1.3em;
-			top: -21px;
+			top: -6px;
 			position: relative;
 			}
 		.quote-title {
