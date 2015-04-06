@@ -4,6 +4,7 @@ body {
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #000;
+    font-weight: 300;
 }
 
 html {
@@ -415,18 +416,17 @@ hr.hr {
 
 .flex-svg {
 	width: 50%;
-	left: 25%;
 	position: relative;
 	display: block;
 	}
 
 .svg-icon {
-	width: 23%;
+	width: 38%;
 	display: inline;
 	}
 
 .horn-svg {
-
+	padding-bottom: 10%;
 	}
 
 .circle-svg {
@@ -474,79 +474,6 @@ hr.hr {
 }
 
 
-	// section-team 
-#section-team{
-	background: #2ea28e;
-	color: #fff;
-	
-	.head-section{
-		h1:after, h2:after{
-			background: #fff;
-		}
-	}
-
-	.person{
-		min-height: 510px; // JB: allows responsive rows to stack evenly at col-sm-6
-		text-align: center;
-		margin-bottom: 25px;
-		.person-name{
-			margin-bottom: 2px;
-		}
-		> ul.list-links-social{
-			position: relative;
-			display: inline-block;
-			margin: 5px 0 0 0;
-			padding: 8px 0 0 0;
-			display: inline-block;
-
-			> li{
-				list-style: none;
-				display: inline-block;
-				margin-bottom: 10px;
-			}
-			> li > a{
-				color: #fff;
-				font-size: 20px;
-				float: left;
-				margin-right: 22px;
-			}
-			> li > a:hover{
-				opacity: 0.5;
-				.transition(opacity 0.3s ease-out)
-			}
-			> li > a:hover{
-				text-decoration: none;
-			}
-		}
-
-		> ul.list-links-social:after{
-			content: "";
-			height: 1px;
-			width: 50%;
-			background: #fff;
-			position: absolute;
-			top: 0;
-			right: 25%;
-			opacity: 0.25;
-		}
-		p.person-description{
-			padding-top: 25px;
-			position: relative;
-			margin-top: 5px;
-		}
-		p.person-description:after{
-			content: "";
-			height: 2px;
-			width: 50%;
-			background: #fff;
-			position: absolute;
-			top: 10px;
-			right: 25%;
-			opacity: 0.25;
-		}
-	}
-}
-
 .content-section {
 	padding-top: 100px;
 	position: relative;
@@ -559,15 +486,16 @@ hr.hr {
 	padding-bottom: 7%;
 	}
 #features-2 {
-	background: #eb7260;
+	/*background: #eb7260;*/
 	padding-top: 0px;
 	}
 .features-section-2 {
-	background: #eb7260;
+	/*background: #eb7260;*/
 	}
 #features-3 {
-	background-color: #2ea28e;
+	/*background-color: #2ea28e;*/
 	padding-top: 20px;
+	padding-bottom: 45px;
 	}
 #showcase {
 	background-color: #548db5;
@@ -606,14 +534,15 @@ div.intro-container span {
 	}
 img.intro-icons {
 	width: 27%;
-	max-width: 110px;
+	max-width: 115px;
 	opacity: .9;
 	position: relative;
-    top: 82px;
+    top: 100px;
   	z-index: 3;
+  	border:2px solid transparent;
 	}
 img.intro-icons:hover {
-	border:1px solid transparent;
+	border:none;
 	}
 img.how-it-works {
 	position: relative;
@@ -798,7 +727,7 @@ div.switch-out {
 	}
 img.brand-logo {
 	position: relative;
-	top: 65px;
+	top: 80px;
 	width: 40%;
 	}
 .gif-f1 {
@@ -950,10 +879,11 @@ div.wevue_album_widget_image {
 
 	}	
 .go-back-link {
-	position: absolute;
-	top: -2px;
-  	left: -15%;
-	color: white;
+position: absolute;
+  top: 7px;
+  left: 2%;
+  color: white;
+  opacity: .8;
 }
 
 
@@ -971,7 +901,163 @@ div.wevue_album_widget_image {
   width: 75%;
   margin: auto;
   text-align: center;
+
 }
+
+.story-head h2, h4  {	 
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: black;
+
+}
+
+.story-head h2 {
+  font-size: 48px;
+}
+
+
+.story-header {
+	  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+
+.fa-circle-showcase {
+  
+ font-size: 2.5em;
+
+  position: relative;
+   left: initial;
+}
+
+
+a.showcase-toggle {
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+.thumbnail {
+   display: inline-block; 
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: black; 
+  border: none; 
+  border-radius: none; 
+}
+
+.small-thumbnail {
+	width: 45%;
+}
+
+
+/* line 12, ../sass/screen.sass */
+#section-team {
+  background: #2ea28e;
+  color: white;
+  border: 14px solid transparent;
+
+}
+/* line 17, ../sass/screen.sass */
+#section-team .head-section h1:after, #section-team .head-section h2:after {
+  background: white;
+}
+/* line 22, ../sass/screen.sass */
+#section-team .person {
+  min-height: 510px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+/* line 26, ../sass/screen.sass */
+#section-team .person .person-name {
+  margin-bottom: 2px;
+}
+/* line 29, ../sass/screen.sass */
+#section-team .person > ul.list-links-social {
+  position: relative;
+  display: inline-block;
+  margin: 5px 0 0 0;
+  padding: 8px 0 0 0;
+  display: inline-block;
+}
+/* line 36, ../sass/screen.sass */
+#section-team .person > ul.list-links-social > li {
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+/* line 41, ../sass/screen.sass */
+#section-team .person > ul.list-links-social > li > a {
+  color: white;
+  font-size: 20px;
+  float: left;
+  margin-right: 22px;
+}
+/* line 47, ../sass/screen.sass */
+#section-team .person > ul.list-links-social > li > a:hover {
+  opacity: 0.5;
+}
+/* line 51, ../sass/screen.sass */
+#section-team .person > ul.list-links-social > li > a:hover {
+  text-decoration: none;
+}
+/* line 56, ../sass/screen.sass */
+#section-team .person > ul.list-links-social:after {
+  content: "";
+  height: 1px;
+  width: 50%;
+  background: white;
+  position: absolute;
+  top: 0;
+  right: 25%;
+  opacity: 0.25;
+}
+/* line 66, ../sass/screen.sass */
+#section-team .person p.person-description {
+  padding-top: 25px;
+  position: relative;
+  margin-top: 5px;
+}
+/* line 71, ../sass/screen.sass */
+#section-team .person p.person-description:after {
+  content: "";
+  height: 2px;
+  width: 50%;
+  background: white;
+  position: absolute;
+  top: 10px;
+  right: 25%;
+  opacity: 0.25;
+}
+
+
+
+div.modal-story div.modal-backdrop {
+
+  opacity: .8;
+    background-color: #e6e6e6;
+}
+
+
+
+.thumbnail-left {
+	  left: 0;
+  position: absolute;
+}
+
+.thumbnail-right {
+	  right: 0;
+  position: absolute;
+}
+
+div.caption p {
+	color: #777;
+	z-index: 2;
+	position: relative;;
+}
+
 @media(min-width:1500px) {
 
 		.intro-container {

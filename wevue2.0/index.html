@@ -25,9 +25,10 @@
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
     <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.css" rel='stylesheet' type='text/css' />
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel='stylesheet' type='text/css' />
-    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css' />
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="http://wevue-production.s3.amazonaws.com/www/css/prettyPhoto.css">
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,15 +54,20 @@
 <!-- team modal -->
 
 <div class="modal fade modal-team" tabindex="-1" role="dialog" aria-labelledby="team_modal" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div class="modal-dialog modal-lg" style="  width: 86%;
+">
     <div class="modal-content team-content">
-   <div class="row">
+        <section id="section-team" class="section-page">
+
    <div class="head-section">
             <h2>Our Team</h2>
             <p>The WeVue Team, located in Tampa Bay, are committed to making shared memories easier to capture and more fun to share. Besides consuming copious quantities of caffeinated beverages, they spend their days poking keys on a board, and their nights helping people crowdsource amazing photos and videos.  </p>
         </div><!-- /.head-section -->
     <a  class="go-back-link" data-toggle="modal" data-target=".modal-team"> <i class="fa fa-arrow-circle-o-left"></i>-Go Back</a>
-            <div id="person_1" class="person col-md-4 col-xs-12 col-sm-6 col-md-4">
+           
+
+              <div class="row">
+               <div id="person_1" class="person col-md-4 col-xs-12 col-sm-6 col-md-4">
                 <img alt="" title="" class="person-avatar img-circle" src="img/persons/taylor.jpg" data-at2x="img/persons/taylor@2x.jpg">
                 <h4 class="person-name">Taylor Wallace</h4>
                 <span class="person-skills">Product Guy</span>
@@ -106,36 +112,39 @@
             </div><!-- /#person_6 -->
 
         </div>
-    </div>
+
+    </section>
   </div>
+</div>
 </div>
 <!-- Story modal -->
 
 <div class="modal fade modal-story" tabindex="-1" role="dialog" aria-labelledby="story_modal" aria-hidden="true">
 
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content" style="background-color:#e6e6e6;">
+  <div class="modal-dialog modal-lg" style="width: 86%;">
+    <div class="modal-content" style="background-color:#e6e6e6;   padding: 3%;   top: -25px;
+">
            <div class="row">
   <a  class="go-back-link" data-toggle="modal" data-target=".modal-story"> <i class="fa fa-arrow-circle-o-left"></i>-Go Back</a>
             
-           <div class="head-section">
+           <div class="head-section story-head">
                 <h2>Our Story</h2>
                 <p>WeVue - the idea, the plan, the goal </p>
             </div><!-- /.head-section -->
         <div class="col-md-6">
        
 
-            <h4>The Idea</h4>
+            <h4 class="story-header">The Idea</h4>
 
             <p>Here I am at this great event, holding my smartphone in the air to record the moment. I pause for a second, breaking my gaze away from the amazing performance in front of me, only to see several hundred people around me doing the same thing. Phones are in the air everywhere. So I had to ask myself, why is it so important to me and everyone here that we engage in this ritual? We want to capture and preserve this moment, but is this really the best way? If we all have a common desire to film and photograph this shared experience, shouldn’t we have a way to share these digital memories together? Abso-freakin-lutely. With nearly the same effort, we could all enjoy this amazing moment from thousands of different perspectives. The result is not just more content posted to your social network - but a shared album where we can see an experience from the perspectives of everyone who was there. Now I can enjoy this memory from your point of view, and your point of view, and yours and yours. #BOOM. And WeVue was born. </p>
         </div>
         <div class="col-md-6">
-            <h4>The Goal</h4>
+            <h4 class="story-header">The Goal</h4>
 
             <p>When you’re feverishly waving your phone in the air, you are trying to capture a fleeting moment you experienced with those around you. The person next to you could be a total stranger, but when he holds up his phone to take a picture, you now have something in common. The goal of WeVue is to connect the digital devices we use to capture images and video so that we can crowdsource and create things together, not just by ourselves for our social networks. We look forward to the day when you don’t have to hand a stranger five phones to take your group picture, because you know that one phone is enough to get that moment into a shared album on WeVue.      </p>
         </div>
         <div class="col-md-6">
-            <h4>The Plan</h4>
+            <h4 class="story-header">The Plan</h4>
 
             <p>We set out to create the best crowdsourcing tool on the planet. We recruited a team of designers, developers, marketers, and investors to help us build our rocket ship. We’ve just finished polishing it up and launching it into orbit in the app store. Now we’re working with amazing companies and organizations to help them share their memories and bring them back to life. The next step is making sure WeVue albums are ready for any of life’s moments. </p>
         </div>
@@ -188,7 +197,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="intro-container">
-                            <a id="personal" href="http://wevue-production.s3.amazonaws.com/www/site-ani.html" target="blank">
+                            <a id="personal" href="#">
                                 <img src="img/wevue_logo_icon.jpg" class="img-rounded intro-icons" alt="WeVue app Logo: redirects to 'personal' WeVue app page" />
                             </a>
                         </div>
@@ -214,9 +223,42 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
-                <img src="img/horn.svg" class="svg-icon horn-svg">
-                <img src="img/circle.svg" class="svg-icon circle-svg">
-                <img src="img/company_flex.svg" class="flex-svg">
+
+
+    <div class="thumbnail small-thumbnail thumbnail-left ">
+     <img src="img/circle.svg" class="svg-icon circle-svg os-animation" data-os-animation="rotateIn" data-os-animation-delay=".2s">
+        <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+
+    <div class="thumbnail small-thumbnail thumbnail-right ">
+           <img src="img/horn.svg" class="svg-icon horn-svg os-animation" data-os-animation="bounceIn" data-os-animation-delay=".1s">
+ 
+        <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+            
+
+
+    <div class="thumbnail">
+
+                <img src="img/company_flex.svg" class="flex-svg os-animation " data-os-animation="fadeIn" data-os-animation-delay=".4s">
+        <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+            
+                
+               
                 <h3 class="elevator os-animation toBeAnimated" data-os-animation="fadeIn" data-os-animation-delay=".2s" >
                 <span class="blue-text"> 
                     <a href="#features" class="page-scroll">WeVue</a>
@@ -231,17 +273,11 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-
-<div class="accordion" id="accordion2">
+    <div class="accordion" id="accordion2">
   <div class="accordion-group">
     <div class="accordion-heading">
       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
-<i class="center-block fa fa-circle-o"></i>
+        <i class="center-block fa fa-circle-o"></i>
       </a>
     </div>
     <div id="collapseOne" class="accordion-body collapse">
@@ -252,7 +288,7 @@
                 <div class="container">
                     <div class="col-lg-10 col-lg-offset-1">
                         <h2 class="feature-1-title">A PRIVATE <span class="blue-text">NETWORK</span> FOR YOUR COMPANY</h2>
-                        <h3 class="list-title list-title2 os-animation toBeAnimated" data-os-animation="fadeIn" data-os-animation-delay=".3s">Communicating and collaborating with photos, videos, and text will change the way you:</h3>
+                        <h3 class="list-title list-title2 os-animation toBeAnimated" data-os-animation="fadeIn" data-os-animation-delay=".3s">  Communicating and collaborating with photos, videos, and text will change the way you:</h3>
     <!-- Phone Section 1 -->
                        <div class="container-android gif-f1 align_left os-animation" data-os-animation="fadeIn">
                             <img class="phone-android" src="img/phone_white.png" alt="WeVue App in Android phone: Phone" />
@@ -275,7 +311,7 @@
       </div>
     </div>
   </div>
-  </div>
+</div>
 
 
   
@@ -362,6 +398,14 @@
   </div>
 
 
+
+
+
+
+
+
+
+
 <!-- Showcasue Section -->
     <section id="showcase" class="content-section text-center">
         <div class="showcase-section">
@@ -371,13 +415,32 @@
                     SHOWCASE YOUR COMPANY<span class="yellow-text os-animation" data-os-animation="pulse" data-os-animation-delay=".1s"> CULTURE</span> WITH THE <span class="yellow-text os-animation" data-os-animation="pulse" data-os-animation-delay=".6s">PEOPLE</span> WHO MAKE YOUR <span class="yellow-text os-animation" data-os-animation="pulse" data-os-animation-delay="1.2s">STORIES</span></h2>
                     <h3 class="list-title list-title2 os-animation" style="color: #3f474f; text-align: center;" data-os-animation="fadeIn" data-os-animation-delay=".3s">all of the content added to the app can be edited and selectively shared to the public</h3>
                     <hr />
+
 <!-- iframe -->
-                    <iframe class="iframe" src="//wevue.com/vues/496793545?1421692659"></iframe>
-                 
-                       <ul style="padding-top: 7.7%;">
-                        <li class="li center-block landing-text os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s"><i class="fa fa-retweet fa-icons-dark2 os-animation" data-os-animation="rotateIn" data-os-animation-delay="3s"></i> &nbsp;&nbsp;&nbsp;<span class="features-section">On social media: </span>photos and videos shared from the app on social media drive traffic to a branded page that links to any relevant site about you company. </li>
-                    </ul>
-                       <hr />
+
+    <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#collapseFour">
+        <i class="fa fa-circle-o fa-circle-showcase "></i>
+      </a>
+    </div>
+    <div id="collapseFour" class="accordion-body collapse">
+        <div class="accordion-inner">
+
+       <iframe class="iframe animated slideInUp" src="//wevue.com/vues/496793545?1421692659"></iframe>
+
+        </div>
+    </div>
+  </div>
+
+
+
+                    <a class="accordion-toggle showcase-toggle" style=" color: #fff;"data-toggle="collapse" data-parent="#accordion4" href="#collapseFour"> Click here to see a branded page
+                        <ul style="padding-top: 5.7%;">
+                            <li class="li center-block landing-text os-animation" data-os-animation="fadeIn" data-os-animation-delay="1.2s"><i class="fa fa-retweet fa-icons-dark2 os-animation" data-os-animation="rotateIn" data-os-animation-delay="3s"></i> &nbsp;&nbsp;&nbsp;<span class="features-section">On social media: </span>photos and videos shared from the app on social media drive traffic to a branded page that links to any relevant site about you company. </li>
+                        </ul>
+                    </a>
+                    <hr />
                     <a href="#contact" class="to-contact btn btn-circle page-scrollos-animation" data-os-animation="flipInY" data-os-animation-delay=".2s" >
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
@@ -446,16 +509,30 @@
     <div class="container">
             <nav class="nav-justify">
                 <ul>
+                    <li><a class="twitter" href="http://www.twitter.com/wevue" title="Twitter"></a></li>
+                    <li><a class="facebook" href="http://www.facebook.com/wevue" title="Facebook"></a></li>
+                    <li><a class="linkedin" href="http://www.linkedin.com/company/wevue" title="LinkedIn"></a></li>
+                    <li><a class="google-plus" href="https://plus.google.com/104054240207237778608/about" title="Google+"></a></li>
+                    <li><a class="tumblr" href="http://blog.wevue.com" title="Tumblr"></a></li>
+                </ul>
+            </nav>
+        </div>
+
+    <div class="container">
+            <nav class="nav-justify">
+                <ul>
+                <li>
                     <li><a href="" class="footer">Press</a></li>
                     <li><a href="" class="footer footer-pipe">|</a></li>
 
-                    <li><a href="" class="footer" data-toggle="modal" data-target=".modal-story">Our Story</a></li>
+                    <li><a href="" class="footer" data-toggle="modal" data-target=".modal-story">Privacy</a></li>
                     <li><a href="" class="footer footer-pipe">|</a></li>
                     <li><a href="" class="footer">Copyright &copy; WeVue 2015</a></li>
                     <li><a href="" class="footer footer-pipe">|</a></li>
-                    <li><a href="" class="footer" data-toggle="modal" data-target=".modal-team">Team</a></li>
+                    <li><a href="" class="footer" data-toggle="modal" data-target=".modal-team">Terms</a></li>
                     <li><a href="" class="footer footer-pipe">|</a></li>
                     <li><a href="" class="footer">Blog</a></li>
+                   
                 </ul>
             </nav>
         </div>
