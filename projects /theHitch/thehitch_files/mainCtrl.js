@@ -1,2 +1,0 @@
-/*! Compiled on: 2014-06-05 */
-"use strict";define(["modules/app","walkthrough","typeahead","authentication","venueSearch","showOnLoad","placeholder","controllers/resetPasswordCtrl","authenticationFactory"],function(app){app.controllerManager("mainCtrl",["$scope","$rootScope","$state","$location","$modal","authenticationFactory",function($scope,$rootScope,$state,$location,$modal){"undefined"!=typeof $location.search().code&&$modal.open({templateUrl:"/release/html/partials/resetPassword.html",controller:"resetPasswordCtrl"})}])});
